@@ -6,3 +6,10 @@
 # OS clutter
 .DS_Store
 Thumbs.db
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
