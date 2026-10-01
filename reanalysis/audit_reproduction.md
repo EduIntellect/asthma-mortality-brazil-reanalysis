@@ -289,3 +289,12 @@ Reproducción **satisfactoria** según los criterios de tolerancia del protocolo
 0,0054 % ≪ 2 %; signo y orden de magnitud preservados en los grupos de edad originales). Se procede
 a las extensiones (Fase 3-5: estandarización por edad y grupo 5-34) sobre una base de reproducción
 validada.
+
+## Quinta comprobación: contraste con el texto completo del artículo original
+
+Se dispuso del PDF completo (J Bras Pneumol 2024;50(5):e20240138). Hechos verificados:
+
+- La pendiente nacional publicada (0,03; IC 0,01–0,04; p=0,01) es reproducible a partir de las tasas anuales de su Figura 1 (1,03; 1,08; 1,10; 1,21; 1,12; 1,21; 1,33; 1,20): regresión lineal sobre esos valores da 0,032, p=0,013. El 14 % publicado es la media de variaciones relativas respecto a 2014 aplicada a esas tasas (+14,4 %).
+- Nuestras tasas son un 1,8 %–5,4 % menores y la brecha crece de 2014 a 2021 (cociente 1,018→1,054). Hipótesis (no verificada): denominador distinto; el artículo cita el censo 2022 y población >6 años sin indicar la tabla.
+- Grupos de edad: signo y clase de significación coinciden (<18: −0,01, p=0,88; 18–59: +0,02, p=0,03; ≥60: −0,03, p=0,47). Reparto 2 %/30 %/68 % coincide. Cambios porcentuales publicados: −10 %, +19 %, −0,5 %; los nuestros (extremo a extremo / media de variaciones): −9,2/+12,1; +22,9/+16,5; −11,1/−1,9. El de ≥60 no se reconcilia.
+- Criterio de reproducción: cumplido en total de muertes y en signo/significación; la magnitud de los cambios porcentuales no coincide exactamente.
