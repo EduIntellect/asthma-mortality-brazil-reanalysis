@@ -28,7 +28,12 @@ load_and_filter_sim_year <- function(input_path,
   )
   n_raw <- nrow(raw)
 
-  is_asthma <- grepl("J45", raw$CAUSABAS) | grepl("J46", raw$CAUSABAS)
+  # Guard against a logical NA in the mask: raw[NA, ] inserts a phantom
+  # all-NA row per NA entry instead of dropping it, which would silently
+  # corrupt counts if CAUSABAS were ever missing (it never is in
+  # 2014-2021, but the original grepl()-only mask was not safe against it).
+  is_asthma <- !is.na(raw$CAUSABAS) &
+    (grepl("J45", raw$CAUSABAS) | grepl("J46", raw$CAUSABAS))
   df_j <- raw[is_asthma, ]
   n_j45_j46 <- nrow(df_j)
   rm(raw)
@@ -52,9 +57,24 @@ load_and_filter_sim_year <- function(input_path,
     out
   }))
 
+  # Deduplicate on every loaded field (both dates plus the full
+  # cause-of-death chain), not just dtobito/idade_quantidade: two different
+  # people can share a birth date and death date by pure coincidence, and a
+  # narrower key wrongly collapsed such cases (confirmed against raw 2014
+  # data: two distinct records, different CAUSABAS/LINHA chains, that only
+  # matched on dates). This still cannot fully replicate the original
+  # script's distinct() over its much wider column set, but it is far less
+  # aggressive than keying on dates alone and only ever removes rows that
+  # are identical across everything this pipeline reads.
   df_excl <- data.frame(
     dtobito_date = dtobito_date,
     idade_quantidade = idade_quantidade,
+    CAUSABAS = df_j$CAUSABAS,
+    LINHAA = df_j$LINHAA,
+    LINHAB = df_j$LINHAB,
+    LINHAC = df_j$LINHAC,
+    LINHAD = df_j$LINHAD,
+    LINHAII = df_j$LINHAII,
     stringsAsFactors = FALSE
   )[!is_covid, ]
   df_excl <- df_excl[!duplicated(df_excl), ]

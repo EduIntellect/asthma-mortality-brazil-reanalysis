@@ -41,11 +41,13 @@ para que quede constancia de cuál de los dos denominadores se acerca más a la 
 | | Valor |
 |---|---|
 | Objetivo publicado | 18.584 |
-| Total reproducido (suma `N_gt6_valid_age`, 2014-2021) | **18.578** |
-| Diferencia absoluta | 6 |
-| Diferencia relativa | **0,032 %** |
+| Total reproducido (suma `N_gt6_valid_age`, 2014-2021) | **18.583** |
+| Diferencia absoluta | 1 |
+| Diferencia relativa | **0,0054 %** |
 | Umbral de tolerancia del protocolo | ≤ 2 % |
 | Resultado | **DENTRO DE TOLERANCIA** |
+
+(Cifra tras la corrección de deduplicación descrita más abajo; la primera ejecución daba 18.578.)
 
 Conteos anuales detallados (N_raw, N_J45_J46, N_post_exclusions, N_valid_age,
 N_missing_or_invalid_birthdate, N_gt6_valid_age) en `data/fase2_year_counts.csv`.
@@ -98,8 +100,8 @@ pregunta) es pequeño.
   `data/denominador_comparison.csv`. La tasa cruda nacional con denominador restringido a >6 años es
   sistemáticamente más alta (como es de esperar, al excluir ~2 % de la población de 0-6 años del
   denominador) pero la forma de la tendencia 2014-2021 es prácticamente idéntica en ambos casos
-  (pendientes de 0,0251 y 0,0270 por 100.000/año respectivamente, mismo signo y orden de magnitud,
-  p=0,029 y p=0,033; ver `primary_results.csv`, series `brum_crude_national_total_pop` y
+  (pendientes de 0,0250 y 0,0268 por 100.000/año respectivamente, mismo signo y orden de magnitud,
+  p=0,029 y p=0,032; ver `primary_results.csv`, series `brum_crude_national_total_pop` y
   `brum_crude_national_gt6_pop`).
 
 ## Discrepancias — resumen
@@ -134,11 +136,11 @@ correctamente sobre el filtro continuo, nunca estuvo mal, pero `primary_results.
 con ella.
 
 **Corrección**: la serie `brum_crude_national_*` ahora usa directamente el recuento anual
-`N_gt6_valid_age` de `data/fase2_year_counts.csv` (filtro continuo, el mismo que valida el 18.578
-de esta auditoría), en lugar de re-derivarlo de `annual_aggregates.csv`. Tras la corrección, la
-suma de `n_deaths` de `brum_crude_national_total_pop` en `primary_results.csv` es **18.578**,
-coincide exactamente con el número reportado arriba, y el resto de cifras (pendientes, IC, p) cambia
-de forma marginal (p. ej. pendiente nacional 0,0250 en vez de 0,0251; p=0,029 en ambos casos).
+`N_gt6_valid_age` de `data/fase2_year_counts.csv` (filtro continuo), en lugar de re-derivarlo de
+`annual_aggregates.csv`. En el momento de esta corrección, la suma de `n_deaths` de
+`brum_crude_national_total_pop` pasó a coincidir exactamente con el total validado entonces
+(18.578); tras la segunda corrección descrita a continuación (deduplicación), el total final queda
+en 18.583 (ver cabecera de esta sección).
 
 Las series `age_standardized_2014std`, `age_5_34`, `age_7_34_control` y `age_35_59` siguen usando
 el recuento por edad entera (`floor(idade_quantidade)`), necesario para casar cada muerte con el
@@ -146,9 +148,33 @@ denominador IBGE de su mismo año de edad simple. Esto es una elección metodol�
 deliberada para las extensiones (no una reproducción literal del corte continuo de Brum), y queda
 así documentada; no se ha "corregido" porque no era un error, a diferencia del caso anterior.
 
+## Segunda corrección: deduplicación demasiado agresiva
+
+Una revisión posterior de los scripts R (`01_load_year.R`) encontró que la deduplicación de
+registros usaba como clave únicamente `(fecha de óbito, edad continua)`, descartando `CAUSABAS` y
+las cinco columnas de línea de causa (`LINHAA`-`LINHAII`) que ya estaban cargadas en memoria. Esto
+es más agresivo que el `distinct()` del script original, que opera sobre todas las columnas del
+registro. Verificado contra los datos crudos de 2014: existen dos registros con CONTADOR distinto
+(30907 y 51872) que comparten fecha de nacimiento y de óbito, pero tienen `CAUSABAS` (J459 vs J46) y
+líneas de causa distintas — es decir, casi con toda seguridad dos personas distintas, no un
+duplicado del mismo registro. La clave estrecha los colapsaba en uno solo por error.
+
+**Corrección**: la clave de deduplicación ahora incluye también `CAUSABAS` y las cinco columnas
+`LINHA*`, no solo las dos fechas. Esto recupera 5 muertes en total repartidas entre 2014 (+1), 2017
+(+2), 2018 (+1) y 2021 (+1). El total reproducido pasa de 18.578 a **18.583**, a 1 sola muerte del
+objetivo publicado (18.584) — una mejora clara en la fidelidad de la reproducción. El `CONTADOR` del
+SIM no es un identificador único de fila dentro del fichero anual (se repite cientos de veces en
+cada año; no sirve como clave de deduplicación), por lo que no se ha usado para este fin.
+
+Nota: esta clave ampliada sigue sin ser idéntica al `distinct()` original (que usa además sexo,
+raza, escolaridad y decenas de columnas más no cargadas aquí por razones de memoria), así que no se
+garantiza una reproducción bit a bit de esa deduplicación. Dada la mejora observada y el tamaño
+residual del error (1 muerte sobre 18.584), no se ha considerado necesario cargar columnas
+adicionales solo para este fin.
+
 ## Conclusión de la fase de reproducción
 
 Reproducción **satisfactoria** según los criterios de tolerancia del protocolo (diferencia total
-0,03 % ≪ 2 %; signo y orden de magnitud preservados en los grupos de edad originales). Se procede a
-las extensiones (Fase 3-5: estandarización por edad y grupo 5-34) sobre una base de reproducción
+0,0054 % ≪ 2 %; signo y orden de magnitud preservados en los grupos de edad originales). Se procede
+a las extensiones (Fase 3-5: estandarización por edad y grupo 5-34) sobre una base de reproducción
 validada.

@@ -38,7 +38,10 @@ reconstruct_ibge_denominators <- function(input_paths,
 
   age_block <- raw[age_start:age_end, ]
   age_labels <- as.character(unlist(age_block[[1]]))
-  age_int <- ifelse(age_labels == "90+", 90L, as.integer(age_labels))
+  # suppressWarnings: ifelse() evaluates both branches for every element,
+  # so as.integer("90+") always runs (and always warns) even though that
+  # result is discarded wherever the "90+" branch is actually selected.
+  age_int <- ifelse(age_labels == "90+", 90L, suppressWarnings(as.integer(age_labels)))
 
   get_year_col <- function(y) {
     idx <- which(year_values == y)
