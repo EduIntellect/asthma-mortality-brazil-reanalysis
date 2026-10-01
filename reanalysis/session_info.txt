@@ -1,6 +1,6 @@
 # Session and provenance information
 
-Captured at: 2026-10-01 14:46:57.480198
+Captured at: 2026-10-01 15:05:36.944712
 Original analysis repository: mobrant94/asthma_mortality
 Original repository commit SHA used as reference: 8d527a5 (mobrant94/asthma_mortality, 15 mayo 2024)
 

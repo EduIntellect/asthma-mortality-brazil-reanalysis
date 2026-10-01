@@ -158,7 +158,14 @@ write.csv(primary_results, here("primary_results.csv"), row.names = FALSE)
 ## accented characters or "¿", and silently replaced them with ".." in an
 ## earlier, non-reproducible, ad hoc version of this plot.
 old_locale <- Sys.getlocale("LC_CTYPE")
-try(Sys.setlocale("LC_CTYPE", "C.utf8"), silent = TRUE)
+## Sys.setlocale() does not raise an R error on failure -- it returns ""
+## and emits its own warning -- so success must be checked from its return
+## value, not from try/catch.
+new_locale <- suppressWarnings(Sys.setlocale("LC_CTYPE", "C.utf8"))
+if (!nzchar(new_locale)) {
+  warning("Could not switch to a UTF-8 locale for the figure; accented characters ",
+          "and ¿ may render incorrectly on this machine.")
+}
 
 fig_series <- c("brum_crude_national_total_pop", "age_standardized_2014std", "age_5_34")
 fig_labels <- c(
@@ -169,9 +176,16 @@ fig_labels <- c(
 fig_cols <- c(brum_crude_national_total_pop = "grey40", age_standardized_2014std = "black", age_5_34 = "firebrick")
 fig_ltys <- c(brum_crude_national_total_pop = 2, age_standardized_2014std = 1, age_5_34 = 1)
 
+## ylim from the actual data (+-10% margin), not a hardcoded guess: a fixed
+## c(-25, 30) clipped the age_5_34 2020 point (pct_change = 34.3%) off the
+## top of an earlier version of this plot.
+fig_pct_range <- range(primary_results$pct_change[primary_results$series %in% fig_series])
+fig_margin <- diff(fig_pct_range) * 0.1
+fig_ylim <- fig_pct_range + c(-fig_margin, fig_margin)
+
 grDevices::png(here("figures_comparative.png"), width = 1600, height = 1100, res = 180, type = "cairo")
 par(mar = c(4.5, 4.5, 2, 1))
-plot(NULL, xlim = c(2014, 2021), ylim = c(-25, 30), xlab = "Año",
+plot(NULL, xlim = c(2014, 2021), ylim = fig_ylim, xlab = "Año",
      ylab = "Cambio % respecto a 2014",
      main = "¿Persiste el aumento 2014-2021 tras estandarizar y en 5-34 años?")
 abline(h = 0, col = "grey70", lty = 3)
