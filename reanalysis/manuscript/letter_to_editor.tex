@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern,microtype,graphicx,xcolor}
+\usepackage{lmodern,microtype,graphicx,xcolor,booktabs,caption}
 \usepackage[hyphens]{url}
 \usepackage[margin=2.5cm]{geometry}
 \newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
@@ -22,9 +22,15 @@
 \medskip
 Brum et al.\ reported 18,584 asthma deaths in Brazil between 2014 and 2021 and an increase in mortality of about 2.5\% per year \cite{antunes2024}. The authors shared their analysis code \cite{antunescode}, which allowed us to repeat the analysis with the same public data \cite{sim}. We reproduced the death count (18,583 deaths above 6 years of age, a difference of one) and the direction and significance class of the age-specific trends. We then asked two further questions that the crude rate cannot answer: whether the increase persists after direct age standardisation, and whether it is present in younger adults, in whom the burden is small but avoidable.
 
-The crude national rate increased in our reproduction from 1.01 to 1.14 per 100,000 between 2014 and 2021 (+12.5\%; slope 0.025 per 100,000 per year, 95\% CI 0.004 to 0.046; $p=0.029$). Deaths at 60 years or older make up 68\% of the total in both analyses, and the death rate at those ages is about ten times higher than at 18--59 years \cite{antunes2024}. A crude rate is therefore sensitive to the age structure of a population that is ageing. Using the 2014 Brazilian population by single year of age as the standard \cite{ibge2018}, the age-standardised rate for ages 7 and above changed from 1.12 to 1.08 per 100,000 ($-4.0\%$; slope 0.0002 per year, 95\% CI $-0.021$ to 0.022; $p=0.98$). Count models with a population offset gave an age-adjusted annual change between 0\% and +0.9\% depending on the model, with wide intervals. These estimates are compatible with no change in age-specific mortality and with a small increase, and they do not support the size of the national increase suggested by the crude series.
+The crude national rate increased in our reproduction from 1.01 to 1.14 per 100,000 between 2014 and 2021 (+12.5\%; Table~1; slope 0.025 per 100,000 per year, 95\% CI 0.004 to 0.046; $p=0.029$). Deaths at 60 years or older make up 68\% of the total in both analyses, and the death rate at those ages is about ten times higher than at 18--59 years \cite{antunes2024}. A crude rate is therefore sensitive to the age structure of a population that is ageing. Using the 2014 Brazilian population by single year of age as the standard \cite{ibge2018}, the age-standardised rate for ages 7 and above changed from 1.12 to 1.08 per 100,000 ($-4.0\%$; slope 0.0002 per year, 95\% CI $-0.021$ to 0.022; $p=0.98$). Count models with a population offset gave an age-adjusted annual change between 0\% and +0.9\% depending on the model, with wide intervals. These estimates are compatible with no change in age-specific mortality and with a small increase, and they do not support the size of the national increase suggested by the crude series.
 
-The pattern was different at 5--34 years. The rate rose from 0.182 to 0.219 per 100,000 (+20.3\%; slope 0.0080 per year, 95\% CI 0.0023 to 0.0138; $p=0.014$), from 182 deaths in 2014 to 210 in 2021 (Figure~1). A control group restricted to ages 7--34, which matches the age filter of the original study, gave a similar result (+23.5\%; $p=0.011$). The group aged 35--59 years rose by 15.5\% but not significantly ($p=0.13$). A quasi-Poisson model estimated an annual increase of 4.0\% at 5--34 years ($p=0.013$), and using the WHO standard population \cite{ahmad2001} gave +16.9\% ($p=0.020$). Replacing the denominators with the post-Census projection did not change these conclusions.
+The pattern was different at 5--34 years. The rate rose from 0.182 to 0.219 per 100,000 (+20.3\%; slope 0.0080 per year, 95\% CI 0.0023 to 0.0138; $p=0.014$), from 182 deaths in 2014 to 210 in 2021 (Table~1, Figure~1). A control group restricted to ages 7--34, which matches the age filter of the original study, gave a similar result (+23.5\%; $p=0.011$). The group aged 35--59 years rose by 15.5\% but not significantly ($p=0.13$). A quasi-Poisson model estimated an annual increase of 4.0\% at 5--34 years ($p=0.013$), and using the WHO standard population \cite{ahmad2001} gave +16.9\% ($p=0.020$). Replacing the denominators with the post-Census projection did not change these conclusions.
+
+\begin{table}[ht]
+\centering\footnotesize
+\resizebox{\textwidth}{!}{\input{tables/tab_trends.tex}}
+\caption{Trend estimates, Brazil, 2014--2021. $^{a}$Change in the rate, per 100,000 per year, from a linear model on eight annual rates (95\% CI from the $t$ distribution, 6 degrees of freedom). Change (\%) is the relative change between 2014 and 2021.}
+\end{table}
 
 \begin{figure}[ht]
 \centering
