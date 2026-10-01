@@ -234,6 +234,55 @@ está respaldada: en su carta a la revista (DOI 10.36416/1806-3756/e20240162) Br
 expresamente ajustar la población al censo 2022. La revisión 2018 se mantiene como primaria por
 continuidad con lo ya ejecutado, y la 2024 queda como sensibilidad.
 
+## Análisis de robustez posteriores al protocolo (modelos de conteos y estándar WHO)
+
+Fuera del protocolo original, que fijaba el mismo modelo que Brum (`lm`/`glm` gaussiano sobre
+tasas). Los resultados primarios no se modifican. Script `R/08_count_models_and_who_standard.R`;
+salidas en `data/robustness_*.csv`. Se ejecutó con las dos revisiones de denominadores.
+
+**Modelos de conteos** (regresión de Poisson, cuasi-Poisson y binomial negativa con offset
+log(población); cambio anual en %, rev. 2018). Cuando la sobredispersión es fuerte, el p-valor de
+Poisson no es creíble y se debe leer la cuasi-Poisson (conservadora) o la binomial negativa:
+
+| Serie | Cambio anual (IC 95 %) | p cuasi-Poisson | p binomial neg. | Dispersión (Poisson) |
+|---|---|---|---|---|
+| Cruda nacional | +2,25 % (0,3 a 4,2) | 0,029 | 0,0007 | 5,9 |
+| **Ajustada por edad, ≥7 años** | +0,00 % (−1,1 a 1,1) | 0,99 | 0,10 | 3,1 |
+| **5-34 años** | **+4,04 % (1,2 a 7,0)** | **0,013** | 0,0003 | 1,07 |
+| 7-34 (control) | +4,65 % (1,6 a 7,7) | 0,009 | 0,00005 | 1,13 |
+| 35-59 | +2,78 % | 0,13 | 0,036 | 5,5 |
+
+- El resultado del 5-34 se sostiene con modelos de conteos y es algo más sólido de lo que sugería
+  el OLS: casi no hay sobredispersión (1,07), por lo que Poisson y binomial negativa coinciden
+  (la binomial negativa degenera a Poisson, de ahí los avisos `iteration limit reached`). Con la
+  revisión 2024: +4,22 %/año, cuasi-Poisson p=0,011.
+- La tendencia nacional ajustada por edad (Poisson con bandas de edad como factor, sin población
+  estándar) es nula con Poisson y cuasi-Poisson, y la binomial negativa da +0,9 %/año (p=0,10).
+  Con la revisión 2024 la binomial negativa da +1,14 %/año (IC 0,04 a 2,26; p=0,043). Formulación
+  prudente: la tendencia nacional se atenúa de +2,3 %/año a entre 0 y +1,1 %/año según el modelo, y
+  no es distinguible de cero en la mayoría de las especificaciones. No debe escribirse como
+  "desaparece" sin esa matización.
+- La inferencia del 35-59 y de los grupos ≥60 y 18-59 depende del modelo (p entre 0,04 y 0,13);
+  no se interpretan.
+
+**Estándar WHO** (Ahmad et al. 2000; pesos verificados contra `seer.cancer.gov/stdpopulations`,
+normalizados a la edad cubierta; para ≥7 años la banda 5-9 se pondera por 3/5, aproximación
+asumiendo reparto uniforme dentro de la banda):
+
+| Serie | Cambio 2014→2021 | Pendiente (IC 95 %) | p (OLS sobre 8 años) |
+|---|---|---|---|
+| Estandarizada WHO, ≥7 años, rev. 2018 | −4,2 % | −0,0001 (−0,021 a 0,021) | 0,99 |
+| Estandarizada WHO, ≥7 años, rev. 2024 | −2,0 % | 0,0031 (−0,018 a 0,024) | 0,73 |
+| Estandarizada WHO, 5-34, rev. 2018 | +16,9 % | 0,0069 (0,0015 a 0,0122) | 0,020 |
+| Estandarizada WHO, 5-34, rev. 2024 | +19,1 % | 0,0075 (0,0021 a 0,0130) | 0,015 |
+
+Los resultados con el estándar WHO coinciden con los del estándar Brasil 2014; el 5-34
+estandarizado por bandas quinquenales sube algo menos (+17 % frente a +20 %).
+
+**Limitaciones que siguen vigentes**: 8 puntos anuales, comparaciones múltiples entre series sin
+corregir (las dos preguntas principales se fijaron antes del análisis; el resto es descriptivo),
+y la explicación del abstract de Brum (pendiente nacional 0,03; p=0,01) sigue sin reproducirse.
+
 ## Conclusión de la fase de reproducción
 
 Reproducción **satisfactoria** según los criterios de tolerancia del protocolo (diferencia total
