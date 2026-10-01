@@ -42,9 +42,11 @@ write_tab(c("\\begin{tabular}{lrrrrrrrr}", "\\toprule", paste("Series &", paste(
   "\\multicolumn{9}{l}{\\emph{Rate per 100,000}} \\\\", panel("r"), "\\bottomrule", "\\end{tabular}"), "tab_series.tex")
 
 ## ---- Table: primary trend estimates
-rows <- vapply(names(ser), function(s) {
+ser_tr <- c(brum_crude_national_total_pop = "Crude national rate", brum_crude_national_gt6_pop = "Crude national rate, population $>$6 years",
+          age_standardized_2014std = "Age-standardised (Brazil 2014)", age_5_34 = "Ages 5--34", age_7_34_control = "Ages 7--34", age_35_59 = "Ages 35--59")
+rows <- vapply(names(ser_tr), function(s) {
   d <- pr[pr$series == s, ]; d <- d[order(d$year), ]
-  paste(ser[[s]], f(d$rate[1], 3), f(d$rate[8], 3), sg(d$pct_change[8], 1), sgn(d$slope[1], 4),
+  paste(ser_tr[[s]], f(d$rate[1], 3), f(d$rate[8], 3), sg(d$pct_change[8], 1), sgn(d$slope[1], 4),
         ci(d$ci_low[1], d$ci_high[1]), fp(d$p_value[1]), sep = " & ")
 }, "")
 write_tab(c("\\begin{tabular}{lrrrrlr}", "\\toprule",
