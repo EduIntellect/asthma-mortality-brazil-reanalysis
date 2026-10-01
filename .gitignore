@@ -1,0 +1,8 @@
+# R session/workspace artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS clutter
+.DS_Store
+Thumbs.db
