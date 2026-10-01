@@ -14,6 +14,8 @@ directa por edad y (b) en el grupo de edad 5-34 años?
   — pendiente ≈0 (p=0,98).
 - **Grupo 5-34 años**: el aumento **sí persiste** y es significativo (+20,3 %, p=0,014),
   confirmado por el grupo control 7-34 (compatible con el filtro de edad original).
+- Sensibilidad con población post-censo 2022 (IBGE, revisión 2024): mismas conclusiones
+  (estandarizada p=0,67; 5-34 p=0,012). Ver `reanalysis/R/07_denominator_sensitivity.R`.
 
 ## Estructura
 

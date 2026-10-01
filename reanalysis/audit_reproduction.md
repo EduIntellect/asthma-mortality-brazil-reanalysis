@@ -78,7 +78,8 @@ de cambio relativo difiere en magnitud (-11,1 % reproducido frente a -0,5 % publ
 en términos de tasa absoluta la diferencia es pequeña (5,85 → 5,20 por 100.000, reproducido), pero
 el cambio porcentual relativo publicado es casi nulo mientras que el reproducido es mayor.
 
-**Causa más probable**: la reconstrucción del denominador IBGE. El numerador (muertes) reproduce el
+**Causa inicialmente atribuida (revisada en la "Cuarta corrección", más abajo: en gran parte era
+una diferencia de métrica, no de denominador)**: la reconstrucción del denominador IBGE. El numerador (muertes) reproduce el
 total global con un error de 0,03 %, lo que indica que el pipeline de extracción/filtrado es
 correcto; el desajuste se concentra en el grupo de mayor edad, el más sensible a la revisión y
 metodología de proyección poblacional utilizada (supuestos de esperanza de vida, intervalo abierto
@@ -187,6 +188,51 @@ reportado a 68,4 % en vez del 68,2 % correcto.
 **Corrección**: el script ahora toma el total correcto desde `data/fase2_year_counts.csv`
 (`N_gt6_valid_age`, filtro continuo), igual que `run_pipeline.R`. El valor correcto, ya reflejado
 arriba, es **68,2 %**.
+
+## Cuarta corrección: métrica de comparación y sensibilidad a la revisión de denominadores
+
+**Métrica.** El código original (`analysis_and_visualization.qmd`, bloques `relative_variation*`)
+publica como "% de cambio" la **media 2015-2021 de (tasa_t − tasa_2014) / tasa_2014**, no el cambio
+extremo a extremo 2014→2021. Las secciones anteriores comparaban el cambio extremo a extremo con ese
+objetivo, y no son comparables. Con la métrica original (`data/sensitivity_brum_style_change_metrics.csv`):
+
+| Serie | Cambio 2014→2021 | Métrica de Brum, rev. 2018 | Métrica de Brum, rev. 2024 | Objetivo publicado |
+|---|---|---|---|---|
+| 18-59 | +22,9 % | +16,5 % | +17,3 % | ≈ +19 % |
+| ≥60 | −11,1 % | **−1,9 %** | −1,8 % | ≈ −0,5 % |
+| Nacional (media de variaciones interanuales) | — | +2,0 %/año | +2,1 %/año | +2,5 %/año (abstract) |
+
+Consecuencia: la explicación dada arriba para el grupo ≥60 ("reconstrucción del denominador") era en
+gran parte errónea. El desajuste de −11 % frente a −0,5 % venía de comparar métricas distintas.
+Queda un residuo pequeño sin explicar (−1,9 % frente a −0,5 %; +16,5 % frente a +19 %).
+
+**Denominadores.** Se repitió el análisis con la proyección IBGE revisión 2024, posterior al censo
+2022 (`R/07_denominator_sensitivity.R`; fichero `projecoes_2024_tab1_idade_simples.xlsx`, sha256
+`6e5c3d21a2e8ff50badd7be2785e1664b41a43277543be541641b0cd802c3205`). Los numeradores son idénticos;
+la población de 2021 pasa de 213,3 M (rev. 2018) a 210,1 M (rev. 2024). Los resultados primarios
+no se han sobrescrito (siguen con rev. 2018); salidas en `data/sensitivity_denominators_*.csv`.
+
+| Serie | Rev. 2018: cambio, pendiente, p | Rev. 2024: cambio, pendiente, p |
+|---|---|---|
+| Cruda nacional (denominador total) | +12,5 %; 0,0250; 0,029 | +13,7 %; 0,0269; 0,022 |
+| Estandarizada por edad (estándar 2014) | −4,0 %; 0,0002; 0,983 | −1,5 %; 0,0040; 0,668 |
+| 5-34 años | +20,3 %; 0,0080; 0,014 | +21,7 %; 0,0085; 0,012 |
+| 7-34 (control) | +23,5 %; 0,0094; 0,011 | +25,0 %; 0,0099; 0,009 |
+| 35-59 años | +15,5 %; 0,0221; 0,132 | +16,0 %; 0,0227; 0,125 |
+
+Las conclusiones sustantivas no dependen de la revisión de denominadores: la serie estandarizada
+sigue sin tendencia y el grupo 5-34 sigue mostrando un aumento significativo.
+
+**Lo que no se reproduce.** El abstract de Brum et al. da una pendiente nacional de 0,03 (IC 95 %
+0,01-0,04; p=0,01); aquí sale 0,025-0,027 (IC 0,004-0,048; p=0,022-0,029). Se descartó que lo
+explique el redondeo de la tasa a 2 decimales previo al GLM que hace el código original (da p=0,027).
+Tampoco lo explica la revisión de denominadores. Queda sin explicar.
+
+**Retractación.** En la sección "Denominadores" se afirmó que la revisión 2018 era la
+"contemporánea" y que la de 2024 no existía cuando Brum et al. hicieron su análisis. Esa elección no
+está respaldada: en su carta a la revista (DOI 10.36416/1806-3756/e20240162) Brum et al. defienden
+expresamente ajustar la población al censo 2022. La revisión 2018 se mantiene como primaria por
+continuidad con lo ya ejecutado, y la 2024 queda como sensibilidad.
 
 ## Conclusión de la fase de reproducción
 
