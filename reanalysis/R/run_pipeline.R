@@ -93,7 +93,8 @@ message("FASE 3 complete.")
 ## silently dropped by an age_floor > 6 filter, even though it correctly
 ## satisfies the original continuous idade_quantidade > 6 criterion. Using
 ## the floor-bucketed version here undercounted the literal Brum
-## reproduction by 39 deaths (18,539 vs. the correct 18,578) while leaving
+## reproduction by 39 deaths relative to the continuous-filter total (see
+## audit_reproduction.md for the exact before/after figures) while leaving
 ## the FASE 2 tolerance check (which does use the continuous filter)
 ## unaffected. The floor-based age domain is still appropriate -- and used
 ## as-is -- for the age-standardization and age-group series below, which

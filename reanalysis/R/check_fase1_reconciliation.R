@@ -45,6 +45,12 @@ print(res)
 write.csv(res, here("data", "fase1_legacy_reconciliation.csv"), row.names = FALSE)
 
 cat("\nProportion of deaths in >=60 group (pooled 2014-2021):\n")
-total_deaths <- sum(annual_aggregates$n_deaths[annual_aggregates$age_floor > 6])
+## Use the continuous idade_quantidade > 6 total (fase2_year_counts.csv),
+## not a floor(age) > 6 filter on annual_aggregates -- same reasoning as
+## run_pipeline.R's brum_crude fix: floor-bucketing silently drops deaths
+## with continuous age in (6,7) years, understating this denominator by
+## ~0.2% and shifting the reported percentage at the first decimal place.
+counts_log <- read.csv(here("data", "fase2_year_counts.csv"))
+total_deaths <- sum(counts_log$N_gt6_valid_age)
 deaths_60 <- sum(gte60$n_deaths)
 cat(round(deaths_60 / total_deaths * 100, 1), "%\n")

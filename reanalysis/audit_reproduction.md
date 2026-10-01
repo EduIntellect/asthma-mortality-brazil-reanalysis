@@ -65,8 +65,10 @@ numerador/denominador original (denominador sin filtrar por edad >6):
 | 18-59 | +19 % | **+22,9 %** | +0,02 /100.000/año | **+0,0212** | 0,03 | **0,044** |
 | ≥60 | -0,5 % | **-11,1 %** | — | -0,071 | 0,47 | **0,135** |
 
-Proporción de muertes en ≥60 años (2014-2021 agrupado): objetivo ≈68 %, reproducido **68,4 %** —
-coincide muy bien.
+Proporción de muertes en ≥60 años (2014-2021 agrupado): objetivo ≈68 %, reproducido **68,2 %** —
+coincide muy bien. (Calculada como muertes ≥60 años / total con filtro continuo `idade_quantidade
+> 6`, el mismo denominador validado arriba; una primera versión de `check_fase1_reconciliation.R`
+usaba por error el mismo esquema de edad entera corregido en la sección siguiente, dando 68,4 %.)
 
 **Interpretación**: signo y orden de magnitud de la pendiente se conservan en ambos grupos (18-59
 sube, ≥60 baja/estable, ninguno es significativo al nivel convencional salvo 18-59 marginalmente).
@@ -171,6 +173,20 @@ raza, escolaridad y decenas de columnas más no cargadas aquí por razones de me
 garantiza una reproducción bit a bit de esa deduplicación. Dada la mejora observada y el tamaño
 residual del error (1 muerte sobre 18.584), no se ha considerado necesario cargar columnas
 adicionales solo para este fin.
+
+## Tercera corrección: mismo fallo de edad entera en el script de reconciliación
+
+Al revisar `check_fase1_reconciliation.R` (el único script de verificación versionado en el
+repositorio) se encontró que calculaba el denominador del "% de muertes en ≥60 años" sumando
+`annual_aggregates` con `age_floor > 6` — el mismo esquema de edad entera que causó la primera
+corrección, y que este script no había heredado el arreglo porque es un script aparte de
+`run_pipeline.R`. El numerador (≥60 años) no se ve afectado, pero el denominador estaba
+infravalorado en las mismas 39 muertes (18.544 en vez de 18.583), desplazando el porcentaje
+reportado de 68,2 % a 68,4 %.
+
+**Corrección**: el script ahora toma el total correcto desde `data/fase2_year_counts.csv`
+(`N_gt6_valid_age`, filtro continuo), igual que `run_pipeline.R`. El valor correcto, ya reflejado
+arriba, es **68,2 %**.
 
 ## Conclusión de la fase de reproducción
 
