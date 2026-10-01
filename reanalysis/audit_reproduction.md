@@ -99,7 +99,7 @@ pregunta) es pequeño.
 - Fuente alternativa disponible (no usada en la ejecución primaria): revisión 2024
   (`projecoes_2024_tab1_idade_simples.xlsx`), post-censo 2022.
 - Comparación población total vs. población >6 años como denominador nacional: ver
-  `data/denominador_comparison.csv`. La tasa cruda nacional con denominador restringido a >6 años es
+  `data/denominator_comparison.csv`. La tasa cruda nacional con denominador restringido a >6 años es
   sistemáticamente más alta (como es de esperar, al excluir ~2 % de la población de 0-6 años del
   denominador) pero la forma de la tendencia 2014-2021 es prácticamente idéntica en ambos casos
   (pendientes de 0,0250 y 0,0268 por 100.000/año respectivamente, mismo signo y orden de magnitud,
@@ -181,8 +181,8 @@ repositorio) se encontró que calculaba el denominador del "% de muertes en ≥6
 `annual_aggregates` con `age_floor > 6` — el mismo esquema de edad entera que causó la primera
 corrección, y que este script no había heredado el arreglo porque es un script aparte de
 `run_pipeline.R`. El numerador (≥60 años) no se ve afectado, pero el denominador estaba
-infravalorado en las mismas 39 muertes (18.544 en vez de 18.583), desplazando el porcentaje
-reportado de 68,2 % a 68,4 %.
+infravalorado en las mismas 39 muertes (18.544 en vez de 18.583), lo que inflaba el porcentaje
+reportado a 68,4 % en vez del 68,2 % correcto.
 
 **Corrección**: el script ahora toma el total correcto desde `data/fase2_year_counts.csv`
 (`N_gt6_valid_age`, filtro continuo), igual que `run_pipeline.R`. El valor correcto, ya reflejado
