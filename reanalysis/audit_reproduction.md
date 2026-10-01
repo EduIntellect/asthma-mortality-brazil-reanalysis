@@ -118,6 +118,34 @@ pregunta) es pequeño.
    20 muertes (ver columna `small_count_flag`, todo `FALSE`); el conteo mínimo observado es 164
    (grupo `age_7_34_control`, 2017).
 
+## Corrección aplicada tras revisión post-hoc
+
+Una revisión de consistencia interna de `primary_results.csv` (recalculando `pct_change`,
+pendiente, IC y p-valor de forma independiente a partir de `rate` y `year`, y comparando el total
+de muertes de la serie `brum_crude_national_*` contra el número validado en esta misma auditoría)
+detectó un error: las series `brum_crude_national_total_pop`, `brum_crude_national_gt6_pop` y
+`age_standardized_2014std` se habían calculado a partir de `annual_aggregates.csv` filtrando por
+edad entera (`age_floor > 6`), en vez de usar el filtro continuo original `idade_quantidade > 6`. Al
+agrupar por `floor(idade_quantidade)`, una muerte con edad continua entre 6 y 7 años (p. ej. 6,5
+años) cae en el cubo `age_floor == 6` y quedaba excluida por `age_floor > 6`, aunque sí cumple
+`idade_quantidade > 6`. Esto infravaloraba el total de la reproducción cruda en 39 muertes
+(18.539 en vez de 18.578) — la comprobación de tolerancia de esta misma auditoría, calculada
+correctamente sobre el filtro continuo, nunca estuvo mal, pero `primary_results.csv` no coincidía
+con ella.
+
+**Corrección**: la serie `brum_crude_national_*` ahora usa directamente el recuento anual
+`N_gt6_valid_age` de `data/fase2_year_counts.csv` (filtro continuo, el mismo que valida el 18.578
+de esta auditoría), en lugar de re-derivarlo de `annual_aggregates.csv`. Tras la corrección, la
+suma de `n_deaths` de `brum_crude_national_total_pop` en `primary_results.csv` es **18.578**,
+coincide exactamente con el número reportado arriba, y el resto de cifras (pendientes, IC, p) cambia
+de forma marginal (p. ej. pendiente nacional 0,0250 en vez de 0,0251; p=0,029 en ambos casos).
+
+Las series `age_standardized_2014std`, `age_5_34`, `age_7_34_control` y `age_35_59` siguen usando
+el recuento por edad entera (`floor(idade_quantidade)`), necesario para casar cada muerte con el
+denominador IBGE de su mismo año de edad simple. Esto es una elección metodológica razonable y
+deliberada para las extensiones (no una reproducción literal del corte continuo de Brum), y queda
+así documentada; no se ha "corregido" porque no era un error, a diferencia del caso anterior.
+
 ## Conclusión de la fase de reproducción
 
 Reproducción **satisfactoria** según los criterios de tolerancia del protocolo (diferencia total

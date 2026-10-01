@@ -86,10 +86,21 @@ message("FASE 3 complete.")
 
 ## ---- FASE 1 reconciliation: Brum crude national reproduction -----------
 
-deaths_gt6_by_year <- annual_aggregates %>%
-  filter(age_floor > 6) %>%
-  group_by(year) %>%
-  summarise(n_deaths = sum(n_deaths), .groups = "drop")
+## IMPORTANT: use the continuous idade_quantidade > 6 count from counts_log
+## (N_gt6_valid_age), NOT a floor(age) > 6 filter on annual_aggregates.
+## annual_aggregates bins deaths by integer floor(idade_quantidade), so a
+## death aged e.g. 6.5 years falls in the age_floor == 6 bucket and would be
+## silently dropped by an age_floor > 6 filter, even though it correctly
+## satisfies the original continuous idade_quantidade > 6 criterion. Using
+## the floor-bucketed version here undercounted the literal Brum
+## reproduction by 39 deaths (18,539 vs. the correct 18,578) while leaving
+## the FASE 2 tolerance check (which does use the continuous filter)
+## unaffected. The floor-based age domain is still appropriate -- and used
+## as-is -- for the age-standardization and age-group series below, which
+## need single-year-age resolution to match the IBGE denominators and are
+## new extensions, not a literal reproduction of Brum's cutoff.
+deaths_gt6_by_year <- counts_log %>%
+  transmute(year, n_deaths = N_gt6_valid_age)
 
 total_deaths_reproduced <- sum(deaths_gt6_by_year$n_deaths)
 
