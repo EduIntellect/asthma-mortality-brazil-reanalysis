@@ -4,7 +4,7 @@ record_provenance <- function(original_repo_sha = NULL,
                               ibge_sources = NULL,
                               output_path = NULL) {
   pkgs <- c("vroom", "dplyr", "lubridate", "readxl", "janitor",
-            "stringr", "purrr", "tidyr", "broom", "readr")
+            "stringr", "purrr", "tidyr", "broom", "readr", "digest")
   pkg_versions <- vapply(pkgs, function(p) as.character(utils::packageVersion(p)), character(1))
 
   lines <- c(

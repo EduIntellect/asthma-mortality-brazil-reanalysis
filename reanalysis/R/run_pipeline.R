@@ -152,5 +152,71 @@ primary_results$small_count_flag <- primary_results$n_deaths < 20
 
 write.csv(primary_results, here("primary_results.csv"), row.names = FALSE)
 
+## ---- FASE 6: single comparative figure, only after primary_results is
+## frozen above. type="cairo" (with a UTF-8 locale) is required here: the
+## default png() device under the session's "C" locale cannot render
+## accented characters or "¿", and silently replaced them with ".." in an
+## earlier, non-reproducible, ad hoc version of this plot.
+old_locale <- Sys.getlocale("LC_CTYPE")
+try(Sys.setlocale("LC_CTYPE", "C.utf8"), silent = TRUE)
+
+fig_series <- c("brum_crude_national_total_pop", "age_standardized_2014std", "age_5_34")
+fig_labels <- c(
+  brum_crude_national_total_pop = "Tasa cruda nacional (Brum, reproducida)",
+  age_standardized_2014std = "Estandarizada por edad (estándar 2014)",
+  age_5_34 = "Grupo 5-34 años"
+)
+fig_cols <- c(brum_crude_national_total_pop = "grey40", age_standardized_2014std = "black", age_5_34 = "firebrick")
+fig_ltys <- c(brum_crude_national_total_pop = 2, age_standardized_2014std = 1, age_5_34 = 1)
+
+grDevices::png(here("figures_comparative.png"), width = 1600, height = 1100, res = 180, type = "cairo")
+par(mar = c(4.5, 4.5, 2, 1))
+plot(NULL, xlim = c(2014, 2021), ylim = c(-25, 30), xlab = "Año",
+     ylab = "Cambio % respecto a 2014",
+     main = "¿Persiste el aumento 2014-2021 tras estandarizar y en 5-34 años?")
+abline(h = 0, col = "grey70", lty = 3)
+for (s in fig_series) {
+  d <- primary_results[primary_results$series == s, ]
+  d <- d[order(d$year), ]
+  lines(d$year, d$pct_change, col = fig_cols[s], lwd = 2.5, lty = fig_ltys[s])
+  points(d$year, d$pct_change, col = fig_cols[s], pch = 19, cex = 0.9)
+}
+legend("topleft", legend = fig_labels[fig_series], col = fig_cols[fig_series],
+       lty = fig_ltys[fig_series], lwd = 2.5, bty = "n", cex = 0.85)
+grDevices::dev.off()
+
+try(Sys.setlocale("LC_CTYPE", old_locale), silent = TRUE)
+
+## ---- FASE 0 (written last, so it can hash the IBGE file that FASE 3
+## already downloaded, and so it reflects the exact code/data state that
+## produced the outputs above rather than a disconnected manual capture) --
+
+sim_sources <- c(
+  "- Original repo URLs (2014-2020): https://diaad.s3.sa-east-1.amazonaws.com/sim/Mortalidade_Geral_{year}.csv -- still reachable (HTTP 206) for 2014-2020 only.",
+  "- Original repo URL for 2021: https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/Mortalidade_Geral_2021.csv -- returns AWS AccessDenied (dead link), confirmed by direct request.",
+  "- SUBSTITUTION USED for all 8 years (2014-2021): https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_{year}_csv.zip",
+  "  Resolved via the official portal dadosabertos.saude.gov.br/dataset/sim (Ministerio da Saude, SIM dataset, CKAN resource list), confirmed reachable (HTTP 206) for all years 2014-2021.",
+  "  Delimiter: semicolon; quoted fields; latin1 encoding. Columns used: CAUSABAS, DTOBITO, DTNASC, LINHAA, LINHAB, LINHAC, LINHAD, LINHAII."
+)
+ibge_sha256 <- tryCatch(
+  digest::digest(ibge_xls, algo = "sha256", file = TRUE),
+  error = function(e) "sha256 unavailable (digest package not installed)"
+)
+ibge_sources <- c(
+  "- populacao_ano.xlsx is NOT present in the original repository (confirmed). Reconstructed from the public IBGE source directly.",
+  paste0("- PRIMARY source used: ", "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls"),
+  "  IBGE Projection revision 2018 (pre-2022 Census), single-year-age population, Brazil (sheet BR, block POPULACAO TOTAL - IDADES SIMPLES, both sexes).",
+  "  Chosen as primary because it is the revision contemporaneous with the original 2024 publication.",
+  "- ALTERNATIVE source available for robustness (not used in primary run): https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab1_idade_simples.xlsx (post-2022-Census revision).",
+  paste0("- IBGE workbook sha256: ", ibge_sha256, "  ", ibge_xls)
+)
+
+record_provenance(
+  original_repo_sha = "8d527a5 (mobrant94/asthma_mortality, 15 mayo 2024)",
+  sim_sources = sim_sources,
+  ibge_sources = ibge_sources,
+  output_path = here("session_info.txt")
+)
+
 message("Pipeline complete.")
 print(primary_results)
