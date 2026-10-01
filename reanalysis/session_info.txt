@@ -1,0 +1,55 @@
+# Session and provenance information
+
+Captured at: 2026-10-01 13:13:37.175625
+Original analysis repository: mobrant94/asthma_mortality
+Original repository commit SHA used as reference: 8d527a5 (mobrant94/asthma_mortality, 15 mayo 2024)
+
+## R package versions
+- vroom: 1.7.1
+- dplyr: 1.2.1
+- lubridate: 1.9.5
+- readxl: 1.5.0.1
+- janitor: 2.2.1
+- stringr: 1.6.0
+- purrr: 1.2.2
+- tidyr: 1.3.2
+- broom: 1.0.13
+- readr: 2.2.0
+
+## SIM data sources
+- Original repo URLs (2014-2020): https://diaad.s3.sa-east-1.amazonaws.com/sim/Mortalidade_Geral_{year}.csv -- still reachable (HTTP 206) for 2014-2020 only.
+- Original repo URL for 2021: https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/Mortalidade_Geral_2021.csv -- returns AWS AccessDenied (dead link), confirmed by direct request.
+- SUBSTITUTION USED for all 8 years (2014-2021): https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_{year}_csv.zip
+  Resolved via the official portal dadosabertos.saude.gov.br/dataset/sim (Ministerio da Saude, SIM dataset, CKAN resource list), confirmed reachable (HTTP 206) for all years 2014-2021.
+  Delimiter: semicolon; quoted fields; latin1 encoding. Columns used: CAUSABAS, DTOBITO, DTNASC, LINHAA, LINHAB, LINHAC, LINHAD, LINHAII.
+  Access date: 2026-10-01.
+
+## IBGE denominator sources
+- populacao_ano.xlsx is NOT present in the original repository (confirmed). Reconstructed from the public IBGE source directly.
+- PRIMARY source used: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls
+  IBGE Projection revision 2018 (pre-2022 Census), single-year-age population, Brazil (sheet BR, block POPULACAO TOTAL - IDADES SIMPLES, both sexes).
+  Chosen as primary because it is the revision contemporaneous with the original 2024 publication (the post-Census 2022 revision, 2024, was not yet available when Brum et al. analyzed 2014-2021 data).
+  Access date: 2026-10-01.
+- ALTERNATIVE source available for robustness (not used in primary run): https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab1_idade_simples.xlsx (post-2022-Census revision).
+- IBGE workbook sha256: 69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28  data_raw/ibge/projecoes_2018_populacao_idade_simples.xls
+
+## sessionInfo()
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.4 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+[1] C
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3
