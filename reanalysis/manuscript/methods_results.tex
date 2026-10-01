@@ -45,7 +45,7 @@ The population file used by the original analysis was not available to us. We bu
 
 To reproduce the original national series, the crude rate was the number of deaths above 6 years of age divided by the total population, per 100,000. Because the published code \cite{antunescode} restricts the numerator by age but, as far as can be inferred from it, not the denominator, we also computed the rate with the population above 6 years as denominator. For the three age groups of the original analysis (below 18, 18--59 and 60 or more years) we reproduced the same construction. Its numerator excludes ages up to 6 years while its denominator is the whole nominal age group, so the group labelled ``below 18'' counts deaths at 7--17 years against the population aged 0--17.
 
-The primary age-standardised rate was obtained by direct standardisation, $\mathrm{ASR}_t=\sum_a w_a\, r_{a,t}$, where $r_{a,t}$ is the death rate at single year of age $a$ in year $t$ and $w_a$ is the share of age $a$ in the 2014 Brazilian population within ages 7 to 90 or more. Holding the 2014 age composition fixed isolates changes in age-specific rates from changes in the age structure. In the robustness analyses we also used the WHO World Standard Population in five-year bands \cite{ahmad2001}, with weights normalised over the ages covered. For ages 7 and above, the 5--9 band entered with three fifths of its weight, which assumes a uniform distribution within the band. \todo{confirm the reference details of the WHO standard population before submission}
+The primary age-standardised rate was obtained by direct standardisation, $\mathrm{ASR}_t=\sum_a w_a\, r_{a,t}$, where $r_{a,t}$ is the death rate at single year of age $a$ in year $t$ and $w_a$ is the share of age $a$ in the 2014 Brazilian population within ages 7 to 90 or more. Holding the 2014 age composition fixed isolates changes in age-specific rates from changes in the age structure. In the robustness analyses we also used the WHO World Standard Population in five-year bands \cite{ahmad2001}, with weights normalised over the ages covered. For ages 7 and above, the 5--9 band entered with three fifths of its weight, which assumes a uniform distribution within the band.
 
 The groups aged 5--34, 7--34 and 35--59 years used as numerator the deaths in those ages and as denominator the IBGE population of the same ages.
 
@@ -144,14 +144,14 @@ At 35--59 years the evidence was inconclusive. The rate rose from 0.719 to 0.830
 
 \clearpage
 \begin{thebibliography}{9}
-\bibitem{antunes2024} Brum Antunes MO, et al. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;e20240138. doi:10.36416/1806-3756/e20240138. \todo{check how the authors should be cited (surname order)}
+\bibitem{antunes2024} Brum M, Henz J, Boeira M, Soares S, Friedrich F, Pitrez PM. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;50(5):e20240138. doi:10.36416/1806-3756/e20240138
 \bibitem{sim} Ministério da Saúde (Brasil). Sistema de Informação sobre Mortalidade (SIM). Portal de Dados Abertos do SUS. \url{https://dadosabertos.saude.gov.br/dataset/sim}
-\bibitem{ibge2018} Instituto Brasileiro de Geografia e Estatística. Projeção da População do Brasil e das Unidades da Federação, revisão 2018: população por sexo e idade simples, 2010--2060. \url{https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/}
-\bibitem{ibge2024} Instituto Brasileiro de Geografia e Estatística. Projeções da População, revisão 2024: população por sexo e idade simples, 2000--2070. \url{https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/}
-\bibitem{antunescode} Brum Antunes MO, et al. Analysis code accompanying reference~\cite{antunes2024}. GitHub repository, commit 8d527a5 (15 May 2024). \url{https://github.com/mobrant94/asthma_mortality}
-\bibitem{ahmad2001} Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJL, Lozano R, Inoue M. Age standardization of rates: a new WHO standard. GPE Discussion Paper Series No. 31. Geneva: World Health Organization; 2001.
+\bibitem{ibge2018} Instituto Brasileiro de Geografia e Estatística. Projeção da População do Brasil e das Unidades da Federação, revisão 2018: população por idade simples, 2010--2060 (file projecoes\_2018\_populacao\_idade\_simples\_2010\_2060\_20201209.xls). \url{https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/}. Accessed 1 October 2026
+\bibitem{ibge2024} Instituto Brasileiro de Geografia e Estatística. Projeções da População, revisão 2024: população por idade simples (file projecoes\_2024\_tab1\_idade\_simples.xlsx). \url{https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/}. Accessed 1 October 2026
+\bibitem{antunescode} Brum M, et al. Analysis code accompanying reference~\cite{antunes2024}. GitHub repository, commit 8d527a5 (15 May 2024). \url{https://github.com/mobrant94/asthma_mortality}
+\bibitem{ahmad2001} Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJL, Lozano R, Inoue M. Age standardization of rates: a new WHO standard. GPE Discussion Paper Series No. 31. Geneva: World Health Organization; 2001. \url{https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/gpe_discussion_paper_series_paper31_2001_age_standardization_rates.pdf}
 \bibitem{mass} Venables WN, Ripley BD. Modern Applied Statistics with S. 4th ed. New York: Springer; 2002.
-\bibitem{rcore} R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing; 2024.
+\bibitem{rcore} R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing; 2024. \url{https://www.R-project.org/}
 \end{thebibliography}
 
 \end{document}
