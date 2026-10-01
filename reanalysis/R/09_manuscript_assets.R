@@ -27,18 +27,19 @@ tot <- colSums(cl[, c("N_raw", "N_J45_J46", "N_post_exclusions", "N_valid_age", 
 rows <- apply(cl, 1, function(r) paste(r["year"], fn(r["N_raw"]), fn(r["N_J45_J46"]), fn(r["N_post_exclusions"]),
                                         fn(r["N_valid_age"]), fn(r["N_gt6_valid_age"]), sep = " & "))
 write_tab(c("\\begin{tabular}{rrrrrr}", "\\toprule",
-  "Year & All records & J45--J46 & After exclusions$^{a}$ & Valid birth date & Age $>$6 years \\\\", "\\midrule",
+  "Year & All records & Asthma (J45--J46) & After exclusions$^{a}$ & Valid birth date & Age $>$6 years \\\\", "\\midrule",
   paste0(rows, " \\\\"), "\\midrule",
   paste0("Total & ", paste(fn(tot[c("N_raw", "N_J45_J46", "N_post_exclusions", "N_valid_age", "N_gt6_valid_age")]), collapse = " & "), " \\\\"),
   "\\bottomrule", "\\end{tabular}"), "tab_flow.tex")
 
-## ---- Table: deaths (rate) by series and year
+## ---- Table: deaths and rates by series and year (two panels so the table stays legible at full size)
 ser <- c(brum_crude_national_total_pop = "Crude national rate", age_standardized_2014std = "Age-standardised (Brazil 2014)",
          age_5_34 = "Ages 5--34", age_7_34_control = "Ages 7--34", age_35_59 = "Ages 35--59")
-cell <- function(s, y) { d <- pr[pr$series == s & pr$year == y, ]; paste0(fn(d$n_deaths), " (", f(d$rate, 3), ")") }
-rows <- vapply(names(ser), function(s) paste(c(ser[[s]], vapply(2014:2021, function(y) cell(s, y), "")), collapse = " & "), "")
+val <- function(s, y, what) { d <- pr[pr$series == s & pr$year == y, ]; if (what == "n") fn(d$n_deaths) else f(d$rate, 3) }
+panel <- function(what) vapply(names(ser), function(s) paste0(paste(c(ser[[s]], vapply(2014:2021, function(y) val(s, y, what), "")), collapse = " & "), " \\\\"), "")
 write_tab(c("\\begin{tabular}{lrrrrrrrr}", "\\toprule", paste("Series &", paste(2014:2021, collapse = " & "), "\\\\"), "\\midrule",
-  paste0(rows, " \\\\"), "\\bottomrule", "\\end{tabular}"), "tab_series.tex")
+  "\\multicolumn{9}{l}{\\emph{Deaths}} \\\\", panel("n"), "\\midrule",
+  "\\multicolumn{9}{l}{\\emph{Rate per 100,000}} \\\\", panel("r"), "\\bottomrule", "\\end{tabular}"), "tab_series.tex")
 
 ## ---- Table: primary trend estimates
 rows <- vapply(names(ser), function(s) {
