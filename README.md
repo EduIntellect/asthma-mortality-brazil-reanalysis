@@ -69,6 +69,28 @@ ages ≥7; black and white, JPEG at 300 dpi). It also writes
 `reanalysis/data/crude_rate_ge7_series.csv` and stops if that series does not
 match the standardised rate in 2014 or the Kitagawa 2014–2021 endpoint.
 
+## Full article for submission (RRCP, Word)
+
+The full article is maintained as versioned Markdown in
+`reanalysis/manuscript/article/` (`manuscript.md`, `supplement.md`,
+`title_page.md`). The Word files required by the journal are generated, never
+edited by hand:
+
+```sh
+bash reanalysis/manuscript/article/build_docx.sh
+```
+
+The script converts the LaTeX table fragments written by `09_manuscript_assets.R`
+into Word tables (inline math is turned into plain characters, so no equation
+objects reach Word), sets table column widths (`table_widths.lua`) and a 9-pt
+table style, and writes `build/title_page.docx`, `build/manuscript.docx`,
+`build/supplementary_tables.docx` and `build/BUILD_REPORT.txt` (main-text and
+abstract word counts). Figure 1 is uploaded separately as
+`reanalysis/manuscript/figures/fig1_relative_change_ge7.jpg`.
+`methods_results.tex` and `letter_to_editor.tex` are kept as earlier versions.
+Bracketed `[AUTHOR ... REQUIRED]` markers in the article are deliberate and must
+be completed by the authors.
+
 ## Post hoc demographic decomposition (Kitagawa)
 
 The additional analysis uses only already-produced inputs:
