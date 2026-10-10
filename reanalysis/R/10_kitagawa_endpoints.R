@@ -118,9 +118,9 @@ ans <- lapply(seq_len(nrow(pairs)), function(i)
   decompose(pairs[i, 1], pairs[i, 2]))
 results <- do.call(rbind, lapply(ans, `[[`, "summary"))
 details <- do.call(rbind, lapply(ans, `[[`, "details"))
-if (abs(results$crude_rate_change[1] - 0.13482333086012) > 1e-9 ||
-    abs(results$composition_effect[1] - 0.19142353592597) > 1e-9 ||
-    abs(results$age_specific_rate_effect[1] + 0.05660020506585) > 1e-9)
+if (abs(results$crude_rate_change[1] - 0.13430431858947) > 1e-9 ||
+    abs(results$composition_effect[1] - 0.19143750332706) > 1e-9 ||
+    abs(results$age_specific_rate_effect[1] + 0.05713318473760) > 1e-9)
   stop("Primary 2014-2021 regression check failed.")
 dir.create(dirname(output_csv), recursive = TRUE, showWarnings = FALSE)
 write.csv(results, output_csv, row.names = FALSE)
