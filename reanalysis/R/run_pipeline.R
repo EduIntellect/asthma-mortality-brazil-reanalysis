@@ -232,5 +232,17 @@ record_provenance(
   output_path = here("session_info.txt")
 )
 
+
+# Post hoc demographic decomposition, run strictly AFTER all primary outputs
+# have been written. This reads committed-style aggregates and IBGE 2018
+# denominators; it does not re-estimate the primary trend models.
+kitagawa_script <- here("R", "10_kitagawa_endpoints.R")
+kitagawa_status <- system2(
+  file.path(R.home("bin"), "Rscript"),
+  args = shQuote(kitagawa_script)
+)
+if (kitagawa_status != 0L)
+  stop("Post hoc Kitagawa decomposition failed (exit code ", kitagawa_status, ")")
+
 message("Pipeline complete.")
 print(primary_results)
