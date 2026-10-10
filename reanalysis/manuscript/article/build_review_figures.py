@@ -98,10 +98,10 @@ def build_review_docx(p2, p3):
     plots = [FIG / "fig1_relative_change_ge7.jpg", p2, p3]
     assert all(p.is_file() for p in plots)
     source.add_page_break()
-    title = source.add_paragraph("Figures \u2013 author review copy")
+    title = source.add_paragraph("Figures")
     title.runs[0].bold = True
     title.runs[0].font.size = Pt(14)
-    source.add_paragraph("Figures are embedded here for internal review. The journal submission manuscript and its separately uploaded JPEG figures remain distinct.")
+    source.add_paragraph("Figures are embedded for reading; journal submission figures are supplied separately.")
     for i, (path, (heading, caption)) in enumerate(zip(plots, captions)):
         if i:
             source.add_page_break()
