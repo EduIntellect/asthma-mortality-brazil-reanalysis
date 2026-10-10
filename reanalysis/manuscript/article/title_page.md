@@ -10,7 +10,7 @@ title: "Title page"
 
 **Affiliations:** [AUTHOR INPUT REQUIRED: department, institution, city, country for each author]
 
-**Corresponding author:** [AUTHOR INPUT REQUIRED: name, postal address, email]
+**Corresponding author:** Francisco Federico García Crespi, Department of Computer Technology and Computing, Miguel Hernández University, Elche, Spain. Email: fedeg@umh.es. Postal address: [AUTHOR INPUT REQUIRED].
 
 **ORCID:** [AUTHOR INPUT OPTIONAL]
 
