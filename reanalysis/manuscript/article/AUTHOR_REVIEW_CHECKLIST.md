@@ -15,8 +15,18 @@ statement of the review actually carried out.
 - Corresponding author's postal address (title page).
 - Official English name of the corresponding author's department (title page);
   the current wording is a translation, not verified against UMH usage.
-- Affiliations of all authors, keywords, funding, conflicts of interest.
+- Affiliations of all authors, funding, conflicts of interest.
+- Keywords (still `[AUTHOR INPUT REQUIRED]` in `manuscript.md`). Proposal from the
+  external author-review copy: Asthma; Mortality; Age Standardization; Population
+  Aging; Reproducibility of Results; Brazil. "Age Standardization" and "Population
+  Aging" returned no match in the NLM MeSH lookup; the other four are MeSH
+  descriptors. "Age Distribution" is a candidate replacement, not yet verified.
 - Ethics statement: applicable exemption and wording (CNS 510/2016 regulates
   research in the Human and Social Sciences; confirm the criterion that applies).
-- Acknowledgments: whether generative AI assisted drafting or editing of the text.
+- Acknowledgments: a provisional statement now records generative-AI assistance
+  in language editing (the external author-review copy was produced with AI
+  editing tools). Authors must name the tools and versions and say whether AI
+  was also used to draft text. The statement that the authors reviewed the
+  AI-suggested changes and take responsibility for the content is added only
+  after every co-author has confirmed it.
 - Final CRediT roles (provisional in `manuscript.md`).

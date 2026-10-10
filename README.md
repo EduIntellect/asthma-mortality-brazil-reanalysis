@@ -172,3 +172,9 @@ Inputs are the frozen `primary_results.csv` and
 `build/manuscript_with_3_figures_REVIEW.docx` embeds Figure 1, Figure 2 and
 Supplementary Figure S1 for internal author review only; it is not a
 submission file.
+
+`build/Asthma_Mortality_Brazil_COMPLETE_AUTHOR_REVIEW.docx` (commit 8a6d5a5) is
+an externally produced reading copy. It is not a source: its figures were
+redrawn outside the pipeline and its legends are shortened. Accepted wording
+changes from it are applied to `manuscript.md`; never regenerate tables,
+figures or submission files from it.
