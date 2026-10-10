@@ -145,7 +145,7 @@ In conclusion, the increase in crude asthma mortality in Brazil between 2014 and
 # References
 
 1. Brum M, Henz J, Boeira M, Soares S, Friedrich F, Pitrez PM. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;50(5):e20240138. doi:10.36416/1806-3756/e20240138
-2. Cardoso ADRO, Ferreira ACG, Rabahi MF. Asthma-related deaths in Brazil: data from an ecological study. J Bras Pneumol. 2025;50(6):e20240296. doi:10.36416/1806-3756/e20240296
+2. Cardoso ADRO, Ferreira ACG, Rabahi MF. Asthma-related deaths in Brazil: data from an ecological study. J Bras Pneumol. 2024;50(6):e20240296. doi:10.36416/1806-3756/e20240296
 3. Graudenz GS, Carneiro DP, Vieira RP. Trends in asthma mortality in the 0- to 4-year and 5- to 34-year age groups in Brazil. J Bras Pneumol. 2017;43(1):24-31. doi:10.1590/S1806-37562015000000253
 4. Brum M, et al. Analysis code accompanying reference 1. GitHub repository, commit 8d527a5 (15 May 2024). Available from: https://github.com/mobrant94/asthma_mortality
 5. Ministério da Saúde (Brasil). Sistema de Informação sobre Mortalidade (SIM). Portal de Dados Abertos do SUS. Available from: https://dadosabertos.saude.gov.br/dataset/sim
