@@ -48,6 +48,27 @@ siguientes reutilizan los ficheros ya descargados en `reanalysis/data_raw/` (no 
 `.gitignore`).
 
 
+## Manuscript tables and figures (generation order)
+
+`run_pipeline.R` produces the analytical outputs and then runs the Kitagawa
+decomposition, but it does **not** build the manuscript assets. After the
+pipeline (or after `10_kitagawa_endpoints.R` alone, if only the decomposition
+changed), run:
+
+```sh
+Rscript reanalysis/R/10_kitagawa_endpoints.R   # if not already run by run_pipeline.R
+Rscript reanalysis/R/09_manuscript_assets.R
+```
+
+`09_manuscript_assets.R` reads only committed CSV outputs and writes the LaTeX
+table fragments in `reanalysis/manuscript/tables/` (including
+`tab_kitagawa.tex`) and the figures in `reanalysis/manuscript/figures/`:
+`fig1_relative_change.*` for the letter, and `fig1_relative_change_ge7.pdf/.jpg`
+for the full article (crude and age-standardised rates over the same completed
+ages ≥7; black and white, JPEG at 300 dpi). It also writes
+`reanalysis/data/crude_rate_ge7_series.csv` and stops if that series does not
+match the standardised rate in 2014 or the Kitagawa 2014–2021 endpoint.
+
 ## Post hoc demographic decomposition (Kitagawa)
 
 The additional analysis uses only already-produced inputs:

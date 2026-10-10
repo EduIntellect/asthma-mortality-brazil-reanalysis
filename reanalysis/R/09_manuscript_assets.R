@@ -1,7 +1,16 @@
 #' Builds the English-language figure and the LaTeX table fragments used by
 #' manuscript/methods_results.tex, directly from the committed CSV outputs
 #' (no numbers are typed by hand into the tables).
-here <- function(...) file.path("/home/user/asthma-mortality-brazil-reanalysis/reanalysis", ...)
+#' Run with: Rscript reanalysis/R/09_manuscript_assets.R (from any directory),
+#' after run_pipeline.R and 10_kitagawa_endpoints.R have written their outputs.
+.cmd <- commandArgs(trailingOnly = FALSE)
+.file_arg <- grep("^--file=", .cmd, value = TRUE)
+.root <- if (length(.file_arg) == 1L) {
+  dirname(dirname(normalizePath(sub("^--file=", "", .file_arg), mustWork = TRUE)))
+} else {
+  normalizePath("reanalysis", mustWork = TRUE)
+}
+here <- function(...) file.path(.root, ...)
 dir.create(here("manuscript", "tables"), showWarnings = FALSE, recursive = TRUE)
 dir.create(here("manuscript", "figures"), showWarnings = FALSE, recursive = TRUE)
 
@@ -113,6 +122,63 @@ draw <- function() {
 }
 grDevices::cairo_pdf(here("manuscript", "figures", "fig1_relative_change.pdf"), width = 7, height = 4.8); draw(); invisible(dev.off())
 grDevices::png(here("manuscript", "figures", "fig1_relative_change.png"), width = 2100, height = 1440, res = 300, type = "cairo"); draw(); invisible(dev.off())
+
+## ---- Full-article assets (RRCP: black-and-white charts, JPEG >= 300 dpi).
+## The letter keeps fig1_relative_change.*; the article uses the series below,
+## in which the crude and the age-standardised rates cover the same deaths and
+## population (completed ages >= 7, IBGE 2018 projection).
+aa_all <- read.csv(here("annual_aggregates.csv"))
+pop_all <- read.csv(here("data", "ibge_denominators_by_age.csv"))
+stopifnot(all(pop_all$source_version == "ibge_2018_revision"))
+crude_ge7 <- do.call(rbind, lapply(2014:2021, function(y) {
+  n <- sum(aa_all$n_deaths[aa_all$year == y & aa_all$age_floor >= 7])
+  p <- sum(pop_all$population[pop_all$year == y & pop_all$age >= 7])
+  data.frame(year = y, n_deaths = n, population = p, rate = 1e5 * n / p)
+}))
+crude_ge7$pct_change <- 100 * (crude_ge7$rate / crude_ge7$rate[1] - 1)
+std_ser <- pr[pr$series == "age_standardized_2014std", ]; std_ser <- std_ser[order(std_ser$year), ]
+kit <- read.csv(here("data", "kitagawa_endpoint_sensitivity.csv"))
+# Consistency checks: same domain as the standardised rate and the decomposition.
+stopifnot(sum(crude_ge7$n_deaths) == 18544L,
+          abs(crude_ge7$rate[1] - std_ser$rate[1]) < 1e-10,  # 2014 is the standard year
+          abs(crude_ge7$rate[crude_ge7$year == 2021] -
+                kit$crude_rate_end[kit$start_year == 2014 & kit$end_year == 2021]) < 1e-10)
+write.csv(crude_ge7, here("data", "crude_rate_ge7_series.csv"), row.names = FALSE)
+
+d534 <- pr[pr$series == "age_5_34", ]; d534 <- d534[order(d534$year), ]
+f1 <- list(
+  list(d = crude_ge7, lab = "Crude rate, ages 7 years and older", lty = 2, pch = 1),
+  list(d = std_ser,   lab = "Age-standardised rate, ages 7 years and older (Brazil 2014 standard)", lty = 1, pch = 19),
+  list(d = d534,      lab = "Rate at ages 5-34 years", lty = 4, pch = 17))
+rng1 <- range(unlist(lapply(f1, function(s) s$d$pct_change))); mg1 <- diff(rng1) * 0.12
+draw_article <- function() {
+  par(mar = c(4.5, 4.5, 1, 1), family = "sans")
+  plot(NULL, xlim = c(2014, 2021), ylim = rng1 + c(-mg1, mg1), xlab = "Year",
+       ylab = "Relative change from 2014 (%)", las = 1)
+  abline(h = 0, col = "black", lty = 3, lwd = 0.8)
+  for (s in f1) {
+    lines(s$d$year, s$d$pct_change, col = "black", lwd = 2, lty = s$lty)
+    points(s$d$year, s$d$pct_change, col = "black", bg = "black", pch = s$pch, cex = 1)
+  }
+  legend("topleft", legend = vapply(f1, `[[`, "", "lab"), col = "black",
+         lty = vapply(f1, `[[`, 0, "lty"), pch = vapply(f1, `[[`, 0, "pch"),
+         lwd = 2, bty = "n", cex = 0.8)
+}
+grDevices::cairo_pdf(here("manuscript", "figures", "fig1_relative_change_ge7.pdf"), width = 7, height = 4.8); draw_article(); invisible(dev.off())
+grDevices::jpeg(here("manuscript", "figures", "fig1_relative_change_ge7.jpg"), width = 2100, height = 1440, res = 300,
+                quality = 100, type = "cairo"); draw_article(); invisible(dev.off())
+
+## ---- Table: Kitagawa decomposition and endpoint sensitivity (post hoc)
+rows <- vapply(seq_len(nrow(kit)), function(i) {
+  k <- kit[i, ]
+  paste(paste0(k$start_year, "--", k$end_year),
+        paste0(f(k$crude_rate_start, 3), " / ", f(k$crude_rate_end, 3)),
+        sg(k$crude_rate_change, 3), sg(k$composition_effect, 3), sg(k$age_specific_rate_effect, 3),
+        f(k$composition_share_percent, 0), f(k$age60plus_share_of_composition_percent, 0), sep = " & ")
+}, "")
+write_tab(c("\\begin{tabular}{lrrrrrr}", "\\toprule",
+  "Years compared & Crude rate, start / end & Change & Age composition & Age-specific rates & Composition share (\\%)$^{a}$ & Ages $\\geq$60 in composition (\\%) \\\\",
+  "\\midrule", paste0(rows, " \\\\"), "\\bottomrule", "\\end{tabular}"), "tab_kitagawa.tex")
 
 cat("pooled share of deaths aged >=60 (floor-age scheme / continuous total):\n")
 aa <- read.csv(here("annual_aggregates.csv"))
