@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Rebuild review-only figures 2/3 and the 3-figure Word copy from frozen CSVs.
+"""Rebuild Figure 2 (Kitagawa) and Supplementary Figure S1 (ages 5-34) from frozen
+CSVs, and the author-review Word copy with all three figures embedded.
 Run after build_docx.sh. No statistical model is fitted.
 """
 from pathlib import Path
@@ -23,7 +24,7 @@ def csv_rows(path):
 def plot_kitagawa():
     data = csv_rows(ROOT / "data" / "kitagawa_endpoint_sensitivity.csv")
     assert len(data) == 6
-    labels = [r["start_year"] + "-" + r["end_year"] for r in data]
+    labels = [r["start_year"] + "\u2013" + r["end_year"] for r in data]
     comp = np.array([float(r["composition_effect"]) for r in data])
     rates = np.array([float(r["age_specific_rate_effect"]) for r in data])
     net = np.array([float(r["crude_rate_change"]) for r in data])
@@ -60,15 +61,15 @@ def plot_young():
     assert sum(deaths) == 1591
     fig, (top, bottom) = plt.subplots(2, 1, figsize=(7.1, 6.7), sharex=True,
                                      gridspec_kw={"height_ratios":[1.1, 0.85]})
-    top.plot(years, rates, "k-o", lw=1.8, ms=5, label="Ages 5-34")
+    top.plot(years, rates, "k-o", lw=1.8, ms=5, label="Ages 5\u201334")
     top.plot(years, control, "k--s", lw=1.3, ms=4, mfc="white",
-             label="Ages 7-34 (control)")
+             label="Ages 7\u201334 (control)")
     top.set_ylabel("Deaths per 100,000")
     top.set_ylim(0.155, 0.28)
     top.legend(frameon=False, loc="upper left")
     top.grid(axis="y", ls=":", lw=0.6, color="0.84")
     bottom.bar(years, deaths, width=0.66, color="0.70", edgecolor="black")
-    bottom.set_ylabel("Annual asthma deaths (ages 5-34)")
+    bottom.set_ylabel("Annual asthma deaths (ages 5\u201334)")
     bottom.set_ylim(0, max(deaths)*1.2)
     bottom.set_xticks(years)
     bottom.set_xlabel("Year")
@@ -76,7 +77,7 @@ def plot_young():
     top.set_axisbelow(True)
     bottom.set_axisbelow(True)
     fig.tight_layout()
-    output = FIG / "fig3_age_5_34_mortality.jpg"
+    output = FIG / "figS1_age_5_34_mortality.jpg"
     fig.savefig(output, dpi=300, pil_kwargs={"quality": 95})
     plt.close(fig)
     return output
@@ -88,16 +89,16 @@ def build_review_docx(p2, p3):
     assert len(source.inline_shapes) == 0, "Submission DOCX must have no embedded figures"
     captions = [
         ("Figure 1. Age-aligned national trends",
-         "Relative change from 2014 for the crude and age-standardised national rates among completed ages 7 or more, alongside ages 5-34."),
+         "Relative change from 2014 for the crude and age-standardised national rates among completed ages 7 or more, alongside ages 5\u201334."),
         ("Figure 2. Kitagawa decomposition and endpoint sensitivity",
-         "Post hoc age composition (black) and age-specific rates (hatched) across six pairs of years; components sum to the observed crude-rate change."),
-        ("Figure 3. Mortality at ages 5-34 years",
-         "Annual mortality rates for ages 5-34 and overlapping ages 7-34 control; lower panel: annual deaths at ages 5-34."),
+         "Post hoc age composition (black) and age-specific rates (hatched) across six pairs of years; components sum to the observed crude-rate change. Exact values in Supplementary Table S6."),
+        ("Supplementary Figure S1. Mortality at ages 5\u201334 years",
+         "Annual mortality rates for ages 5\u201334 and the overlapping ages 7\u201334 control; lower panel: annual deaths at ages 5\u201334."),
     ]
     plots = [FIG / "fig1_relative_change_ge7.jpg", p2, p3]
     assert all(p.is_file() for p in plots)
     source.add_page_break()
-    title = source.add_paragraph("Figures - author review copy")
+    title = source.add_paragraph("Figures \u2013 author review copy")
     title.runs[0].bold = True
     title.runs[0].font.size = Pt(14)
     source.add_paragraph("Figures are embedded here for internal review. The journal submission manuscript and its separately uploaded JPEG figures remain distinct.")

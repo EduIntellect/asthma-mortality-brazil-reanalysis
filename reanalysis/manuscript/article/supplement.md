@@ -22,4 +22,10 @@ Table: **Supplementary Table S5.** Sensitivity to the standard population and to
 
 {{TABLE:tab_sensitivity}}
 
+Table: **Supplementary Table S6.** Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older (post hoc analysis). Rates and components per 100,000; population from the IBGE 2018 projection. The two components sum to the change in the crude rate. ^a^Age-composition component as a percentage of the change in the crude rate; it exceeds 100% when the age-specific-rate component is negative, that is, when changes in age-specific rates partly offset the effect of the changing age composition.
+
+{{TABLE:tab_kitagawa}}
+
+![**Supplementary Figure S1.** Asthma mortality at ages 5–34 years, Brazil, 2014–2021. Upper panel: rate per 100,000 at ages 5–34 (solid line, filled circles) and at ages 7–34, the control group matching the age filter of the original analysis (dashed line, open squares). Lower panel: annual asthma deaths at ages 5–34. Population from the IBGE 2018 projection.](figS1_age_5_34_mortality.jpg){width=6in}
+
 Age-specific Kitagawa contributions for each pair of years are available in the repository (reanalysis/data/kitagawa_age_contributions.csv).

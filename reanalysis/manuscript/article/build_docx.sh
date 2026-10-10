@@ -83,7 +83,7 @@ sed "s/\[filled from the build report\]/${main_words}/" "$here/title_page.md" > 
 
 pandoc "$work/title_page.md" --reference-doc "$reference_doc" -o "$out/title_page.docx"
 pandoc "$work/manuscript.md" --lua-filter "$here/table_widths.lua" --reference-doc "$reference_doc" -o "$out/manuscript.docx"
-pandoc "$work/supplement.md" --lua-filter "$here/table_widths.lua" --reference-doc "$reference_doc" -o "$out/supplementary_tables.docx"
+pandoc "$work/supplement.md" --resource-path "$here/../figures" --lua-filter "$here/table_widths.lua" --reference-doc "$reference_doc" -o "$out/supplementary_tables.docx"
 
 {
   echo "Build report"

@@ -90,17 +90,17 @@ For the age groups of the original analysis, our slopes agreed in sign and signi
 
 ## National trend after age standardisation
 
-Using the same completed-age population of 7 years and older for both calculations, the crude rate increased from 1.123 to 1.258 per 100,000 between 2014 and 2021 (+12.0%), whereas the directly age-standardised rate decreased from 1.123 to 1.078 (−4.0%; Tables 1 and 2; Figure 1). The estimated slope of the age-standardised series over all eight years was 0.0002 per 100,000 per year (95% CI −0.0213 to 0.0217; p = 0.983). Thus, the analysis did not support an increasing national age-standardised trend, although the confidence interval did not establish equivalence to a zero trend.
+Using the same completed-age population of 7 years and older for both calculations, the crude rate increased from 1.123 to 1.258 per 100,000 between 2014 and 2021 (+12.0%), whereas the directly age-standardised rate decreased from 1.123 to 1.078 (−4.0%; Table 1; Figure 1; Supplementary Table S6). The estimated slope of the age-standardised series over all eight years was 0.0002 per 100,000 per year (95% CI −0.0213 to 0.0217; p = 0.983). Thus, the analysis did not support an increasing national age-standardised trend, although the confidence interval did not establish equivalence to a zero trend.
 
 In post hoc count models (Supplementary Table S4), the age-adjusted national trend was +0.00% per year with quasi-Poisson intervals (95% CI −1.12 to 1.14) and +0.9% (−0.2 to 2.1; p = 0.10) with a negative binomial model. With the 2024 population projection, the negative binomial estimate was +1.1% per year (95% CI 0.04 to 2.3; p = 0.043), the only one of six age-adjusted specifications whose interval excluded zero. The crude series was overdispersed (dispersion 5.9); its annual increase of 2.3% had p = 0.029 with quasi-Poisson and p < 0.001 with negative binomial intervals. Using the WHO standard population, the standardised rate changed by −4.2% (p = 0.99) with the 2018 projection and by −2.0% (p = 0.73) with the 2024 projection (Supplementary Table S5).
 
 ## Decomposition of the change in the crude rate
 
-The age-composition component accounted for 62% to 193% of the observed crude-rate increase across the six endpoint comparisons, while the component associated with age-specific mortality rates changed sign (Table 2). For 2014–2021, the positive composition effect (+0.191 per 100,000) exceeded the net increase (+0.135) and was partly offset by changes in age-specific rates (−0.057). Approximately 95% of the composition component arose among individuals aged 60 years or older.
+The age-composition component accounted for 62% to 193% of the observed crude-rate increase across the six endpoint comparisons, while the component associated with age-specific mortality rates changed sign (Figure 2; exact values in Supplementary Table S6). For 2014–2021, the positive composition effect (+0.191 per 100,000) exceeded the net increase (+0.135) and was partly offset by changes in age-specific rates (−0.057). Approximately 95% of the composition component arose among individuals aged 60 years or older.
 
 ## Ages 5–34 years
 
-The rate at ages 5–34 years rose from 0.182 to 0.219 per 100,000 between 2014 and 2021 (+20.3%; slope 0.0080 per year, 95% CI 0.0023 to 0.0138; p = 0.014; Table 1). The group had 1,591 deaths over the period, between 172 and 236 per year, with the lowest rate in 2017 (0.175) and the highest in 2020 (0.244). The control group aged 7–34 years gave a similar result (+23.5%; p = 0.011); it contains nearly all the deaths of the 5–34 group, so it shows that the estimate does not depend on ages 5 and 6 rather than replicating it independently.
+The rate at ages 5–34 years rose from 0.182 to 0.219 per 100,000 between 2014 and 2021 (+20.3%; slope 0.0080 per year, 95% CI 0.0023 to 0.0138; p = 0.014; Table 1). The group had 1,591 deaths over the period, between 172 and 236 per year, with the lowest rate in 2017 (0.175) and the highest in 2020 (0.244) (Supplementary Figure S1). The control group aged 7–34 years gave a similar result (+23.5%; p = 0.011; Supplementary Figure S1); it contains nearly all the deaths of the 5–34 group, so it shows that the estimate does not depend on ages 5 and 6 rather than replicating it independently.
 
 The increase persisted in post hoc analyses. Overdispersion was negligible (1.07), and the quasi-Poisson model gave an annual increase of 4.0% (95% CI 1.2 to 7.0; p = 0.013); with the 2024 projection it was 4.2% (p = 0.011). Standardised to the WHO population within the group, the rate rose by 16.9% (p = 0.020) with the 2018 projection and by 19.1% (p = 0.015) with the 2024 projection.
 
@@ -161,10 +161,9 @@ Table: **Table 1.** Trend estimates, Brazil, 2014–2021. ^a^Change in the rate,
 
 {{TABLE:tab_trends}}
 
-Table: **Table 2.** Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older (post hoc analysis). Rates and components per 100,000; population from the IBGE 2018 projection. The two components sum to the change in the crude rate. ^a^Age-composition component as a percentage of the change in the crude rate; it exceeds 100% when the age-specific-rate component is negative, that is, when changes in age-specific rates partly offset the effect of the changing age composition.
 
-{{TABLE:tab_kitagawa}}
-
-# Figure legend
+# Figure legends
 
 **Figure 1.** Relative change in each rate from its 2014 value, Brazil, 2014–2021: crude rate (dashed line, open circles) and age-standardised rate (Brazil 2014 standard; solid line, filled circles), both for completed ages of 7 years and older and the same deaths and population, and rate at ages 5–34 years (dash-dot line, triangles). Annual data; population from the IBGE 2018 projection. File: fig1_relative_change_ge7.jpg.
+
+**Figure 2.** Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older, for six pairs of years (post hoc analysis), Brazil. Black bars: age-composition component; hatched bars: age-specific-rate component. The two components sum to the change in the crude rate. Deaths per 100,000; population from the IBGE 2018 projection. Exact values in Supplementary Table S6. File: fig2_kitagawa_sensitivity.jpg.

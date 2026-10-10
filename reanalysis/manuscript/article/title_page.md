@@ -16,4 +16,4 @@ title: "Title page"
 
 **Word count (main text):** [filled from the build report]
 
-**Number of tables and figures:** 2 tables, 1 figure; 5 supplementary tables
+**Number of tables and figures:** 1 table, 2 figures; 6 supplementary tables, 1 supplementary figure
