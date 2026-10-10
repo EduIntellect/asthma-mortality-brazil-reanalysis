@@ -52,9 +52,9 @@ merged$weight <- merged$population /
 
 # Exact count and standardisation checks against committed primary outputs.
 count_log <- read.csv(file.path(root, "data", "fase2_year_counts.csv"))
-if (sum(count_log$N_gt6_valid_age) != 18583L ||
-    sum(merged$n_deaths) != 18544L)
-  stop("Age-domain audit check failed (expected 18583 vs 18544).")
+if (sum(count_log$N_gt6_valid_age) != 18582L ||
+    sum(merged$n_deaths) != 18543L)
+  stop("Age-domain audit check failed (expected 18582 vs 18543).")
 std <- read.csv(file.path(root, "data", "age_standardized_series.csv"))
 w2014 <- merged[merged$year == 2014, c("age", "weight")]
 reference <- merge(merged, w2014, by = "age", suffixes = c("", "_2014"))

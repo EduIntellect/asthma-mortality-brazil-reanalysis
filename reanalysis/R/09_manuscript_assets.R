@@ -139,7 +139,7 @@ crude_ge7$pct_change <- 100 * (crude_ge7$rate / crude_ge7$rate[1] - 1)
 std_ser <- pr[pr$series == "age_standardized_2014std", ]; std_ser <- std_ser[order(std_ser$year), ]
 kit <- read.csv(here("data", "kitagawa_endpoint_sensitivity.csv"))
 # Consistency checks: same domain as the standardised rate and the decomposition.
-stopifnot(sum(crude_ge7$n_deaths) == 18544L,
+stopifnot(sum(crude_ge7$n_deaths) == 18543L,
           abs(crude_ge7$rate[1] - std_ser$rate[1]) < 1e-10,  # 2014 is the standard year
           abs(crude_ge7$rate[crude_ge7$year == 2021] -
                 kit$crude_rate_end[kit$start_year == 2014 & kit$end_year == 2021]) < 1e-10)

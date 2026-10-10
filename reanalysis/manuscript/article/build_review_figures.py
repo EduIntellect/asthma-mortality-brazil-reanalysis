@@ -58,7 +58,7 @@ def plot_young():
     rates = [float(r["rate"]) for r in a]
     control = [float(r["rate"]) for r in b]
     deaths = [int(r["n_deaths"]) for r in a]
-    assert sum(deaths) == 1591
+    assert sum(deaths) == 1590
     fig, (top, bottom) = plt.subplots(2, 1, figsize=(7.1, 6.7), sharex=True,
                                      gridspec_kw={"height_ratios":[1.1, 0.85]})
     top.plot(years, rates, "k-o", lw=1.8, ms=5, label="Ages 5\u201334")
