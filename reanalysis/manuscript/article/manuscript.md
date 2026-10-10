@@ -68,7 +68,7 @@ Analyses were performed in R 4.3.3 [10]. The analysis code, intermediate aggrega
 
 Generative AI coding assistants were used in developing and debugging the analysis pipeline, including scripts for data retrieval, case selection, denominator construction, age standardisation, statistical modelling and generation of tables and figures. The repository history identifies work performed using Claude Code (Anthropic) and the GitHub Copilot coding agent (GitHub).
 
-**Assigned human oversight (pending completion and co-author confirmation).** Francisco Federico García Crespi (corresponding author) is responsible for checking the provenance of the public SIM/IBGE inputs, auditing code and outputs against the committed tables and figures, and approving the statistical analyses and final interpretations. Amaury de Souza is assigned independent scientific review of case selection, age standardisation, the Kitagawa accounting decomposition, the 5–34-year finding, robustness analyses, and the epidemiological interpretation and limitations. Both authors must inspect the relevant evidence and confirm that the reported results and disclosures accurately reflect their own review before submission. These assignments do not assert that review or validation has already been completed.
+[AUTHOR CONFIRMATION REQUIRED: one-sentence statement of the human review actually completed; see AUTHOR_REVIEW_CHECKLIST.md.]
 
 The figure was rendered programmatically from analytical outputs rather than generated as an image by an AI image-generation tool.
 
@@ -140,7 +140,7 @@ In conclusion, the increase in crude asthma mortality in Brazil between 2014 and
 
 # Author contributions
 
-**Provisional CRediT assignments (subject to both authors' approval):** Francisco Federico García Crespi — Conceptualization, Methodology, Software, Formal analysis, Data curation, Visualization, Writing – original draft, and Corresponding author. Amaury de Souza — Writing – review & editing, Validation (epidemiological and scientific interpretation), and scientific review of the manuscript. Contributions are assignments for review, not confirmation that all listed tasks are complete. Final author order and any additional contributors require author confirmation.
+**Provisional CRediT assignments (subject to both authors' approval):** Francisco Federico García Crespi — Conceptualization, Methodology, Software, Formal analysis, Data curation, Visualization, and Writing – original draft. Amaury de Souza — Writing – review & editing, Validation (epidemiological and scientific interpretation), and scientific review of the manuscript. Contributions are assignments for review, not confirmation that all listed tasks are complete. Final author order and any additional contributors require author confirmation.
 
 # References
 
