@@ -93,6 +93,9 @@ the decomposition identity is satisfied for every endpoint pair.
   demographic ageing causally produces a particular death, nor a
   replacement for the primary eight-year age-standardised trend.
   The calculations use the 2018 IBGE population projection only.
-- The outputs have also been recomputed independently from the committed
-  input CSVs. The R script's actual execution still needs verification
-  in an R-enabled environment.
+- The outputs were independently recomputed from the committed input
+  CSVs. The standalone script was subsequently executed successfully with
+  R 4.3.3, passing its internal checks, and its two generated CSVs were
+  committed in native R write.csv format (commit dd3c0d5).
+- The full run_pipeline.R workflow, which downloads SIM microdata, was not
+  re-executed as part of this validation.
