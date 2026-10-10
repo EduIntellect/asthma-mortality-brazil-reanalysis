@@ -1,0 +1,950 @@
+file,row,key,column,main,u071,diff
+reanalysis/annual_aggregates.csv,659,age_floor=24; year=2021,n_deaths,8,7,-1.0
+reanalysis/data/age_group_series.csv,8,series=age_5_34; year=2021,n_deaths,210,209,-1.0
+reanalysis/data/age_group_series.csv,8,series=age_5_34; year=2021,rate,0.218589238999572,0.217548337861479,-0.0010409011380929922
+reanalysis/data/age_group_series.csv,16,series=age_7_34_control; year=2021,n_deaths,202,201,-1.0
+reanalysis/data/age_group_series.csv,16,series=age_7_34_control; year=2021,rate,0.224120920914639,0.223011411405161,-0.001109509509477996
+reanalysis/data/age_standardized_series.csv,8,year=2021,asr,1.07773654668122,1.07718959960837,-0.0005469470728500792
+reanalysis/data/age_standardized_series.csv,8,year=2021,n_deaths,2423,2422,-1.0
+reanalysis/data/annual/annual_2021.csv,25,age_floor=24; year=2021,n_deaths,8,7,-1.0
+reanalysis/data/crude_rate_ge7_series.csv,8,year=2021,n_deaths,2423,2422,-1.0
+reanalysis/data/crude_rate_ge7_series.csv,8,year=2021,rate,1.25756673179509,1.25704771952444,-0.0005190122706499878
+reanalysis/data/crude_rate_ge7_series.csv,8,year=2021,pct_change,12.0083832822216,11.9621561327035,-0.04622714951809925
+reanalysis/data/denominator_comparison.csv,8,year=2021; denominator_basis=total_population,n_deaths,2428,2427,-1.0
+reanalysis/data/denominator_comparison.csv,8,year=2021; denominator_basis=total_population,rate,1.13820873481541,1.13773995032825,-0.0004687844871600344
+reanalysis/data/denominator_comparison.csv,16,year=2021; denominator_basis=population_gt6,n_deaths,2428,2427,-1.0
+reanalysis/data/denominator_comparison.csv,16,year=2021; denominator_basis=population_gt6,rate,1.26016179314837,1.25964278087771,-0.0005190122706599798
+reanalysis/data/fase1_legacy_reconciliation.csv,2,series=legacy_18_59,n_2021,756,755,-1.0
+reanalysis/data/fase1_legacy_reconciliation.csv,2,series=legacy_18_59,rate_2021,0.587345619971815,0.586568707776085,-0.0007769121957299507
+reanalysis/data/fase1_legacy_reconciliation.csv,2,series=legacy_18_59,pct_change_2014_2021,22.9121004118956,22.7495182684937,-0.16258214340190236
+reanalysis/data/fase1_legacy_reconciliation.csv,2,series=legacy_18_59,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/fase1_legacy_reconciliation.csv,2,series=legacy_18_59,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/fase2_year_counts.csv,8,year=2021,N_post_exclusions,2459,2458,-1.0
+reanalysis/data/fase2_year_counts.csv,8,year=2021,N_valid_age,2459,2458,-1.0
+reanalysis/data/fase2_year_counts.csv,8,year=2021,N_gt6_valid_age,2428,2427,-1.0
+reanalysis/data/kitagawa_age_contributions.csv,18,start_year=2014; end_year=2021; age=24,composition_contribution,-0.000224452825860276,-0.000210485424763706,1.3967401096570003e-05
+reanalysis/data/kitagawa_age_contributions.csv,18,start_year=2014; end_year=2021; age=24,rate_contribution,-3.71822803950689e-05,-0.000570161952145825,-0.0005329796717507561
+reanalysis/data/kitagawa_age_contributions.csv,270,start_year=2015; end_year=2021; age=24,composition_contribution,-0.000155913977188906,-0.000146242898751964,9.671078436941996e-06
+reanalysis/data/kitagawa_age_contributions.csv,270,start_year=2015; end_year=2021; age=24,rate_contribution,-6.43272036882394e-05,-0.000593010552779368,-0.0005286833490911286
+reanalysis/data/kitagawa_age_contributions.csv,354,start_year=2016; end_year=2021; age=24,composition_contribution,-8.45938855685496e-05,-7.96804006135947e-05,4.913484954954895e-06
+reanalysis/data/kitagawa_age_contributions.csv,354,start_year=2016; end_year=2021; age=24,rate_contribution,-0.000637448646316623,-0.00116137440192576,-0.000523925755609137
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,n_deaths_end,2423,2422,-1.0
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,crude_rate_end,1.25756673179509,1.25704771952444,-0.0005190122706499878
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,crude_rate_change,0.134823330860121,0.134304318589467,-0.0005190122706539846
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,composition_effect,0.191423535925967,0.191437503327063,1.396740109599337e-05
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,age_specific_rate_effect,-0.0566002050658457,-0.0571331847375965,-0.0005329796717508037
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,composition_share_percent,141.981016716289,142.54009501529,0.5590782990010155
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,1,start_year=2014; end_year=2021,age60plus_share_of_composition_percent,94.7932052635287,94.7862890914301,-0.0069161720985988495
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,n_deaths_end,2423,2422,-1.0
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,crude_rate_end,1.25756673179509,1.25704771952444,-0.0005190122706499878
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,crude_rate_change,0.0868728718739709,0.0863538596033167,-0.0005190122706542066
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,composition_effect,0.167374375714967,0.167384046793404,9.671078436995773e-06
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,age_specific_rate_effect,-0.0805015038409958,-0.0810301871900869,-0.0005286833490910914
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,composition_share_percent,192.665871525212,193.835049831374,1.1691783061619958
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,4,start_year=2015; end_year=2021,age60plus_share_of_composition_percent,94.9319305808416,94.9264456247517,-0.005484956089901516
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,n_deaths_end,2423,2422,-1.0
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,crude_rate_end,1.25756673179509,1.25704771952444,-0.0005190122706499878
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,crude_rate_change,0.0731505423952588,0.0726315301246045,-0.0005190122706543038
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,composition_effect,0.13993097540902,0.139935888893974,4.913484953988911e-06
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,age_specific_rate_effect,-0.0667804330137608,-0.06730435876937,-0.0005239257556092086
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,composition_share_percent,191.29178106831,192.665483783564,1.3737027152540122
+reanalysis/data/kitagawa_endpoint_sensitivity.csv,5,start_year=2016; end_year=2021,age60plus_share_of_composition_percent,95.1952225655044,95.1918800327377,-0.003342532766694717
+reanalysis/data/robustness_count_models.csv,1,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,2.25026288978512,2.24674907821336,-0.003513811571759895
+reanalysis/data/robustness_count_models.csv,1,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,ci_low,1.60959766341349,1.60609083707011,-0.003506826343380176
+reanalysis/data/robustness_count_models.csv,1,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,ci_high,2.89496761578789,2.89144687031822,-0.0035207454696699614
+reanalysis/data/robustness_count_models.csv,1,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,5.90968883299631,5.92928011674258,0.01959128374627017
+reanalysis/data/robustness_count_models.csv,2,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,2.25026288978512,2.24674907821336,-0.003513811571759895
+reanalysis/data/robustness_count_models.csv,2,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.318239598050485,0.311577852342282,-0.006661745708202993
+reanalysis/data/robustness_count_models.csv,2,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,4.21949490861426,4.21925286084031,-0.00024204777395020471
+reanalysis/data/robustness_count_models.csv,2,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0290107991737375,0.029362391095363,0.00035159192162549993
+reanalysis/data/robustness_count_models.csv,3,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,2.28039590007549,2.27703824531156,-0.003357654763930018
+reanalysis/data/robustness_count_models.csv,3,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,0.959279731072749,0.953823143781007,-0.005456587291742032
+reanalysis/data/robustness_count_models.csv,3,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,3.61879971154806,3.61759690204781,-0.0012028095002500905
+reanalysis/data/robustness_count_models.csv,3,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.000675685841246055,0.000702045661088066,2.6359819842011007e-05
+reanalysis/data/robustness_count_models.csv,3,denominator_revision=rev2018; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,706.829880446195,703.835720873987,-2.994159572207991
+reanalysis/data/robustness_count_models.csv,4,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,2.17705457575339,2.17354319326384,-0.0035113824895498524
+reanalysis/data/robustness_count_models.csv,4,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,ci_low,1.53684016920632,1.53333576609458,-0.00350440311173994
+reanalysis/data/robustness_count_models.csv,4,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,ci_high,2.82130568942731,2.81778737887022,-0.003518310557089954
+reanalysis/data/robustness_count_models.csv,4,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,p_value,1.87069843668815e-11,2.0154373207231e-11,1.4473888403494992e-12
+reanalysis/data/robustness_count_models.csv,4,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,5.91323117174263,5.93285119433152,0.019620022588890507
+reanalysis/data/robustness_count_models.csv,5,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,2.17705457575339,2.17354319326384,-0.0035113824895498524
+reanalysis/data/robustness_count_models.csv,5,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.245817903440471,0.239157130962031,-0.006660772478439991
+reanalysis/data/robustness_count_models.csv,5,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,4.14549654163852,4.14525847445699,-0.00023806718153007722
+reanalysis/data/robustness_count_models.csv,5,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0327783040600546,0.033172516792796,0.00039421273274140023
+reanalysis/data/robustness_count_models.csv,6,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,2.20720634699161,2.20385142750628,-0.0033549194853299547
+reanalysis/data/robustness_count_models.csv,6,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,0.886702692807795,0.881247999458878,-0.005454693348917017
+reanalysis/data/robustness_count_models.csv,6,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,3.544994042126,3.54379484551783,-0.0011991966081699168
+reanalysis/data/robustness_count_models.csv,6,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.00100007013314361,0.00103733160454299,3.726147139937984e-05
+reanalysis/data/robustness_count_models.csv,6,denominator_revision=rev2018; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,706.368290680682,703.373983066105,-2.9943076145769965
+reanalysis/data/robustness_count_models.csv,7,denominator_revision=rev2018; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,4.04000887862617,3.99843440539218,-0.04157447323399044
+reanalysis/data/robustness_count_models.csv,7,denominator_revision=rev2018; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,ci_low,1.82839423150527,1.78711060786838,-0.041283623636889866
+reanalysis/data/robustness_count_models.csv,7,denominator_revision=rev2018; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,ci_high,6.29965766577525,6.25779918677229,-0.04185847900295947
+reanalysis/data/robustness_count_models.csv,7,denominator_revision=rev2018; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,p_value,0.000302991459790394,0.000349824582639717,4.683312284932303e-05
+reanalysis/data/robustness_count_models.csv,7,denominator_revision=rev2018; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,1.06597851835982,1.08684232021078,0.02086380185095993
+reanalysis/data/robustness_count_models.csv,8,denominator_revision=rev2018; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,4.04000887862617,3.99843440539218,-0.04157447323399044
+reanalysis/data/robustness_count_models.csv,8,denominator_revision=rev2018; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,1.19808986394259,1.12960323777089,-0.0684866261717001
+reanalysis/data/robustness_count_models.csv,8,denominator_revision=rev2018; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,6.96173674836698,6.94864819496406,-0.0130885534029197
+reanalysis/data/robustness_count_models.csv,8,denominator_revision=rev2018; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.012839849785011,0.0139800250653987,0.0011401752803877011
+reanalysis/data/robustness_count_models.csv,9,"denominator_revision=rev2018; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",annual_pct_change,4.04000702505318,3.99843263867212,-0.04157438638106026
+reanalysis/data/robustness_count_models.csv,9,"denominator_revision=rev2018; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_low,1.82832723588606,1.7870401511074,-0.041287084778659944
+reanalysis/data/robustness_count_models.csv,9,"denominator_revision=rev2018; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_high,6.29972381553996,6.25786912797612,-0.041854687563840365
+reanalysis/data/robustness_count_models.csv,9,"denominator_revision=rev2018; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",p_value,0.000303119186330648,0.000349976877548896,4.685769121824803e-05
+reanalysis/data/robustness_count_models.csv,9,"denominator_revision=rev2018; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",nb_theta,3461987.48270954,3280371.59734606,-181615.88536348008
+reanalysis/data/robustness_count_models.csv,10,denominator_revision=rev2018; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,4.6473438102218,4.60386458393718,-0.043479226284619976
+reanalysis/data/robustness_count_models.csv,10,denominator_revision=rev2018; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,ci_low,2.37014853244679,2.32699175930875,-0.043156773138040005
+reanalysis/data/robustness_count_models.csv,10,denominator_revision=rev2018; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,ci_high,6.97519465905403,6.93139999299619,-0.043794666057840104
+reanalysis/data/robustness_count_models.csv,10,denominator_revision=rev2018; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,p_value,5.1924708698147e-05,6.10646335259835e-05,9.1399248278365e-06
+reanalysis/data/robustness_count_models.csv,10,denominator_revision=rev2018; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,1.12985530460337,1.15423663808873,0.02438133348535998
+reanalysis/data/robustness_count_models.csv,11,denominator_revision=rev2018; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,4.6473438102218,4.60386458393718,-0.043479226284619976
+reanalysis/data/robustness_count_models.csv,11,denominator_revision=rev2018; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,1.63623082165112,1.56134428089552,-0.07488654075560008
+reanalysis/data/robustness_count_models.csv,11,denominator_revision=rev2018; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,7.74766515841625,7.73753107906567,-0.010134079350580194
+reanalysis/data/robustness_count_models.csv,11,denominator_revision=rev2018; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.00889328632394836,0.00972267200869664,0.0008293856847482808
+reanalysis/data/robustness_count_models.csv,12,"denominator_revision=rev2018; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",annual_pct_change,4.64734173683181,4.60386258486416,-0.04347915196764962
+reanalysis/data/robustness_count_models.csv,12,"denominator_revision=rev2018; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_low,2.37006331994827,2.32689839930118,-0.0431649206470901
+reanalysis/data/robustness_count_models.csv,12,"denominator_revision=rev2018; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_high,6.97527946582102,6.93149346690125,-0.04378599891977064
+reanalysis/data/robustness_count_models.csv,12,"denominator_revision=rev2018; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",p_value,5.19582499247498e-05,6.11071528800677e-05,9.148902955317905e-06
+reanalysis/data/robustness_count_models.csv,12,"denominator_revision=rev2018; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",nb_theta,2672814.92001134,2427231.66300329,-245583.2570080501
+reanalysis/data/robustness_count_models.csv,16,denominator_revision=rev2018; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,3.97738337951674,3.96555606397617,-0.011827315540569927
+reanalysis/data/robustness_count_models.csv,16,denominator_revision=rev2018; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,ci_low,2.77915013693941,2.76737148980464,-0.011778647134769837
+reanalysis/data/robustness_count_models.csv,16,denominator_revision=rev2018; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,ci_high,5.18958602057329,5.17771050283309,-0.011875517740199903
+reanalysis/data/robustness_count_models.csv,16,denominator_revision=rev2018; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,p_value,4.24525362204795e-11,4.8478261953448e-11,6.0257257329685e-12
+reanalysis/data/robustness_count_models.csv,16,denominator_revision=rev2018; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,6.25857148793601,6.28086021832433,0.022288730388320133
+reanalysis/data/robustness_count_models.csv,17,denominator_revision=rev2018; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,3.97738337951674,3.96555606397617,-0.011827315540569927
+reanalysis/data/robustness_count_models.csv,17,denominator_revision=rev2018; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.280579627279409,0.262447709654645,-0.018131917624764016
+reanalysis/data/robustness_count_models.csv,17,denominator_revision=rev2018; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,7.81046833428951,7.80543558035387,-0.005032753935640066
+reanalysis/data/robustness_count_models.csv,17,denominator_revision=rev2018; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0387319373713485,0.0393881468455306,0.0006562094741821012
+reanalysis/data/robustness_count_models.csv,18,denominator_revision=rev2018; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,3.94357478376486,3.93259300597379,-0.010981777791069902
+reanalysis/data/robustness_count_models.csv,18,denominator_revision=rev2018; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,1.48391347014598,1.46933176391624,-0.014581706229739977
+reanalysis/data/robustness_count_models.csv,18,denominator_revision=rev2018; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,6.46285080449189,6.45565217752535,-0.007198626966540722
+reanalysis/data/robustness_count_models.csv,18,denominator_revision=rev2018; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.0015480714283724,0.00162231661335711,7.424518498470997e-05
+reanalysis/data/robustness_count_models.csv,18,denominator_revision=rev2018; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,208.700894429068,207.84419857545,-0.8566958536179925
+reanalysis/data/robustness_count_models.csv,22,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,0.00430269351512358,0.000649062076751861,-0.0036536314383717188
+reanalysis/data/robustness_count_models.csv,22,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,ci_low,-0.623061233680289,-0.626706565712987,-0.003645332032698012
+reanalysis/data/robustness_count_models.csv,22,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,ci_high,0.635627152218454,0.631965261868461,-0.00366189034999298
+reanalysis/data/robustness_count_models.csv,22,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,p_value,0.989308477666672,0.998387143042786,0.009078665376114015
+reanalysis/data/robustness_count_models.csv,22,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,3.1118776543278,3.1137425110462,0.0018648567183996434
+reanalysis/data/robustness_count_models.csv,23,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,0.00430269351512358,0.000649062076751861,-0.0036536314383717188
+reanalysis/data/robustness_count_models.csv,23,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,-1.12159476787788,-1.12556883589042,-0.003974068012539966
+reanalysis/data/robustness_count_models.csv,23,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,1.14302039700844,1.13969501618312,-0.003325380825319968
+reanalysis/data/robustness_count_models.csv,23,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.993963489918091,0.999089660075672,0.005126170157580989
+reanalysis/data/robustness_count_models.csv,24,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,0.932873642795418,0.924998766533802,-0.007874876261615982
+reanalysis/data/robustness_count_models.csv,24,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,-0.189414404599153,-0.197475374371192,-0.00806096977203899
+reanalysis/data/robustness_count_models.csv,24,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,2.06778089739945,2.0600973195138,-0.007683577885649662
+reanalysis/data/robustness_count_models.csv,24,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.103603448133953,0.106623484613679,0.0030200364797259988
+reanalysis/data/robustness_count_models.csv,24,denominator_revision=rev2018; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,147.850818102885,147.754082939296,-0.09673516358898837
+reanalysis/data/robustness_count_models.csv,25,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,2.40391809889251,2.4003974638785,-0.0035206350140102316
+reanalysis/data/robustness_count_models.csv,25,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,ci_low,1.76214989348364,1.75863626686519,-0.0035136266184498943
+reanalysis/data/robustness_count_models.csv,25,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,ci_high,3.04973364832766,3.04620605626875,-0.0035275920589099563
+reanalysis/data/robustness_count_models.csv,25,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,5.81767119756226,5.83694161202627,0.019270414464010344
+reanalysis/data/robustness_count_models.csv,26,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,2.40391809889251,2.4003974638785,-0.0035206350140102316
+reanalysis/data/robustness_count_models.csv,26,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.483555017119874,0.476907829508244,-0.006647187611629968
+reanalysis/data/robustness_count_models.csv,26,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,4.36098165732728,4.36070961253041,-0.00027204479687004124
+reanalysis/data/robustness_count_models.csv,26,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0219301335459245,0.0222009914279129,0.00027085788198839833
+reanalysis/data/robustness_count_models.csv,27,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,2.43252560733367,2.42915937773518,-0.0033662295984902
+reanalysis/data/robustness_count_models.csv,27,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,1.11941671584619,1.11396803753387,-0.005448678312319988
+reanalysis/data/robustness_count_models.csv,27,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,3.76268616918183,3.76145743716538,-0.0012287320164499071
+reanalysis/data/robustness_count_models.csv,27,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.000261197516647227,0.000272531994663906,1.1334478016678971e-05
+reanalysis/data/robustness_count_models.csv,27,denominator_revision=rev2024; series=brum_crude_national_total_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,721.162170842508,718.098212543456,-3.063958299051933
+reanalysis/data/robustness_count_models.csv,28,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,2.29888410205383,2.29536806294182,-0.0035160391120099277
+reanalysis/data/robustness_count_models.csv,28,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,ci_low,1.65786364030813,1.65435459257397,-0.0035090477341599424
+reanalysis/data/robustness_count_models.csv,28,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,ci_high,2.94394662427238,2.94042364513891,-0.0035229791334701055
+reanalysis/data/robustness_count_models.csv,28,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,5.85308241470487,5.87256352471597,0.019481110011099645
+reanalysis/data/robustness_count_models.csv,29,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,2.29888410205383,2.29536806294182,-0.0035160391120099277
+reanalysis/data/robustness_count_models.csv,29,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.37498313555544,0.368319666167327,-0.006663469388113019
+reanalysis/data/robustness_count_models.csv,29,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,4.259660740291,4.25941534079615,-0.00024539949485014034
+reanalysis/data/robustness_count_models.csv,29,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0263113010236682,0.0266334651778265,0.000322164154158297
+reanalysis/data/robustness_count_models.csv,30,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,2.32839464121926,2.32503422007486,-0.00336042114440005
+reanalysis/data/robustness_count_models.csv,30,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,1.01282087725751,1.00736263911272,-0.005458238144790073
+reanalysis/data/robustness_count_models.csv,30,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,3.66110221367573,3.65989522515333,-0.0012069885224001986
+reanalysis/data/robustness_count_models.csv,30,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.000489657160339689,0.000509552726696377,1.9895566356688027e-05
+reanalysis/data/robustness_count_models.csv,30,denominator_revision=rev2024; series=brum_crude_national_gt6_pop; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,715.617479536611,712.566406813729,-3.0510727228819405
+reanalysis/data/robustness_count_models.csv,31,denominator_revision=rev2024; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,4.21983177604384,4.1782157872259,-0.04161598881793971
+reanalysis/data/robustness_count_models.csv,31,denominator_revision=rev2024; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,ci_low,2.00519342199057,1.96386778738815,-0.04132563460241978
+reanalysis/data/robustness_count_models.csv,31,denominator_revision=rev2024; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,ci_high,6.48255222155447,6.44065275397701,-0.041899467577460214
+reanalysis/data/robustness_count_models.csv,31,denominator_revision=rev2024; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,p_value,0.000162185147548789,0.000188334087027877,2.614893947908801e-05
+reanalysis/data/robustness_count_models.csv,31,denominator_revision=rev2024; series=age_5_34; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,1.06757313587199,1.08891464997321,0.021341514101220094
+reanalysis/data/robustness_count_models.csv,32,denominator_revision=rev2024; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,4.21983177604384,4.1782157872259,-0.04161598881793971
+reanalysis/data/robustness_count_models.csv,32,denominator_revision=rev2024; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,1.37192561876194,1.30275838324005,-0.06916723552188997
+reanalysis/data/robustness_count_models.csv,32,denominator_revision=rev2024; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,7.14774597728045,7.13529244239599,-0.012453534884460105
+reanalysis/data/robustness_count_models.csv,32,denominator_revision=rev2024; series=age_5_34; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0107023809412762,0.0116646375160834,0.0009622565748072
+reanalysis/data/robustness_count_models.csv,33,"denominator_revision=rev2024; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",annual_pct_change,4.21983014554086,4.17821425372316,-0.04161589181769987
+reanalysis/data/robustness_count_models.csv,33,"denominator_revision=rev2024; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_low,2.00512618768709,1.96379692858037,-0.04132925910672003
+reanalysis/data/robustness_count_models.csv,33,"denominator_revision=rev2024; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_high,6.48261907524113,6.44072359032102,-0.041895484920110526
+reanalysis/data/robustness_count_models.csv,33,"denominator_revision=rev2024; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",p_value,0.000162259547111529,0.00018842356934465,2.6164022233120986e-05
+reanalysis/data/robustness_count_models.csv,33,"denominator_revision=rev2024; series=age_5_34; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",nb_theta,3445530.57179839,3257720.74083219,-187809.83096619975
+reanalysis/data/robustness_count_models.csv,34,denominator_revision=rev2024; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,4.834595394943,4.79107312600251,-0.043522268940490605
+reanalysis/data/robustness_count_models.csv,34,denominator_revision=rev2024; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,ci_low,2.55422616889465,2.51102575584128,-0.0432004130533703
+reanalysis/data/robustness_count_models.csv,34,denominator_revision=rev2024; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,ci_high,7.16567032080857,7.12183324605429,-0.04383707475428
+reanalysis/data/robustness_count_models.csv,34,denominator_revision=rev2024; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,p_value,2.57944545819736e-05,3.05172722989739e-05,4.7228177170002995e-06
+reanalysis/data/robustness_count_models.csv,34,denominator_revision=rev2024; series=age_7_34_control; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,1.13091989053529,1.15580406848013,0.024884177944840102
+reanalysis/data/robustness_count_models.csv,35,denominator_revision=rev2024; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,4.834595394943,4.79107312600251,-0.043522268940490605
+reanalysis/data/robustness_count_models.csv,35,denominator_revision=rev2024; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,1.81788148522863,1.74226842669971,-0.07561305852892009
+reanalysis/data/robustness_count_models.csv,35,denominator_revision=rev2024; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,7.94069009593203,7.93123818357357,-0.009451912358460213
+reanalysis/data/robustness_count_models.csv,35,denominator_revision=rev2024; series=age_7_34_control; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.00748010680099859,0.0081862006772096,0.0007060938762110105
+reanalysis/data/robustness_count_models.csv,36,"denominator_revision=rev2024; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",annual_pct_change,4.83459365830814,4.79107149397511,-0.04352216433303013
+reanalysis/data/robustness_count_models.csv,36,"denominator_revision=rev2024; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_low,2.55414051234093,2.51093157932711,-0.043208933013819895
+reanalysis/data/robustness_count_models.csv,36,"denominator_revision=rev2024; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",ci_high,7.1657562785586,7.12192832193443,-0.04382795662417038
+reanalysis/data/robustness_count_models.csv,36,"denominator_revision=rev2024; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",p_value,2.58125027728259e-05,3.05403854625553e-05,4.7278826897294015e-06
+reanalysis/data/robustness_count_models.csv,36,"denominator_revision=rev2024; series=age_7_34_control; model=negbin; pearson_dispersion_poisson=NA; nb_note=theta diverged: no overdispersion, NB equals Poisson",nb_theta,2654430.49381059,2401845.95558572,-252584.53822486987
+reanalysis/data/robustness_count_models.csv,40,denominator_revision=rev2024; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,4.14232798662337,4.1304885372754,-0.011839449347970543
+reanalysis/data/robustness_count_models.csv,40,denominator_revision=rev2024; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,ci_low,2.9425278290788,2.93073701100692,-0.011790818071879983
+reanalysis/data/robustness_count_models.csv,40,denominator_revision=rev2024; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,ci_high,5.35611187322922,5.34422426074854,-0.011887612480680154
+reanalysis/data/robustness_count_models.csv,40,denominator_revision=rev2024; series=legacy_18_59; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,6.21858593844536,6.24115912634206,0.022573187896700375
+reanalysis/data/robustness_count_models.csv,41,denominator_revision=rev2024; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,4.14232798662337,4.1304885372754,-0.011839449347970543
+reanalysis/data/robustness_count_models.csv,41,denominator_revision=rev2024; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,0.452308704162108,0.434051349145692,-0.01825735501641601
+reanalysis/data/robustness_count_models.csv,41,denominator_revision=rev2024; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,7.96789659075368,7.96297169489695,-0.0049248958567300605
+reanalysis/data/robustness_count_models.csv,41,denominator_revision=rev2024; series=legacy_18_59; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.0331593033863652,0.0337299633579255,0.0005706599715603056
+reanalysis/data/robustness_count_models.csv,42,denominator_revision=rev2024; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,4.11046209984804,4.09946715485168,-0.010994944996360445
+reanalysis/data/robustness_count_models.csv,42,denominator_revision=rev2024; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,1.65493612910474,1.64026212714559,-0.01467400195915003
+reanalysis/data/robustness_count_models.csv,42,denominator_revision=rev2024; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,6.6253025320685,6.61817310514226,-0.007129426926240079
+reanalysis/data/robustness_count_models.csv,42,denominator_revision=rev2024; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.000940315617557035,0.000988493062721284,4.817744516424894e-05
+reanalysis/data/robustness_count_models.csv,42,denominator_revision=rev2024; series=legacy_18_59; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,210.4928362853,209.608019233246,-0.8848170520539895
+reanalysis/data/robustness_count_models.csv,46,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,annual_pct_change,0.293211058068388,0.289557981624289,-0.0036530764440990127
+reanalysis/data/robustness_count_models.csv,46,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,ci_low,-0.336511774532733,-0.340156623016064,-0.0036448484833309647
+reanalysis/data/robustness_count_models.csv,46,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,ci_high,0.926912788588474,0.923251525723701,-0.003661262864773085
+reanalysis/data/robustness_count_models.csv,46,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,p_value,0.362263074489455,0.368276822141451,0.0060137476519960265
+reanalysis/data/robustness_count_models.csv,46,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=poisson; nb_theta=NA; nb_note=,pearson_dispersion_poisson,3.01731290514308,3.01956262487821,0.002249719735130107
+reanalysis/data/robustness_count_models.csv,47,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,annual_pct_change,0.293211058068388,0.289557981624289,-0.0036530764440990127
+reanalysis/data/robustness_count_models.csv,47,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_low,-0.81970987939074,-0.82376085647855,-0.004050977087809993
+reanalysis/data/robustness_count_models.csv,47,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,ci_high,1.41862029346984,1.41537455956862,-0.0032457339012199604
+reanalysis/data/robustness_count_models.csv,47,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=quasipoisson; pearson_dispersion_poisson=NA; nb_theta=NA; nb_note=,p_value,0.601807880923205,0.606468326745989,0.004660445822784021
+reanalysis/data/robustness_count_models.csv,48,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,annual_pct_change,1.14437804044705,1.1367449228985,-0.007633117548550006
+reanalysis/data/robustness_count_models.csv,48,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_low,0.0382351685246807,0.030338627113391,-0.0078965414112897
+reanalysis/data/robustness_count_models.csv,48,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,ci_high,2.26275175641664,2.25538885486634,-0.007362901550300283
+reanalysis/data/robustness_count_models.csv,48,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,p_value,0.0425501037362007,0.0440081913292797,0.0014580875930789994
+reanalysis/data/robustness_count_models.csv,48,denominator_revision=rev2024; series=age_adjusted_poisson_ge7; model=negbin; pearson_dispersion_poisson=NA; nb_note=,nb_theta,156.051404277986,155.912197876991,-0.13920640099499337
+reanalysis/data/robustness_who_standard_by_year.csv,8,denominator_revision=rev2018; series=who_standardized_ge7; year=2021,n_deaths,2423,2422,-1.0
+reanalysis/data/robustness_who_standard_by_year.csv,8,denominator_revision=rev2018; series=who_standardized_ge7; year=2021,rate,1.04850327760684,1.04795379454326,-0.0005494830635799364
+reanalysis/data/robustness_who_standard_by_year.csv,16,denominator_revision=rev2018; series=who_standardized_5_34; year=2021,n_deaths,210,209,-1.0
+reanalysis/data/robustness_who_standard_by_year.csv,16,denominator_revision=rev2018; series=who_standardized_5_34; year=2021,rate,0.207992533345984,0.207019409048877,-0.0009731242971069975
+reanalysis/data/robustness_who_standard_by_year.csv,24,denominator_revision=rev2024; series=who_standardized_ge7; year=2021,n_deaths,2423,2422,-1.0
+reanalysis/data/robustness_who_standard_by_year.csv,24,denominator_revision=rev2024; series=who_standardized_ge7; year=2021,rate,1.07996610724266,1.07940123208904,-0.0005648751536200258
+reanalysis/data/robustness_who_standard_by_year.csv,32,denominator_revision=rev2024; series=who_standardized_5_34; year=2021,n_deaths,210,209,-1.0
+reanalysis/data/robustness_who_standard_by_year.csv,32,denominator_revision=rev2024; series=who_standardized_5_34; year=2021,rate,0.213010250550035,0.212009867147425,-0.0010003834026099945
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,rate_2021,1.04850327760684,1.04795379454326,-0.0005494830635799364
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,pct_change,-4.20959439810172,-4.25979472332306,-0.05020032522134077
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,slope,-0.000115194130603038,-0.000160984385901161,-4.5790255298122995e-05
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,ci_low,-0.0207130002925609,-0.0207981223260925,-8.512203353159761e-05
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,ci_high,0.0204826120313548,0.0204761535542902,-6.458477064600482e-06
+reanalysis/data/robustness_who_standard_summary.csv,1,denominator_revision=rev2018; series=who_standardized_ge7,p_value,0.989525397706041,0.985390091570976,-0.0041353061350649645
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,rate_2021,0.207992533345984,0.207019409048877,-0.0009731242971069975
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,pct_change,16.9290160321405,16.3819460738723,-0.5470699582681995
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,slope,0.0068582149786789,0.00677712128725334,-8.109369142556e-05
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,ci_low,0.00153235998315484,0.00139731309611293,-0.00013504688704190997
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,ci_high,0.012184069974203,0.0121569294783937,-2.7140495809300016e-05
+reanalysis/data/robustness_who_standard_summary.csv,2,denominator_revision=rev2018; series=who_standardized_5_34,p_value,0.0197911137504434,0.0215951030704891,0.0018039893200457006
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,rate_2021,1.07996610724266,1.07940123208904,-0.0005648751536200258
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,pct_change,-2.0286890691392,-2.07993286182974,-0.0512437926905398
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,slope,0.0030866319556022,0.003039559026134,-4.707292946819989e-05
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,ci_low,-0.0175557708049613,-0.0176414864523568,-8.571564739549842e-05
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,ci_high,0.0237290347161657,0.0237206045046248,-8.430211540899624e-06
+reanalysis/data/robustness_who_standard_summary.csv,3,denominator_revision=rev2024; series=who_standardized_ge7,p_value,0.727005746384197,0.731442322282984,0.0044365758987869874
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,rate_2021,0.213010250550035,0.212009867147425,-0.0010003834026099945
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,pct_change,19.1067033001995,18.5473294258743,-0.5593738743251997
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,slope,0.00751954265764017,0.00743617737408932,-8.336528355085051e-05
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,ci_low,0.00206943270974392,0.0019302842534637,-0.00013914845628021973
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,ci_high,0.0129696526055364,0.0129420704947149,-2.7582110821501235e-05
+reanalysis/data/robustness_who_standard_summary.csv,4,denominator_revision=rev2024; series=who_standardized_5_34,p_value,0.0149310640049615,0.0163107809752405,0.001379716970278999
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,3,denominator_revision=rev2018; series=age_5_34,end_to_end_pct,20.2609521698088,19.6882809690002,-0.5726712008085997
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,3,denominator_revision=rev2018; series=age_5_34,brum_style_mean_rel_variation_pct,13.3057045319364,13.2238943603923,-0.08181017154409886
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,3,denominator_revision=rev2018; series=age_5_34,mean_yoy_pct,3.06484915087056,3.00393803579742,-0.06091111507314029
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,4,denominator_revision=rev2024; series=age_5_34,end_to_end_pct,21.654245531741,21.0749396006375,-0.5793059311035016
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,4,denominator_revision=rev2024; series=age_5_34,brum_style_mean_rel_variation_pct,14.2431100528622,14.1603520627045,-0.08275799015769891
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,4,denominator_revision=rev2024; series=age_5_34,mean_yoy_pct,3.23655214807095,3.17562031289676,-0.060931835174189874
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,5,denominator_revision=rev2018; series=age_7_34_control,end_to_end_pct,23.509874299543,22.8984392782581,-0.6114350212849011
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,5,denominator_revision=rev2018; series=age_7_34_control,brum_style_mean_rel_variation_pct,15.6089215038156,15.521573643632,-0.08734786018360019
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,5,denominator_revision=rev2018; series=age_7_34_control,mean_yoy_pct,3.54172331831157,3.47973758536657,-0.061985732945000205
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,6,denominator_revision=rev2024; series=age_7_34_control,end_to_end_pct,24.9912016798247,24.3724333546771,-0.6187683251476024
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,6,denominator_revision=rev2024; series=age_7_34_control,brum_style_mean_rel_variation_pct,16.6092221148963,16.5208266398752,-0.08839547502110179
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,6,denominator_revision=rev2024; series=age_7_34_control,mean_yoy_pct,3.71992065904862,3.65791333867287,-0.06200732037574985
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,end_to_end_pct,-4.00865008124508,-4.05736531505469,-0.048715233809609515
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,brum_style_mean_rel_variation_pct,2.07369905140852,2.06673973229287,-0.0069593191156500644
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,mean_yoy_pct,-0.299279688893374,-0.305633392102932,-0.006353703209558026
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,end_to_end_pct,-1.47569874210965,-1.52505810681284,-0.04935936470319002
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,brum_style_mean_rel_variation_pct,3.26573897324097,3.25868763542623,-0.0070513378147398775
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,mean_yoy_pct,0.0649241681482921,0.0585932538827837,-0.006330914265508407
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,end_to_end_pct,11.9095645397683,11.8634732858392,-0.04609125392910052
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,brum_style_mean_rel_variation_pct,11.635773121797,11.62918865695,-0.006584464847000149
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,mean_yoy_pct,1.90296918508605,1.89767874541421,-0.005290439671839842
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,end_to_end_pct,12.8563415201422,12.8098603251174,-0.04648119502479986
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,brum_style_mean_rel_variation_pct,12.1358980885771,12.1292579178593,-0.006640170717799876
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,mean_yoy_pct,2.02329725024487,2.01799612540722,-0.005301124837650217
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,end_to_end_pct,12.4922425926924,12.4459113560398,-0.04633123665260008
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,brum_style_mean_rel_variation_pct,11.9739862881284,11.9673675400351,-0.006618748093298876
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,mean_yoy_pct,1.97840633704321,1.97311092557001,-0.005295411473199785
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,end_to_end_pct,13.6998467149938,13.6530181125576,-0.04682860243620013
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,brum_style_mean_rel_variation_pct,12.5564114437625,12.5497216434145,-0.006689800347999153
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,mean_yoy_pct,2.13108081713834,2.12577018045451,-0.005310636683829806
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,13,denominator_revision=rev2018; series=legacy_18_59,end_to_end_pct,22.9121004118956,22.7495182684937,-0.16258214340190236
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,13,denominator_revision=rev2018; series=legacy_18_59,brum_style_mean_rel_variation_pct,16.4808847306769,16.4576587101909,-0.023226020486003307
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,13,denominator_revision=rev2018; series=legacy_18_59,mean_yoy_pct,3.91753549192454,3.90183064700774,-0.01570484491680002
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,14,denominator_revision=rev2024; series=legacy_18_59,end_to_end_pct,24.2537979353241,24.0894410597483,-0.1643568755758018
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,14,denominator_revision=rev2024; series=legacy_18_59,brum_style_mean_rel_variation_pct,17.3406194174085,17.3171398637549,-0.023479553653601215
+reanalysis/data/sensitivity_brum_style_change_metrics.csv,14,denominator_revision=rev2024; series=legacy_18_59,mean_yoy_pct,4.07471359004361,4.05899305625362,-0.015720533789989943
+reanalysis/data/sensitivity_denominators_by_year.csv,9,series=age_5_34; year=2014; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,9,series=age_5_34; year=2014; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,9,series=age_5_34; year=2014; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,9,series=age_5_34; year=2014; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,10,series=age_5_34; year=2015; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,10,series=age_5_34; year=2015; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,10,series=age_5_34; year=2015; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,10,series=age_5_34; year=2015; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,11,series=age_5_34; year=2016; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,11,series=age_5_34; year=2016; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,11,series=age_5_34; year=2016; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,11,series=age_5_34; year=2016; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,12,series=age_5_34; year=2017; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,12,series=age_5_34; year=2017; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,12,series=age_5_34; year=2017; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,12,series=age_5_34; year=2017; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,13,series=age_5_34; year=2018; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,13,series=age_5_34; year=2018; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,13,series=age_5_34; year=2018; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,13,series=age_5_34; year=2018; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,14,series=age_5_34; year=2019; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,14,series=age_5_34; year=2019; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,14,series=age_5_34; year=2019; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,14,series=age_5_34; year=2019; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,15,series=age_5_34; year=2020; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,15,series=age_5_34; year=2020; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,15,series=age_5_34; year=2020; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,15,series=age_5_34; year=2020; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,n_deaths,210,209,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,rate,0.218589238999572,0.217548337861479,-0.0010409011380929922
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,pct_change,20.2609521698088,19.6882809690002,-0.5726712008085997
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,16,series=age_5_34; year=2021; denominator_revision=rev2018,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_by_year.csv,17,series=age_7_34_control; year=2014; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,17,series=age_7_34_control; year=2014; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,17,series=age_7_34_control; year=2014; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,17,series=age_7_34_control; year=2014; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,18,series=age_7_34_control; year=2015; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,18,series=age_7_34_control; year=2015; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,18,series=age_7_34_control; year=2015; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,18,series=age_7_34_control; year=2015; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,19,series=age_7_34_control; year=2016; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,19,series=age_7_34_control; year=2016; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,19,series=age_7_34_control; year=2016; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,19,series=age_7_34_control; year=2016; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,20,series=age_7_34_control; year=2017; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,20,series=age_7_34_control; year=2017; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,20,series=age_7_34_control; year=2017; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,20,series=age_7_34_control; year=2017; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,21,series=age_7_34_control; year=2018; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,21,series=age_7_34_control; year=2018; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,21,series=age_7_34_control; year=2018; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,21,series=age_7_34_control; year=2018; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,22,series=age_7_34_control; year=2019; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,22,series=age_7_34_control; year=2019; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,22,series=age_7_34_control; year=2019; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,22,series=age_7_34_control; year=2019; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,23,series=age_7_34_control; year=2020; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,23,series=age_7_34_control; year=2020; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,23,series=age_7_34_control; year=2020; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,23,series=age_7_34_control; year=2020; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,n_deaths,202,201,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,rate,0.224120920914639,0.223011411405161,-0.001109509509477996
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,pct_change,23.509874299543,22.8984392782581,-0.6114350212849011
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,24,series=age_7_34_control; year=2021; denominator_revision=rev2018,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_by_year.csv,25,series=age_standardized_2014std; year=2014; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,25,series=age_standardized_2014std; year=2014; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,25,series=age_standardized_2014std; year=2014; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,25,series=age_standardized_2014std; year=2014; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,26,series=age_standardized_2014std; year=2015; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,26,series=age_standardized_2014std; year=2015; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,26,series=age_standardized_2014std; year=2015; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,26,series=age_standardized_2014std; year=2015; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,27,series=age_standardized_2014std; year=2016; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,27,series=age_standardized_2014std; year=2016; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,27,series=age_standardized_2014std; year=2016; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,27,series=age_standardized_2014std; year=2016; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,28,series=age_standardized_2014std; year=2017; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,28,series=age_standardized_2014std; year=2017; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,28,series=age_standardized_2014std; year=2017; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,28,series=age_standardized_2014std; year=2017; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,29,series=age_standardized_2014std; year=2018; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,29,series=age_standardized_2014std; year=2018; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,29,series=age_standardized_2014std; year=2018; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,29,series=age_standardized_2014std; year=2018; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,30,series=age_standardized_2014std; year=2019; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,30,series=age_standardized_2014std; year=2019; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,30,series=age_standardized_2014std; year=2019; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,30,series=age_standardized_2014std; year=2019; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,31,series=age_standardized_2014std; year=2020; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,31,series=age_standardized_2014std; year=2020; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,31,series=age_standardized_2014std; year=2020; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,31,series=age_standardized_2014std; year=2020; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,n_deaths,2423,2422,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,rate,1.07773654668122,1.07718959960837,-0.0005469470728500792
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,pct_change,-4.00865008124508,-4.05736531505469,-0.048715233809609515
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,32,series=age_standardized_2014std; year=2021; denominator_revision=rev2018,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_by_year.csv,33,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,33,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,33,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,33,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,34,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,34,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,34,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,34,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,35,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,35,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,35,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,35,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,36,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,36,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,36,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,36,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,37,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,37,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,37,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,37,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,38,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,38,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,38,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,38,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,39,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,39,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,39,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,39,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,n_deaths,2428,2427,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,rate,1.26016179314837,1.25964278087771,-0.0005190122706599798
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,pct_change,11.9095645397683,11.8634732858392,-0.04609125392910052
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,40,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2018,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_by_year.csv,41,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,41,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,41,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,41,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,42,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,42,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,42,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,42,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,43,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,43,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,43,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,43,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,44,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,44,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,44,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,44,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,45,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,45,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,45,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,45,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,46,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,46,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,46,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,46,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,47,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,47,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,47,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,47,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,n_deaths,2428,2427,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,rate,1.13820873481541,1.13773995032825,-0.0004687844871600344
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,pct_change,12.4922425926924,12.4459113560398,-0.04633123665260008
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,48,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2018,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_by_year.csv,49,series=legacy_18_59; year=2014; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,49,series=legacy_18_59; year=2014; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,49,series=legacy_18_59; year=2014; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,49,series=legacy_18_59; year=2014; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,50,series=legacy_18_59; year=2015; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,50,series=legacy_18_59; year=2015; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,50,series=legacy_18_59; year=2015; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,50,series=legacy_18_59; year=2015; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,51,series=legacy_18_59; year=2016; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,51,series=legacy_18_59; year=2016; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,51,series=legacy_18_59; year=2016; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,51,series=legacy_18_59; year=2016; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,52,series=legacy_18_59; year=2017; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,52,series=legacy_18_59; year=2017; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,52,series=legacy_18_59; year=2017; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,52,series=legacy_18_59; year=2017; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,53,series=legacy_18_59; year=2018; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,53,series=legacy_18_59; year=2018; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,53,series=legacy_18_59; year=2018; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,53,series=legacy_18_59; year=2018; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,54,series=legacy_18_59; year=2019; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,54,series=legacy_18_59; year=2019; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,54,series=legacy_18_59; year=2019; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,54,series=legacy_18_59; year=2019; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,55,series=legacy_18_59; year=2020; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,55,series=legacy_18_59; year=2020; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,55,series=legacy_18_59; year=2020; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,55,series=legacy_18_59; year=2020; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,n_deaths,756,755,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,rate,0.587345619971815,0.586568707776085,-0.0007769121957299507
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,pct_change,22.9121004118956,22.7495182684937,-0.16258214340190236
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,56,series=legacy_18_59; year=2021; denominator_revision=rev2018,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_by_year.csv,81,series=age_5_34; year=2014; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,81,series=age_5_34; year=2014; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,81,series=age_5_34; year=2014; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,81,series=age_5_34; year=2014; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,82,series=age_5_34; year=2015; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,82,series=age_5_34; year=2015; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,82,series=age_5_34; year=2015; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,82,series=age_5_34; year=2015; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,83,series=age_5_34; year=2016; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,83,series=age_5_34; year=2016; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,83,series=age_5_34; year=2016; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,83,series=age_5_34; year=2016; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,84,series=age_5_34; year=2017; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,84,series=age_5_34; year=2017; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,84,series=age_5_34; year=2017; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,84,series=age_5_34; year=2017; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,85,series=age_5_34; year=2018; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,85,series=age_5_34; year=2018; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,85,series=age_5_34; year=2018; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,85,series=age_5_34; year=2018; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,86,series=age_5_34; year=2019; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,86,series=age_5_34; year=2019; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,86,series=age_5_34; year=2019; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,86,series=age_5_34; year=2019; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,87,series=age_5_34; year=2020; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,87,series=age_5_34; year=2020; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,87,series=age_5_34; year=2020; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,87,series=age_5_34; year=2020; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,n_deaths,210,209,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,rate,0.222400022214585,0.221340974489754,-0.0010590477248309804
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,pct_change,21.654245531741,21.0749396006375,-0.5793059311035016
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,88,series=age_5_34; year=2021; denominator_revision=rev2024,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_by_year.csv,89,series=age_7_34_control; year=2014; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,89,series=age_7_34_control; year=2014; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,89,series=age_7_34_control; year=2014; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,89,series=age_7_34_control; year=2014; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,90,series=age_7_34_control; year=2015; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,90,series=age_7_34_control; year=2015; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,90,series=age_7_34_control; year=2015; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,90,series=age_7_34_control; year=2015; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,91,series=age_7_34_control; year=2016; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,91,series=age_7_34_control; year=2016; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,91,series=age_7_34_control; year=2016; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,91,series=age_7_34_control; year=2016; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,92,series=age_7_34_control; year=2017; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,92,series=age_7_34_control; year=2017; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,92,series=age_7_34_control; year=2017; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,92,series=age_7_34_control; year=2017; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,93,series=age_7_34_control; year=2018; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,93,series=age_7_34_control; year=2018; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,93,series=age_7_34_control; year=2018; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,93,series=age_7_34_control; year=2018; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,94,series=age_7_34_control; year=2019; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,94,series=age_7_34_control; year=2019; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,94,series=age_7_34_control; year=2019; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,94,series=age_7_34_control; year=2019; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,95,series=age_7_34_control; year=2020; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,95,series=age_7_34_control; year=2020; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,95,series=age_7_34_control; year=2020; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,95,series=age_7_34_control; year=2020; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,n_deaths,202,201,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,rate,0.228207373576815,0.227077634103662,-0.0011297394731530075
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,pct_change,24.9912016798247,24.3724333546771,-0.6187683251476024
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,96,series=age_7_34_control; year=2021; denominator_revision=rev2024,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_by_year.csv,97,series=age_standardized_2014std; year=2014; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,97,series=age_standardized_2014std; year=2014; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,97,series=age_standardized_2014std; year=2014; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,97,series=age_standardized_2014std; year=2014; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,98,series=age_standardized_2014std; year=2015; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,98,series=age_standardized_2014std; year=2015; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,98,series=age_standardized_2014std; year=2015; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,98,series=age_standardized_2014std; year=2015; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,99,series=age_standardized_2014std; year=2016; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,99,series=age_standardized_2014std; year=2016; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,99,series=age_standardized_2014std; year=2016; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,99,series=age_standardized_2014std; year=2016; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,100,series=age_standardized_2014std; year=2017; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,100,series=age_standardized_2014std; year=2017; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,100,series=age_standardized_2014std; year=2017; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,100,series=age_standardized_2014std; year=2017; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,101,series=age_standardized_2014std; year=2018; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,101,series=age_standardized_2014std; year=2018; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,101,series=age_standardized_2014std; year=2018; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,101,series=age_standardized_2014std; year=2018; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,102,series=age_standardized_2014std; year=2019; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,102,series=age_standardized_2014std; year=2019; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,102,series=age_standardized_2014std; year=2019; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,102,series=age_standardized_2014std; year=2019; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,103,series=age_standardized_2014std; year=2020; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,103,series=age_standardized_2014std; year=2020; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,103,series=age_standardized_2014std; year=2020; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,103,series=age_standardized_2014std; year=2020; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,n_deaths,2423,2422,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,rate,1.11179068310798,1.11123369076091,-0.0005569923470700733
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,pct_change,-1.47569874210965,-1.52505810681284,-0.04935936470319002
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,104,series=age_standardized_2014std; year=2021; denominator_revision=rev2024,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_by_year.csv,105,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,105,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,105,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,105,series=brum_crude_national_gt6_pop; year=2014; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,106,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,106,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,106,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,106,series=brum_crude_national_gt6_pop; year=2015; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,107,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,107,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,107,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,107,series=brum_crude_national_gt6_pop; year=2016; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,108,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,108,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,108,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,108,series=brum_crude_national_gt6_pop; year=2017; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,109,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,109,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,109,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,109,series=brum_crude_national_gt6_pop; year=2018; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,110,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,110,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,110,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,110,series=brum_crude_national_gt6_pop; year=2019; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,111,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,111,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,111,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,111,series=brum_crude_national_gt6_pop; year=2020; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,n_deaths,2428,2427,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,rate,1.27727445203322,1.27674839171524,-0.0005260603179799705
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,pct_change,12.8563415201422,12.8098603251174,-0.04648119502479986
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,112,series=brum_crude_national_gt6_pop; year=2021; denominator_revision=rev2024,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_by_year.csv,113,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,113,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,113,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,113,series=brum_crude_national_total_pop; year=2014; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,114,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,114,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,114,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,114,series=brum_crude_national_total_pop; year=2015; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,115,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,115,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,115,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,115,series=brum_crude_national_total_pop; year=2016; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,116,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,116,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,116,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,116,series=brum_crude_national_total_pop; year=2017; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,117,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,117,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,117,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,117,series=brum_crude_national_total_pop; year=2018; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,118,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,118,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,118,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,118,series=brum_crude_national_total_pop; year=2019; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,119,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,119,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,119,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,119,series=brum_crude_national_total_pop; year=2020; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,n_deaths,2428,2427,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,rate,1.15562013913114,1.1551441835549,-0.00047595557624013907
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,pct_change,13.6998467149938,13.6530181125576,-0.04682860243620013
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_by_year.csv,120,series=brum_crude_national_total_pop; year=2021; denominator_revision=rev2024,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_by_year.csv,121,series=legacy_18_59; year=2014; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,121,series=legacy_18_59; year=2014; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,121,series=legacy_18_59; year=2014; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,121,series=legacy_18_59; year=2014; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,122,series=legacy_18_59; year=2015; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,122,series=legacy_18_59; year=2015; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,122,series=legacy_18_59; year=2015; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,122,series=legacy_18_59; year=2015; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,123,series=legacy_18_59; year=2016; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,123,series=legacy_18_59; year=2016; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,123,series=legacy_18_59; year=2016; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,123,series=legacy_18_59; year=2016; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,124,series=legacy_18_59; year=2017; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,124,series=legacy_18_59; year=2017; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,124,series=legacy_18_59; year=2017; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,124,series=legacy_18_59; year=2017; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,125,series=legacy_18_59; year=2018; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,125,series=legacy_18_59; year=2018; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,125,series=legacy_18_59; year=2018; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,125,series=legacy_18_59; year=2018; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,126,series=legacy_18_59; year=2019; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,126,series=legacy_18_59; year=2019; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,126,series=legacy_18_59; year=2019; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,126,series=legacy_18_59; year=2019; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,127,series=legacy_18_59; year=2020; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,127,series=legacy_18_59; year=2020; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,127,series=legacy_18_59; year=2020; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,127,series=legacy_18_59; year=2020; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,n_deaths,756,755,-1.0
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,rate,0.597541363891957,0.59675096526247,-0.0007903986294870435
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,pct_change,24.2537979353241,24.0894410597483,-0.1643568755758018
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_by_year.csv,128,series=legacy_18_59; year=2021; denominator_revision=rev2024,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,rate_2021,0.218589238999572,0.217548337861479,-0.0010409011380929922
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,pct_change,20.2609521698088,19.6882809690002,-0.5726712008085997
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/data/sensitivity_denominators_summary.csv,3,denominator_revision=rev2018; series=age_5_34,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,rate_2021,0.222400022214585,0.221340974489754,-0.0010590477248309804
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,pct_change,21.654245531741,21.0749396006375,-0.5793059311035016
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,slope,0.00849879339183583,0.00841053941476658,-8.82539770692501e-05
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,ci_low,0.00263582169782758,0.00249096951719281,-0.00014485218063477016
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,ci_high,0.0143617650858441,0.0143301093123403,-3.165577350379943e-05
+reanalysis/data/sensitivity_denominators_summary.csv,4,denominator_revision=rev2024; series=age_5_34,p_value,0.0121163085155059,0.0131974488365876,0.0010811403210817007
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,rate_2021,0.224120920914639,0.223011411405161,-0.001109509509477996
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,pct_change,23.509874299543,22.8984392782581,-0.6114350212849011
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/data/sensitivity_denominators_summary.csv,5,denominator_revision=rev2018; series=age_7_34_control,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,rate_2021,0.228207373576815,0.227077634103662,-0.0011297394731530075
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,pct_change,24.9912016798247,24.3724333546771,-0.6187683251476024
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,slope,0.009863500570674,0.00976935561457798,-9.414495609602093e-05
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,ci_low,0.0034998287503476,0.00333956245130183,-0.00016026629904576997
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,ci_high,0.0162271723910004,0.0161991487778541,-2.8023613146299642e-05
+reanalysis/data/sensitivity_denominators_summary.csv,6,denominator_revision=rev2024; series=age_7_34_control,p_value,0.00904537648734371,0.00987790656920077,0.0008325300818570608
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,rate_2021,1.07773654668122,1.07718959960837,-0.0005469470728500792
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,pct_change,-4.00865008124508,-4.05736531505469,-0.048715233809609515
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/data/sensitivity_denominators_summary.csv,7,denominator_revision=rev2018; series=age_standardized_2014std,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,rate_2021,1.11179068310798,1.11123369076091,-0.0005569923470700733
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,pct_change,-1.47569874210965,-1.52505810681284,-0.04935936470319002
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,slope,0.00396684343406959,0.00392042740514708,-4.6416028922509865e-05
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,ci_low,-0.0175645401282893,-0.0176496089073266,-8.506877903730059e-05
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,ci_high,0.0254982269964284,0.0254904637176208,-7.763278807599444e-06
+reanalysis/data/sensitivity_denominators_summary.csv,8,denominator_revision=rev2024; series=age_standardized_2014std,p_value,0.667961395251399,0.672105060049107,0.004143664797708002
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,rate_2021,1.26016179314837,1.25964278087771,-0.0005190122706599798
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,pct_change,11.9095645397683,11.8634732858392,-0.04609125392910052
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/data/sensitivity_denominators_summary.csv,9,denominator_revision=rev2018; series=brum_crude_national_gt6_pop,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,rate_2021,1.27727445203322,1.27674839171524,-0.0005260603179799705
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,pct_change,12.8563415201422,12.8098603251174,-0.04648119502479986
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,slope,0.0285522710174486,0.0285084326576177,-4.383835983089862e-05
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,ci_low,0.00474220307494869,0.0046591503716946,-8.305270325408964e-05
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,ci_high,0.0523623389599485,0.0523577149435408,-4.62401640769633e-06
+reanalysis/data/sensitivity_denominators_summary.csv,10,denominator_revision=rev2024; series=brum_crude_national_gt6_pop,p_value,0.0261419526215774,0.0264607920678403,0.0003188394462628995
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,rate_2021,1.13820873481541,1.13773995032825,-0.0004687844871600344
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,pct_change,12.4922425926924,12.4459113560398,-0.04633123665260008
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/data/sensitivity_denominators_summary.csv,11,denominator_revision=rev2018; series=brum_crude_national_total_pop,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,rate_2021,1.15562013913114,1.1551441835549,-0.00047595557624013907
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,pct_change,13.6998467149938,13.6530181125576,-0.04682860243620013
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,slope,0.0268623996851047,0.0268227367204174,-3.96629646873016e-05
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,ci_low,0.00545434208282979,0.00537953663471292,-7.480544811686984e-05
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,ci_high,0.0482704572873796,0.0482659368061219,-4.52048125770127e-06
+reanalysis/data/sensitivity_denominators_summary.csv,12,denominator_revision=rev2024; series=brum_crude_national_total_pop,p_value,0.0219326246077979,0.0222028520358746,0.00027022742807670044
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,rate_2021,0.587345619971815,0.586568707776085,-0.0007769121957299507
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,pct_change,22.9121004118956,22.7495182684937,-0.16258214340190236
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,slope,0.0212457940296664,0.0211810513466889,-6.474268297750052e-05
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,ci_low,0.000805842235970505,0.000710408367268774,-9.543386870173101e-05
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,ci_high,0.0416857458233623,0.041651694326109,-3.4051497253301255e-05
+reanalysis/data/sensitivity_denominators_summary.csv,13,denominator_revision=rev2018; series=legacy_18_59,p_value,0.0438803876637114,0.0445695449502597,0.0006891572865483017
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,rate_2021,0.597541363891957,0.59675096526247,-0.0007903986294870435
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,pct_change,24.2537979353241,24.0894410597483,-0.1643568755758018
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,slope,0.0224043165212325,0.0223384499687753,-6.586655245719927e-05
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,ci_low,0.00169443214781267,0.00159687417295318,-9.755797485948986e-05
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,ci_high,0.0431142008946524,0.0430800257645975,-3.417513005490175e-05
+reanalysis/data/sensitivity_denominators_summary.csv,14,denominator_revision=rev2024; series=legacy_18_59,p_value,0.0381756725152318,0.0387836718614175,0.0006079993461856961
+reanalysis/primary_results.csv,9,series=age_5_34; year=2014; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,9,series=age_5_34; year=2014; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,9,series=age_5_34; year=2014; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,9,series=age_5_34; year=2014; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,10,series=age_5_34; year=2015; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,10,series=age_5_34; year=2015; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,10,series=age_5_34; year=2015; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,10,series=age_5_34; year=2015; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,11,series=age_5_34; year=2016; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,11,series=age_5_34; year=2016; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,11,series=age_5_34; year=2016; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,11,series=age_5_34; year=2016; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,12,series=age_5_34; year=2017; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,12,series=age_5_34; year=2017; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,12,series=age_5_34; year=2017; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,12,series=age_5_34; year=2017; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,13,series=age_5_34; year=2018; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,13,series=age_5_34; year=2018; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,13,series=age_5_34; year=2018; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,13,series=age_5_34; year=2018; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,14,series=age_5_34; year=2019; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,14,series=age_5_34; year=2019; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,14,series=age_5_34; year=2019; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,14,series=age_5_34; year=2019; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,15,series=age_5_34; year=2020; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,15,series=age_5_34; year=2020; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,15,series=age_5_34; year=2020; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,15,series=age_5_34; year=2020; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,n_deaths,210,209,-1.0
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,rate,0.218589238999572,0.217548337861479,-0.0010409011380929922
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,pct_change,20.2609521698088,19.6882809690002,-0.5726712008085997
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,slope,0.00803472331808118,0.00794798155657344,-8.67417615077401e-05
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,ci_low,0.00226513249251399,0.00212395208606378,-0.00014118040645021016
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,ci_high,0.0138043141436484,0.0137720110270831,-3.2303116565299966e-05
+reanalysis/primary_results.csv,16,series=age_5_34; year=2021; small_count_flag=FALSE,p_value,0.0143615761467604,0.0156258498359131,0.0012642736891527
+reanalysis/primary_results.csv,17,series=age_7_34_control; year=2014; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,17,series=age_7_34_control; year=2014; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,17,series=age_7_34_control; year=2014; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,17,series=age_7_34_control; year=2014; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,18,series=age_7_34_control; year=2015; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,18,series=age_7_34_control; year=2015; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,18,series=age_7_34_control; year=2015; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,18,series=age_7_34_control; year=2015; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,19,series=age_7_34_control; year=2016; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,19,series=age_7_34_control; year=2016; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,19,series=age_7_34_control; year=2016; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,19,series=age_7_34_control; year=2016; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,20,series=age_7_34_control; year=2017; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,20,series=age_7_34_control; year=2017; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,20,series=age_7_34_control; year=2017; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,20,series=age_7_34_control; year=2017; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,21,series=age_7_34_control; year=2018; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,21,series=age_7_34_control; year=2018; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,21,series=age_7_34_control; year=2018; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,21,series=age_7_34_control; year=2018; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,22,series=age_7_34_control; year=2019; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,22,series=age_7_34_control; year=2019; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,22,series=age_7_34_control; year=2019; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,22,series=age_7_34_control; year=2019; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,23,series=age_7_34_control; year=2020; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,23,series=age_7_34_control; year=2020; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,23,series=age_7_34_control; year=2020; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,23,series=age_7_34_control; year=2020; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,n_deaths,202,201,-1.0
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,rate,0.224120920914639,0.223011411405161,-0.001109509509477996
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,pct_change,23.509874299543,22.8984392782581,-0.6114350212849011
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,slope,0.0093574309462341,0.00926497182044426,-9.245912578983995e-05
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,ci_low,0.00310099826634118,0.00294483107881498,-0.0001561671875261999
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,ci_high,0.015613863626127,0.0155851125620735,-2.8751064053499087e-05
+reanalysis/primary_results.csv,24,series=age_7_34_control; year=2021; small_count_flag=FALSE,p_value,0.0105829482904751,0.0115449610386122,0.0009620127481370991
+reanalysis/primary_results.csv,25,series=age_standardized_2014std; year=2014; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,25,series=age_standardized_2014std; year=2014; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,25,series=age_standardized_2014std; year=2014; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,25,series=age_standardized_2014std; year=2014; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,26,series=age_standardized_2014std; year=2015; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,26,series=age_standardized_2014std; year=2015; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,26,series=age_standardized_2014std; year=2015; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,26,series=age_standardized_2014std; year=2015; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,27,series=age_standardized_2014std; year=2016; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,27,series=age_standardized_2014std; year=2016; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,27,series=age_standardized_2014std; year=2016; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,27,series=age_standardized_2014std; year=2016; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,28,series=age_standardized_2014std; year=2017; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,28,series=age_standardized_2014std; year=2017; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,28,series=age_standardized_2014std; year=2017; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,28,series=age_standardized_2014std; year=2017; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,29,series=age_standardized_2014std; year=2018; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,29,series=age_standardized_2014std; year=2018; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,29,series=age_standardized_2014std; year=2018; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,29,series=age_standardized_2014std; year=2018; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,30,series=age_standardized_2014std; year=2019; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,30,series=age_standardized_2014std; year=2019; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,30,series=age_standardized_2014std; year=2019; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,30,series=age_standardized_2014std; year=2019; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,31,series=age_standardized_2014std; year=2020; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,31,series=age_standardized_2014std; year=2020; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,31,series=age_standardized_2014std; year=2020; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,31,series=age_standardized_2014std; year=2020; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,n_deaths,2423,2422,-1.0
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,rate,1.07773654668122,1.07718959960837,-0.0005469470728500792
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,pct_change,-4.00865008124508,-4.05736531505469,-0.048715233809609515
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,slope,0.000198267411815038,0.00015268848907774,-4.5578922737298005e-05
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,ci_low,-0.0213297143033935,-0.0214152366711416,-8.55223677481004e-05
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,ci_high,0.0217262491270236,0.0217206136492971,-5.635477726501081e-06
+reanalysis/primary_results.csv,32,series=age_standardized_2014std; year=2021; small_count_flag=FALSE,p_value,0.982751588298544,0.986740823200384,0.00398923490184
+reanalysis/primary_results.csv,33,series=brum_crude_national_gt6_pop; year=2014; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,33,series=brum_crude_national_gt6_pop; year=2014; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,33,series=brum_crude_national_gt6_pop; year=2014; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,33,series=brum_crude_national_gt6_pop; year=2014; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,34,series=brum_crude_national_gt6_pop; year=2015; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,34,series=brum_crude_national_gt6_pop; year=2015; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,34,series=brum_crude_national_gt6_pop; year=2015; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,34,series=brum_crude_national_gt6_pop; year=2015; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,35,series=brum_crude_national_gt6_pop; year=2016; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,35,series=brum_crude_national_gt6_pop; year=2016; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,35,series=brum_crude_national_gt6_pop; year=2016; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,35,series=brum_crude_national_gt6_pop; year=2016; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,36,series=brum_crude_national_gt6_pop; year=2017; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,36,series=brum_crude_national_gt6_pop; year=2017; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,36,series=brum_crude_national_gt6_pop; year=2017; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,36,series=brum_crude_national_gt6_pop; year=2017; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,37,series=brum_crude_national_gt6_pop; year=2018; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,37,series=brum_crude_national_gt6_pop; year=2018; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,37,series=brum_crude_national_gt6_pop; year=2018; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,37,series=brum_crude_national_gt6_pop; year=2018; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,38,series=brum_crude_national_gt6_pop; year=2019; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,38,series=brum_crude_national_gt6_pop; year=2019; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,38,series=brum_crude_national_gt6_pop; year=2019; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,38,series=brum_crude_national_gt6_pop; year=2019; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,39,series=brum_crude_national_gt6_pop; year=2020; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,39,series=brum_crude_national_gt6_pop; year=2020; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,39,series=brum_crude_national_gt6_pop; year=2020; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,39,series=brum_crude_national_gt6_pop; year=2020; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,n_deaths,2428,2427,-1.0
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,rate,1.26016179314837,1.25964278087771,-0.0005190122706599798
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,pct_change,11.9095645397683,11.8634732858392,-0.04609125392910052
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,slope,0.0268436301523916,0.0268003791298371,-4.325102255450103e-05
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,ci_low,0.0031483811650918,0.00306631640252053,-8.20647625712702e-05
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,ci_high,0.0505388791396915,0.0505344418571538,-4.437282537704534e-06
+reanalysis/primary_results.csv,40,series=brum_crude_national_gt6_pop; year=2021; small_count_flag=FALSE,p_value,0.0323355159967552,0.032722181375397,0.0003866653786417998
+reanalysis/primary_results.csv,41,series=brum_crude_national_total_pop; year=2014; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,41,series=brum_crude_national_total_pop; year=2014; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,41,series=brum_crude_national_total_pop; year=2014; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,41,series=brum_crude_national_total_pop; year=2014; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,42,series=brum_crude_national_total_pop; year=2015; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,42,series=brum_crude_national_total_pop; year=2015; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,42,series=brum_crude_national_total_pop; year=2015; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,42,series=brum_crude_national_total_pop; year=2015; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,43,series=brum_crude_national_total_pop; year=2016; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,43,series=brum_crude_national_total_pop; year=2016; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,43,series=brum_crude_national_total_pop; year=2016; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,43,series=brum_crude_national_total_pop; year=2016; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,44,series=brum_crude_national_total_pop; year=2017; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,44,series=brum_crude_national_total_pop; year=2017; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,44,series=brum_crude_national_total_pop; year=2017; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,44,series=brum_crude_national_total_pop; year=2017; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,45,series=brum_crude_national_total_pop; year=2018; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,45,series=brum_crude_national_total_pop; year=2018; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,45,series=brum_crude_national_total_pop; year=2018; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,45,series=brum_crude_national_total_pop; year=2018; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,46,series=brum_crude_national_total_pop; year=2019; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,46,series=brum_crude_national_total_pop; year=2019; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,46,series=brum_crude_national_total_pop; year=2019; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,46,series=brum_crude_national_total_pop; year=2019; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,47,series=brum_crude_national_total_pop; year=2020; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,47,series=brum_crude_national_total_pop; year=2020; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,47,series=brum_crude_national_total_pop; year=2020; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,47,series=brum_crude_national_total_pop; year=2020; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,n_deaths,2428,2427,-1.0
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,rate,1.13820873481541,1.13773995032825,-0.0004687844871600344
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,pct_change,12.4922425926924,12.4459113560398,-0.04633123665260008
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,slope,0.0249731033603723,0.0249340379864426,-3.9065373929701025e-05
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,ci_low,0.00361992894742534,0.00354586369072478,-7.406525670056001e-05
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,ci_high,0.0463262777733192,0.0463222122821604,-4.065491158798673e-06
+reanalysis/primary_results.csv,48,series=brum_crude_national_total_pop; year=2021; small_count_flag=FALSE,p_value,0.0287365721796226,0.0290832355450401,0.00034666336541749887
