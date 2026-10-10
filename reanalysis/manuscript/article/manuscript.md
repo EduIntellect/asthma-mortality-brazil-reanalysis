@@ -68,7 +68,7 @@ Analyses were performed in R 4.3.3 [10]. The analysis code, intermediate aggrega
 
 Generative AI coding assistants were used in developing and debugging the analysis pipeline, including scripts for data retrieval, case selection, denominator construction, age standardisation, statistical modelling and generation of tables and figures. The repository history identifies work performed using Claude Code (Anthropic) and the GitHub Copilot coding agent (GitHub).
 
-[AUTHOR CONFIRMATION REQUIRED: Describe the actual human review and validation performed on the code and outputs, and confirm the authors' responsibility for the analytical decisions.]
+[AUTHOR CONFIRMATION REQUIRED: one-sentence statement of the human review actually completed; see AUTHOR_REVIEW_CHECKLIST.md.]
 
 The figure was rendered programmatically from analytical outputs rather than generated as an image by an AI image-generation tool.
 
@@ -140,7 +140,7 @@ In conclusion, the increase in crude asthma mortality in Brazil between 2014 and
 
 # Author contributions
 
-[AUTHOR INPUT REQUIRED]
+**Provisional CRediT assignments (subject to both authors' approval):** Francisco Federico García Crespi — Conceptualization, Methodology, Software, Formal analysis, Data curation, Visualization, and Writing – original draft. Amaury de Souza — Writing – review & editing, Validation (epidemiological and scientific interpretation), and scientific review of the manuscript. Contributions are assignments for review, not confirmation that all listed tasks are complete. Final author order and any additional contributors require author confirmation.
 
 # References
 
