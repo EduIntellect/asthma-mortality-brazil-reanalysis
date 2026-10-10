@@ -1,6 +1,6 @@
 # Session and provenance information
 
-Captured at: 2026-10-01 15:05:36.944712
+Captured at: 2026-10-10 19:03:20.54501
 Original analysis repository: mobrant94/asthma_mortality
 Original repository commit SHA used as reference: 8d527a5 (mobrant94/asthma_mortality, 15 mayo 2024)
 
@@ -35,7 +35,7 @@ Original repository commit SHA used as reference: 8d527a5 (mobrant94/asthma_mort
 ## sessionInfo()
 R version 4.3.3 (2024-02-29)
 Platform: x86_64-pc-linux-gnu (64-bit)
-Running under: Ubuntu 24.04.4 LTS
+Running under: Ubuntu 24.04.5 LTS
 
 Matrix products: default
 BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
