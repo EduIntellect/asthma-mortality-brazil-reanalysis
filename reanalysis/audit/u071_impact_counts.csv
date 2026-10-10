@@ -1,0 +1,17 @@
+"year","measure","current_rule","with_u071","difference"
+2020,"post_exclusions",2708,2708,0
+2020,"valid_birth_date",2705,2705,0
+2020,"continuous_age_gt6",2678,2678,0
+2020,"completed_age_ge7",2677,2677,0
+2020,"age_5_34",236,236,0
+2020,"age_7_34",232,232,0
+2020,"age_35_59",709,709,0
+2020,"age_ge60",1736,1736,0
+2021,"post_exclusions",2459,2458,-1
+2021,"valid_birth_date",2459,2458,-1
+2021,"continuous_age_gt6",2428,2427,-1
+2021,"completed_age_ge7",2423,2422,-1
+2021,"age_5_34",210,209,-1
+2021,"age_7_34",202,201,-1
+2021,"age_35_59",591,591,0
+2021,"age_ge60",1630,1630,0
