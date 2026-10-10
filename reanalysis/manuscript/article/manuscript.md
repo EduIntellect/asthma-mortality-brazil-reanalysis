@@ -12,7 +12,7 @@ title: "Reassessing the reported increase in asthma mortality in Brazil: reprodu
 
 **Conclusion:** Changes in population age composition accounted for most of the crude increase, without establishing a causal explanation. The primary age-standardised analysis did not support a comparable national increase, whereas mortality at ages 5–34 rose. Surveillance should report crude, age-standardised and age-specific rates jointly.
 
-**Keywords:** [AUTHOR INPUT REQUIRED]
+**Keywords:** Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.
 
 <!-- BEGIN MAIN TEXT -->
 
@@ -66,9 +66,7 @@ Analyses were performed in R 4.3.3 [10]. The analysis code, intermediate aggrega
 
 ## Use of artificial intelligence
 
-Generative AI coding assistants were used in developing and debugging the analysis pipeline, including scripts for data retrieval, case selection, denominator construction, age standardisation, statistical modelling and generation of tables and figures. The repository history identifies work performed using Claude Code (Anthropic) and the GitHub Copilot coding agent (GitHub).
-
-[AUTHOR CONFIRMATION REQUIRED: one-sentence statement of the human review actually completed; see AUTHOR_REVIEW_CHECKLIST.md.]
+AI-assisted tools, including Claude Code (Anthropic) and GitHub Copilot (GitHub), were used to develop, review and debug analysis scripts. Generative AI was also used for language editing of the manuscript. [AUTHOR CONFIRMATION REQUIRED: verify the tools and versions, specify the actual scope of AI assistance and the human checks performed, and confirm this declaration with all authors before submission.]
 
 The figures were rendered programmatically from analytical outputs rather than generated as images by an AI image-generation tool.
 
@@ -76,7 +74,7 @@ The figures were rendered programmatically from analytical outputs rather than g
 
 The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
-[AUTHOR/INSTITUTIONAL CONFIRMATION REQUIRED: Confirm the applicable Brazilian ethics-review exemption and the wording required by the journal.]
+[ETHICS CONFIRMATION REQUIRED: Confirm with the target journal and, if necessary, the competent Brazilian ethics committee whether analysis of these publicly accessible SIM records and aggregated population data requires review or qualifies for an exemption. Do not claim approval or exemption before confirmation.]
 
 # Results
 
@@ -126,17 +124,13 @@ Overall, the increase in crude asthma mortality in Brazil between 2014 and 2021 
 
 <!-- END MAIN TEXT -->
 
-# Acknowledgments
-
-Generative AI tools were used for language editing of the manuscript text. [AUTHOR INPUT REQUIRED: name the tools and versions, and state whether they were also used to draft text.] [AUTHOR CONFIRMATION REQUIRED: once all authors have reviewed the AI-suggested changes, add a sentence stating that the authors reviewed them and take full responsibility for the content.]
-
 # Funding
 
-[AUTHOR INPUT REQUIRED]
+No funding was received for this study. [CO-AUTHOR CONFIRMATION REQUIRED]
 
 # Conflicts of interest
 
-[AUTHOR INPUT REQUIRED]
+The authors declare no conflicts of interest. [CO-AUTHOR CONFIRMATION REQUIRED]
 
 # Author contributions
 
