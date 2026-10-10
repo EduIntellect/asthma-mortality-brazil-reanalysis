@@ -47,7 +47,7 @@ load_and_filter_sim_year <- function(input_path,
   idade_quantidade <- as.numeric(difftime(dtobito_date, dtnasc_date, units = "days")) / 365.25
   n_missing_or_invalid_birthdate <- sum(is.na(idade_quantidade))
 
-  patterns <- c("B342", "U072", "COVID-19")
+  patterns <- c("B342", "U071", "U072", "COVID-19")
   pattern_regex <- paste(patterns, collapse = "|")
   excl_cols <- c("LINHAA", "LINHAB", "LINHAC", "LINHAD", "LINHAII")
   is_covid <- Reduce(`|`, lapply(excl_cols, function(col) {
