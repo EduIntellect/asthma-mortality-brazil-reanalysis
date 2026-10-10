@@ -160,8 +160,10 @@ p = 0.029, 2.3% (1.0 to 3.6) negative binomial crude, dispersion 5.9, 68.2%,
 highest 2020 (0.244), 0.0002 slope, 35–59 results. Amaury's suggested
 absolute increase for 5–34 becomes 0.036 per 100,000 (was 0.037).
 
-Repository documentation that quotes the old counts (README, 
-`audit_reproduction.md`) was not edited on this branch.
+Repository documentation was updated on this branch in a later commit
+(`fc90560`): the README now reports the corrected-rule results, and
+`audit_reproduction.md` keeps its original-rule figures, labelled as
+historical, with a new section comparing both rules.
 
 ## 6. Interpretative difference and decision
 

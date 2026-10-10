@@ -27,11 +27,15 @@
 - Identificador de tabla/hoja: hoja `BR`, bloque "POPULAÇÃO TOTAL - IDADES SIMPLES" (ambos sexos),
   edades simples 0 a "90+", años 2010-2060 en columnas.
 - Notas de versión: revisión 2018 del IBGE, **anterior** al censo de 2022. Elegida como fuente
-  primaria por ser la revisión vigente y contemporánea cuando Brum et al. publicaron su análisis
-  (2024); la revisión 2024 (posterior al censo 2022) no estaba disponible entonces.
+  primaria por continuidad con el análisis ya ejecutado; la revisión 2024 (posterior al censo
+  2022) se usa como análisis de sensibilidad. La justificación inicial (que la revisión 2018
+  era la contemporánea y la 2024 no existía cuando Brum et al. hicieron su análisis) se retiró:
+  en su carta a la revista (DOI 10.36416/1806-3756/e20240162) Brum et al. defienden ajustar la
+  población al censo 2022 (ver la retractación en `audit_reproduction.md`).
 - Hash de fichero: sha256 `69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28`
   (ver `session_info.txt`).
-- Fuente alternativa (no usada en la ejecución primaria, disponible para robustez):
+- Fuente alternativa (no usada en la ejecución primaria; usada en los análisis de sensibilidad,
+  `R/07_denominator_sensitivity.R` y `R/08_count_models_and_who_standard.R`):
   `https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab1_idade_simples.xlsx`
   (revisión 2024, posterior al censo 2022).
 

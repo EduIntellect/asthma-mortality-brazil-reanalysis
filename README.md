@@ -15,9 +15,11 @@ respecto al procedimiento original, no una replicación exacta.
 - Total frente al publicado (18.584 muertes, edad continua >6): 18.582 (0,011 % de diferencia).
   De las 2 muertes de diferencia, 1 ya existía con el protocolo original (18.583, valor
   histórico) y 1 procede de la exclusión adicional por U07.1 (2021).
-- Tasa cruda nacional (denominador de Brum): sube +12,4 % 2014→2021, p=0,029.
-- **Tras estandarizar por edad** (estándar poblacional Brasil 2014): el aumento **no persiste**
-  — pendiente ≈0 (p=0,99).
+- Tasa cruda nacional (denominador: población total, proyección IBGE revisión 2018): sube
+  +12,4 % 2014→2021, p=0,029.
+- **Tras estandarizar por edad** (estándar poblacional Brasil 2014): en el análisis principal
+  no se detectó una tendencia estadísticamente significativa (pendiente ≈0, p=0,99). El
+  intervalo de confianza no permite afirmar que la tendencia sea nula.
 - **Grupo 5-34 años**: el aumento **sí persiste** y es significativo (+19,7 %, p=0,016),
   confirmado por el grupo control 7-34 (compatible con el filtro de edad original).
 - Robustez (fuera del protocolo): con modelos de conteos el 5-34 se mantiene (+4,0 %/año,
