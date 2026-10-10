@@ -55,6 +55,8 @@ To separate the effect of the rate definition from the effect of the model, the 
 
 In the post hoc analyses we modelled annual deaths with Poisson, quasi-Poisson and negative binomial regression, with the logarithm of the population as offset and calendar year as a linear term. The annual change is $100\,[\exp(\beta)-1]$\%. Overdispersion was measured by the dispersion, the Pearson chi-square statistic divided by its degrees of freedom in the Poisson model; confidence intervals for the quasi-Poisson model use the $t$ distribution. To estimate a national trend that needs no standard population, we fitted a Poisson model to deaths by year and age band (7--14, 15--24, 25--34, 35--44, 45--54, 55--64, 65--74, 75--84 and 85 or more years), with age band as a factor and year as a linear term. Its year coefficient is a common annual change in age-specific rates. The negative binomial models were fitted with the \texttt{glm.nb} function of the MASS package \cite{mass}.
 
+In a further post hoc analysis, the change in the crude rate for completed ages of 7 years and older was split into an age-composition component and an age-specific-rate component with the symmetric Kitagawa decomposition, using single years of age and the 2018 projection. Because a comparison between two years depends on its endpoints, the decomposition was repeated for six pairs of years.
+
 We made no adjustment for multiple comparisons. Two questions were specified in advance; all other estimates are descriptive, and we did not base interpretation on statistical significance alone.
 
 \subsection{Software, data and code availability}
@@ -76,13 +78,17 @@ For the age groups of the original analysis (Table~\ref{tab:groups}), the rate a
 
 \subsection{Age-standardised rates}
 
-With the age composition of 2014 held fixed, the age-standardised rate was 1.123 per 100,000 in 2014 and 1.078 in 2021 ($-4.0\%$; Table~\ref{tab:trends} and Figure~\ref{fig:change}). The slope was 0.0002 per 100,000 per year (95\% CI $-0.021$ to 0.022; $p=0.98$). Relative to the 2014 level, the interval spans annual changes of about $-1.9\%$ to $+1.9\%$, so the data do not exclude a small trend in either direction. The highest value was in 2020 (1.230). In the same period the crude rate rose by 12.5\%, and by 11.9\% when its denominator is restricted to the population above 6 years, as in the standardised rate (Table~\ref{tab:trends}); the standardised rate did not.
+With the age composition of 2014 held fixed, the age-standardised rate was 1.123 per 100,000 in 2014 and 1.078 in 2021 ($-4.0\%$; Table~\ref{tab:trends} and Figure~\ref{fig:change}). The slope was 0.0002 per 100,000 per year (95\% CI $-0.021$ to 0.022; $p=0.98$). Relative to the 2014 level, the interval spans annual changes of about $-1.9\%$ to $+1.9\%$, so the data do not exclude a small trend in either direction. The highest value was in 2020 (1.230). Over the same deaths and population (completed ages of 7 years and older), the crude rate rose from 1.123 to 1.258 per 100,000 (+12.0\%; Figure~\ref{fig:change}). The crude rate of the reproduction rose by 12.5\%, and by 11.9\% with the population above 6 years as denominator (Table~\ref{tab:trends}); these two series use the continuous age threshold of the original analysis and are not restricted to exactly the same deaths as the standardised rate.
 
 In post hoc count models, the age-adjusted national trend ranged from 0 to about $+1.1\%$ per year across specifications, against $+2.3\%$ per year for the crude rate (Table~\ref{tab:count}). The age-adjusted Poisson model estimated a common annual change in age-specific rates of $+0.00\%$ (quasi-Poisson 95\% CI $-1.12$ to 1.14; $p=0.99$), and the negative binomial model gave $+0.9\%$ ($-0.2$ to 2.1; $p=0.10$). With the 2024 population projection the negative binomial estimate was $+1.1\%$ per year (95\% CI 0.04 to 2.3; $p=0.043$), the only one of the six count-model specifications for the national age-adjusted trend (three models, two projections) whose interval excluded zero. The other five are in the repository output \texttt{data/robustness\_count\_models.csv}.
 
 For comparison, the crude national series was clearly overdispersed (dispersion 5.9), so its Poisson $p$ value is not reliable. The quasi-Poisson and negative binomial models gave the same annual increase of 2.3\%, with $p=0.029$ and $p<0.001$, respectively. The two models therefore differ by a factor of about 40 in the $p$ value for the same estimate, which is why we report both.
 
 In further post hoc analyses, the reading of the primary specification did not change with the projection or the standard population. With the 2024 population projection the standardised rate changed by $-1.5\%$ (slope 0.004, $p=0.67$). Using the WHO standard population (Table~\ref{tab:sens}), the rate changed from 1.095 to 1.049 ($-4.2\%$; $p=0.99$) with the 2018 projection and by $-2.0\%$ ($p=0.73$) with the 2024 projection.
+
+\subsection{Decomposition of the change in the crude rate}
+
+In the post hoc Kitagawa decomposition for completed ages of 7 years and older (Table~\ref{tab:kitagawa}), the age-composition component accounted for 62\% to 193\% of the crude-rate increase across the six endpoint comparisons, while the component associated with age-specific rates changed sign. For 2014--2021, the positive composition component (+0.191 per 100,000) exceeded the net increase (+0.135) and was partly offset by changes in age-specific rates ($-0.057$). About 95\% of the composition component arose at ages 60 years and older, whose share of the population aged 7 years or more rose from 13.3\% to 16.3\%.
 
 \subsection{Ages 5--34 years}
 
@@ -138,10 +144,17 @@ At 35--59 years the evidence was inconclusive. The rate rose from 0.719 to 0.830
 \label{tab:sens}
 \end{table}
 
+\begin{table}[ht]
+\centering\small
+\caption{Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older (post hoc analysis). Rates and components per 100,000; population from the IBGE 2018 projection. The two components sum to the change in the crude rate. $^{a}$Age-composition component as a percentage of the change in the crude rate; it exceeds 100\% when the age-specific-rate component is negative, that is, when changes in age-specific rates partly offset the effect of the changing age composition.}
+\fitwidth{\input{tables/tab_kitagawa.tex}}
+\label{tab:kitagawa}
+\end{table}
+
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/fig1_relative_change.pdf}
-\caption{Relative change in each rate from its 2014 value, 2014--2021: crude national rate (dashed), age-standardised rate (Brazil 2014 standard, ages 7 or more) and rate at ages 5--34 years. Annual data; population from the IBGE 2018 projection.}
+\includegraphics[width=0.85\textwidth]{figures/fig1_relative_change_ge7.pdf}
+\caption{Relative change in each rate from its 2014 value, Brazil, 2014--2021: crude rate (dashed line, open circles) and age-standardised rate (Brazil 2014 standard; solid line, filled circles), both for completed ages of 7 years and older and the same deaths and population, and rate at ages 5--34 years (dash-dot line, triangles). Annual data; population from the IBGE 2018 projection.}
 \label{fig:change}
 \end{figure}
 
