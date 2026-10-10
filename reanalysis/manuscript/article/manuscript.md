@@ -66,7 +66,7 @@ Analyses were performed in R 4.3.3 [10]. The analysis code, intermediate aggrega
 
 ## Use of artificial intelligence
 
-AI-assisted tools, including Claude Code (Anthropic) and GitHub Copilot (GitHub), were used to develop, review and debug analysis scripts. Generative AI was also used for language editing of the manuscript. [AUTHOR CONFIRMATION REQUIRED: verify the tools and versions, specify the actual scope of AI assistance and the human checks performed, and confirm this declaration with all authors before submission.]
+Generative AI tools, including Claude Code (Anthropic) and GitHub Copilot (GitHub), were used to generate and review analysis scripts and to examine analytical results. The corresponding author wrote and finalised the manuscript. [AUTHOR CONFIRMATION REQUIRED: verify the tools and versions, document the human validation of scripts and outputs, and confirm this declaration with all authors before submission.]
 
 The figures were rendered programmatically from analytical outputs rather than generated as images by an AI image-generation tool.
 
