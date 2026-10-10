@@ -70,7 +70,7 @@ Generative AI coding assistants were used in developing and debugging the analys
 
 [AUTHOR CONFIRMATION REQUIRED: one-sentence statement of the human review actually completed; see AUTHOR_REVIEW_CHECKLIST.md.]
 
-The figure was rendered programmatically from analytical outputs rather than generated as an image by an AI image-generation tool.
+The figures were rendered programmatically from analytical outputs rather than generated as images by an AI image-generation tool.
 
 ## Ethics
 
