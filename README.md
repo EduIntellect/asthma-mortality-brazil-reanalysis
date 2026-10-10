@@ -142,3 +142,31 @@ the decomposition identity is satisfied for every endpoint pair.
   committed in native R write.csv format (commit dd3c0d5).
 - The full run_pipeline.R workflow, which downloads SIM microdata, was not
   re-executed as part of this validation.
+
+
+## Word review copy with all three figures
+
+The submission manuscript remains `reanalysis/manuscript/article/build/manuscript.docx`;
+journal figure files are maintained separately. For author review, generate a
+separate Word copy with three embedded figures and produce the extra JPEGs:
+
+```sh
+bash reanalysis/manuscript/article/build_docx.sh
+python3 -m pip install python-docx matplotlib numpy
+python3 reanalysis/manuscript/article/build_review_figures.py
+```
+
+Inputs are the frozen `primary_results.csv` and
+`data/kitagawa_endpoint_sensitivity.csv`; no models are re-estimated.
+
+Outputs:
+- `reanalysis/manuscript/article/build/manuscript_with_3_figures_REVIEW.docx`
+- `reanalysis/manuscript/figures/fig2_kitagawa_sensitivity.jpg`
+- `reanalysis/manuscript/figures/fig3_age_5_34_mortality.jpg`
+- The first figure, `fig1_relative_change_ge7.jpg`, already exists in the
+  repository.
+
+The review copy supplements the two primary tables and does not change the
+scientific evidence or replace the journal submission file. The three figures
+are for author review pending final approval of figure selection, captions
+and numbering.
