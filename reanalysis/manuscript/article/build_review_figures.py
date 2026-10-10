@@ -91,7 +91,7 @@ def build_review_docx(p2, p3):
         ("Figure 1. Age-aligned national trends",
          "Relative change from 2014 for the crude and age-standardised national rates among completed ages 7 or more, alongside ages 5\u201334."),
         ("Figure 2. Kitagawa decomposition and endpoint sensitivity",
-         "Post hoc age composition (black) and age-specific rates (hatched) across six pairs of years; components sum to the observed crude-rate change. Exact values in Supplementary Table S6."),
+         "Post hoc age composition (black) and age-specific rates (hatched) across six pairs of years; components sum to the observed crude-rate change. The components are accounting terms, not causal effects. Exact values in Supplementary Table S6."),
         ("Supplementary Figure S1. Mortality at ages 5\u201334 years",
          "Annual mortality rates for ages 5\u201334 and the overlapping ages 7\u201334 control; lower panel: annual deaths at ages 5\u201334."),
     ]
