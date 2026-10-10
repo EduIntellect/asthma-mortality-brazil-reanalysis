@@ -25,6 +25,8 @@ statement of the review actually carried out.
   research in the Human and Social Sciences; confirm the criterion that applies).
 - Acknowledgments: a provisional statement now records generative-AI assistance
   in language editing (the external author-review copy was produced with AI
-  editing tools). Authors must name the tools and versions, say whether AI was
-  also used to draft text, and validate the wording.
+  editing tools). Authors must name the tools and versions and say whether AI
+  was also used to draft text. The statement that the authors reviewed the
+  AI-suggested changes and take responsibility for the content is added only
+  after every co-author has confirmed it.
 - Final CRediT roles (provisional in `manuscript.md`).

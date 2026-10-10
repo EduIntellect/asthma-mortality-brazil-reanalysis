@@ -128,7 +128,7 @@ Overall, the increase in crude asthma mortality in Brazil between 2014 and 2021 
 
 # Acknowledgments
 
-Generative AI tools were used for language editing of the manuscript text; the authors reviewed every suggested change and take full responsibility for the content. [AUTHOR INPUT REQUIRED: name the tools and versions, state whether they were also used to draft text, and validate this statement.]
+Generative AI tools were used for language editing of the manuscript text. [AUTHOR INPUT REQUIRED: name the tools and versions, and state whether they were also used to draft text.] [AUTHOR CONFIRMATION REQUIRED: once all authors have reviewed the AI-suggested changes, add a sentence stating that the authors reviewed them and take full responsibility for the content.]
 
 # Funding
 
