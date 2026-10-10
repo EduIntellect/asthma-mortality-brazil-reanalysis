@@ -22,7 +22,8 @@ unchanged.
   `u071_rerun_estimates.md`). At the precision reported in the manuscript,
   27 cited values change (section 5).
 - **Interpretative differences: one**, about how the reproduction is
-  described (section 6). No substantive conclusion changes.
+  described (section 6); resolved by the authors' decision to use a single
+  corrected rule and declare the deviation. No substantive conclusion changes.
 
 ## 2. Execution and verification
 
@@ -151,7 +152,7 @@ pairs ending in 2021 (plus JPEG noise along unchanged lines).
 | Results §4 | 7–34 +23.5%, p = 0.011 | +22.9%, p = 0.012 |
 | Results §4 | QP 5–34: 4.0% (1.2 to 7.0; p = 0.013); 2024: 4.2% (p = 0.011) | 4.0% (1.1 to 6.9; p = 0.014); 4.2% (p = 0.012) |
 | Results §4 | WHO 5–34: 16.9% (p = 0.020); 19.1% (p = 0.015) | 16.4% (p = 0.022); 18.5% (p = 0.016) |
-| Discussion | "one death of difference in the total count" | two deaths |
+| Discussion | "one death of difference in the total count" | two deaths, one already present under the original rule and one from U07.1 |
 
 Unchanged at reported precision: 0.025 and 0.004 to 0.046 (crude slope),
 p = 0.029, 2.3% (1.0 to 3.6) negative binomial crude, dispersion 5.9, 68.2%,
@@ -162,14 +163,29 @@ absolute increase for 5–34 becomes 0.036 per 100,000 (was 0.037).
 Repository documentation that quotes the old counts (README, 
 `audit_reproduction.md`) was not edited on this branch.
 
-## 6. Interpretative difference
+## 6. Interpretative difference and decision
 
-The "reproduction" in the manuscript is a reproduction of Brum et al.'s code,
-which does not exclude U07.1. With the corrected rule, the reproduced total is
-18,582 against 18,584 published (difference 0.011%, still within the 2%
-criterion), and the reproduction is no longer literal: it includes one
-deliberate deviation from the original code. Every other claim in the
-Abstract, Results and Discussion keeps its direction and significance class:
+The "reproduction" reported so far applied Brum et al.'s code, which does not
+exclude U07.1. With the corrected rule the total at continuous age >6 is
+18,582 against 18,584 published (difference 0.011%, within the 2% criterion).
+The two-death difference has two sources and must not be attributed entirely
+to U07.1:
+
+- one death was already missing under the original rule (18,583). Its source
+  has not been identified; the documented, unverified explanations are
+  deduplication on a narrower column set than the original `distinct()` and
+  possible retrospective revision of the SIM files (`audit_reproduction.md`);
+- one death is the additional U07.1 exclusion (2021).
+
+Decision (authors, 2026-10-10): a single selection rule including U07.1 is
+used throughout, including the comparison with Brum et al., and the deviation
+from the original code is declared. The corrected results are therefore a
+reanalysis with a declared deviation, not an exact replication; values
+obtained with the original rule (18,583; 18,544; 1,591) are historical and
+are labelled as such in `audit_reproduction.md` and the README.
+
+Every other claim in the Abstract, Results and Discussion keeps its direction
+and significance class:
 
 - national age-standardised trend not distinguishable from zero (p = 0.987);
 - only one of six age-adjusted count specifications excludes zero (NB, IBGE
@@ -178,10 +194,6 @@ Abstract, Results and Discussion keeps its direction and significance class:
   increase where age-specific rates fall;
 - increase at ages 5–34 significant in all reported specifications
   (largest p = 0.022).
-
-Decision needed before integration: whether the reproduction section keeps
-Brum's literal rule (two selection rules in one paper) or uses the corrected
-rule throughout and states the U07.1 deviation explicitly.
 
 ## 7. Reproduce the comparison
 

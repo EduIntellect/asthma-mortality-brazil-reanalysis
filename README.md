@@ -8,17 +8,23 @@ directa por edad y (b) en el grupo de edad 5-34 años?
 
 ## Resultado (ver `reanalysis/audit_reproduction.md` y `reanalysis/primary_results.csv`)
 
-- Reproducción del total publicado (18.584 muertes): 18.583 reproducidas, 0,0054 % de diferencia.
-- Tasa cruda nacional (reproducción literal de Brum): sube +12,6 % 2014→2021, p=0,029.
+Regla de selección única: exclusión COVID del código de Brum (B342, U072, "COVID-19") más U07.1
+(ver `reanalysis/audit/u071_rerun_diff.md`). Es un reanálisis con una desviación declarada
+respecto al procedimiento original, no una replicación exacta.
+
+- Total frente al publicado (18.584 muertes, edad continua >6): 18.582 (0,011 % de diferencia).
+  De las 2 muertes de diferencia, 1 ya existía con el protocolo original (18.583, valor
+  histórico) y 1 procede de la exclusión adicional por U07.1 (2021).
+- Tasa cruda nacional (denominador de Brum): sube +12,4 % 2014→2021, p=0,029.
 - **Tras estandarizar por edad** (estándar poblacional Brasil 2014): el aumento **no persiste**
-  — pendiente ≈0 (p=0,98).
-- **Grupo 5-34 años**: el aumento **sí persiste** y es significativo (+20,3 %, p=0,014),
+  — pendiente ≈0 (p=0,99).
+- **Grupo 5-34 años**: el aumento **sí persiste** y es significativo (+19,7 %, p=0,016),
   confirmado por el grupo control 7-34 (compatible con el filtro de edad original).
 - Robustez (fuera del protocolo): con modelos de conteos el 5-34 se mantiene (+4,0 %/año,
-  cuasi-Poisson p=0,013) y el estándar WHO da lo mismo; la tendencia nacional ajustada por edad
+  cuasi-Poisson p=0,014) y el estándar WHO da lo mismo; la tendencia nacional ajustada por edad
   queda entre 0 y +1 %/año según el modelo. Ver `reanalysis/R/08_count_models_and_who_standard.R`.
 - Sensibilidad con población post-censo 2022 (IBGE, revisión 2024): mismas conclusiones
-  (estandarizada p=0,67; 5-34 p=0,012). Ver `reanalysis/R/07_denominator_sensitivity.R`.
+  (estandarizada p=0,67; 5-34 p=0,013). Ver `reanalysis/R/07_denominator_sensitivity.R`.
 
 ## Estructura
 
@@ -121,13 +127,15 @@ the decomposition identity is satisfied for every endpoint pair.
   difference within that same age domain.
 - Population age 90 represents the **90+ open interval**, matching the
   standardisation pipeline.
-- **Age-domain boundary:** 18,544 deaths (2014–2021) in the completed
-  age-7+ domain used for standardisation and Kitagawa, versus 18,583
-  in the literal Brum reproduction with continuous age >6
-  (39 records' difference). Do not mix these denominators.
+- **Age-domain boundary:** 18,543 deaths (2014–2021) in the completed
+  age-7+ domain used for standardisation and Kitagawa, versus 18,582
+  at continuous age >6, the domain used for the comparison with Brum
+  (39 records' difference; both with the U07.1-corrected selection rule;
+  18,544 and 18,583 with the original rule). Do not mix these denominators.
 - **Interpretation:** population ageing is a consistently positive
   compositional component in the six checked endpoint pairs. Its share
-  of the total increase is endpoint-dependent (about 62–193%);
+  of the total increase is endpoint-dependent (about 62–194%; 62–193%
+  with the original selection rule);
   the age-specific-rate component changes sign with the endpoint.
   For 2014–2021 only, composition exceeds the net increase because
   changes in age-specific rates partly offset it.
@@ -141,7 +149,9 @@ the decomposition identity is satisfied for every endpoint pair.
   R 4.3.3, passing its internal checks, and its two generated CSVs were
   committed in native R write.csv format (commit dd3c0d5).
 - The full run_pipeline.R workflow, which downloads SIM microdata, was not
-  re-executed as part of this validation.
+  re-executed as part of this validation. It was later re-executed end to
+  end with the U07.1-corrected selection rule (branch analysis/u071-rerun;
+  see reanalysis/audit/u071_rerun_diff.md).
 
 
 ## Word review copy with all three figures

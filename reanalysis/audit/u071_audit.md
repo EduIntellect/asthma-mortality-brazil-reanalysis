@@ -1,7 +1,9 @@
 # Audit: U07.1 in the COVID-related exclusion (SIM 2020–2021)
 
-Status: impact audit only. The canonical pipeline, frozen tables, figures and
-result CSVs are unchanged.
+Status: impact audit, completed. Outcome: the authors adopted a single selection
+rule that adds U07.1; the full re-run and its comparison with the previous outputs
+are in `u071_rerun_diff.md`. Figures below are those of the audit (before the
+re-run); for example, 18,544 is the completed-age ≥7 total under the original rule.
 
 ## Question
 
@@ -18,7 +20,7 @@ review asked whether this omission changes the analytical sample.
 1. Re-runs the canonical loader on the SIM files for 2020 and 2021 and stops
    unless they reproduce the committed counts in `data/fase2_year_counts.csv`
    (J45/J46 records, post-exclusion, valid birth date, continuous age >6).
-   Both years reproduced exactly.
+   Both years matched the committed counts exactly.
 2. Flags asthma records with `U071` in any cause line, and those already
    excluded by the current rule.
 3. Applies the canonical downstream steps (deduplication on the loaded
@@ -87,3 +89,7 @@ condition); neither rule excludes them.
 # SIM 2020 and 2021 in reanalysis/data_raw/ (see docs/data_sources.md)
 Rscript reanalysis/R/11_audit_u071.R   # requires vroom and dplyr
 ```
+
+Run the script at commit `02ca50e`. It checks the canonical loader against the
+committed counts of the original rule, so from `1341622` onwards (U07.1 added
+to `01_load_year.R`, outputs regenerated) its first check stops by design.

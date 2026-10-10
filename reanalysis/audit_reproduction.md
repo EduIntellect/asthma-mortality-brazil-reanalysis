@@ -3,6 +3,14 @@
 Reanálisis de Brum et al. (mortalidad por asma en Brasil, 2014-2021).
 Repositorio de referencia: `mobrant94/asthma_mortality`, commit `8d527a5` (15 mayo 2024).
 
+> **Alcance de este documento.** Las cifras de las secciones siguientes corresponden a la
+> reproducción con el **protocolo original** (regla de exclusión COVID del código de Brum:
+> B342, U072 y "COVID-19"). Son valores históricos y se conservan como tales. El reanálisis
+> corregido aplica una regla única que añade U07.1 (decisión de autores, octubre 2026); sus
+> recuentos y resultados están en la sección final "Sexta corrección: U07.1" y en
+> `audit/u071_rerun_diff.md`. Ninguno de los dos conjuntos es una replicación exacta del
+> artículo original.
+
 ## Provenance
 
 - Commit SHA de referencia: `8d527a5`.
@@ -31,7 +39,7 @@ tramo. Es decir: el numerador de "<18" son en realidad muertes de 7 a 17 años, 
 usado es población de 0 a 17 años. Esto infla artificialmente el denominador del grupo "<18" (y, en
 menor medida, deja sin corregir el denominador nacional, que no resta la población de 0-6 años).
 
-**No se ha corregido en la reproducción exacta** (Fase 1), tal como exige el protocolo: se ha
+**No se ha corregido en la reproducción con el protocolo original** (Fase 1), tal como exige el protocolo: se ha
 reproducido tal cual. Se reporta además, para la Fase 1, el cálculo alternativo con denominador
 restringido a población >6 años (columna `denominator_basis` en `data/denominator_comparison.csv`),
 para que quede constancia de cuál de los dos denominadores se acerca más a la tasa publicada.
@@ -41,7 +49,7 @@ para que quede constancia de cuál de los dos denominadores se acerca más a la 
 | | Valor |
 |---|---|
 | Objetivo publicado | 18.584 |
-| Total reproducido (suma `N_gt6_valid_age`, 2014-2021) | **18.583** |
+| Total reproducido con el protocolo original (suma `N_gt6_valid_age`, 2014-2021) | **18.583** |
 | Diferencia absoluta | 1 |
 | Diferencia relativa | **0,0054 %** |
 | Umbral de tolerancia del protocolo | ≤ 2 % |
@@ -298,3 +306,49 @@ Se dispuso del PDF completo (J Bras Pneumol 2024;50(5):e20240138). Hechos verifi
 - Nuestras tasas son un 1,8 %–5,4 % menores y la brecha crece de 2014 a 2021 (cociente 1,018→1,054). Hipótesis (no verificada): denominador distinto; el artículo cita el censo 2022 y población >6 años sin indicar la tabla.
 - Grupos de edad: signo y clase de significación coinciden (<18: −0,01, p=0,88; 18–59: +0,02, p=0,03; ≥60: −0,03, p=0,47). Reparto 2 %/30 %/68 % coincide. Cambios porcentuales publicados: −10 %, +19 %, −0,5 %; los nuestros (extremo a extremo / media de variaciones): −9,2/+12,1; +22,9/+16,5; −11,1/−1,9. El de ≥60 no se reconcilia.
 - Criterio de reproducción: cumplido en total de muertes y en signo/significación; la magnitud de los cambios porcentuales no coincide exactamente.
+
+## Sexta corrección: U07.1 en la exclusión COVID (regla única del reanálisis)
+
+La regla de exclusión del código original (B342, U072 y el texto "COVID-19" en LINHAA-D y
+LINHAII) no contempla U07.1 (COVID-19, virus identificado). La auditoría de impacto
+(`audit/u071_audit.md`) encontró 18 registros de asma con U07.1 en 2020 y 19 en 2021; la regla
+original ya excluía 36 de ellos y quedaba **1 registro adicional** (2021, 24 años, causa básica
+J45, U07.1 en la Parte II). Los autores decidieron aplicar una **regla única con U07.1** a todo
+el reanálisis, incluida la sección de reproducción, y declarar la desviación respecto al código
+original. U09.9 no se añade.
+
+Recuentos de 2014-2021 con cada regla:
+
+| | Protocolo original (histórico) | Regla corregida (U07.1) |
+|---|---|---|
+| Tras exclusiones y deduplicación | 19.048 | 19.047 |
+| Con fecha de nacimiento válida | 19.033 | 19.032 |
+| Edad continua >6 (comparación con Brum) | 18.583 | 18.582 |
+| Edad cumplida ≥7 (estandarización, Kitagawa) | 18.544 | 18.543 |
+| 5-34 años | 1.591 | 1.590 |
+
+**Diferencia frente al total publicado (18.584):** 2 muertes (0,011 %), dentro de la
+tolerancia del 2 %. Su origen es doble y no debe atribuirse por entero a U07.1:
+
+- 1 muerte ya existía con el protocolo original (18.583). Su origen no se ha identificado; las
+  explicaciones documentadas, sin verificar, son la deduplicación por un conjunto de columnas
+  distinto del `distinct()` original (segunda corrección, arriba) y la posible revisión
+  retrospectiva de los ficheros SIM;
+- 1 muerte se debe a la exclusión adicional por U07.1.
+
+Por tanto, los resultados corregidos son un **reanálisis con una desviación declarada** respecto
+al procedimiento de Brum, no una replicación exacta.
+
+Resultados principales (IBGE 2018; cambio 2014-2021; pendiente; p):
+
+| Serie | Protocolo original (histórico) | Regla corregida (U07.1) |
+|---|---|---|
+| Cruda nacional (denominador total) | +12,5 %; 0,0250; 0,029 | +12,4 %; 0,0249; 0,029 |
+| Estandarizada por edad (estándar 2014) | −4,0 %; 0,0002; 0,983 | −4,1 %; 0,0002; 0,987 |
+| 5-34 años | +20,3 %; 0,0080; 0,014 | +19,7 %; 0,0079; 0,016 |
+| 7-34 años | +23,5 %; 0,0094; 0,011 | +22,9 %; 0,0093; 0,012 |
+
+Ninguna estimación cambia de signo, de clase de significación (p < 0,05) ni de inclusión del cero
+en el IC; la comparación completa, con trazabilidad de entradas y versiones, está en
+`audit/u071_rerun_diff.md`. Las tablas de las secciones anteriores no se han reescrito: siguen
+documentando la reproducción con el protocolo original.

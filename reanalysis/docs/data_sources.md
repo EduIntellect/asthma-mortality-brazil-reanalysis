@@ -16,8 +16,9 @@
   autores originales en 2024 (posible revisión/actualización retrospectiva de la base SIM), pero es
   la fuente oficial vigente y el mismo sistema (SIM) y periodo de referência.
 - Hashes de fichero: no calculados individualmente por año (ficheros de ~70-100 MB comprimidos);
-  los conteos de reconciliación (Fase 1, tolerancia 0,03 %) sirven como verificación indirecta de
-  integridad de contenido.
+  los conteos de reconciliación (Fase 1) sirven como verificación indirecta de integridad de
+  contenido. Los sha256 de los zip descargados el 2026-10-10 (misma versión, CSV internos de
+  2025-10-21) están en `audit/u071_rerun_diff.md`.
 
 ## Denominadores de población IBGE
 
@@ -42,9 +43,10 @@
   portal oficial de datos abiertos del Ministério da Saúde.
   **Motivo**: ambas URLs originales devuelven `AccessDenied` (enlace caído), confirmado por petición
   directa antes de buscar alternativa.
-  **Impacto esperable en reproducibilidad**: ninguno detectado — el total reproducido 2014-2021
-  (18.578) está a 0,03 % del objetivo publicado (18.584), y 2021 es uno de los 8 años que componen
-  ese total.
+  **Impacto esperable en reproducibilidad**: ninguno detectado — el total 2014-2021 está a
+  0,0054 % del objetivo publicado (18.584) con el protocolo original (18.583) y a 0,011 % con la
+  regla corregida que añade U07.1 (18.582); 2021 es uno de los 8 años que componen ese total.
+  (La primera ejecución, antes de corregir la deduplicación, daba 18.578.)
 
 - **Recurso original**: `populacao_ano.xlsx` (no versionado en el repositorio original).
   **Reemplazo**: reconstrucción directa desde IBGE (revisión 2018, población por edad simple).
