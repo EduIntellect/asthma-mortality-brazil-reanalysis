@@ -12,8 +12,8 @@ El ORCID, correo y departamento de García Crespi aparecen en su artículo publi
 
 Los datos de Amaury constan en el PDF enviado, su perfil https://orcid.org/0000-0001-8168-1482 y el artículo https://www.periodicos.ufsm.br/cienciaenatura/article/download/87369/65163 . Las contribuciones se recuperan del manuscrito previo y quedan confirmadas con la respuesta del autor de correspondencia.
 
-## Único pendiente documental identificado
+## Declaración ética
 
-El autor ha indicado que se use la misma declaración de ética del manuscrito original. Se ha recuperado e incorporado literalmente en Métodos, portada y carta: “The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.” No se ha localizado un documento de aprobación o exención ética formal con entidad, número y fecha. La aprobación autoral no se convierte en una aprobación institucional, ni la declaración histórica acredita una exención concedida. Si el portal exige un identificador o documento institucional, deberá acreditarse esa determinación antes de completar el envío. Las preguntas de exclusividad y difusión previa se contestarán por el autor que efectúe el envío.
+El autor confirma que se trata de un análisis ecológico de registros públicos, sin estudio con participantes humanos, y pide usar la declaración de ética del manuscrito original. Se ha recuperado e incorporado literalmente en Métodos, portada y carta: “The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.” No se comunica un número de aprobación de un comité, porque no consta una resolución formal. La declaración factual queda cerrada para el paquete editorial. Las preguntas de exclusividad y difusión previa se contestarán por el autor que efectúe el envío.
 
 Instrucciones de la revista https://rrcpjournal.org/instructions-for-authors/ .

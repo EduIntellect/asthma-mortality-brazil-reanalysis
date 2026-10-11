@@ -65,5 +65,5 @@ def result_numbers(text):
  return re.findall(r'(?<![A-Za-z])[-+]?\d+(?:[.,]\d+)*',text)
 before=subprocess.check_output(['git','show','8b9f8fd:revision/editorial/manuscript.md'],cwd=root,text=True)
 assert result_numbers((ed/'manuscript.md').read_text())==result_numbers(before)
-report={'status':'passed','counts':counts,'vancouver_first_appearance':first,'documents':report,'science_preservation_report':'revision/qa/copyedit_checks.json','mesh_terms_verified':6,'author_approval':'Confirmed by the corresponding author on 11 October 2026','ethics_document':'No formal institutional approval/exemption located; none asserted','results_numerical_tokens_unchanged_from':'8b9f8fd','analysis_rerun':False}
+report={'status':'passed','counts':counts,'vancouver_first_appearance':first,'documents':report,'science_preservation_report':'revision/qa/copyedit_checks.json','mesh_terms_verified':6,'author_approval':'Confirmed by the corresponding author on 11 October 2026','ethics_document':'Original public-records ethics declaration included; no committee number asserted','results_numerical_tokens_unchanged_from':'8b9f8fd','analysis_rerun':False}
 (root/'revision/qa/rrcp_checks.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

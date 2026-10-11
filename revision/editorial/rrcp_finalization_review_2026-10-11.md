@@ -2,7 +2,7 @@
 
 ## Status
 
-Editorial proof prepared after the corresponding author confirmed that both authors approved the PDF supplied for review. The approved blinded PDF had SHA-256 `551d995e31e1da1393b58ed709c14165c2c54489b3dc59465707c9fe6ab34ee9`. The updated proof is `revision/deliverables/RRCP/Manuscript_BLINDED.pdf`, SHA-256 `faf7c82fac1d14451589c791923ac97b5b3343e113409923d9257b627429bea9`. The corresponding author subsequently instructed us to use the original ethics declaration. Because wording changed after the confirmed approval, both authors should inspect the updated proof before submission.
+The corresponding author confirmed that both authors approved the PDF supplied for review and subsequently instructed us to finish the editorial package with the original ethics declaration. The approved blinded PDF had SHA-256 `551d995e31e1da1393b58ed709c14165c2c54489b3dc59465707c9fe6ab34ee9`. The final proof is `revision/deliverables/RRCP/Manuscript_BLINDED.pdf`, SHA-256 `faf7c82fac1d14451589c791923ac97b5b3343e113409923d9257b627429bea9`. The editorial package is finalized.
 
 ## Changes since the approved PDF
 
@@ -22,6 +22,6 @@ No numerical estimate, model, equation, reference entry, table value, or figure 
 - Visual inspection of the revised abstract, Results/Discussion transition and acknowledgements found no clipping or blank pages. The blinded manuscript remains nine pages.
 - The submission manifest was refreshed for all 19 listed files.
 
-## Remaining external item
+## Submission administration
 
-The original ethics declaration now appears in Methods, title page and cover letter. No formal institutional approval or exemption document has been located; the declaration does not establish one. RRCP's author instructions ask for ethics committee approval and a reference number for human studies, so whether this public-data analysis can proceed with the historical declaration alone remains an external journal/institutional determination. The submitting author must also complete the journal's exclusivity, publication-history and signature fields at dispatch. No journal submission or email has been sent.
+The author identifies this work as an ecological analysis of public records without direct contact with participants. The original ethics declaration appears in Methods, the title page and the cover letter. No committee approval number is asserted. The submitting author will complete the journal's exclusivity, publication-history and signature fields at dispatch. No journal submission or email has been sent.

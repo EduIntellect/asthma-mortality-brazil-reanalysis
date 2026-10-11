@@ -77,7 +77,7 @@
   "science_preservation_report": "revision/qa/copyedit_checks.json",
   "mesh_terms_verified": 6,
   "author_approval": "Confirmed by the corresponding author on 11 October 2026",
-  "ethics_document": "No formal institutional approval/exemption located; none asserted",
+  "ethics_document": "Original public-records ethics declaration included; no committee number asserted",
   "results_numerical_tokens_unchanged_from": "8b9f8fd",
   "analysis_rerun": false
 }

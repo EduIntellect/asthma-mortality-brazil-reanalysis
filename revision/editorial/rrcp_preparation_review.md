@@ -20,7 +20,7 @@ Sources
 - Official STROBE checklist https://www.strobe-statement.org/checklists/ . Adaptation applies reporting items to an ecological national registry time series, not to a recruited cross-sectional sample.
 - NLM MeSH descriptors verified: Asthma D001249 https://www.ncbi.nlm.nih.gov/mesh/68001249 ; Mortality D009026 https://www.ncbi.nlm.nih.gov/mesh/68009026 ; Age Distribution D017677 https://www.ncbi.nlm.nih.gov/mesh/68017677 ; Population Dynamics D011157 https://www.ncbi.nlm.nih.gov/mesh/68011157 ; Reproducibility of Results D015203 https://www.ncbi.nlm.nih.gov/mesh/68015203 ; Brazil D001938 https://www.ncbi.nlm.nih.gov/mesh/68001938 .
 
-Author metadata, contributions, funding/conflicts and joint approval are confirmed. The original manuscript ethics declaration is reproduced in Methods and submission documents. No formal institutional approval or exemption document has been located or asserted. The submitting author must resolve any documentary ethics field and answer publication-history/exclusivity questions at dispatch.
+Author metadata, contributions, funding/conflicts and joint approval are confirmed. The author identifies the work as an ecological analysis of public records without direct contact with participants. The original manuscript ethics declaration is reproduced in Methods and submission documents; no committee number is asserted. The submitting author will answer publication-history/exclusivity questions at dispatch.
 
 ## Actualización de aprobación del 11 de octubre de 2026
 

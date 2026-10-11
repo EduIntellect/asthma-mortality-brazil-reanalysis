@@ -54,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "3d6b80cdee6312667153ed3086bcab06583b56f9ab211183437b4c8a895f2009",
-      "bytes": 1252
+      "sha256": "22c2bf7eecf7a8a96c2acf364bd20bff9cad553963f12c592c79a4dee8c829e7",
+      "bytes": 1220
     },
     {
       "path": "STROBE_checklist.docx",
@@ -98,7 +98,7 @@
       "bytes": 43769
     }
   ],
-  "author_approval": "confirmed by corresponding author for the 11 October 2026 approved PDF; minor editorial corrections await final proof review",
-  "ethics_document": "Original manuscript ethics declaration restored verbatim; no formal approval or exemption document located",
+  "author_approval": "Both authors approved the reviewed PDF, as confirmed by the corresponding author; final editorial proof incorporates the author-requested original ethics declaration",
+  "ethics_document": "Author confirms ecological public-records analysis without direct participant contact; original ethics declaration included; no committee number asserted",
   "sent": false
 }

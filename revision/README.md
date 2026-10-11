@@ -10,7 +10,7 @@ Prepared from commit `3884c868a07164710a2e358180b3034f9cdcf642` on branch `revis
 - `deliverables/Response_to_Amaury.docx`: prepared response to all six comments.
 - `deliverables/figures/`: three result-derived figures in PNG, vector PDF and SVG.
 - `editorial/request_resolution_matrix.csv`: 27 scientific subrequests with locations and evidence.
-- `editorial/author_confirmations.md`: confirmed author facts, recovered metadata and the remaining documentary ethics item.
+- `editorial/author_confirmations.md`: confirmed author facts, recovered metadata and the original ethics declaration.
 
 The primary corrected ≥7 sample is 18,544. Its equality to the historical total is coincidental: one retained 2018 record and one additional excluded 2021 U071 event cancel in the total. Calendar age changes 23 single-year bins. The corrected within-5–34 Brazil-standardised endpoint increase is 0.032773 per 100,000 (+18.0304%). The principal slope interval excludes zero without 2020, but not in 2014–2019; WHO with 2018 denominators without 2020 also includes zero. These qualifications are incorporated in the manuscript.
 
@@ -91,7 +91,7 @@ All final pages and figure labels were inspected. Table headers repeat on contin
 
 ## Review boundary
 
-The scientific and editorial commits are reviewable on `revision/amaury-review`, published following the user's instruction. Sending the response and submitting to the selected journal remain outside this execution. Scientific implementation and author review are complete. The corresponding author confirmed author approval and declarations on 11 October 2026; `author_confirmations.md` records recovered metadata and the remaining documentary ethics item.
+The scientific and editorial commits are reviewable on `revision/amaury-review`, published following the user's instruction. Sending the response and submitting to the selected journal remain outside this execution. Scientific implementation and author review are complete. The corresponding author confirmed author approval and declarations on 11 October 2026; `author_confirmations.md` records recovered metadata and the original ethics declaration.
 
 ## Structural revision requested by the authors
 
@@ -104,4 +104,4 @@ The upload files are in `deliverables/RRCP/`; its README maps each file to its s
 
 Run `python scripts/build_editorial.py --text-only`, then `python scripts/build_rrcp.py`. Render the generated Word files to PDFs with the document renderer before running `scripts/verify_documents.py` and `scripts/verify_rrcp.py`. `scripts/verify_copyedit.py` checks scientific hashes, identical traced values, equations, table/caption content and reference entries while permitting the documented Vancouver order. It does not claim the old ordered reference list remains unchanged.
 
-The journal file contains 249 abstract words and 2,954 body words including section headings and acknowledgements. Author approval, metadata, contributions and funding/conflicts are incorporated. The original manuscript ethics declaration is reproduced in the submission documents; no formal institutional approval or exemption document has been located. The submitting author must resolve any ethics-document field and answer exclusive-submission/publication-history questions at dispatch. No submission has been made.
+The journal file contains 249 abstract words and 2,954 body words including section headings and acknowledgements. Author approval, metadata, contributions and funding/conflicts are incorporated. The author identifies the study as an ecological analysis of public records without direct participant contact. The original manuscript ethics declaration is reproduced in the submission documents; no committee approval number is asserted. The submitting author will answer exclusive-submission/publication-history questions at dispatch. No submission has been made.

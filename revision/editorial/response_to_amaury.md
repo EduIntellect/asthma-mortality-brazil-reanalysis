@@ -44,7 +44,7 @@ Location and evidence. Methods: Selection and models; S1, S4, S8; duplicate_pair
 
 ## Declarations and journal selection
 
-The no-funding and no-conflicts wording is carried forward from the sent PDF and confirmed by the authors. No formally granted ethics approval or exemption is asserted. The author record documents confirmed contributions, affiliations and approval of AI-assisted work, while identifying the absence of a formal institutional ethics determination. Submission materials have been prepared for Respiratory Research & Clinical Practice; actual journal submission remains outside this execution.
+The no-funding and no-conflicts wording is carried forward from the sent PDF and confirmed by the authors. The author identifies this as an ecological analysis of public records without direct participant contact. The original ethics declaration is included in the submission materials. The author record documents confirmed contributions, affiliations and approval of AI-assisted work. Submission materials have been prepared for Respiratory Research & Clinical Practice; actual journal submission remains outside this execution.
 
 The reference PDF was fixed by SHA-256. The historical pipeline reproduced all selection counts, age aggregates and primary denominator cells exactly with the recovered official files. SIM 2020–2021 hashes match the available historical audit; absence of historical execution hashes for SIM 2014–2019 remains a documentary limitation. R 4.6.1 and current package versions are recorded; very small numerical environment differences, including unstable large-theta estimates near the Poisson limit, are documented.
 

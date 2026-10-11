@@ -394,18 +394,18 @@
     },
     {
       "path": "revision/README.md",
-      "bytes": 13749,
-      "sha256": "b112dc25a9b8bcc1b81b1e96c05cfbdc59c97c570f55576cd5c8e2f4aa09058b"
+      "bytes": 13780,
+      "sha256": "2ff74fa1b90b7089b45788054878e7cc5a5fc92f8f101ca0d7d0428e900aec3e"
     },
     {
       "path": "revision/deliverables/Author_confirmations.docx",
-      "bytes": 38833,
-      "sha256": "a3e538ed2481f3245ec71b05454a16c8c4db69f616697987e33527a225045c9b"
+      "bytes": 38791,
+      "sha256": "d31a3866463cd584fac2807e98469879695918a9b218cda81326c0ad29ea40fc"
     },
     {
       "path": "revision/deliverables/Author_confirmations.pdf",
-      "bytes": 42244,
-      "sha256": "b978579db8896a612e49d6c525a850bc98f1d2b94f9464223a892ad31a94d804"
+      "bytes": 41509,
+      "sha256": "c377cae58626f342b2bcc3c26574286d36f3e0b4411f644a0abde74b187f8a05"
     },
     {
       "path": "revision/deliverables/Manuscript_CLEAN.docx",
@@ -479,8 +479,8 @@
     },
     {
       "path": "revision/deliverables/RRCP/README.md",
-      "bytes": 1252,
-      "sha256": "3d6b80cdee6312667153ed3086bcab06583b56f9ab211183437b4c8a895f2009"
+      "bytes": 1220,
+      "sha256": "22c2bf7eecf7a8a96c2acf364bd20bff9cad553963f12c592c79a4dee8c829e7"
     },
     {
       "path": "revision/deliverables/RRCP/STROBE_checklist.docx",
@@ -524,18 +524,18 @@
     },
     {
       "path": "revision/deliverables/RRCP/submission_manifest.json",
-      "bytes": 3263,
-      "sha256": "b962c17b6fd19bb14fc254aff2dd088ad410fabc4a6a0b6854cbb029eef0df25"
+      "bytes": 3351,
+      "sha256": "adda95b42033ab4bd65f7765df939cdca6d6da9ca03fbe5c0a0a26fdc6bf8da9"
     },
     {
       "path": "revision/deliverables/Response_to_Amaury.docx",
       "bytes": 40619,
-      "sha256": "3cd282d7b8ec9344dccd7b89a7db061109a183df3739d41690fb8d60c12e9c89"
+      "sha256": "a47a3c14732af68fc8d714827bc4ae42ef8655f7b784050954aa23b6d82e2bc2"
     },
     {
       "path": "revision/deliverables/Response_to_Amaury.pdf",
-      "bytes": 53546,
-      "sha256": "c8b70fff747aaa0e4b51e67642d17b8a5ba55463f060d42f907054c862efee6c"
+      "bytes": 53560,
+      "sha256": "6177701a07cb2f07d6a1ed47ac0c8782d9a25bf227ec7a62c721b337a963e2c4"
     },
     {
       "path": "revision/deliverables/Supplement.docx",
@@ -599,8 +599,8 @@
     },
     {
       "path": "revision/editorial/author_confirmations.md",
-      "bytes": 2800,
-      "sha256": "ca39bab32e8423aca1b6bd2fbf3e5d8ac070ee34b845e6560d97a2aff1b75cc4"
+      "bytes": 2663,
+      "sha256": "2eee41f28e18f0aa5761947842714b44a129e0c480e785cb348fea42a3334bfe"
     },
     {
       "path": "revision/editorial/claim_trace.json",
@@ -669,8 +669,8 @@
     },
     {
       "path": "revision/editorial/response_to_amaury.md",
-      "bytes": 7229,
-      "sha256": "1fe0a0f9ce84b6c9bd921321bced0a18962479268ed04dcd8161230fd51a539e"
+      "bytes": 7270,
+      "sha256": "e9f080323f720cd8b00352974a5dd47e9d636239ef75b05012cdb1f97b22d876"
     },
     {
       "path": "revision/editorial/rrcp_cover_letter.md",
@@ -679,8 +679,8 @@
     },
     {
       "path": "revision/editorial/rrcp_finalization_review_2026-10-11.md",
-      "bytes": 2816,
-      "sha256": "9de9e1e8bbd0b62bde0bf87b3f39f47a8cd42d55091f4943c4d63ee5b8f2fc57"
+      "bytes": 2509,
+      "sha256": "fb723cab46a66db8f3320e1b5ebc94a27a5a651c8aeb7c90457550615ed784a8"
     },
     {
       "path": "revision/editorial/rrcp_manuscript_blinded.md",
@@ -689,8 +689,8 @@
     },
     {
       "path": "revision/editorial/rrcp_preparation_review.md",
-      "bytes": 3301,
-      "sha256": "67d1e8bc9d58a0599345539415cba8313fe10d4f9e98ac50bf9540f626d1fc19"
+      "bytes": 3325,
+      "sha256": "b189c1f47a8b02f27aa08eb1acb53f23044199eff8406a5fe09f61993901532f"
     },
     {
       "path": "revision/editorial/rrcp_strobe.md",
@@ -1119,8 +1119,8 @@
     },
     {
       "path": "revision/qa/rrcp_checks.json",
-      "bytes": 1928,
-      "sha256": "5bb2f12bd07d6b23eb95c7cf9e16c54905328c4d26d5baea5af599bcbf30f46f"
+      "bytes": 1944,
+      "sha256": "576c99687b2bca8f67f1985479aed46883a303e64d99bc80b42c983f8d4491bd"
     },
     {
       "path": "revision/qa/rrcp_counts.json",
@@ -2704,13 +2704,13 @@
     },
     {
       "path": "revision/scripts/build_response.py",
-      "bytes": 13522,
-      "sha256": "ca96d3b3d94d4d33f7c088749c3fafc7f6bde544f2d68984645eb6553046ac41"
+      "bytes": 10475,
+      "sha256": "fb7fb3d4befc9ecf8f17abbabfd731baa26ecb219eb8ad845f777cd73d57b017"
     },
     {
       "path": "revision/scripts/build_rrcp.py",
-      "bytes": 13205,
-      "sha256": "459e7ab3900cfb15023bf44469e5dd0402ecf22251c23ea82a59f0446cee50a8"
+      "bytes": 13173,
+      "sha256": "d531c443115780b05ac11d119b29843f6e467515f641679d17f06d2e29db9d6d"
     },
     {
       "path": "revision/scripts/compare_historical.py",
@@ -2799,8 +2799,8 @@
     },
     {
       "path": "revision/scripts/verify_rrcp.py",
-      "bytes": 4751,
-      "sha256": "34f8b62f026a64f898004e671bd73c7c553a7a10361fd3e195a02c3f3756e754"
+      "bytes": 4767,
+      "sha256": "467aa03705554719a6f77e010a2b0d55a317e5ec1345c1a7bde82a9ff113163c"
     }
   ],
   "raw_SIM": "Not embedded: public download URLs and immutable ZIP/CSV hashes are provided; fetch_inputs.py and extract_verified_candidates.py reconstruct the inputs.",
