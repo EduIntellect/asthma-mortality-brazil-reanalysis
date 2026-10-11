@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "Cover_letter.docx",
-      "sha256": "a6414e8ab0c385766a552d3501df3dd6ef9a0a2d9d874d28c583a97b2f5f5fc8",
-      "bytes": 38373
+      "sha256": "7d4808affe6c98779df8af095430d302ebe040d67fbce003c7a3e72cf5d06afe",
+      "bytes": 38466
     },
     {
       "path": "Cover_letter.pdf",
-      "sha256": "14866950d928116bc4c830401e5477c390566350a6e4600b4aba92c13fc0c0bc",
-      "bytes": 32258
+      "sha256": "e6d3f75c5207fcc13e0b93551421068df7b19d19cdee38b3dfeb3c2c93cb5382",
+      "bytes": 33531
     },
     {
       "path": "Figure1.jpg",

@@ -11,6 +11,7 @@ The corresponding author confirmed that both authors approved the PDF supplied f
 - The Results heading now covers age domains generally; the 35–59 comparison has its own paragraph.
 - The endpoint-versus-slope explanation now belongs to the national Discussion paragraph; the duplicated phrase `limit limit` was corrected.
 - The original manuscript ethics declaration was restored verbatim in Methods and copied into the title page and cover letter, at the corresponding author's request.
+- At the corresponding author's request, the cover letter now identifies Brum et al. (2024), published by this journal under its former title, and states the precise difference between the crude and age-standardised national findings. The manuscript PDF was unchanged by this letter edit.
 
 No numerical estimate, model, equation, reference entry, table value, or figure was changed. The figure bytes were preserved by the text-only build.
 

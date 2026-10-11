@@ -429,13 +429,13 @@
     },
     {
       "path": "revision/deliverables/RRCP/Cover_letter.docx",
-      "bytes": 38373,
-      "sha256": "a6414e8ab0c385766a552d3501df3dd6ef9a0a2d9d874d28c583a97b2f5f5fc8"
+      "bytes": 38466,
+      "sha256": "7d4808affe6c98779df8af095430d302ebe040d67fbce003c7a3e72cf5d06afe"
     },
     {
       "path": "revision/deliverables/RRCP/Cover_letter.pdf",
-      "bytes": 32258,
-      "sha256": "14866950d928116bc4c830401e5477c390566350a6e4600b4aba92c13fc0c0bc"
+      "bytes": 33531,
+      "sha256": "e6d3f75c5207fcc13e0b93551421068df7b19d19cdee38b3dfeb3c2c93cb5382"
     },
     {
       "path": "revision/deliverables/RRCP/Figure1.jpg",
@@ -525,7 +525,7 @@
     {
       "path": "revision/deliverables/RRCP/submission_manifest.json",
       "bytes": 3351,
-      "sha256": "adda95b42033ab4bd65f7765df939cdca6d6da9ca03fbe5c0a0a26fdc6bf8da9"
+      "sha256": "12b9189c12ee3ef5265174f0f8b30d24b7dcf45278aabf19c23c1b3695df0dc9"
     },
     {
       "path": "revision/deliverables/Response_to_Amaury.docx",
@@ -674,13 +674,13 @@
     },
     {
       "path": "revision/editorial/rrcp_cover_letter.md",
-      "bytes": 1933,
-      "sha256": "870ab297dc4182f4352a4bfc4cdc44312bf3708258378962b6f95454ce2309a9"
+      "bytes": 2073,
+      "sha256": "e18fc1d6e8b2cbae49346a3970ed397dd5f4ca1d06bd84c2d92a923c77d6f092"
     },
     {
       "path": "revision/editorial/rrcp_finalization_review_2026-10-11.md",
-      "bytes": 2509,
-      "sha256": "fb723cab46a66db8f3320e1b5ebc94a27a5a651c8aeb7c90457550615ed784a8"
+      "bytes": 2798,
+      "sha256": "6ce156a85446b0ef55e127390ccb4a27481f8d9490b95a274109f69adfae2fb0"
     },
     {
       "path": "revision/editorial/rrcp_manuscript_blinded.md",
@@ -2709,8 +2709,8 @@
     },
     {
       "path": "revision/scripts/build_rrcp.py",
-      "bytes": 13173,
-      "sha256": "d531c443115780b05ac11d119b29843f6e467515f641679d17f06d2e29db9d6d"
+      "bytes": 13313,
+      "sha256": "f28a58b8308e665545882476a49fa2abdd69132eba8ae5ec1d50a88f6ea687b8"
     },
     {
       "path": "revision/scripts/compare_historical.py",
