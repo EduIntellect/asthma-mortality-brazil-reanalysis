@@ -92,3 +92,7 @@ All final pages and figure labels were inspected. Table headers repeat on contin
 ## Review boundary
 
 The scientific and editorial commits are reviewable on `revision/amaury-review`, published following the user's instruction. Sending the response and choosing/submitting to a journal remain outside this execution. Scientific implementation is complete; the personal/institutional declarations in `author_confirmations.md` and both authors' scientific approval remain to be confirmed before submission.
+
+## Structural revision requested by the authors
+
+The five C-C-C/PIER actions are implemented in `editorial/structural_actions_review.md`. Abstract methods and the Introduction now name the descriptive decomposition; Results separate period inference from standard/model sensitivities; Discussion separates the full-period finding from temporal/historical limits; provenance was moved verbatim to reproducibility. `qa/structural_checks.json` records preservation checks. Latest manuscript/comparison rendering logs and page counts use the `render_structure_` prefix. Their 32 pages were visually inspected; the remaining 13 delivery pages are unchanged.

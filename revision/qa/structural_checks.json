@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "baseline_commit": "be52186ba37011e1b6438563648d4e3937faa019",
+  "diagnosed_pdf_sha256": "605a3b21a40f66e02ca821dc98c7791484b3e9e6e21a03ac4b6cdc5070645f90",
+  "actions_completed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "results_numerical_tokens_identical": true,
+  "provenance_paragraph_preserved_verbatim": true,
+  "scientific_files_unchanged": 322,
+  "identical_traced_values": 74,
+  "new_pages_visually_inspected": 32,
+  "unchanged_previously_inspected_pages": 13,
+  "document_pages": {
+    "Manuscript_CLEAN": 8,
+    "Manuscript_MARKED_COMPARISON": 24
+  },
+  "analysis_rerun": false
+}

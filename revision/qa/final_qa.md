@@ -19,3 +19,7 @@ Financiación, conflictos, determinación ética, afiliaciones/contribuciones y 
 ## Revisión académica posterior
 
 Se aplicaron edición académica, diagnóstico estructural C-C-C/PIER y los skills de límites de evidencia y estilo COMPAG. El informe está en `editorial/academic_style_review.md`. La comprobación por hash conserva los 322 archivos científicos protegidos y las 74 cifras trazadas, junto con ecuaciones, modelos, referencias, Tabla 1 y leyendas. Se regeneraron los documentos y se inspeccionaron sus 45 páginas. El último ajuste de redacción cambió solo la página 5 del manuscrito y la página 2 de la respuesta; ambas se revisaron de nuevo. Las figuras mantienen sus bytes originales. La revisión no recalculó análisis ni alteró conclusiones estadísticas.
+
+## Implementación del plan estructural
+
+Las cinco acciones solicitadas están implementadas y descritas en `editorial/structural_actions_review.md`. Las comprobaciones en `qa/structural_checks.json` preservan las cifras y el párrafo completo de procedencia. Se regeneraron y revisaron visualmente las 32 páginas del manuscrito y la comparación; las otras 13 páginas permanecen sin cambios.
