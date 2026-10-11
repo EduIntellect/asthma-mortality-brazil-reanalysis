@@ -1,9 +1,10 @@
 from pathlib import Path
 from PIL import Image,ImageDraw
 from pypdf import PdfReader
-import json
-root=Path(__file__).resolve().parents[1]/'qa';dest=root/'contact_final';dest.mkdir(exist_ok=True);counts={}
-for folder in sorted(root.glob('render_final_*')):
+import json,argparse
+parser=argparse.ArgumentParser();parser.add_argument('--prefix',default='final');args=parser.parse_args()
+root=Path(__file__).resolve().parents[1]/'qa';dest=root/f'contact_{args.prefix}';dest.mkdir(exist_ok=True);counts={}
+for folder in sorted(root.glob(f'render_{args.prefix}_*')):
  if not folder.is_dir():continue
  pdf=next(folder.glob('*.pdf'));n=len(PdfReader(pdf).pages);counts[pdf.stem]=n
  for i in range(1,n+1,2):
@@ -11,5 +12,5 @@ for folder in sorted(root.glob('render_final_*')):
   for j,num in enumerate(range(i,min(i+2,n+1))):
    im=Image.open(folder/f'page-{num}.png');im.thumbnail((880,1300));sheet.paste(im,(j*900+10,35));draw.text((j*900+10,8),f'{pdf.stem} page {num}',fill='black')
   sheet.save(dest/f'{pdf.stem}_{(i+1)//2:02}.jpg')
-(root/'render_final_page_counts.json').write_text(json.dumps(counts,indent=2))
+(root/f'render_{args.prefix}_page_counts.json').write_text(json.dumps(counts,indent=2))
 print(counts)

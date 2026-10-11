@@ -1,6 +1,6 @@
 # Amaury revision — scientific and editorial package
 
-Prepared locally from commit `3884c868a07164710a2e358180b3034f9cdcf642` on branch `revision/amaury-review`. The old checkout is preserved. No push, email or journal submission was performed.
+Prepared from commit `3884c868a07164710a2e358180b3034f9cdcf642` on branch `revision/amaury-review`. The old checkout is preserved. The branch was published following the user's explicit instruction. No email or journal submission was performed.
 
 ## Read the delivery
 
@@ -83,10 +83,12 @@ python3 revision/scripts/build_response.py
 python3 revision/scripts/build_documents.py
 ```
 
-For PDFs/page PNGs, the Codex bundled documents `render_docx.py` helper was used with LibreOffice, `--emit_pdf` and a unique output directory; see `qa/render_final_*.log`. In this installation its path is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents/skills/documents/render_docx.py`. The bundled Python executable is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`. The managed `soffice` wrapper is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice`. Standard LibreOffice PDF export is an alternative in another environment, with visual reinspection required because layout can differ.
+For prose-only revisions, use `build_editorial.py --text-only` to preserve every existing figure byte. The academic copyedit applied `academic-editing`, structural C-C-C/PIER diagnosis, `research-problem-mechanism-evidence` and `compag-elsevier-paper-editing`. No dedicated humanisation skill was installed; natural phrasing was handled as clarity and fluency editing. Read `editorial/academic_style_review.md` and run `scripts/verify_copyedit.py` for the protected-output, numerical-trace, equation and punctuation checks. Diagnostic English and paragraph checks from Academic Writing Toolkit are recorded in `qa/academic_tool_checks.json`; these do not substitute for scientific verification.
+
+For PDFs/page PNGs, the Codex bundled documents `render_docx.py` helper was used with LibreOffice, `--emit_pdf` and a unique output directory. Initial logs are `qa/render_final_*.log`; the academic copyedit uses `qa/render_copyedit_*.log` and the final small wording pass uses `qa/render_polished_*.log`. The latest page counts are in `qa/render_polished_page_counts.json`. In this installation the helper path is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents/skills/documents/render_docx.py`. The bundled Python executable is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`. The managed `soffice` wrapper is `/Users/fede/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice`. Standard LibreOffice PDF export is an alternative in another environment, with visual reinspection required because layout can differ.
 
 All final pages and figure labels were inspected. Table headers repeat on continuation pages; rows do not split, formulas and age-domain symbols render, and no editorial placeholders remain. The final QA report records page counts and checks against Markdown/table/figure sources. Marked comparison is for author review, not submission.
 
 ## Review boundary
 
-Local commits are prepared for review. Publishing this branch, sending the response and choosing/submitting to a journal were not part of this execution. Scientific implementation is complete; the personal/institutional declarations in `author_confirmations.md` and both authors' scientific approval remain to be confirmed before submission.
+The scientific and editorial commits are reviewable on `revision/amaury-review`, published following the user's instruction. Sending the response and choosing/submitting to a journal remain outside this execution. Scientific implementation is complete; the personal/institutional declarations in `author_confirmations.md` and both authors' scientific approval remain to be confirmed before submission.

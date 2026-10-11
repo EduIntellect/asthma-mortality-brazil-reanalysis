@@ -14,7 +14,7 @@ if a.manifest_only:
  names.discard('');names.discard(str(manifest.relative_to(root)))
  names.update(str(x.relative_to(root))for x in (root/'revision/inputs').iterdir()if x.is_file())
  files=[{'path':name,'bytes':(root/name).stat().st_size,'sha256':sha(root/name)}for name in sorted(names)if(root/name).is_file()]
- manifest.write_text(json.dumps({'base_commit':'3884c868a07164710a2e358180b3034f9cdcf642','branch':'revision/amaury-review','files':files,'raw_SIM':'Not embedded: public download URLs and immutable ZIP/CSV hashes are provided; fetch_inputs.py and extract_verified_candidates.py reconstruct the inputs.','historical_limitation':'No historical execution hashes for SIM 2014–2019. Verified available files were used.','scope':'Local review package; no email, push or journal submission.'},indent=2))
+ manifest.write_text(json.dumps({'base_commit':'3884c868a07164710a2e358180b3034f9cdcf642','branch':'revision/amaury-review','files':files,'raw_SIM':'Not embedded: public download URLs and immutable ZIP/CSV hashes are provided; fetch_inputs.py and extract_verified_candidates.py reconstruct the inputs.','historical_limitation':'No historical execution hashes for SIM 2014–2019. Verified available files were used.','scope':'Scientific and editorial review package. The branch was published following user authorisation; no email or journal submission.'},indent=2))
  print('Manifest fixed:',len(files),'files');raise SystemExit
 if not a.output:p.error('--output is required when building an archive')
 payload=json.loads(manifest.read_text());target=Path(a.output).resolve();target.parent.mkdir(parents=True,exist_ok=True)

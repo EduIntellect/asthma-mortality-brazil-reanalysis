@@ -83,6 +83,10 @@ def read_md(path):
   i+=1
  return d
 build_list=[] if '--comparison-only' in sys.argv else [('Manuscript_CLEAN','manuscript.md'),('Supplement','supplement.md'),('Response_to_Amaury','response_to_amaury.md'),('Author_confirmations','author_confirmations.md')]
+if '--documents'in sys.argv:
+ selected=sys.argv[sys.argv.index('--documents')+1].split(',')
+ assert set(selected)<=set(x[0]for x in build_list),'Unknown document'
+ build_list=[x for x in build_list if x[0]in selected]
 for name,src in build_list:
  d=read_md(ed/src);d.core_properties.title=name;d.save(out/f'{name}.docx')
 # Complete textual comparison: deletions red/struck; insertions green; includes table-cell text.
@@ -110,4 +114,4 @@ for op,a,b,c,e in difflib.SequenceMatcher(None,[compare_key(t)for t in old],[com
   for t in old[a:b]:p=d.add_paragraph();r=p.add_run(t);r.font.color.rgb=RGBColor.from_string('9C2020');r.font.strike=True
   for t in new[c:e]:p=d.add_paragraph();r=p.add_run(t);r.font.color.rgb=RGBColor.from_string('15653A')
 d.save(out/'Manuscript_MARKED_COMPARISON.docx');(ed/'comparison_blocks.json').write_text(json.dumps(changes,indent=2));(ed/'comparison.patch').write_text('\n'.join(difflib.unified_diff(old,new,fromfile='PDF-concordant Word reference',tofile='corrected manuscript and supplement',lineterm='')))
-print('Created marked text comparison' if '--comparison-only' in sys.argv else 'Created five DOCX deliverables and complete marked text comparison')
+print(f'Created {len(build_list)} source documents and marked text comparison')

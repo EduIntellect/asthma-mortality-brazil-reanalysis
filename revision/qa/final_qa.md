@@ -14,4 +14,8 @@ Paquete científico y editorial completo para revisión de los autores.
 
 No se dispone de hashes de la ejecución histórica SIM 2014–2019. El Word concordante acredita contenido, no procedencia binaria histórica. Las advertencias binomiales negativas figuran en resultados y suplemento. La comparación marcada usa tachado/color y no cambios nativos de Word.
 
-Financiación, conflictos, determinación ética, afiliaciones/contribuciones y aprobación científica de ambos autores se detallan en `deliverables/Author_confirmations.docx`. No se ha enviado correo, publicado la rama ni presentado a una revista.
+Financiación, conflictos, determinación ética, afiliaciones/contribuciones y aprobación científica de ambos autores se detallan en `deliverables/Author_confirmations.docx`. La rama fue publicada por instrucción del usuario. No se ha enviado correo ni presentado a una revista.
+
+## Revisión académica posterior
+
+Se aplicaron edición académica, diagnóstico estructural C-C-C/PIER y los skills de límites de evidencia y estilo COMPAG. El informe está en `editorial/academic_style_review.md`. La comprobación por hash conserva los 322 archivos científicos protegidos y las 74 cifras trazadas, junto con ecuaciones, modelos, referencias, Tabla 1 y leyendas. Se regeneraron los documentos y se inspeccionaron sus 45 páginas. El último ajuste de redacción cambió solo la página 5 del manuscrito y la página 2 de la respuesta; ambas se revisaron de nuevo. Las figuras mantienen sus bytes originales. La revisión no recalculó análisis ni alteró conclusiones estadísticas.

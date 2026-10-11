@@ -15,7 +15,7 @@ All analyses use corrected selection unless labelled historical. Rates and slope
 | 2020 | 1556824 | 2735 | 27 | 0 | 3 | 0 | 2705 | 2677 | 236 |
 | 2021 | 1832649 | 2488 | 30 | 0 | 0 | 0 | 2458 | 2422 | 209 |
 
-COVID = union across five cause lines. Invalid-date and negative-age counts follow COVID and deduplication. Both ambiguous 2018 records are retained. The historical selection is delivered separately: 56 COVID removals, one key-based removal, 15 invalid dates and 18,583 deaths at continuous age >6.
+COVID = union across five cause lines. Invalid-date and negative-age counts follow COVID and deduplication. Both ambiguous 2018 records are retained. The historical selection, provided separately, removed 56 COVID records, one record under the reduced key and 15 records with invalid dates, leaving 18,583 deaths at continuous age >6.
 
 ## Table S2. Annual Aligned crude ≥7
 
@@ -155,7 +155,7 @@ Historical <18 numerator is floor ages 7–17 and denominator ages 0–17. These
 | Age-adjusted ≥7 | Quasi-Poisson | 0.001 | -1.125, 1.140 | 0.999 | 3.11 |  | ok |
 | Age-adjusted ≥7 | Negative binomial | 0.926 | -0.197, 2.061 | 0.106 | 1.30 | 147.8 | ok |
 
-Warning rows: theta estimation reached its iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. Recorded warning: iteration limit reached. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
+Rows marked as warnings reached the theta iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. The recorded warning was “iteration limit reached”. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
 
 ## Table S4. Count models, IBGE 2024
 
@@ -180,7 +180,7 @@ Warning rows: theta estimation reached its iteration limit; convergence of mean-
 | Age-adjusted ≥7 | Quasi-Poisson | 0.290 | -0.823, 1.415 | 0.606 | 3.02 |  | ok |
 | Age-adjusted ≥7 | Negative binomial | 1.137 | 0.031, 2.256 | 0.044 | 1.31 | 156.0 | ok |
 
-Warning rows: theta estimation reached its iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. Recorded warning: iteration limit reached. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
+Rows marked as warnings reached the theta iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. The recorded warning was “iteration limit reached”. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
 
 ## Table S5. Standards and domains, IBGE 2018
 

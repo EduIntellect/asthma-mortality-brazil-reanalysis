@@ -1,0 +1,1741 @@
+{
+  "baseline_commit": "8fa06c0577429b643a2e08ee4e1ed1d15ed6b9a8",
+  "protected_files": [
+    {
+      "path": "revision/results/corrected_execution.log",
+      "sha256": "319a86b876b36c0d8e4320b7a48eb96db0ebec64ece40ba77369c435694f2b3a"
+    },
+    {
+      "path": "revision/results/extraction.log",
+      "sha256": "dbe1b966669b879fc02fc9968bcadce68a43c10023d23d47f7f2793975bbee6e"
+    },
+    {
+      "path": "revision/results/scenarios_execution.log",
+      "sha256": "e3bfa492a779357de3d8b526edc7092676496ac38dc88d0918a1aa2ab2033b3e"
+    },
+    {
+      "path": "revision/results/historical/input_manifest.json",
+      "sha256": "52dd746cd9d8de206e3105d7483175c8dc5839d6d02b7c6241cdebaebe8e8629"
+    },
+    {
+      "path": "revision/results/historical/primary_results.csv",
+      "sha256": "cae862bff77558b82e7eb56c889381edbfcbf3981b4c193ab99afffae22cfc90"
+    },
+    {
+      "path": "revision/results/historical/figures_comparative.png",
+      "sha256": "816a51773889db0cbd00228aae0767da0d27d754e14b34e1de7b8d7e9068a0d6"
+    },
+    {
+      "path": "revision/results/historical/execution.log",
+      "sha256": "ea0e2f9028704815f2b07a8077b90e6ac1f9ea60bd09a2c0b91837005c351755"
+    },
+    {
+      "path": "revision/results/historical/session_info.txt",
+      "sha256": "310f3f045537ce827378c476575e9886c065dafda57329511cbc79568a24ff1c"
+    },
+    {
+      "path": "revision/results/historical/comparison.log",
+      "sha256": "166b381bb94193e1de08886cb488305e0af971371c90bd4640a4f46294bd774c"
+    },
+    {
+      "path": "revision/results/historical/historical_comparison.json",
+      "sha256": "ebd1dcdcb3b221c51ce1d6eeda10b03374e9b1b36a7810bddd372b59e5d5c5e5"
+    },
+    {
+      "path": "revision/results/historical/annual_aggregates.csv",
+      "sha256": "15fc40258c0d0185cfcab5c810905a73f265fb9281c3fcae125271155eb1ddee"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_coefficients.csv",
+      "sha256": "0f9ad20747f12ffb794ca79c4080814abf2594eb63f0a8ca8b2cc028d2a113fe"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/COMPLETE",
+      "sha256": "6683c3b19a71f187fc1c4fdb2420211ad551f42b67f9860e9c6686e7225dd637"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/configuration.R",
+      "sha256": "fd2f3556d40db18a56fc06c8640a25a4f58e5aba9f6a1ef2fe7b3a1948ca9a51"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "7839289f94b936702b5780a310e179c548c538327887b1973e5c3892900cc60c"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/rates_by_year.csv",
+      "sha256": "1c2878d3d67e24b97aeeb487da134a611bc04e1ac137793a360b280b507dcf6f"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/selection_counts.csv",
+      "sha256": "5c1104bec0e979278d9b79de6f1e5cd72c358e3f2c4272a10123102f70b5eea5"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "9711c9b8db15d14cea214c5f76ca274fa1031b4244481ff07c2bf313e174a0c7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/rate_trends.csv",
+      "sha256": "100ddb48a34b1019c63395e0646ce9c07a1d23cad5fd5ea86025f5f4fbc63694"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_models.csv",
+      "sha256": "36c584b250078b1f2496d3ad2f79c21bffbeb8e239d0f0fd1eb86e7122085c0a"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/annual_aggregates.csv",
+      "sha256": "416023cf6b3dee23d0e2c59a4071ebb63175ea29a1039f833fe965213576f8d6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_inputs.rds",
+      "sha256": "06a93bf8ac1c9379305bd73db4a5eb5326fb637d418c51b8f11c9d6402fab2af"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_fits.rds",
+      "sha256": "e80ca765b27308f24664052c44c173e306c32581b69ebd63d7a50a29fb0f90e2"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "e83698e39d0c28700e80ba06e1809a0db855b60b023e2d4c3607e72506945e74"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_coefficients.csv",
+      "sha256": "6bf7fe3c46292a04712253c1ee2528f7c47a10048880d30cd223afcdc982b8ea"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/COMPLETE",
+      "sha256": "6668c6c610f266451277d9edd450dba6f94baf9dfcfa7c6ec962bb62faf67121"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/configuration.R",
+      "sha256": "e86ce19489c1cf952923df9c6ab662d2838ca68dd747cf547c15de35f5f1d680"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "7839289f94b936702b5780a310e179c548c538327887b1973e5c3892900cc60c"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/rates_by_year.csv",
+      "sha256": "46ecbe5eb4648df767619eccba7a791765ef7df952bc5fbc2e80a5c5216e10e6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/selection_counts.csv",
+      "sha256": "5c1104bec0e979278d9b79de6f1e5cd72c358e3f2c4272a10123102f70b5eea5"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "549fc88e74f5a43b6a6ccd6697380e8c99e164ea6ab5c3110397129b186823d3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/rate_trends.csv",
+      "sha256": "dc35b3ebd521083fc900b9340add2b57efad369cfc77357441801c25a7c42023"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_models.csv",
+      "sha256": "312c7c4b586b1c01d3b3f6819c08e6ff49a97d2beabd61323234d585ac5feb28"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/annual_aggregates.csv",
+      "sha256": "416023cf6b3dee23d0e2c59a4071ebb63175ea29a1039f833fe965213576f8d6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_inputs.rds",
+      "sha256": "19b0232d3f2990f64f306b8197c93ea43537a0b45712b2ec68c963f5cfc2b984"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_fits.rds",
+      "sha256": "c340436db4234acc918367f24a3b0e532bca9e7f13715eb1c30c23effa83a68a"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "a0bbbc06c945f7ad091eefcf37ff3635edb0124b50c8507ad4066be59c40c018"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_coefficients.csv",
+      "sha256": "2d068e16bb02d30e115968a3392ab3305790111fbd6eb541996e7f8a9fbc3ccc"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/COMPLETE",
+      "sha256": "bc5a1f8f42cfb85945a27d5de048caa8826ac8da63031d90d3f2899569ba675a"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/configuration.R",
+      "sha256": "2b5e03b5511aa8f3f64ece340f7e90fd652b43d746a47ee7075db0484c9e780c"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "869e882640329b29eb6d17f1c8b84851e113886107958789da2dd816ca53d51d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/rates_by_year.csv",
+      "sha256": "a6276a7e3634305f39a02b99eec3554034669f99565ae04eb7ac25dee24f3c9d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/selection_counts.csv",
+      "sha256": "c5c383c2c45a64a3462a81f5786b11f6d9ea67ed4e8049dbf3affaeacee2a097"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "69b456645cf1ea2bc3c4b47b376cf1a032a66db32df1aac38fe101f430393968"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/rate_trends.csv",
+      "sha256": "f86a99546d1ac49cc09df45074537ed7b4b68d670ae9520f5f19821fb97a45b0"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_models.csv",
+      "sha256": "867d781578e6f21680ec6ac77301ed92ffc8139f68a81f99787d7790f2b7c35c"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/annual_aggregates.csv",
+      "sha256": "c33551be46eb80b8c40a6879280098b746ac640d1992dac40c2c177987d5c720"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_inputs.rds",
+      "sha256": "9c5a53b51220869d1c57db93742be97d6aa635567547a28fd2e42cb35ac0036e"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_fits.rds",
+      "sha256": "fcc5c851b75ce2810e3671ff266a600fb4561a4c86d3b3c1cc13278784165d02"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "ce194cfdc5600e715b6344841e26ae477bdfbf98824a1ecf3471d0c71ce7ab52"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_coefficients.csv",
+      "sha256": "8df526328e381255af9acca607583d58cb1eef8970168d515e245ddec2ef10a3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/COMPLETE",
+      "sha256": "44de52d277908689c19d35cafc82836a008cb988b738fe442c7df8e88dbeb095"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/configuration.R",
+      "sha256": "d003232be3b32209bde0391b8891a63279cf37c40e3550d73670cd9208e32635"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "869e882640329b29eb6d17f1c8b84851e113886107958789da2dd816ca53d51d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/rates_by_year.csv",
+      "sha256": "56c7e7d915eaad89ea1901ad36888e2147c280ac4bb9f0cc90f5bfca515e2b84"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/selection_counts.csv",
+      "sha256": "c5c383c2c45a64a3462a81f5786b11f6d9ea67ed4e8049dbf3affaeacee2a097"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "c05dfa3ed0641534b682368b48aaca2da355ca84ea85b09d56d21345d386ffca"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/rate_trends.csv",
+      "sha256": "f49a3128576de636cf092a4d6ad6ab14893fc3635f020b912f6e7b5484799ae5"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_models.csv",
+      "sha256": "bb6327561ea2903ee214997e6db4d25c98dc812d7054fd75d1573126fd323b5d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/annual_aggregates.csv",
+      "sha256": "c33551be46eb80b8c40a6879280098b746ac640d1992dac40c2c177987d5c720"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_inputs.rds",
+      "sha256": "3fb622d4ae071ed82105a0d3ba516b05979e29933e5af81f2ca9478c7b2766de"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_fits.rds",
+      "sha256": "b40834eeafea14da0f5e6bf267b88ba82d0d985dc5565dbefe9800b6b2b1facb"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "68151349189a0f25736bfa85a4d4c5e6922698f8d4dacd3db84552bd75e211db"
+    },
+    {
+      "path": "revision/results/historical/data/ibge_denominators_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_denominators_summary.csv",
+      "sha256": "6d6572d4d4049a6849dfd99eec51524591f0ec033ca4adbdc6141ef29b9bb36c"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_denominators_by_year.csv",
+      "sha256": "f0ec38a22e85a3f623d97c8401ea0a50ab9b4520b6f2e94c553094481c130cdc"
+    },
+    {
+      "path": "revision/results/historical/data/denominators.rds",
+      "sha256": "d394ca4a61480c7e66e66c5393250ee55365e03e560c024975ef075b42a09b36"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_brum_style_change_metrics.csv",
+      "sha256": "c1be0be0c9f44964158cd263f824918e3c6bd647c50f7d9b89aa9e29ccc60356"
+    },
+    {
+      "path": "revision/results/historical/data/denominator_comparison.csv",
+      "sha256": "d3a14b5c1c7c8413772c142b0701063e725f9780c6d34b8b2b8ce7018d81d7ae"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_count_models.csv",
+      "sha256": "d23fb4f85c603d382d9bf8aff95f9994fc504a3285fc73301de5333e736e9014"
+    },
+    {
+      "path": "revision/results/historical/data/crude_rate_ge7_series.csv",
+      "sha256": "30802b69924c1f52e13f6cd90c0dfbbc3cf2215b40e06643f495ca7991d111f6"
+    },
+    {
+      "path": "revision/results/historical/data/fase1_legacy_reconciliation.csv",
+      "sha256": "2329f33b7bb8ffcd129683073bb0cd32b599b17b619b4a597759c0594717cc83"
+    },
+    {
+      "path": "revision/results/historical/data/age_group_series.csv",
+      "sha256": "7dee135d3fbcf60604ee491d9b028063b821fa64abdc5d58ccb6e496ec5f06b6"
+    },
+    {
+      "path": "revision/results/historical/data/age_standardized_series.csv",
+      "sha256": "1a661a4bbd76050e786b992fb1a8c7ea30c7b67e2ccdbb45c3e7b49ef33e6c7d"
+    },
+    {
+      "path": "revision/results/historical/data/fase2_year_counts.csv",
+      "sha256": "e166f89d447ab242293fd9688b3646e0e3c7c8208ebd76dd3ce0f8a5f973009f"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_who_standard_by_year.csv",
+      "sha256": "52e19966c075a0f8ef3edafeb6e410b5543fa89b0e4042bb583981042b56cf7b"
+    },
+    {
+      "path": "revision/results/historical/data/kitagawa_endpoint_sensitivity.csv",
+      "sha256": "b1eac0ae6173282386c1e4ac0718ea40bcd7fe1550aec60b444857725e06a669"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_who_standard_summary.csv",
+      "sha256": "f70e75d7acb840b080a109fa08f81b93b57d4824e4bc558b1a9289cae9dc742b"
+    },
+    {
+      "path": "revision/results/historical/data/kitagawa_age_contributions.csv",
+      "sha256": "b8c3959f5b291350d8f2775b7be72313700cc8c6118aa2280da237df9c9561a1"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_series.tex",
+      "sha256": "dd6a301829cd3356de6517e97e1694f6aaeb815d44f8b16fa0993e8cb1fc0b05"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_kitagawa.tex",
+      "sha256": "8c70d0559434002a99d6c5d3c9ee6a23f6015bbbfdcf56d5f9f690d41cbe461c"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_count_models.tex",
+      "sha256": "7e19a140dc773ad45d77e7bcc0f99702f6db74438390b52e37a2ed9218f75c67"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_flow.tex",
+      "sha256": "f9d65201cd2773c711c031c1e69c51566937c5cf306429f69c03cfa1dd39f5fe"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_sensitivity.tex",
+      "sha256": "8b421570c8cd588b5188bf4c6ed9a2b9b4494eb8a292f60f9e3d940137e5ebeb"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_groups_original.tex",
+      "sha256": "43efed17abddddff741bd685c108fc2a8a40e182ec94498b5bf7ea363e68e27b"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_trends.tex",
+      "sha256": "ce3e6d2c7b55c80f0de927879cab531de9a95ee4017a8e243a22a3591f1359b6"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change_ge7.pdf",
+      "sha256": "6c476189e8dfcadcf7a31c56978ea1b6e9609fbb3dad131bddad42801ad5ef1d"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change_ge7.jpg",
+      "sha256": "3c4ad5017363649d247cafa27cc5df372aa162a3a06f709924823b21d4c66959"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change.png",
+      "sha256": "32c379d5ac7ec872bc929ba0fb1e160ca2e906e957e559aaea25388eb1ec35a2"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change.pdf",
+      "sha256": "c45c0e678b6687162839ef887bdb1e0fe8840b15be783d281aba4fc7cae19488"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2018.csv",
+      "sha256": "179465cdc3cb1da2039f06d8037680ca11a3697c6e5986ba4b535f7848a72602"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2019.csv",
+      "sha256": "30efb134d12398140dd24e8db09aba9c2891abb49812a1ba7ad5c0f95cf95c09"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2021.csv",
+      "sha256": "707ad0700149392ad87d03bb2807a4fdbb2098acbc79b265ecc23a91ec04b49b"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2020.csv",
+      "sha256": "b3584ca97449b250438edd572cdb976b3ad572853133ecad9a2cdc1191a7687c"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2017.csv",
+      "sha256": "b6ad23fc3b318afec342cc9f83defac6deb0ae84d1255cccdd361d53934c7da4"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2016.csv",
+      "sha256": "5c15235da5bd3c3ad5f9878de1406bff508337d6b979a06209756a2c0c5a3953"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2014.csv",
+      "sha256": "3af37af7f230cce95b192f8439ffd6f52f14e02450b2c4b0bc9bb5c49bca9b1c"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2015.csv",
+      "sha256": "7edb382417175bd0cabe57650ff5efeda29ebbe9ef38836fc6a8bb654211e58e"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_coefficients.csv",
+      "sha256": "421ac17b2f2f26378457c5adbcc4471490eddc787fa97c16609b1cb9835b8713"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/COMPLETE",
+      "sha256": "01c4fa5d015d04d011cc27c0bff14ae0e8d94eb19190b5ce43049e60be6e875a"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/configuration.R",
+      "sha256": "9ae18c204c17608c74f787e8a9e260d5b93fe7d0777470cb153338e2b5dce354"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "64c7d84889898adfed4536095a9dc9d92626bfc2aa2d73e83cdbd3cbeda5a375"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/rates_by_year.csv",
+      "sha256": "4388d1d36db08987a32ced2ccc25283ff02b630c698b3ecf6535702014c0c743"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/selection_counts.csv",
+      "sha256": "e65fb5fb1772b42226a4a2136fa259ce30783ae5808df17114dc014bc67f392b"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "9b353c0dd02bff109bfb4526580a4e8b8ddd9a336b43bdc52c0d4952966117e9"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/rate_trends.csv",
+      "sha256": "e3f139fe73ecd5fdcc9916077533f31f9a9a06f52517754e2cccdf8004ab5c11"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_models.csv",
+      "sha256": "f64a00db407d121202d85c8fb691bbee279356689cff84ee02a372d66473e3a5"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/annual_aggregates.csv",
+      "sha256": "ab55b5f1abdd68d0d30b3ef33aabaa0703d87317ea1ab2a6d3eeefce0c6c7e79"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_inputs.rds",
+      "sha256": "99a9db679e18bb24935ff801c9491c57cf2ecd8d60fd8bf75b72d9dd7d61e75a"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_fits.rds",
+      "sha256": "d2bc3ec602f7d3c8b26cc3ce66b1339702197e58c98aa83d5bd7e049a48ab6ab"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "170c1a078a5ca8041286d82e954ef398c4ed9a65d6a7daf1d7126a989b217f54"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_coefficients.csv",
+      "sha256": "d038bd3f00f367394b6676dbff75351b4ce8ea0eed085fbcb504691d5b55d713"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/COMPLETE",
+      "sha256": "47199a8098f64a959ab2135682ce9e3fe701e492ec79a39d253504e5cade0ed7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/configuration.R",
+      "sha256": "28907e14201acd7257f4eb43a6f3d1d8f5868cdc8917a15bd31df1e49432fff3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "64c7d84889898adfed4536095a9dc9d92626bfc2aa2d73e83cdbd3cbeda5a375"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/rates_by_year.csv",
+      "sha256": "ae3f94edd21d22b7c13950fd2245a30244fc1ea95314284a9d231ba6ed42e946"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/selection_counts.csv",
+      "sha256": "e65fb5fb1772b42226a4a2136fa259ce30783ae5808df17114dc014bc67f392b"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "d8ec024a2a313c73d162ec1bc31160f1f7ad1c4780abc63bec8fb5a9e15d127d"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/rate_trends.csv",
+      "sha256": "242180ef4072ab5c1bddf693c9a6fc9827926b26bcf97b378c4488fad0c2c3f9"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_models.csv",
+      "sha256": "12062ae81855b8d3add4d8e8613a604ff8798e9389ac2c4fe042ef66a0812a8d"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/annual_aggregates.csv",
+      "sha256": "ab55b5f1abdd68d0d30b3ef33aabaa0703d87317ea1ab2a6d3eeefce0c6c7e79"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_inputs.rds",
+      "sha256": "659aeb3be20bab9a1feadc3494e212d37ba992c5b5379898a60a4f5bd52f7539"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_fits.rds",
+      "sha256": "8dbe6344bf2a579fb59f8ca4361618c5bf36e3914fa8f818c705a90720758f59"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "9a3f8d4d86b80d074690b5377cd4bbb7535e8d612261c121fe2cf38a72fd0976"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_coefficients.csv",
+      "sha256": "43391a6eb5b308f91db540ec668ca4dae7b2923425886bc8713e14fcaf640ff7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/COMPLETE",
+      "sha256": "82e6c58bb6ee869edb02e673628577fcb39a6fc1a224eef3034f991077fc8796"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/configuration.R",
+      "sha256": "eb1d718b00a9191de085563afd0b0ee59516383999cb3aabedcd4614ce0ef128"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/rates_by_year.csv",
+      "sha256": "61868a4e846b4502fbca7aa4ef3eb3baf3724484a546e17c5cc57f8b46ac85e0"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "c18d95323aabd126c080d03390c9f9f51ec9da8733725aa5d85c91ae7d85d64f"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/rate_trends.csv",
+      "sha256": "9e66c5d55b816d2af201e5a56e1fd16caaf7abdc96798f1f8edd270de7359c0d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_models.csv",
+      "sha256": "a7cb9f44b60be537aa6165af87628ee6939c15cb3a5aed0f62af1f8475d45a95"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/annual_aggregates.csv",
+      "sha256": "1a99d8914e8a7f7af61fa7d18c5ee85ae96baaa772095f0351a6c3360744ed7d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_inputs.rds",
+      "sha256": "226f7b859dd1473bb2e754d36c0808683220e4ce34e9755a76a954945d83cef8"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_fits.rds",
+      "sha256": "0094c8704034da1738dbf0909273152fed62c4cfb4c4297952cc4ab4d6de7076"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "eeb42ade9875b0cda9cdad244534f19d1692f5dd3064aaba770acf2d27da7300"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_coefficients.csv",
+      "sha256": "ab72253b4327d1b7ce025887e622423b148ceec04ac72e1a68bfcc197c2a6041"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/COMPLETE",
+      "sha256": "31e8249d92f0a794925ad9ee1a3c1a89bebb1a83e3c2f71b6c0094db461fd509"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/configuration.R",
+      "sha256": "fc330b9ff382341d30439c71cb3e789c140ecdc867e9d0b1683850423e010975"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/rates_by_year.csv",
+      "sha256": "a571f2973539d90403d1ee84a428e342d7889523163026d113f9c8e3d056047e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "40f238b82d34ec91377f977faab1e8121d41528f5232e5b1a4f368d765d6f8c2"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/rate_trends.csv",
+      "sha256": "ca99bcbda494f0e197cc6e74c9d1072accdad64b0cfe7715bd3da448b3c47cc3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_models.csv",
+      "sha256": "bcb095b49ef3b4183d36d33a707e2d50b4d00c1e269b92293f03debf51ca415b"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/annual_aggregates.csv",
+      "sha256": "1a99d8914e8a7f7af61fa7d18c5ee85ae96baaa772095f0351a6c3360744ed7d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_inputs.rds",
+      "sha256": "a8a407c9eb1af77f2c5cd607355d966da1c9da233380cfa149385ad067103f9d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_fits.rds",
+      "sha256": "1d68dfcdcae83feba1feb2db3f5de0ff478646b64eb8eda9edc99e8d4972dafd"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "c9d55370ac07f599a790ede50237ed2f10679b335b680ca50020f4e575dffdb9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_coefficients.csv",
+      "sha256": "7d436ee26177f44c566ee9281eb50d2c945b21349e217683ee8f84c9a72cf395"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/COMPLETE",
+      "sha256": "9c86c11c5c644d6f88628cb765d068834e499d13b6a1118a040971ff48cb6667"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/configuration.R",
+      "sha256": "9d5cf8f42eb5ae255e9cf94cc274c5b97e642a2a43b03a252ca2624fa87302ac"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/rates_by_year.csv",
+      "sha256": "20d2cf37a134e48e7f10885f7f198c88df57e1f15b7bf5eec489e1a1b66c54c7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "38b5687ce4817b9aee745ef6891e5f176c92282c8fbd1cc8bdbcfc089d36bea5"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/rate_trends.csv",
+      "sha256": "1b552ccc512816a5cb5d4cf66e64766e3cd204f8d2bb0e15235bf30fd86ffad9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_models.csv",
+      "sha256": "eb4b5adf6d35edbf067dfe60e33355ccfe84f832b1b518d51b299dd0db4ec0a3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_inputs.rds",
+      "sha256": "48fa856544797a8e57c0d6407828cc7a25c972ca908cbfc28d6b8cfc1b250602"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_fits.rds",
+      "sha256": "9791520633fa466f6cfdec66aefa75fb43b22c0c800cd1442dc674ed717d1dbb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "b731025786270e7a1e9d45692b5fbe85ec6af9ba7c3202a2e278d6ee51d9dd8c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_coefficients.csv",
+      "sha256": "cf8db7b92efc33131e7d4ca80d87418156e914ec95f1023f6a1705cd8fbb2bae"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/COMPLETE",
+      "sha256": "f41c361e0475bf4d8cc88abb9f740d71a98edc78dc1b49edaddcaeb43476930c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/configuration.R",
+      "sha256": "0da87dce3a72b27d80845b72aa4f9557b59e92ceb5c085db61c5ad7102944c62"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/rates_by_year.csv",
+      "sha256": "cfff2ebe572c38f2aa50ec09dcd4d19243a92f0ce1e315f41063d4a23b9927ec"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "7f0ffb9c20df8b170f75cd19acedb1e75f3df42ffb4659576d58f744b58e2d86"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "sha256": "1fb0e23b1b9116920c6df31c688191a3fa81647840e9a10b4076f6df8740dc95"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_models.csv",
+      "sha256": "6287c96e494f2f671354f06a91912621f581935786ee2e1b4f006260a6616fde"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_inputs.rds",
+      "sha256": "2ad06699b080e3b40dac4600ab2a252793ba2820cd092fe3ca7b9bf0ec9a994c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_fits.rds",
+      "sha256": "24f558f74768474b302f17c53d7fe56d7485a4daae93bb02b560f05e1586f6c0"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "1b0baa5f25ed656c747cd85f7d7767edcb9e81ae267b5e48a1bb6a9dff10912e"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_coefficients.csv",
+      "sha256": "450a0fbaa82c22132a749e9f21d59764bb3cfb41f102aa186c4b80f7f87c03c0"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/COMPLETE",
+      "sha256": "b671078d8d64edb8d0c8798b4aec952db0ce1ed2bba0ed8ccf8006997052127f"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/configuration.R",
+      "sha256": "bb69cb4009200ecd533828002bb2206e6f29e48eff395092d00323451a6b7d06"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/rates_by_year.csv",
+      "sha256": "8c8cc5acd31a17860c815bcc4ee7a0c7016563593c3dd93c51b5681b21a62f09"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "e2f664d5348b03d841621c50cf52444b256a81ea7ff5d206b40a1b20132021e3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/rate_trends.csv",
+      "sha256": "68d6f9ffbb9e2ba1ae6ae2a40dffcde69e67e0d2a2a8da54fd9381e652d636d0"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_models.csv",
+      "sha256": "c82b33b2c4f4bd664491a631c80de51bf9cd0ab5abbbd8c7f6249ca86061edea"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_inputs.rds",
+      "sha256": "f9c5cb529c4a66ca2b9a741fe4cd6fe0284507a6618c0057f6234016a9cb9568"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_fits.rds",
+      "sha256": "d89f6cbe44e60a3fa087e5b7c1e6bf7f56afef5cf82d4613fef3bb49765a1b3b"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "48b1c965b7b46a873bd1fa14f1e511e5844848d4e22c3135272dfb71b93c3c95"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_coefficients.csv",
+      "sha256": "995dc5400b66327facbfce3169c8a0dc6084e958c5e331d754c1ae03d4b8bfe8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/COMPLETE",
+      "sha256": "f5da50562ba702ec68b7481b1ff8788672c6a9b2703a25823263885625cde9e8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/configuration.R",
+      "sha256": "812e31e8f8c7b78aa5f8d0a906514d31a53d70ea2a80d840076b0181a7a745a8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/rates_by_year.csv",
+      "sha256": "30f8a77e4216a8ddf1c732a9908bfe372bf357edd955b584e64cc3aaa54151f7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "6be936a748d2bbb75e96024ea499481a24a1d9f5806f8c94d26480682f081b2b"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "sha256": "7dfd1b6b28433131bcc89c71895cdcb656f779c2da9529907fe00aea70855f3c"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_models.csv",
+      "sha256": "528e707330ee1a4b0bcc63872888e160e3c3f28887f44292654a8347feddfe00"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_inputs.rds",
+      "sha256": "6e341a571b31fe879c1b54f1b5cf0cae20797cdae3010020a2649a7c2c0ef251"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_fits.rds",
+      "sha256": "300f4a35e762e2fb998f366508a55c3943674cac80928ca7a0f29e87ec8ebc9c"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "aeafc41bf08f37a1fad40c9de56323b8fbf60c089d3facbdc51d9369587061b7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_coefficients.csv",
+      "sha256": "160a3d43a335e7478bdc39ec6c980c2eb50c0c5df0439786d91105ba4f3e9d27"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/COMPLETE",
+      "sha256": "a8dc90366735ee6f1aefbe584c85a582016d75536c129f9d635d7cede33044e6"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/configuration.R",
+      "sha256": "5ccbf950174cc17167aaeae26f3c8e6cb48018b9d66eb09ae0ae9d11fa798679"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/population_by_age.csv",
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/standard_weights.csv",
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/rates_by_year.csv",
+      "sha256": "405e19f1cf85c13dde9e0b12b8d32dae2c1d7f6639ac19eeeee9e029a0033e55"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/kitagawa_endpoints.csv",
+      "sha256": "38fa2aa0599424372fdbd1d1f1e291122267876a9f9a1440ef82a695fa48a3d5"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/rate_trends.csv",
+      "sha256": "ef80b7303a9a66c0c4040599c51da4a1cd8a5c19f3be56463e7d19df3202ece0"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_models.csv",
+      "sha256": "f4fed1da6b172a48ca3becd90056bd144ae19479e18b0dc07eda59cc66972501"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_inputs.rds",
+      "sha256": "58beb3bfd8af5934667eb437bccdc091f839ca9f9ed6289e8505980d5338d95a"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_fits.rds",
+      "sha256": "d2e70606f9fa53ca4fef16262d74dd26e85ab6409c91b271d447c2de228919d3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/kitagawa_age_contributions.csv",
+      "sha256": "022a411ba97826ac3ae192aad43c243f4b7b67c58475e9d37a5039e881def8e0"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_coefficients.csv",
+      "sha256": "a4bd08a078ddb31cf6405ce6acfcac7d03ee8de45db7197b5ab889e9bf72c2d9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/COMPLETE",
+      "sha256": "182df5d53fce72707f8c2e7962408971a31480a34a5b5d8217e32470a8a25436"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/package_versions.csv",
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/configuration.R",
+      "sha256": "fcb441361402647319477506457a79029f01c676a24ebde8fbf82b84ef675bc9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/population_by_age.csv",
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/record_selection_and_age_transitions.csv",
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/standard_weights.csv",
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/verified_inputs.csv",
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/rates_by_year.csv",
+      "sha256": "bcbc39d588161fce2eb7eb102eba434e280f0aa9afea1c6c8aa2eeee6706547f"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/session_info.txt",
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/selection_counts.csv",
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/kitagawa_endpoints.csv",
+      "sha256": "dc636b8335070c2cd70bf3c4aa9b94602b161056609e9501492ecb18c9377440"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/covid_overlap_patterns.csv",
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "sha256": "d18c0e625be05eef28e223e196aa88ce84b9496ac43cc41db7de5f5e07bd1ae8"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_models.csv",
+      "sha256": "9bbea118cb3e154f5f74440d93d532dfe5f229c4541062bec89a4940e48e2803"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/annual_aggregates.csv",
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_inputs.rds",
+      "sha256": "67dbcb1401d8c97a2735324976edadc541335158136e29ee15e9907a60d2a706"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_fits.rds",
+      "sha256": "60e3f8b402bd8ca912845734eeb6b8bd4e526a7050e993eb0cbafac71b25e820"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/kitagawa_age_contributions.csv",
+      "sha256": "1364ae7a94c2ede6aa30ddbca58701d5b6ea21e63567c8720dea948f070d9af3"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.svg",
+      "sha256": "25f7b4363e3e350eb1da89d19088b8f6292832d935f6404e0d032915f7007d26"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.svg",
+      "sha256": "7b69ff79dcbd31f4190be586829bab05d1e249475db9ad3c8c78b1af2fd41149"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.svg",
+      "sha256": "44b9fbe9e47c0c57544bfb32eb67c3d5416b0ec7c31b5c447b51f467bae91556"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.pdf",
+      "sha256": "53f6a8f59e335a1242f2d4d1a74a9a12eb70c39ac5a01af107e50165c7ca7ffd"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.png",
+      "sha256": "04ee7851d141ddc2593c447fac796775c1c6a19d81688435f8d8e851b59d4d4f"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.png",
+      "sha256": "4a8f60e0414fbc2614b6f5a8c91fa371363abb2e57d6511742bc921db32a6adc"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.pdf",
+      "sha256": "b743951bb6ae4ca3a4ad1c22947ab5cc081ea529c2a1b4e8799500a1502d9924"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.pdf",
+      "sha256": "c41030af7a60db550b78d95897b6e0fd2ecd173c0c55762d5c7c77fb69a37a36"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.png",
+      "sha256": "9192765708faeea106e2210b9ae3b62d067de91c2250c1afe0de65d32369450a"
+    },
+    {
+      "path": "revision/scripts/analysis.R",
+      "sha256": "2602d3404ce0898f8001a5ef9c5ffefb3fd41c8475919a2eeebe33ef0c4170b2"
+    }
+  ],
+  "claim_trace": [
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "relative_change",
+      "value": 11.9621561327035
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "relative_change",
+      "value": -4.05852036267154
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "slope",
+      "value": 0.0001575715141693
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "ci_low",
+      "value": -0.0213858608804941
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "ci_high",
+      "value": 0.0217010039088329
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "p_value",
+      "value": 0.986301288035657
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "relative_change",
+      "value": 18.0304085795443
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0327725102715707
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.0180170720053874
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.0398158809978143
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.106581976280569
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "first_rate",
+      "value": 1.12274340093497
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "last_rate",
+      "value": 1.25704771952444
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "relative_change",
+      "value": 11.9621561327035
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "absolute_change",
+      "value": 0.134304318589467
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "slope",
+      "value": 0.0269504046216059
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "ci_low",
+      "value": 0.0030206751610105
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "ci_high",
+      "value": 0.0508801340822012
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_ge7",
+      "field": "p_value",
+      "value": 0.0330376218829783
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "first_rate",
+      "value": 1.12274340093497
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "last_rate",
+      "value": 1.07717663138748
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "relative_change",
+      "value": -4.05852036267154
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "absolute_change",
+      "value": -0.0455667695474968
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "slope",
+      "value": 0.0001575715141693
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "ci_low",
+      "value": -0.0213858608804941
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "ci_high",
+      "value": 0.0217010039088329
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_ge7",
+      "field": "p_value",
+      "value": 0.986301288035657
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "first_rate",
+      "value": 0.181762438310752
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "last_rate",
+      "value": 0.217548337861479
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "relative_change",
+      "value": 19.6882809690002
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0357858995507266
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "slope",
+      "value": 0.0079479815565736
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "ci_low",
+      "value": 0.0021239520860639
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "ci_high",
+      "value": 0.0137720110270834
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "p_value",
+      "value": 0.0156258498359121
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "first_rate",
+      "value": 0.181762438310752
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "last_rate",
+      "value": 0.214534948582323
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "relative_change",
+      "value": 18.0304085795443
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0327725102715707
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "slope",
+      "value": 0.007514774899238
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_low",
+      "value": 0.001813569361509
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_high",
+      "value": 0.013215980436967
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.0180170720053874
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "first_rate",
+      "value": 0.177879315506096
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "last_rate",
+      "value": 0.207019409048877
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "relative_change",
+      "value": 16.3819460738723
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0291400935427818
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "slope",
+      "value": 0.0067771212872535
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "ci_low",
+      "value": 0.001397313096113
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "ci_high",
+      "value": 0.012156929478394
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "p_value",
+      "value": 0.0215951030704879
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0357858995507266
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "absolute_change",
+      "value": 0.0327725102715707
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "first_rate",
+      "value": 0.181459921472423
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "last_rate",
+      "value": 0.219545147104424
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "relative_change",
+      "value": 20.9882299755041
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "absolute_change",
+      "value": 0.0380852256320013
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "slope",
+      "value": 0.008750061499523
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "ci_low",
+      "value": 0.0025996481159888
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "ci_high",
+      "value": 0.0149004748830572
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "p_value",
+      "value": 0.0131237855132165
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "slope",
+      "value": 0.0058093679457123
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_low",
+      "value": 0.0003994753809191
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_high",
+      "value": 0.0112192605105057
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.0398158809978143
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "slope",
+      "value": 0.0067511844258065
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_low",
+      "value": -0.0022806702622996
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "ci_high",
+      "value": 0.0157830391139126
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "p_value",
+      "value": 0.106581976280569
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_5_34",
+      "field": "relative_change",
+      "value": 22.4279972182218
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "p_value",
+      "value": 0.0207487921195567
+    },
+    {
+      "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "series": "brazil2014_age_7_34",
+      "field": "p_value",
+      "value": 0.0669854460808071
+    },
+    {
+      "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "series": "who_age_5_34",
+      "field": "p_value",
+      "value": 0.0550330911308038
+    },
+    {
+      "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "series": "crude_age_35_59",
+      "field": "p_value",
+      "value": 0.131981351893348
+    }
+  ],
+  "manuscript_before": "# Reassessing the reported increase in asthma mortality in Brazil: reproduction and age-specific reanalysis, 2014\u20132021\n\nFrancisco Federico Garc\u00eda Crespi\u00b9 \u00b7 Amaury de Souza\u00b2\n\n\u00b9 Universidad Miguel Hern\u00e1ndez, Elche, Alicante, Spain. \u00b2 Institute of Physics, Federal University of Mato Grosso do Sul, Campo Grande, MS, Brazil.\n\nCorrespondence: Francisco Federico Garc\u00eda Crespi, fedeg@umh.es. Author details and declarations are carried forward from the reviewed PDF for confirmation in the accompanying author checklist.\n\n## Abstract\n\nObjective: To assess whether the reported crude increase in Brazilian asthma mortality during 2014\u20132021 persists after age standardisation in the national domain of completed ages \u22657, and to examine mortality within ages 5\u201334.\n\nMethods: We reproduced the historical pipeline, then corrected age to completed calendar years, included U071 in COVID exclusions, and retained an ambiguous pair of 2018 records. Primary denominators were IBGE 2018 and the fixed standard was Brazil 2014, normalised within each domain. IBGE 2024, WHO standardisation, count models, alternative selection rules and pandemic-period restrictions were sensitivity analyses.\n\nResults: Historical selection reproduced 18,583 deaths with continuous age >6, versus 18,584 published. The corrected national analysis of completed ages \u22657 included 18,544 deaths: aligned crude mortality increased 12.0%, whereas Brazil-2014-standardised mortality changed -4.1% between endpoints (eight-year slope 0.0002; 95% CI -0.0214 to 0.0217; p = 0.986). Within ages 5\u201334, Brazil-2014-standardised mortality increased 18.0% (0.0328 per 100,000; p = 0.018). Its slope remained positive excluding 2020 (p = 0.040); the 2014\u20132019 interval included zero (p = 0.107).\n\nConclusion: Changes in population age composition accounted for much of the crude increase at ages \u22657, without a causal attribution. The primary national age-standardised estimate did not establish an increasing trend or demonstrate stability. Within-5\u201334 standardisation supported an increase across 2014\u20132021, including after excluding 2020; the shorter prepandemic series was inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates jointly.\n\nKeywords: Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.\n\n## Introduction\n\nBrum et al. concluded that \"asthma mortality remains high and shows an increasing trend for the first time in the past decades\" [1]. Their nationwide analysis for 2014\u20132021 identified 18,584 asthma deaths and reported an approximately 2.5% annual increase in asthma mortality. A subsequent study by Cardoso et al., covering 2013\u20132023, also concluded that asthma-related deaths had increased [2]. However, this conclusion was based on annual death counts, while the same study reported that the overall mortality rate per 100,000 inhabitants remained stable. Thus, the two studies described increasing asthma mortality using different measures, neither of which established an increase in the national age-standardised rate.\n\nEarlier Brazilian surveillance provides a longer perspective. Graudenz et al. reported a linear decline in age-standardised asthma mortality among Brazilians aged 5\u201334 years during 1980\u20132014, whereas the trend in the general population was non-linear [3]. Differences in study periods, age ranges and rate definitions prevent direct comparison with more recent estimates or the identification of a historical trend reversal.\n\nNeither Brum et al. nor Cardoso et al. directly age-standardised the national mortality series. This omission matters because approximately two thirds of asthma deaths occurred among individuals aged 60 years or older [1,2], and changes in population age structure can affect crude mortality rates independently of changes in age-specific mortality. Consequently, an increase in deaths or crude mortality cannot, by itself, establish a comparable increase in age-adjusted mortality. The public availability of Brum et al.'s analytical code [4] also makes it possible to examine the reproducibility of their case selection, population denominators and trend estimates before reassessing the interpretation.\n\nWe therefore asked to what extent the reported increase in asthma mortality in Brazil during 2014\u20132021 remains supported when the original analysis is reproduced and population age structure is held fixed. We first reproduced Brum et al.'s analysis and documented agreements and discrepancies with the published results. We then estimated national age-standardised mortality trends and examined mortality among individuals aged 5\u201334 years. In post hoc robustness analyses, we assessed an alternative population projection, the WHO standard population and count regression models. Our objective was not to dispute the observed increase in crude mortality, but to establish which epidemiological interpretations are supported after accounting for population age structure and examining age-specific trends.\n\n## Methods\n\n### Study design and reference reproduction\n\nThis secondary, ecological analysis reassessed national underlying-cause asthma mortality in Brazil, 2014\u20132021. The national corrected primary domain was completed ages \u22657; ages 5\u201334 were analysed separately, with the nested 7\u201334 group as a technical control and 35\u201359 and \u226560 as additional comparisons. We maintained a distinct reproduction of the historical continuous-age >6 construction. Brazil 2014 and IBGE 2018 remained the primary standard and denominator revision. WHO, IBGE 2024, count models, Kitagawa decomposition and the selection and pandemic sensitivities were robustness or descriptive analyses; no multiple-testing correction was applied.\n\nThe reference was the 12-page PDF emailed to Amaury on 10 October 2026, SHA-256 fc552ab83d5254549fa4f1dfe880ab631a26c50bc8d861bfdc433331544e71fe, reconciled with a Word copy of concordant content and repository commit 3884c868a07164710a2e358180b3034f9cdcf642. Current official SIM archives were recovered and verified on 11 October 2026. Their historical selection and year-age aggregates exactly reproduced the versioned pipeline. Historical SIM hashes were available for 2020\u20132021, but not for the execution of 1 October in 2014\u20132019; numerical reproduction does not establish byte identity for the latter files.\n\n### Selection, COVID mentions and record identity\n\nRecords were selected when CAUSABAS contained ICD-10 J45 or J46 [5]. The corrected COVID rule excluded the union of B342, U072, U071 or literal COVID-19 in LINHAA, LINHAB, LINHAC, LINHAD or LINHAII, retaining the historical five-field scope. Frequencies and overlapping code combinations were logged separately; overlapping mentions were counted once. The original rule without U071 and a rule retaining every COVID mention were separate sensitivities.\n\nThe historical reduced key comprised parsed death date, elapsed-days age, underlying cause and the five cause lines. It collapsed source rows 971828 and 971831 in 2018. Inspection of all available fields found differences in occupation and seven administrative fields (NUMEROLOTE, TPPOS, DTCADASTRO, DTRECEBIM, DTRECORIGA, DIFDATA and CONTADOR). The SIM dictionary describes NUMERODO as the death-declaration number, registration date as administrative, and receipt date as the latest central update [12]. NUMERODO is absent from these public CSVs. Matching dates, causes or administrative fields therefore could not establish that both rows describe one death. We retained both in the corrected principal and evaluated the historical-key collapse as a sensitivity, without asserting that the events are distinct or identical. No additional deduplication rule or linkage was invented.\n\n### Calendar ages and analytical domains\n\nCompleted age equalled death year minus birth year, minus one if the death preceded that year's anniversary. For a birth on 29 February, the anniversary in a non-leap year was 1 March. Seven-digit day-month-year strings received one leading zero; dates otherwise had to be eight digits and exactly valid in the calendar. Missing or non-interpretable dates and birth after death were excluded and logged separately. No upper-age exclusion was introduced. Ages 90 and above were grouped as 90+ to match IBGE.\n\nCalendar ages defined \u22657, 5\u201334, 7\u201334, 35\u201359 and \u226560. A sensitivity substituted days/365.25 and its floor for single-year bins. The historical reproduction retained its continuous >6 threshold; it was not re-labelled \u22657 or merged with the corrected sample.\n\n### Denominators and direct standardisation\n\nBoth-sex national single-year populations came from the 2018 IBGE revision [6], with the post-2022-Census 2024 revision as a sensitivity [7]. The 2018 workbook used the total-population block on sheet BR; the 2024 workbook used SIGLA = BR and SEXO = Ambos. Both provide ages 0\u201389 and the open 90+ interval. Each corrected crude numerator and denominator covered exactly the same domain. The historical crude reproduction instead divided continuous-age >6 deaths by the entire population; a historical comparator used population \u22657, preserving its small age-domain mismatch for transparency.\n\nFor domain D and year t, direct standardisation was:\n\nASR(t,D) = \u03a3[a\u2208D] w(a,D) \u00d7 100,000 \u00d7 deaths(a,t) / population(a,t).\n\nw(a,D) = population(a,2014) / \u03a3[j\u2208D] population(j,2014), so \u03a3[a\u2208D] w(a,D) = 1.\n\nWeights were fixed across years and normalised separately within each domain, including 5\u201334 and 7\u201334. For each denominator revision, the Brazil-2014 standard was that revision's 2014 population. The 90+ deaths and population used a single matching open interval. WHO standardisation used five-year bands [8], adding the 90\u201394, 95\u201399 and \u2265100 weights for 90+. For 7\u20139, three fifths of the WHO 5\u20139 weight was allocated before domain normalisation. This is a uniform-within-band approximation, not an observed age distribution. Missing death-count cells were filled with zero; population cells had to be complete and positive. Brazil-2014-standardised and aligned crude rates were checked for equality in 2014.\n\n### Trends, count models and sensitivity scenarios\n\nNational crude and Brazil-standardised annual rates used Gaussian-family GLMs; age-group and WHO-standardised rates used ordinary least squares. These identity-link Gaussian trends are numerically equivalent to OLS. Slopes were in deaths per 100,000 per year, with t intervals using n\u22122 residual degrees of freedom. Endpoint absolute and relative changes were reported separately from fitted annual slopes.\n\nCount models used log-link Poisson, quasi-Poisson and negative binomial families [9]. For unadjusted domains, log E[Y(t)] = \u03b1 + \u03b2 \u00d7 year(t) + log population(t). The national age-adjusted model was log E[Y(b,t)] = \u03b1 + \u03b3(b) + \u03b2 \u00d7 year(t) + log population(b,t), with nine categorical bands: 7\u201314 (reference), 15\u201324, 25\u201334, 35\u201344, 45\u201354, 55\u201364, 65\u201374, 75\u201384 and 85+. APC = 100 \u00d7 (exp \u03b2 \u2212 1); intervals transformed \u03b2 \u00b1 critical value \u00d7 SE. Quasi-Poisson used the t distribution with model residual degrees of freedom; Poisson and negative binomial used normal Wald intervals. Quasi-Poisson scales the Poisson coefficient variance by estimated dispersion; negative binomial instead estimates a quadratic variance function \u03bc + \u03bc\u00b2/\u03b8, which can also change coefficients. Pearson dispersion, \u03b8, mean-model convergence, iterations, errors and warnings were recorded for every specification. A large \u03b8 with an iteration warning was reported as an approximation toward the Poisson limit, not exact equivalence or successful \u03b8 convergence.\n\nAlongside the historical reference and corrected principal, one condition at a time was changed: elapsed-days age, original COVID rule, retention of all COVID mentions, historical deduplication key, exclusion of 2020, or restriction to 2014\u20132019. The latter two focused on 5\u201334 and 7\u201334. Actual calendar years were retained as covariates: exclusion of 2020 left seven observations and 5 trend residual degrees of freedom; 2014\u20132019 left six and 4. Both denominator revisions and both standards were evaluated, and no model was selected for statistical significance.\n\n### Kitagawa accounting decomposition\n\nFor the same corrected \u22657 population, the symmetric Kitagawa decomposition [11] partitioned crude differences into composition C and age-specific-rate R terms:\n\nC = \u03a3[a] (w(a,1) \u2212 w(a,0)) \u00d7 (r(a,0) + r(a,1)) / 2.\n\nR = \u03a3[a] (r(a,1) \u2212 r(a,0)) \u00d7 (w(a,0) + w(a,1)) / 2.\n\nCrude(1) \u2212 crude(0) = C + R, with r in deaths per 100,000 and each year's w normalised within \u22657.\n\nThe same six endpoint pairs were used with IBGE 2018 and 2024: 2014\u20132021, 2014\u20132019, 2014\u20132020, 2015\u20132021, 2016\u20132021 and 2014\u20132018. Full-precision identities were checked before rounding. Each displayed component was rounded independently, so the final displayed digit need not add exactly. Shares greater than 100% indicate an opposing negative rate term. This descriptive accounting does not identify causal mechanisms.\n\n### Software, reproducibility and ethics\n\nReproduction and revision used R 4.6.1 [10]; package versions, configurations, input hashes, warnings and independent checks accompany the code. R 4.3.3 was reported in the reference. Historical numerical differences under the current environment are documented without claiming an identical software stack. Public inputs, verified extraction code and isolated scenario outputs support reruns. The original repository is https://github.com/EduIntellect/asthma-mortality-brazil-reanalysis; this revision is prepared locally for author review and has not been published there.\n\nGenerative AI tools were used in the historical workflow (Claude Code and GitHub Copilot) and in this revision (Codex) for code, analysis checking and editorial drafting. Figures were plotted from results, not generated as AI images. This statement does not assert that both authors have completed their review or approved the revision.\n\nThe study used public SIM mortality records and aggregate IBGE projections, with no participant contact. Only aggregate results are reported. No formally granted ethics approval or exemption is claimed; applicable institutional and journal wording requires author confirmation, as listed in the accompanying checklist.\n\n## Results\n\n### Historical reproduction and corrected selection\n\nThe complete historical pipeline reproduced 19,105 underlying-cause candidates, 56 COVID exclusions, one reduced-key removal, 15 non-interpretable ages and 18,583 deaths at continuous age >6, versus 18,584 in Brum et al. [1]. All versioned selection counts, annual age aggregates and IBGE-2018 denominators matched exactly. Rate and trend differences were at floating-point scale; negative-binomial theta differed slightly under the current environment in models approaching the Poisson limit, without changing the reported significance classes. The unresolved original population series and age-group discrepancies remain in the historical audit (Supplementary Table S3).\n\nThe eight official files contained 11,169,644 records, including 19,105 underlying-cause asthma records. Corrected COVID exclusions removed 57 records: 27 in 2020 and 30 in 2021. No record was removed as a proven duplicate; 15 had non-interpretable dates and none had birth after death, leaving 19,033 age-valid records. The \u22657 domain contained 18,544 deaths, including 12,678 (68.4%) at \u226560. Calendar age changed the single-year bin of 23 candidates (23 retained), but none crossed the \u22657, 5\u201334, 7\u201334, 35\u201359 or \u226560 domain boundaries relative to floor(days/365.25). Ages above 90 were retained in the 90+ interval. The corrected total \u22657 equals the historical total by coincidence: retaining one 2018 record adds a death and excluding the additional 2021 U071 record removes one.\n\n### National domain of completed ages \u22657\n\nFor completed ages \u22657, the aligned crude series rose from 1.123 to 1.257 per 100,000 (+12.0%; absolute change +0.1343), with slope 0.0270 per year (95% CI 0.0030 to 0.0509; p = 0.033). Brazil-2014-standardised mortality changed from 1.123 to 1.077 per 100,000 (-4.1%; absolute change -0.0456), with slope 0.0002 per year (95% CI -0.0214 to 0.0217; p = 0.986). The endpoint decrease and the slope across eight annual observations answer different questions. The interval does not demonstrate equivalence to zero or stability.\n\nWith 2018 denominators, the age-adjusted national estimate was +0.00% per year (95% CI -1.13 to 1.14; p = 0.999) under quasi-Poisson and +0.93% per year (95% CI -0.20 to 2.06; p = 0.106) under negative binomial regression. With 2024 denominators, the negative binomial estimate was +1.14% per year (95% CI 0.03 to 2.26; p = 0.044), the only one of the six corrected national age-adjusted specifications with an interval excluding zero. The national Poisson Pearson dispersion was 3.11; different uncertainty and variance assumptions contribute to differences between families. All mean-model iterations converged. Negative binomial fits for some unadjusted age-group series issued theta iteration-limit warnings; these rows are reported explicitly in Supplementary Table S4, not treated as successful dispersion convergence or exact identity with Poisson.\n\n### Composition of the crude-rate change at \u22657\n\nAcross six pairs, the composition component was positive under both revisions. With IBGE 2018 it accounted for 61.5\u2013193.8% of the net increase, compared with 55.0\u2013153.5% under IBGE 2024. For 2014\u20132021, the 2018 net change of +0.134 per 100,000 comprised composition +0.191 and age-specific rates -0.057; 94.8% of composition arose at \u226560. The corresponding 2024 terms were +0.146, +0.170 and -0.025. Contributions above 100% mean that a negative rate component partly offset the positive composition component; they are accounting quantities, not causal fractions.\n\n### Mortality within ages 5\u201334 and sensitivity analyses\n\nAges 5\u201334 contributed 1,590 corrected deaths (172\u2013236 annually). Their crude rate rose from 0.182 to 0.218 per 100,000 (+19.7%; absolute change +0.0358), with slope 0.0079 per year (95% CI 0.0021 to 0.0138; p = 0.016). Standardising within 5\u201334 to Brazil 2014 yielded 0.182 to 0.215 per 100,000 (+18.0%; absolute change +0.0328), with slope 0.0075 per year (95% CI 0.0018 to 0.0132; p = 0.018); WHO standardisation yielded 0.178 to 0.207 per 100,000 (+16.4%; absolute change +0.0291), with slope 0.0068 per year (95% CI 0.0014 to 0.0122; p = 0.022). Thus the crude absolute increase was 0.0358, and the within-group-standardised absolute increase was 0.0328 per 100,000. The nested 7\u201334 control gave 0.181 to 0.220 per 100,000 (+21.0%; absolute change +0.0381), with slope 0.0088 per year (95% CI 0.0026 to 0.0149; p = 0.013); it is a technical control, not independent replication. The crude 5\u201334 quasi-Poisson estimate was +4.00% per year (95% CI 1.13 to 6.95; p = 0.014).\n\nExcluding 2020 while retaining calendar-year values, the within-5\u201334 Brazil-2014-standardised slope was 0.0058 (95% CI 0.0004 to 0.0112; p = 0.040). In 2014\u20132019 it was 0.0068 (95% CI -0.0023 to 0.0158; p = 0.107); the endpoint increase was 22.4%. For the 7\u201334 control, the respective standardised trend p values were 0.021 and 0.067. The primary standardised prepandemic interval therefore does not establish a positive annual trend. With WHO standardisation and IBGE 2018, excluding 2020 gives p = 0.055, with an interval including zero. In 2014\u20132019, count-model inference also differs: the crude 5\u201334 Poisson and negative-binomial Wald intervals exclude zero, whereas the quasi-Poisson t interval includes it; negative-binomial theta has an iteration warning. Results for both revisions, both standards and count models are supplied rather than selected by significance.\n\nThe original COVID rule removes 56 records; adding U071 removes one further record in 2021, within both young domains. Of 18 U071 mentions in 2020, all were already excluded; of 19 in 2021, 18 overlapped the original rule. Retaining all COVID mentions raises the primary \u22657 numerator from 18,544 to 18,601. Calendar-age, original-COVID, all-COVID-retained and historical-key sensitivities change one condition at a time (Supplementary Table S8). At 35\u201359 the crude slope remained imprecise (p = 0.132); uncertainty is not evidence of stability.\n\n## Discussion\n\nThe corrected analysis reproduced the historical crude finding while separating it from the national domain of completed ages \u22657. Aligned crude mortality increased between 2014 and 2021, but the Brazil-2014-standardised endpoint change was negative and the slope across all eight years was close to zero. Its uncertainty admits trends in either direction and cannot demonstrate stability. The positive negative-binomial estimate using IBGE 2024 also prevents a claim that all national age-adjusted specifications exclude an increase.\n\nThe decomposition showed positive age-composition contributions across every endpoint pair with both denominator revisions. For some pairs the composition term exceeded the net crude increase because the age-specific-rate term was negative. These quantities describe changes in rates and population composition rather than identify causes of death, certification changes, treatment access or pandemic effects. Endpoint contrasts should not substitute for the trend across all annual observations.\n\nWithin ages 5\u201334, both crude and standardised mortality increased across 2014\u20132021. Standardising inside the range matters because even a comparatively young domain can change its internal age distribution. The primary Brazil-standardised slope retained a positive interval after removal of 2020, while the WHO sensitivity with IBGE 2018 included zero. The shorter prepandemic primary estimate was imprecise and its interval included zero. Neither that imprecision nor the positive endpoint contrast establishes a prepandemic annual trend. The nested 7\u201334 analysis supports sensitivity to the inclusion of ages five and six, rather than independent confirmation. These findings warrant continued surveillance but do not establish a change point or a reversal of the earlier decline reported by Graudenz et al. [3].\n\nThe U071 correction, explicit calendar ages and conservative treatment of the ambiguous pair improve the transparency of selection. Equality of the revised and historical \u22657 totals masks different individual records and distributions. Calendar age shifted single-year bins even without changing the five named domain memberships, which can affect direct standardisation and band-based models. Alternative COVID rules, retention of mentions and key-based deduplication are reported as sensitivity scenarios rather than silently blended corrections.\n\nLimitations include the ecological design, short annual series, post hoc robustness analyses, unadjusted multiple comparisons and possible changes in death certification. Public-field linkage cannot determine the true identity of the 2018 pair. For SIM 2014\u20132019, absent historical execution hashes prevent verification of byte identity, despite exact reproduction of recorded counts and aggregates. The population workbook used by Brum et al. remains unavailable. Negative-binomial theta iteration warnings near the Poisson limit also limit claims about dispersion convergence; they do not justify hiding models or selecting a family by its p value. Statistical intervals quantify model uncertainty rather than uncertainty from record selection, certification or population reconstruction.\n\nThe study supports joint reporting of aligned crude, age-standardised and age-specific mortality. Population composition accounted for much of the corrected crude increase at \u22657. Evidence of an increase within 5\u201334 over 2014\u20132021 merits attention, with the prepandemic uncertainty and sensitivity to modelling clearly stated.\n\n## Funding\n\nNo funding was received for this study. This declaration is retained from the reviewed PDF and awaits confirmation of both authors' circumstances in the accompanying checklist.\n\n## Conflicts of interest\n\nThe authors declare no conflicts of interest. This declaration is retained from the reviewed PDF and awaits confirmation by both authors.\n\n## Author contributions\n\nAuthor order and affiliations are carried forward from the reviewed PDF. Final CRediT contributions and completion of each author's scientific review require confirmation before submission; no completed validation is asserted here.\n\n## References\n\n1. Brum M, Henz J, Boeira M, Soares S, Friedrich F, Pitrez PM. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;50(5):e20240138. doi:10.36416/1806-3756/e20240138\n2. Cardoso ADRO, Ferreira ACG, Rabahi MF. Asthma-related deaths in Brazil: data from an ecological study. J Bras Pneumol. 2024;50(6):e20240296. doi:10.36416/1806-3756/e20240296\n3. Graudenz GS, Carneiro DP, Vieira RP. Trends in asthma mortality in the 0- to 4-year and 5- to 34-year age groups in Brazil. J Bras Pneumol. 2017;43(1):24-31. doi:10.1590/S1806-37562015000000253\n4. Brum M, et al. Analysis code accompanying reference 1. GitHub repository, commit 8d527a5 (15 May 2024). Available from: https://github.com/mobrant94/asthma_mortality\n5. Minist\u00e9rio da Sa\u00fade (Brasil). Sistema de Informa\u00e7\u00e3o sobre Mortalidade (SIM). Portal de Dados Abertos do SUS. Available from: https://dadosabertos.saude.gov.br/dataset/sim\n6. Instituto Brasileiro de Geografia e Estat\u00edstica. Proje\u00e7\u00e3o da Popula\u00e7\u00e3o do Brasil e das Unidades da Federa\u00e7\u00e3o, revis\u00e3o 2018: popula\u00e7\u00e3o por idade simples, 2010\u20132060. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/ (accessed 1 October 2026)\n7. Instituto Brasileiro de Geografia e Estat\u00edstica. Proje\u00e7\u00f5es da Popula\u00e7\u00e3o, revis\u00e3o 2024: popula\u00e7\u00e3o por idade simples. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/ (accessed 1 October 2026)\n8. Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJL, Lozano R, Inoue M. Age standardization of rates: a new WHO standard. GPE Discussion Paper Series No. 31. Geneva: World Health Organization; 2001.\n9. Venables WN, Ripley BD. Modern applied statistics with S. 4th ed. New York: Springer; 2002.\n10. R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing; 2026. Available from: https://www.R-project.org/\n11. Kitagawa EM. Components of a difference between two rates. J Am Stat Assoc. 1955;50(272):1168\u20131194. doi:10.1080/01621459.1955.10501299\n12. Minist\u00e9rio da Sa\u00fade. Estrutura de Dados SIM. Secretaria de Vigil\u00e2ncia em Sa\u00fade. Official data dictionary, archived by UFBA. https://ccvisat.ufba.br/wp-content/uploads/2019/10/Estrutura-do-SIM-para-o-CD-ROM.pdf (accessed 11 October 2026).\n\n## Table 1. Historical comparators and corrected primary rates, Brazil, 2014\u20132021\n\n| Series | 2014 | 2021 | \u0394 rate | \u0394 % | Slope (95% CI) | p |\n| --- | --- | --- | --- | --- | --- | --- |\n| Corrected crude \u22657 | 1.123 | 1.257 | +0.134 | +12.0 | 0.0270 (0.0030, 0.0509) | 0.033 |\n| Brazil 2014 ASR \u22657 | 1.123 | 1.077 | -0.046 | -4.1 | 0.0002 (-0.0214, 0.0217) | 0.986 |\n| Crude 5\u201334 | 0.182 | 0.218 | +0.036 | +19.7 | 0.0079 (0.0021, 0.0138) | 0.016 |\n| Brazil 2014 ASR 5\u201334 | 0.182 | 0.215 | +0.033 | +18.0 | 0.0075 (0.0018, 0.0132) | 0.018 |\n| Crude 7\u201334 | 0.181 | 0.223 | +0.042 | +22.9 | 0.0093 (0.0029, 0.0156) | 0.012 |\n| Crude 35\u201359 | 0.719 | 0.830 | +0.111 | +15.5 | 0.0221 (-0.0089, 0.0532) | 0.132 |\n| Historical >6 / all population | 1.012 | 1.138 | +0.126 | +12.5 | 0.0250 (0.0036, 0.0463) | 0.029 |\n| Historical >6 / \u22657 population | 1.126 | 1.260 | +0.134 | +11.9 | 0.0268 (0.0031, 0.0505) | 0.032 |\n\nRates and absolute changes are per 100,000. Slopes are per 100,000 per year with t-based 95% intervals, six residual degrees of freedom. \u0394 is the endpoint difference; \u0394 % is the relative endpoint change. Corrected rows use calendar age, U071-inclusive COVID exclusions and retention of both ambiguous 2018 records. Historical rows retain continuous >6 and their original denominators. IBGE 2018 is used throughout this table; primary ASR uses Brazil 2014 weights normalised inside the specified domain.\n\n## Figure 1. Relative changes from 2014\n\n![Figure 1. Corrected aligned crude and Brazil-2014-standardised national rates for completed ages \u22657, plus rates standardised within 5\u201334. IBGE 2018 denominators; changes relative to each series' own 2014 rate.](figures/Figure1.png)\n\n## Figure 2. Kitagawa sensitivity to population revision\n\n![Figure 2. Corrected \u22657 crude-rate changes partitioned into age-composition and age-specific-rate components for six pairs, with IBGE 2018 and 2024. Components sum to net change before rounding and are not causal effects.](figures/Figure2.png)\n",
+  "manuscript_before_sha256": "9a7bf7bca589a0965ed27c8fbeef4caeb402d20bf98ae2090865c935068348ef"
+}

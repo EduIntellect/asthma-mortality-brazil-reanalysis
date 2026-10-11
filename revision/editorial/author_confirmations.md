@@ -1,6 +1,6 @@
 # Confirmaciones concretas antes de enviar a una revista
 
-La entrega científica y editorial está preparada para revisión de ambos autores. No se ha enviado correo, publicado la rama ni presentado el artículo.
+La entrega científica y editorial está preparada para revisión de ambos autores. La rama revision/amaury-review está publicada en GitHub. No se ha enviado correo ni presentado el artículo.
 
 - **Financiación:** ambos autores deben confirmar la declaración del PDF: “No funding was received for this study”, incluyendo recursos o apoyo institucional que deban declararse.
 - **Conflictos:** cada autor debe confirmar la declaración de ausencia de conflictos y completar el formulario requerido por la revista finalmente elegida.

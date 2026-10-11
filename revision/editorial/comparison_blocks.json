@@ -1,23 +1,12 @@
 [
   {
-    "operation": "delete",
-    "reference_blocks": [
-      0,
-      1
-    ],
-    "revised_blocks": [
-      0,
-      0
-    ]
-  },
-  {
     "operation": "replace",
     "reference_blocks": [
-      2,
+      0,
       8
     ],
     "revised_blocks": [
-      1,
+      0,
       4
     ]
   },
@@ -25,11 +14,22 @@
     "operation": "replace",
     "reference_blocks": [
       9,
-      13
+      14
     ],
     "revised_blocks": [
       5,
-      9
+      10
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      15,
+      19
+    ],
+    "revised_blocks": [
+      11,
+      15
     ]
   },
   {
@@ -40,7 +40,7 @@
     ],
     "revised_blocks": [
       16,
-      45
+      46
     ]
   },
   {
@@ -50,8 +50,8 @@
       57
     ],
     "revised_blocks": [
-      46,
-      58
+      47,
+      59
     ]
   },
   {
@@ -61,8 +61,8 @@
       66
     ],
     "revised_blocks": [
-      59,
-      65
+      60,
+      68
     ]
   },
   {
@@ -72,8 +72,8 @@
       68
     ],
     "revised_blocks": [
-      66,
-      67
+      69,
+      70
     ]
   },
   {
@@ -83,8 +83,8 @@
       70
     ],
     "revised_blocks": [
-      68,
-      71
+      71,
+      74
     ]
   },
   {
@@ -94,8 +94,8 @@
       95
     ],
     "revised_blocks": [
-      72,
-      99
+      75,
+      102
     ]
   },
   {
@@ -105,8 +105,8 @@
       156
     ],
     "revised_blocks": [
-      100,
-      414
+      103,
+      417
     ]
   }
 ]

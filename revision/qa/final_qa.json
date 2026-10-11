@@ -21,12 +21,39 @@
   "reference_word_pdf_blocks_verified": 486,
   "traced_text_values_verified": 74,
   "all_date_domain_COVID_duplicate_weight_rate_Kitagawa_checks": "passed",
-  "external_actions": "none",
+  "external_actions": "Git branch publication explicitly authorised by user; no email or journal submission",
   "author_confirmations": "funding, conflicts, ethics determination, affiliations/contributions and human scientific review; see Author_confirmations.docx",
   "limitations": [
     "Historical SIM 2014\u20132019 execution hashes unavailable.",
     "Concordant Word text does not establish historical binary provenance.",
     "Negative-binomial theta iteration-limit warnings retained.",
     "Marked comparison identifies changes visually; it is not native Word Track Changes."
-  ]
+  ],
+  "editorial_copyedit": {
+    "status": "complete",
+    "skills": [
+      "academic-editing",
+      "academic-structural-reviewer (diagnosis)",
+      "research-problem-mechanism-evidence",
+      "compag-elsevier-paper-editing"
+    ],
+    "humanisation": "No dedicated installed skill; clarity and fluency editing applied",
+    "scientific_files_preserved": 322,
+    "traced_values_preserved": 74,
+    "latest_page_counts": {
+      "Author_confirmations": 1,
+      "Manuscript_CLEAN": 8,
+      "Manuscript_MARKED_COMPARISON": 24,
+      "Response_to_Amaury": 2,
+      "Supplement": 10
+    },
+    "final_page_count": 45,
+    "all_final_pages_visually_inspected": true,
+    "final_small_wording_pass_pages": [
+      "Manuscript_CLEAN/page-5.png",
+      "Response_to_Amaury/page-2.png"
+    ],
+    "final_small_wording_pass_pages_reinspected": true,
+    "report": "revision/editorial/academic_style_review.md"
+  }
 }

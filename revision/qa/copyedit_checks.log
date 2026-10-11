@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline_commit": "8fa06c0577429b643a2e08ee4e1ed1d15ed6b9a8",
+  "scientific_files_unchanged": 322,
+  "identical_traced_values": 74,
+  "equations_preserved": 5,
+  "references_preserved": true,
+  "table_and_captions_preserved": true,
+  "colon_free_manuscript_prose": true,
+  "em_dash_and_italic_free_prose": true,
+  "definitions_and_model_formulas_preserved": true,
+  "words_before": 4105,
+  "words_after": 4017
+}
