@@ -90,7 +90,7 @@ Recovered official SIM archives reproduced the recorded selection counts and yea
 
 Codex assisted code revision and analysis checking. Figures were plotted directly from analytical results. Editorial AI assistance is disclosed in Acknowledgements.
 
-The study used public SIM mortality records and aggregate IBGE projections, with no participant contact, and reports only aggregate results. No formally granted ethics approval or exemption is claimed.
+The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
 ## Results
 

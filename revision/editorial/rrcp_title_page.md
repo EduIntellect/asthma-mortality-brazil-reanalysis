@@ -16,7 +16,7 @@ Corresponding author. Francisco Federico García Crespi. Email fedeg@umh.es. Pos
 
 ## Counts
 
-Abstract 249 words including labels. Main body 2896 words including Acknowledgements, excluding headings, references and legends (2956 including body headings). Twelve references, one main table, two main figures. Supplement supplied separately.
+Abstract 249 words including labels. Main body 2894 words including Acknowledgements, excluding headings, references and legends (2954 including body headings). Twelve references, one main table, two main figures. Supplement supplied separately.
 
 ## Author declarations
 
@@ -24,7 +24,7 @@ No funding was received for this study. The authors declare no conflicts of inte
 
 CRediT contributions. Francisco Federico García Crespi contributed conceptualisation, methodology, software, formal analysis, data curation, visualisation and writing the original draft. Amaury de Souza contributed validation of epidemiological and scientific interpretation, and writing, review and editing.
 
-Ethics. The study used public SIM mortality records and aggregate IBGE projections, with no participant contact, and reports only aggregate results. No formally granted ethics approval or exemption is claimed.
+Ethics. The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
 AI assistance. Claude Code and GitHub Copilot supported the historical workflow. Codex assisted code revision, analysis checking and editorial drafting. Figures were generated directly from analytical outputs. The manuscript discloses the assistance in Methods and Acknowledgements; both authors accept responsibility for the final manuscript.
 

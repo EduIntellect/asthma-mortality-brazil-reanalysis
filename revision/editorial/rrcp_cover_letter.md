@@ -8,7 +8,7 @@ The work addresses respiratory surveillance in Brazil. It distinguishes changes 
 
 We provide an anonymised manuscript, supplementary selection and sensitivity tables, figures, a reporting checklist and reproducible code and outputs. The ambiguous 2018 pair is retained in the principal analysis because available identifiers do not establish a shared death. Numerical results and model warnings remain available for review.
 
-The study uses public mortality records and aggregate population projections, without participant contact, and reports aggregate findings. No formally granted institutional ethics approval or exemption is claimed.
+The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
 Claude Code and GitHub Copilot assisted the historical workflow. Codex assisted code revision, analysis checking and editorial drafting. Figures were generated directly from results. Both authors reviewed and approved the final manuscript and take responsibility for its content. No funding was received for this study, and the authors declare no conflicts of interest.
 

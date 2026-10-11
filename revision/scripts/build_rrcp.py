@@ -43,7 +43,7 @@ No funding was received for this study. The authors declare no conflicts of inte
 
 CRediT contributions. Francisco Federico García Crespi contributed conceptualisation, methodology, software, formal analysis, data curation, visualisation and writing the original draft. Amaury de Souza contributed validation of epidemiological and scientific interpretation, and writing, review and editing.
 
-Ethics. The study used public SIM mortality records and aggregate IBGE projections, with no participant contact, and reports only aggregate results. No formally granted ethics approval or exemption is claimed.
+Ethics. The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
 AI assistance. Claude Code and GitHub Copilot supported the historical workflow. Codex assisted code revision, analysis checking and editorial drafting. Figures were generated directly from analytical outputs. The manuscript discloses the assistance in Methods and Acknowledgements; both authors accept responsibility for the final manuscript.
 
@@ -62,7 +62,7 @@ The work addresses respiratory surveillance in Brazil. It distinguishes changes 
 
 We provide an anonymised manuscript, supplementary selection and sensitivity tables, figures, a reporting checklist and reproducible code and outputs. The ambiguous 2018 pair is retained in the principal analysis because available identifiers do not establish a shared death. Numerical results and model warnings remain available for review.
 
-The study uses public mortality records and aggregate population projections, without participant contact, and reports aggregate findings. No formally granted institutional ethics approval or exemption is claimed.
+The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 
 Claude Code and GitHub Copilot assisted the historical workflow. Codex assisted code revision, analysis checking and editorial drafting. Figures were generated directly from results. Both authors reviewed and approved the final manuscript and take responsibility for its content. No funding was received for this study, and the authors declare no conflicts of interest.
 
@@ -121,7 +121,7 @@ counts['blinded_metadata_cleared']=True;counts['jpeg_dpi']=300
 
 Upload Manuscript_BLINDED.docx as the main manuscript, Title_page.docx separately, Cover_letter.docx as the letter, STROBE_checklist.docx as the reporting checklist, Supplement.docx as supplementary material, Table1.docx as an editable table and Figure1.jpg/Figure2.jpg as main figures. FigureS1.jpg belongs to the supplement. SVG files supply editable originals; PDF previews are for author inspection.
 
-Author approval, authorship metadata, contributions, funding and conflicts were confirmed during preparation on 11 October 2026. A formal institutional ethics approval/exemption document is not present in the evidence package; the manuscript and cover letter describe public-data use without asserting a granted exemption. If the submission system requires an approval identifier or formal exemption, this documentary item must be resolved with the institution/editor. Exclusive-submission and publication-history questions must be answered by the submitting author at dispatch.
+Author approval, authorship metadata, contributions, funding and conflicts were confirmed during preparation on 11 October 2026. The original manuscript ethics declaration is reproduced in Methods, the title page and the cover letter. It describes public-data use and does not establish a formal institutional approval or exemption. If the submission system requires an approval identifier or formal exemption, this item must be resolved with the institution/editor. Exclusive-submission and publication-history questions must be answered by the submitting author at dispatch.
 
 No email or journal submission has been sent. Code and the larger scientific revision package remain in the repository alongside the submission materials.
 

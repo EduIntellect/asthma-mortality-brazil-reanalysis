@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "Cover_letter.docx",
-      "sha256": "6adaa707a78b4855483fe88f00762c0b10217a78254534b7ffd153610c19b2b1",
-      "bytes": 38380
+      "sha256": "a6414e8ab0c385766a552d3501df3dd6ef9a0a2d9d874d28c583a97b2f5f5fc8",
+      "bytes": 38373
     },
     {
       "path": "Cover_letter.pdf",
-      "sha256": "9e1584a57326206390c9642e3e2aec8c8fc9b09cf8606004f77ea6479c5a1684",
-      "bytes": 32268
+      "sha256": "14866950d928116bc4c830401e5477c390566350a6e4600b4aba92c13fc0c0bc",
+      "bytes": 32258
     },
     {
       "path": "Figure1.jpg",
@@ -44,18 +44,18 @@
     },
     {
       "path": "Manuscript_BLINDED.docx",
-      "sha256": "0c065ae1220867f41e312f4c738be140930e3c3bcde80215276af5b9a5ee7a7a",
-      "bytes": 355857
+      "sha256": "b6c0c008b40fec33f4ead8af85d20aa9df1a39e7739bff8d8e5ae28b51dea4d2",
+      "bytes": 355861
     },
     {
       "path": "Manuscript_BLINDED.pdf",
-      "sha256": "9a3ea6ddbe21e56435c7c7e6527294cfd48836d25e7229d95364074da0230db1",
-      "bytes": 461367
+      "sha256": "faf7c82fac1d14451589c791923ac97b5b3343e113409923d9257b627429bea9",
+      "bytes": 461360
     },
     {
       "path": "README.md",
-      "sha256": "5e17891be8d4586595b36e575a26dc5dff42282944a69a67cecec5d80a08e6a5",
-      "bytes": 1254
+      "sha256": "3d6b80cdee6312667153ed3086bcab06583b56f9ab211183437b4c8a895f2009",
+      "bytes": 1252
     },
     {
       "path": "STROBE_checklist.docx",
@@ -89,16 +89,16 @@
     },
     {
       "path": "Title_page.docx",
-      "sha256": "bb1dc3ec81dffd711787cf8a01aaae0b46c27b9dee222b89d826afe17112a25a",
-      "bytes": 38612
+      "sha256": "d62106299468d3e19b132eb816919e83f1c3982e38c2e39de4e62be796fba9be",
+      "bytes": 38617
     },
     {
       "path": "Title_page.pdf",
-      "sha256": "0cc91fd2cd75f91e113a55c571b3bcf726673643e249bb797ca76ed261bbb5d5",
-      "bytes": 43770
+      "sha256": "defca1257a2f721af6a66e421096055bea39946d30259b38e67b953f0b134cbb",
+      "bytes": 43769
     }
   ],
   "author_approval": "confirmed by corresponding author for the 11 October 2026 approved PDF; minor editorial corrections await final proof review",
-  "ethics_document": "authors will provide approval or exemption document; not yet received or checked",
+  "ethics_document": "Original manuscript ethics declaration restored verbatim; no formal approval or exemption document located",
   "sent": false
 }

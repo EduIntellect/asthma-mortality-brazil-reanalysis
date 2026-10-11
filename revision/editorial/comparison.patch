@@ -56,7 +56,6 @@
 -Generative AI tools, including Claude Code (Anthropic) and GitHub Copilot (GitHub), were used to generate and review analysis scripts and to examine analytical results. The authors wrote and finalised the manuscript.
 -The figures were rendered programmatically from analytical outputs rather than generated as images by an AI image-generation tool.
 -Ethics
--The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
 +Study design and reference reproduction
 +This secondary ecological analysis used the Brazilian Mortality Information System (SIM) to examine national underlying-cause asthma mortality in Brazil during 2014–2021. The corrected primary population comprised people aged ≥7 completed years. We analysed ages 5–34 separately and used the nested 7–34 group to assess sensitivity to ages five and six; 35–59 and ≥60 provided further comparisons. The historical analysis using continuous age >6 was reproduced separately. The primary analysis retained IBGE 2018 denominators and Brazil 2014 standard weights. Sensitivity analyses and descriptive decomposition complemented the primary estimates. We applied no multiple-testing correction.
 +We reproduced the historical analysis against the archived manuscript and versioned analytical code. Provenance details are reported under Software, reproducibility and ethics.
@@ -87,7 +86,7 @@
 +We used R 4.6.1 [12] for reproduction and revision; the reference reported R 4.3.3. The code records versions, configurations, hashes, warnings and independent checks. Public inputs and separate scenario outputs support reproduction. Code and revision outputs are available at https://github.com/EduIntellect/asthma-mortality-brazil-reanalysis/tree/revision/amaury-review .
 +Recovered official SIM archives reproduced the recorded selection counts and year-age aggregates exactly. Historical execution hashes exist only for 2020–2021, preventing confirmation of historical file identity for 2014–2019. The supplement and provenance manifest document the manuscript reference, concordant Word, code commit and input hashes.
 +Codex assisted code revision and analysis checking. Figures were plotted directly from analytical results. Editorial AI assistance is disclosed in Acknowledgements.
-+The study used public SIM mortality records and aggregate IBGE projections, with no participant contact, and reports only aggregate results. No formally granted ethics approval or exemption is claimed.
+ The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
  Results
 -Reproduction of the original analysis
 -The SIM files for 2014–2021 contained 19,105 deaths with asthma as the underlying cause. After the COVID-19-related exclusion and removal of duplicates (57 records, 56 of them in 2020–2021) and exclusion of 15 deaths without a valid date of birth, the reproduction included 18,583 deaths above 6 years of age, against 18,584 reported by Brum et al. [1] (Supplementary Table S1). Of these, 68.2% occurred at 60 years or older, as in the original study.
