@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "verified_SIM_archives": 8,
+  "IBGE_2018": "copied from packaged workbook and verified against frozen hash",
+  "preserved_original_B0": "read-only archive symlinks; evidence written only to temporary test directory"
+}

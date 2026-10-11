@@ -1,0 +1,11 @@
+source('revision/scripts/analysis.R')
+ages<-c(4,5,6,7,14,15,24,25,34,35,59,60,89,90,91,114)
+expected<-list(ge7=ages>=7,age_5_34=ages>=5&ages<=34,age_7_34=ages>=7&ages<=34,age_35_59=ages>=35&ages<=59,age_ge60=ages>=60)
+for(n in names(domains)){r<-domains[[n]];stopifnot(identical(pmin(ages,90)>=r[1]&pmin(ages,90)<=r[2],expected[[n]]))}
+d<-data.frame(source_row=1:6,DTOBITO=c('01012021','01012021','01012021','31022021','01012021','01012021'),DTNASC=c('01012000','01012000','01012000','01012000','02012021','01012000'),CAUSABAS='J459',LINHAA=c('B342U071','U071','','','',''),LINHAB='',LINHAC='',LINHAD='',LINHAII='')
+r<-select_records(d,2021,scenario_config('corrected'),6)
+stopifnot(r$counts$N_COVID==2,r$counts$N_duplicates==0,r$counts$N_invalid_dates==1,r$counts$N_negative_age==1,r$counts$N_valid_age==2,r$counts$N_ge7==2)
+r<-select_records(d,2021,scenario_config('covid_original'),6);stopifnot(r$counts$N_COVID==1)
+r<-select_records(d,2021,scenario_config('covid_retained'),6);stopifnot(r$counts$N_COVID==0,r$counts$N_valid_age==4)
+r<-select_records(d,2021,scenario_config('historical_dedup'),6);stopifnot(r$counts$N_duplicates==1,r$counts$N_ge7==1)
+cat('Selection, COVID-union, duplicate and all age-domain boundary tests passed\n')

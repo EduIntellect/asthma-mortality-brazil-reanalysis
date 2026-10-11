@@ -1,0 +1,342 @@
+=== Year 2014 ===
+=== Year 2015 ===
+=== Year 2016 ===
+=== Year 2017 ===
+=== Year 2018 ===
+=== Year 2019 ===
+=== Year 2020 ===
+=== Year 2021 ===
+FASE 2 complete. Counts log:
+     year   N_raw N_J45_J46 N_post_exclusions N_valid_age
+2014 2014 1227039      2129              2129        2127
+2015 2015 1264175      2232              2232        2231
+2016 2016 1309774      2249              2249        2247
+2017 2017 1312663      2477              2477        2476
+2018 2018 1316719      2307              2306        2302
+2019 2019 1349801      2488              2488        2486
+2020 2020 1556824      2735              2708        2705
+2021 2021 1832649      2488              2459        2459
+     N_missing_or_invalid_birthdate N_gt6_valid_age
+2014                              2            2041
+2015                              1            2148
+2016                              2            2190
+2017                              1            2423
+2018                              4            2249
+2019                              2            2426
+2020                              3            2678
+2021                              0            2428
+FASE 3 complete.
+Warning message:
+Could not switch to a UTF-8 locale for the figure; accented characters and ¿ may render incorrectly on this machine. 
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+null device 
+          1 
+[1] "C.UTF-8"
+ start_year end_year n_deaths_start n_deaths_end crude_rate_start
+       2014     2021           2035         2423          1.12274
+       2014     2019           2035         2419          1.12274
+       2014     2020           2035         2677          1.12274
+       2015     2021           2142         2423          1.17069
+       2016     2021           2187         2423          1.18442
+       2014     2018           2035         2243          1.12274
+ crude_rate_end crude_rate_change composition_effect age_specific_rate_effect
+        1.25757         0.1348233           0.191424               -0.0566002
+        1.27648         0.1537344           0.138133                0.0156016
+        1.40096         0.2782162           0.171165                0.1070507
+        1.25757         0.0868729           0.167374               -0.0805015
+        1.25757         0.0731505           0.139931               -0.0667804
+        1.19375         0.0710073           0.107319               -0.0363114
+ composition_share_percent age60plus_composition_effect
+                  141.9810                     0.181457
+                   89.8516                     0.131052
+                   61.5225                     0.160607
+                  192.6659                     0.158892
+                  191.2918                     0.133208
+                  151.1375                     0.101180
+ age60plus_share_of_composition_percent
+                                94.7932
+                                94.8738
+                                93.8314
+                                94.9319
+                                95.1952
+                                94.2795
+ age60plus_population_share_start_percent
+                                  13.3090
+                                  13.3090
+                                  13.3090
+                                  13.6845
+                                  14.0778
+                                  13.3090
+ age60plus_population_share_end_percent
+                                16.2608
+                                15.3531
+                                15.8031
+                                16.2608
+                                16.2608
+                                14.9154
+Kitagawa sensitivity written to: /Users/fede/repos/asthma-mortality-brazil-revision-amaury/revision/results/historical/data/kitagawa_endpoint_sensitivity.csv 
+Pipeline complete.
+                          series year n_deaths      rate pct_change
+1                      age_35_59 2014      452 0.7186702  0.0000000
+2                      age_35_59 2015      485 0.7560444  5.2004714
+3                      age_35_59 2016      515 0.7874807  9.5746992
+4                      age_35_59 2017      567 0.8508304 18.3895440
+5                      age_35_59 2018      504 0.7426803  3.3409060
+6                      age_35_59 2019      524 0.7589872  5.6099479
+7                      age_35_59 2020      709 1.0105890 40.6193055
+8                      age_35_59 2021      591 0.8298986 15.4769740
+9                       age_5_34 2014      182 0.1817624  0.0000000
+10                      age_5_34 2015      189 0.1897390  4.3884697
+11                      age_5_34 2016      184 0.1857674  2.2034016
+12                      age_5_34 2017      172 0.1747039 -3.8834027
+13                      age_5_34 2018      200 0.2044577 12.4862377
+14                      age_5_34 2019      218 0.2242467 23.3735298
+15                      age_5_34 2020      236 0.2441265 34.3107435
+16                      age_5_34 2021      210 0.2185892 20.2609522
+17              age_7_34_control 2014      171 0.1814599  0.0000000
+18              age_7_34_control 2015      174 0.1855398  2.2483896
+19              age_7_34_control 2016      179 0.1919467  5.7791152
+20              age_7_34_control 2017      164 0.1770262 -2.4433443
+21              age_7_34_control 2018      190 0.2065048 13.8018635
+22              age_7_34_control 2019      208 0.2276423 25.4504801
+23              age_7_34_control 2020      232 0.2557062 40.9160722
+24              age_7_34_control 2021      202 0.2241209 23.5098743
+25      age_standardized_2014std 2014     2035 1.1227434  0.0000000
+26      age_standardized_2014std 2015     2142 1.1444410  1.9325479
+27      age_standardized_2014std 2016     2187 1.1321937  0.8417155
+28      age_standardized_2014std 2017     2418 1.2085098  7.6389985
+29      age_standardized_2014std 2018     2243 1.0892095 -2.9867813
+30      age_standardized_2014std 2019     2419 1.1403296  1.5663633
+31      age_standardized_2014std 2020     2677 1.2297599  9.5316996
+32      age_standardized_2014std 2021     2423 1.0777365 -4.0086501
+33   brum_crude_national_gt6_pop 2014     2041 1.1260537  0.0000000
+34   brum_crude_national_gt6_pop 2015     2148 1.1739731  4.2555176
+35   brum_crude_national_gt6_pop 2016     2190 1.1860409  5.3272062
+36   brum_crude_national_gt6_pop 2017     2423 1.3007769 15.5164208
+37   brum_crude_national_gt6_pop 2018     2249 1.1969440  6.2954646
+38   brum_crude_national_gt6_pop 2019     2426 1.2801716 13.6865475
+39   brum_crude_national_gt6_pop 2020     2678 1.4014830 24.4596906
+40   brum_crude_national_gt6_pop 2021     2428 1.2601618 11.9095645
+41 brum_crude_national_total_pop 2014     2041 1.0118109  0.0000000
+42 brum_crude_national_total_pop 2015     2148 1.0556544  4.3331747
+43 brum_crude_national_total_pop 2016     2190 1.0674773  5.5016641
+44 brum_crude_national_total_pop 2017     2423 1.1716366 15.7960070
+45 brum_crude_national_total_pop 2018     2249 1.0786835  6.6091989
+46 brum_crude_national_total_pop 2019     2426 1.1544293 14.0953656
+47 brum_crude_national_total_pop 2020     2678 1.2646649 24.9902510
+48 brum_crude_national_total_pop 2021     2428 1.1382087 12.4922426
+          slope       ci_low    ci_high    p_value small_count_flag
+1  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+2  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+3  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+4  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+5  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+6  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+7  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+8  0.0221153724 -0.008933212 0.05316396 0.13198135            FALSE
+9  0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+10 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+11 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+12 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+13 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+14 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+15 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+16 0.0080347233  0.002265132 0.01380431 0.01436158            FALSE
+17 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+18 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+19 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+20 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+21 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+22 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+23 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+24 0.0093574309  0.003100998 0.01561386 0.01058295            FALSE
+25 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+26 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+27 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+28 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+29 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+30 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+31 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+32 0.0001982674 -0.021329714 0.02172625 0.98275159            FALSE
+33 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+34 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+35 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+36 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+37 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+38 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+39 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+40 0.0268436302  0.003148381 0.05053888 0.03233552            FALSE
+41 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+42 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+43 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+44 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+45 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+46 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+47 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+48 0.0249731034  0.003619929 0.04632628 0.02873657            FALSE
+        series n_2014 n_2021 rate_2014  rate_2021 pct_change_2014_2021
+1  legacy_lt18     43     37 0.0764855 0.06945392            -9.193351
+2 legacy_18_59    580    756 0.4778583 0.58734562            22.912100
+3 legacy_gte60   1412   1630 5.8533758 5.20264211           -11.117237
+          slope    p_value
+1 -0.0004720915 0.85235915
+2  0.0212457940 0.04388039
+3 -0.0712406977 0.13499816
+
+Proportion of deaths in >=60 group (pooled 2014-2021):
+68.2 %
+   denominator_revision                        series rate_2014 rate_2021
+1               rev2018                     age_35_59   0.71867   0.82990
+2               rev2024                     age_35_59   0.72112   0.83624
+3               rev2018                      age_5_34   0.18176   0.21859
+4               rev2024                      age_5_34   0.18281   0.22240
+5               rev2018              age_7_34_control   0.18146   0.22412
+6               rev2024              age_7_34_control   0.18258   0.22821
+7               rev2018      age_standardized_2014std   1.12274   1.07774
+8               rev2024      age_standardized_2014std   1.12844   1.11179
+9               rev2018   brum_crude_national_gt6_pop   1.12605   1.26016
+10              rev2024   brum_crude_national_gt6_pop   1.13177   1.27727
+11              rev2018 brum_crude_national_total_pop   1.01181   1.13821
+12              rev2024 brum_crude_national_total_pop   1.01638   1.15562
+13              rev2018                  legacy_18_59   0.47786   0.58735
+14              rev2024                  legacy_18_59   0.48090   0.59754
+15              rev2018                  legacy_gte60   5.85338   5.20264
+16              rev2024                  legacy_gte60   5.88365   5.27455
+17              rev2018                   legacy_lt18   0.07649   0.06945
+18              rev2024                   legacy_lt18   0.07650   0.07023
+   pct_change      slope     ci_low  ci_high  p_value
+1      15.477  0.0221154 -0.0089332 0.053164 0.131981
+2      15.964  0.0226915 -0.0084494 0.053832 0.124858
+3      20.261  0.0080347  0.0022651 0.013804 0.014362
+4      21.654  0.0084988  0.0026358 0.014362 0.012116
+5      23.510  0.0093574  0.0031010 0.015614 0.010583
+6      24.991  0.0098635  0.0034998 0.016227 0.009045
+7      -4.009  0.0001983 -0.0213297 0.021726 0.982752
+8      -1.476  0.0039668 -0.0175645 0.025498 0.667961
+9      11.910  0.0268436  0.0031484 0.050539 0.032336
+10     12.856  0.0285523  0.0047422 0.052362 0.026142
+11     12.492  0.0249731  0.0036199 0.046326 0.028737
+12     13.700  0.0268624  0.0054543 0.048270 0.021933
+13     22.912  0.0212458  0.0008058 0.041686 0.043880
+14     24.254  0.0224043  0.0016944 0.043114 0.038176
+15    -11.117 -0.0712407 -0.1722052 0.029724 0.134998
+16    -10.352 -0.0669760 -0.1656669 0.031715 0.147864
+17     -9.193 -0.0004721 -0.0064176 0.005473 0.852359
+18     -8.197 -0.0003666 -0.0062569 0.005524 0.883965
+   denominator_revision                        series end_to_end_pct
+11              rev2018 brum_crude_national_total_pop          12.49
+12              rev2024 brum_crude_national_total_pop          13.70
+13              rev2018                  legacy_18_59          22.91
+14              rev2024                  legacy_18_59          24.25
+15              rev2018                  legacy_gte60         -11.12
+16              rev2024                  legacy_gte60         -10.35
+17              rev2018                   legacy_lt18          -9.19
+18              rev2024                   legacy_lt18          -8.20
+   brum_style_mean_rel_variation_pct mean_yoy_pct
+11                             11.97        1.978
+12                             12.56        2.131
+13                             16.48        3.918
+14                             17.34        4.075
+15                             -1.90       -1.434
+16                             -1.79       -1.320
+17                             12.13        0.479
+18                             12.30        0.617
+
+Published Brum et al. (abstract / task brief) targets:
+ national slope 0.03 (95% CI 0.01-0.04, p=0.01); 18-59: ~+19%, slope ~+0.02, p~0.03; >=60: ~-0.5%, p~0.47
+Warning messages:
+1: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+2: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+3: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+4: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+5: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+6: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+7: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+8: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+
+=== A) Count models (annual % change; offset = log population) ===
+                        series        model annual_pct_change ci_low ci_high  p_value pearson_dispersion_poisson nb_theta
+ brum_crude_national_total_pop      poisson            2.2503  1.610  2.8950 3.94e-12                       5.91       NA
+ brum_crude_national_total_pop quasipoisson            2.2503  0.318  4.2195 2.90e-02                         NA       NA
+ brum_crude_national_total_pop       negbin            2.2804  0.959  3.6188 6.76e-04                         NA      707
+   brum_crude_national_gt6_pop      poisson            2.1771  1.537  2.8213 1.87e-11                       5.91       NA
+   brum_crude_national_gt6_pop quasipoisson            2.1771  0.246  4.1455 3.28e-02                         NA       NA
+   brum_crude_national_gt6_pop       negbin            2.2072  0.887  3.5450 1.00e-03                         NA      706
+                      age_5_34      poisson            4.0400  1.828  6.2997 3.03e-04                       1.07       NA
+                      age_5_34 quasipoisson            4.0400  1.198  6.9617 1.28e-02                         NA       NA
+                      age_5_34       negbin            4.0400  1.828  6.2997 3.03e-04                         NA  3462311
+              age_7_34_control      poisson            4.6473  2.370  6.9752 5.19e-05                       1.13       NA
+              age_7_34_control quasipoisson            4.6473  1.636  7.7477 8.89e-03                         NA       NA
+              age_7_34_control       negbin            4.6473  2.370  6.9753 5.20e-05                         NA  2672605
+                     age_35_59      poisson            2.7786  1.448  4.1263 3.74e-05                       5.54       NA
+                     age_35_59 quasipoisson            2.7786 -1.082  6.7894 1.30e-01                         NA       NA
+                     age_35_59       negbin            2.7834  0.181  5.4529 3.59e-02                         NA      188
+                  legacy_18_59      poisson            3.9774  2.779  5.1896 4.25e-11                       6.26       NA
+                  legacy_18_59 quasipoisson            3.9774  0.281  7.8105 3.87e-02                         NA       NA
+                  legacy_18_59       negbin            3.9436  1.484  6.4629 1.55e-03                         NA      209
+                  legacy_gte60      poisson           -1.3001 -2.048 -0.5466 7.45e-04                       3.56       NA
+                  legacy_gte60 quasipoisson           -1.3001 -3.052  0.4839 1.24e-01                         NA       NA
+                  legacy_gte60       negbin           -1.2713 -2.483 -0.0448 4.22e-02                         NA      968
+      age_adjusted_poisson_ge7      poisson            0.0043 -0.623  0.6356 9.89e-01                       3.11       NA
+      age_adjusted_poisson_ge7 quasipoisson            0.0043 -1.122  1.1430 9.94e-01                         NA       NA
+      age_adjusted_poisson_ge7       negbin            0.9329 -0.189  2.0678 1.04e-01                         NA      148
+
+=== B) WHO standard, direct standardization, OLS trend on ASR ===
+ denominator_revision                series rate_2014 rate_2021 pct_change     slope   ci_low ci_high p_value
+              rev2018  who_standardized_ge7     1.095     1.049      -4.21 -0.000115 -0.02071  0.0205  0.9895
+              rev2018 who_standardized_5_34     0.178     0.208      16.93  0.006858  0.00153  0.0122  0.0198
+              rev2024  who_standardized_ge7     1.102     1.080      -2.03  0.003087 -0.01756  0.0237  0.7270
+              rev2024 who_standardized_5_34     0.179     0.213      19.11  0.007520  0.00207  0.0130  0.0149
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/fede/.cache/fontconfig
+	/Users/fede/.fontconfig
+pooled share of deaths aged >=60 (floor-age scheme / continuous total):
+12677 / 18583 = 68.2 %
+deaths ages 5-34 pooled: 1591 
+records removed by exclusions/dedup: 57 
+totals: N_raw 11169644; N_J45_J46 19105; N_post_exclusions 19048; N_valid_age 19033; N_missing_or_invalid_birthdate 15; N_gt6_valid_age 18583 
+tables: tab_count_models.tex, tab_flow.tex, tab_groups_original.tex, tab_kitagawa.tex, tab_sensitivity.tex, tab_series.tex, tab_trends.tex 

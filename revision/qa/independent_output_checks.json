@@ -1,0 +1,126 @@
+[
+  {
+    "check": "calendar and continuous age",
+    "year": 2014,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2015,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2016,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2017,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2018,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2019,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2020,
+    "status": "passed"
+  },
+  {
+    "check": "calendar and continuous age",
+    "year": 2021,
+    "status": "passed"
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/age_days/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/age_days/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/corrected/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/corrected/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/covid_original/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/covid_original/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/covid_retained/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/covid_retained/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/historical_dedup/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/historical_dedup/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/prepandemic/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/prepandemic/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/without_2020/ibge2018",
+    "status": "passed",
+    "model_warnings": 2
+  },
+  {
+    "check": "flow, denominators, rates, weights, Kitagawa and model accounting",
+    "run": "revision/results/without_2020/ibge2024",
+    "status": "passed",
+    "model_warnings": 2
+  }
+]

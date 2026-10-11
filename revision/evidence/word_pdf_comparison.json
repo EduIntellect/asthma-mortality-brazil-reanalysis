@@ -1,0 +1,49 @@
+{
+  "clean_paragraphs": 486,
+  "ordered_matches": 486,
+  "unmatched": [],
+  "figures": [
+    {
+      "figure": "fig1_relative_change_ge7.jpg",
+      "word_dimensions": [
+        2100,
+        1440
+      ],
+      "repo_dimensions": [
+        2100,
+        1440
+      ],
+      "encoded_bytes_equal": false,
+      "decoded_pixels_equal": false,
+      "mean_abs_pixel_difference": 15.964570105820107
+    },
+    {
+      "figure": "fig2_kitagawa_sensitivity.jpg",
+      "word_dimensions": [
+        2130,
+        1410
+      ],
+      "repo_dimensions": [
+        2130,
+        1410
+      ],
+      "encoded_bytes_equal": false,
+      "decoded_pixels_equal": false,
+      "mean_abs_pixel_difference": 6.638299537175773
+    },
+    {
+      "figure": "figS1_age_5_34_mortality.jpg",
+      "word_dimensions": [
+        2130,
+        2010
+      ],
+      "repo_dimensions": [
+        2130,
+        2010
+      ],
+      "encoded_bytes_equal": false,
+      "decoded_pixels_equal": false,
+      "mean_abs_pixel_difference": 6.6213701445822535
+    }
+  ]
+}

@@ -8,7 +8,13 @@
 #'     seer.cancer.gov/stdpopulations/world.who.html, total 100.035, normalized).
 #' Run for both IBGE denominator revisions (2018 primary, 2024 post-Census).
 suppressMessages(library(MASS))
-here <- function(...) file.path("/home/user/asthma-mortality-brazil-reanalysis/reanalysis", ...)
+# Portable runtime root; the revision runner sets an isolated output tree.
+.runtime_root <- Sys.getenv("ASTHMA_REANALYSIS_ROOT")
+if (!nzchar(.runtime_root)) {
+  .file <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+  .runtime_root <- if (length(.file)) dirname(dirname(normalizePath(sub("^--file=", "", .file[1])))) else normalizePath("reanalysis")
+}
+here <- function(...) file.path(.runtime_root, ...)
 source(here("R", "07_denominator_sensitivity.R"))  # defines denoms, annual_aggregates, counts_log, read_2024
 
 ## ---------------------------------------------------------------- A) count models

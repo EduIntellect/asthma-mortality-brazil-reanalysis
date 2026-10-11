@@ -1,0 +1,212 @@
+{
+  "base_commit": "3884c868a07164710a2e358180b3034f9cdcf642",
+  "inputs": [
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2014_csv.zip",
+      "sha256": "a66f562380838d050e0460c10d18b01e534f2b206a86de322fe5cace512d0d1a",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2015_csv.zip",
+      "sha256": "4a7c1cc3444c730cfecfbbe0f682072a5efb36e7dafa5ab0f88348766a6d29d4",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2016_csv.zip",
+      "sha256": "55476c5591858484db259fdf469bf3787e6042aec96f323eccdb3e35528abb17",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2017_csv.zip",
+      "sha256": "c2ab78d74faeefecb2d6546f1992b14522666684e9e0177a67e0d04df9232893",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2018_csv.zip",
+      "sha256": "9d9807bde1a745562504473332add042031b43212792d8aba7d746e11b6dd1f4",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2019_csv.zip",
+      "sha256": "66501b7348ad77d8e88bcb6306d86dc555496fe65258333440998f2472c66480",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2020_csv.zip",
+      "sha256": "ac626dff18876eaa572f724966fb05cd5f42529fc6bdd5507ce5dfbd08146142",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/Mortalidade_Geral_2021_csv.zip",
+      "sha256": "6a8fe8077cf11cbf2ae8d783d4b786968de4e7606ca52c2a04c97d864aa89e4f",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls",
+      "sha256": "69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28",
+      "kind": "official input"
+    },
+    {
+      "location": "data",
+      "relative_path": "raw/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls",
+      "sha256": "69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28",
+      "kind": "official/reference input"
+    },
+    {
+      "location": "data",
+      "relative_path": "evidence/gmail_original_attachment.pdf",
+      "sha256": "fc552ab83d5254549fa4f1dfe880ab631a26c50bc8d861bfdc433331544e71fe",
+      "kind": "official/reference input"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/inputs/projecoes_2024_tab1_idade_simples.xlsx",
+      "sha256": "6e5c3d21a2e8ff50badd7be2785e1664b41a43277543be541641b0cd802c3205",
+      "kind": "official/reference input"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/inputs/SIM_dictionary.pdf",
+      "sha256": "a2e5c28a1fb71a873a0f8db2e594468de4ce4431afd9d06f98e4d56c92311ebb",
+      "kind": "official/reference input"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2014.csv",
+      "sha256": "6f8edce95a2197091514cdc0b972bec7c234873349a6461fd490dd678cc163a9",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2015.csv",
+      "sha256": "8dce8f438719b950025b574225d01e581dd80422b466bb769696a1ae75d9aa4d",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2016.csv",
+      "sha256": "1a996f3adb7d3cd0cee2b5b924704d92f9334dc854de240836cddec34d21c606",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2017.csv",
+      "sha256": "7d433ca81cb1d0545ea0604e530b3136ad82f163109e2429478a14d7815e701e",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2018.csv",
+      "sha256": "658c25d1d334c2f7ee75d3291fa600ee08e05b5c1adf023e7394e55fbc8f3c22",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2019.csv",
+      "sha256": "2410af014c8c1412a37ef3489f32e8323e3cb0c1f4702ab11a5305002f150b28",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2020.csv",
+      "sha256": "96568957c2b0d4e10e3fe73d3c4e3b302e2ec61136aaf4423431fbf8b1b2c885",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/asthma_2021.csv",
+      "sha256": "00b9e2a4eb6ee4e3f4de7b3b5707f4af0a73354c5ef29c9769dc6f874d84b270",
+      "kind": "verified extraction cache"
+    },
+    {
+      "location": "repo",
+      "relative_path": "revision/.cache/raw_counts.csv",
+      "sha256": "f707979d6b0a50d6e0c7c95ac6a177a0d4d66e95d90eadadace2a99fc97f3738",
+      "kind": "verified extraction cache"
+    }
+  ],
+  "csv_evidence": [
+    {
+      "year": 2014,
+      "csv_member": "Mortalidade_Geral_2014.csv",
+      "csv_sha256": "1b089fbbd524052c1d9f9bb60ac206d23dd3562407c2b6da5fdb3cb1effd963e",
+      "N_raw": 1227039,
+      "N_J45_J46": 2129,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2015,
+      "csv_member": "Mortalidade_Geral_2015.csv",
+      "csv_sha256": "037f8f00beef55a1eb9af096fbfd90d91a7a82e28da81a49603ef144dabebbc0",
+      "N_raw": 1264175,
+      "N_J45_J46": 2232,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2016,
+      "csv_member": "Mortalidade_Geral_2016.csv",
+      "csv_sha256": "79845f6d6076b7969bc178195e0d77a4bcc465b0211ea1dc74b3fe1f10afb014",
+      "N_raw": 1309774,
+      "N_J45_J46": 2249,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2017,
+      "csv_member": "Mortalidade_Geral_2017.csv",
+      "csv_sha256": "9a7ced9334e9c511eb134b97329dd4b988874ce5f42e656baf1fd264b3ef4a2c",
+      "N_raw": 1312663,
+      "N_J45_J46": 2477,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2018,
+      "csv_member": "Mortalidade_Geral_2018.csv",
+      "csv_sha256": "772e4fb9cf7c1f42d9c80301cf762736a0bc8c689659243174856804cc9a4607",
+      "N_raw": 1316719,
+      "N_J45_J46": 2307,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2019,
+      "csv_member": "Mortalidade_Geral_2019.csv",
+      "csv_sha256": "05acd2eea5029af661ba5b6873d0bbcfa7b7c947067da0bc27899cf7d27203f5",
+      "N_raw": 1349801,
+      "N_J45_J46": 2488,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2020,
+      "csv_member": "Mortalidade_Geral_2020.csv",
+      "csv_sha256": "2fdd9fcc8924d8da0db6f816d528a9221a56164c8e494803ce0085368c07464f",
+      "N_raw": 1556824,
+      "N_J45_J46": 2735,
+      "columns": 87,
+      "malformed_rows": 0
+    },
+    {
+      "year": 2021,
+      "csv_member": "Mortalidade_Geral_2021.csv",
+      "csv_sha256": "79cfbfff330f3ee545a0417ddf969e3d3cff4caa3f67ca2bdbc8fad9e459b424",
+      "N_raw": 1832649,
+      "N_J45_J46": 2488,
+      "columns": 87,
+      "malformed_rows": 0
+    }
+  ],
+  "limitation": "No execution-of-1-October hashes for SIM 2014\u20132019. Current verified official files reproduce committed counts and aggregates exactly."
+}

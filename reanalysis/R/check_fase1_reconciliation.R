@@ -4,7 +4,13 @@
 #' IBGE population for each named bin -- i.e. "<18" numerator is really
 #' ages 7-17 but is divided by total population 0-17, reproducing the
 #' same numerator/denominator mismatch documented in FASE 0).
-here <- function(...) file.path("/home/user/asthma-mortality-brazil-reanalysis/reanalysis", ...)
+# Portable runtime root; the revision runner sets an isolated output tree.
+.runtime_root <- Sys.getenv("ASTHMA_REANALYSIS_ROOT")
+if (!nzchar(.runtime_root)) {
+  .file <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+  .runtime_root <- if (length(.file)) dirname(dirname(normalizePath(sub("^--file=", "", .file[1])))) else normalizePath("reanalysis")
+}
+here <- function(...) file.path(.runtime_root, ...)
 annual_aggregates <- read.csv(here("annual_aggregates.csv"))
 denom <- readRDS(here("data", "denominators.rds"))
 

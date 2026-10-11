@@ -5,7 +5,7 @@ record_provenance <- function(original_repo_sha = NULL,
                               output_path = NULL) {
   pkgs <- c("vroom", "dplyr", "lubridate", "readxl", "janitor",
             "stringr", "purrr", "tidyr", "broom", "readr", "digest")
-  pkg_versions <- vapply(pkgs, function(p) as.character(utils::packageVersion(p)), character(1))
+  pkg_versions <- vapply(pkgs, function(p) if (requireNamespace(p, quietly=TRUE)) as.character(utils::packageVersion(p)) else "not installed (unused by pipeline)", character(1))
 
   lines <- c(
     "# Session and provenance information",

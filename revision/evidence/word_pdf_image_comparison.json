@@ -1,0 +1,20 @@
+[
+  {
+    "figure": 1,
+    "pdf_page": 8,
+    "word_pdf_decoded_pixels_equal": false,
+    "word_pdf_mean_abs_pixel_difference": 0.000691468253968254
+  },
+  {
+    "figure": 2,
+    "pdf_page": 9,
+    "word_pdf_decoded_pixels_equal": false,
+    "word_pdf_mean_abs_pixel_difference": 0.0015679419305430692
+  },
+  {
+    "figure": 3,
+    "pdf_page": 12,
+    "word_pdf_decoded_pixels_equal": false,
+    "word_pdf_mean_abs_pixel_difference": 0.0017807675238829329
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "exact_tables": [
+    "annual_aggregates.csv",
+    "data/age_group_series.csv",
+    "data/age_standardized_series.csv",
+    "data/annual/annual_2014.csv",
+    "data/annual/annual_2015.csv",
+    "data/annual/annual_2016.csv",
+    "data/annual/annual_2017.csv",
+    "data/annual/annual_2018.csv",
+    "data/annual/annual_2019.csv",
+    "data/annual/annual_2020.csv",
+    "data/annual/annual_2021.csv",
+    "data/crude_rate_ge7_series.csv",
+    "data/denominator_comparison.csv",
+    "data/fase1_legacy_reconciliation.csv",
+    "data/fase2_year_counts.csv",
+    "data/ibge_denominators_by_age.csv",
+    "data/kitagawa_age_contributions.csv",
+    "data/kitagawa_endpoint_sensitivity.csv",
+    "data/robustness_count_models.csv",
+    "data/robustness_who_standard_by_year.csv",
+    "data/robustness_who_standard_summary.csv",
+    "data/sensitivity_brum_style_change_metrics.csv",
+    "data/sensitivity_denominators_by_year.csv",
+    "data/sensitivity_denominators_summary.csv",
+    "primary_results.csv"
+  ],
+  "count": 25,
+  "runner": "execute.py --scenario historical --ibge-revision 2018"
+}

@@ -1,0 +1,187 @@
+{
+  "accessed_at": "2026-10-11T06:45:04.144712+00:00",
+  "sources": [
+    {
+      "year": 2014,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2014_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2014_csv.zip",
+      "bytes": 72099732,
+      "sha256": "a66f562380838d050e0460c10d18b01e534f2b206a86de322fe5cace512d0d1a",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2014.csv",
+          "size": 427226945,
+          "crc32": "5869ff35",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2015_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2015_csv.zip",
+      "bytes": 68243412,
+      "sha256": "4a7c1cc3444c730cfecfbbe0f682072a5efb36e7dafa5ab0f88348766a6d29d4",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2015.csv",
+          "size": 427273052,
+          "crc32": "e0874273",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2016_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2016_csv.zip",
+      "bytes": 75979354,
+      "sha256": "55476c5591858484db259fdf469bf3787e6042aec96f323eccdb3e35528abb17",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2016.csv",
+          "size": 442649298,
+          "crc32": "cc0e16bc",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2017_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2017_csv.zip",
+      "bytes": 76907142,
+      "sha256": "c2ab78d74faeefecb2d6546f1992b14522666684e9e0177a67e0d04df9232893",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2017.csv",
+          "size": 445501665,
+          "crc32": "5211b717",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2018_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2018_csv.zip",
+      "bytes": 71708152,
+      "sha256": "9d9807bde1a745562504473332add042031b43212792d8aba7d746e11b6dd1f4",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2018.csv",
+          "size": 448581016,
+          "crc32": "a51a4958",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2019_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2019_csv.zip",
+      "bytes": 81336392,
+      "sha256": "66501b7348ad77d8e88bcb6306d86dc555496fe65258333440998f2472c66480",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2019.csv",
+          "size": 459888156,
+          "crc32": "0146e087",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2020_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2020_csv.zip",
+      "bytes": 91585111,
+      "sha256": "ac626dff18876eaa572f724966fb05cd5f42529fc6bdd5507ce5dfbd08146142",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2020.csv",
+          "size": 531920502,
+          "crc32": "f03a5576",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIM/csv/Mortalidade_Geral_2021_csv.zip",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/Mortalidade_Geral_2021_csv.zip",
+      "bytes": 106736013,
+      "sha256": "6a8fe8077cf11cbf2ae8d783d4b786968de4e7606ca52c2a04c97d864aa89e4f",
+      "members": [
+        {
+          "name": "Mortalidade_Geral_2021.csv",
+          "size": 632732700,
+          "crc32": "3aa8b4c9",
+          "timestamp": [
+            2025,
+            10,
+            21,
+            15,
+            28,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "source": "IBGE 2018",
+      "url": "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls",
+      "path": "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0/raw/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls",
+      "sha256": "69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28"
+    }
+  ]
+}

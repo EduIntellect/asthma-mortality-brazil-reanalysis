@@ -1,0 +1,125 @@
+Dear Frederico,
+
+Thank you for sending the revised manuscript. I have read it carefully and
+consider it a valuable contribution to interpreting asthma mortality trends
+in Brazil. The distinction between crude, age-standardised and age-specific
+mortality is clearly presented, and the non-causal interpretation of the
+decomposition is appropriate.
+
+My assessment is favourable, subject to several clarifications before
+submission:
+
+   1.
+
+   *Epidemiological interpretation.* I agree that the crude increase was
+   not accompanied by consistent evidence of a comparable age-standardised
+   increase. However, the national standardised analysis concerns people aged
+   seven years and older, which should remain explicit throughout.
+   Non-significance should not be interpreted as proof of stability,
+   especially because one specification using the 2024 population projection
+   identified a positive trend. The 4% decline between the endpoints should
+   also remain distinct from the trend estimated across all eight years.
+   2.
+
+   *Age standardisation.* The fixed Brazil 2014 standard is appropriate for
+   temporal comparisons, and the WHO sensitivity analysis strengthens the
+   findings. Please include the formula and clarify that the weights sum to
+   one within each analysed age range. The treatment of ages ≥90 and the
+   allocation of three fifths of the WHO 5–9-year weight to ages 7–9 should
+   also be documented, with the latter identified as an approximation.
+   3.
+
+   *Age definitions and denominators.* I suggest adding the aligned crude
+   series for completed ages ≥7 to Table 1. This is the series used alongside
+   standardisation and decomposition, increasing from 1.123 to 1.258 per
+   100,000. It differs slightly from the continuous-age >6 series currently
+   shown. It would also be useful to verify completed age using calendar
+   dates, as dividing elapsed days by 365.25 can misclassify records near age
+   boundaries.
+   4.
+
+   *Kitagawa decomposition.* The interpretation is sound. Contributions
+   above 100% indicate that the positive age-composition component was partly
+   offset by declining age-specific rates. Please add the original
+   methodological reference and equations, and explain minor rounding
+   differences in Table S6. Repeating the decomposition with the 2024
+   population projection would provide a useful sensitivity analysis.
+   5.
+
+   *Mortality at ages 5–34.* This is an important finding, particularly
+   because the increase persists after standardisation within the age group. I
+   suggest highlighting that result in the abstract and reporting the absolute
+   endpoint increase, approximately 0.037 deaths per 100,000, alongside the
+   relative change. An assessment of the influence of 2020 and a pre-pandemic
+   sensitivity analysis would help establish how dependent the finding is on
+   the pandemic years. I agree with avoiding a firm claim of a historical
+   trend reversal.
+   6.
+
+   *Record selection and statistical models.* Please report COVID-related
+   exclusions and duplicate removals separately. Deduplication based on dates
+   and causes should be checked because distinct individuals may share those
+   characteristics. The COVID filter should also be audited for U07.1, which
+   is not explicitly mentioned in the manuscript, and a sensitivity analysis
+   retaining COVID mentions would be informative. For the age-adjusted count
+   models, please specify the nine age bands, model formula and
+   confidence-interval methods, and clarify the differences between
+   quasi-Poisson and negative binomial results.
+
+These comments concern the coherence and reporting of the manuscript;
+independent verification of the numerical results would require checking
+the underlying data and code.
+
+The funding and conflict-of-interest statements are appropriately worded,
+provided they accurately reflect both authors’ circumstances. We should
+confirm these declarations before submission. I also agree that the ethics
+requirements should be checked with the journal and the relevant
+institutional guidance, without claiming a formally granted exemption
+unless this is documented.
+
+Regarding publication without author fees, my first suggestion is
+Respiratory Research & Clinical Practice, formerly Jornal Brasileiro de
+Pneumologia. It offers open-access publication without submission,
+processing or publication charges and is a particularly relevant venue for
+this reanalysis.
+
+Respiratory Medicine and Public Health are additional options, both
+offering publication without publication fees under their subscription
+model. Optional paid open access would not be necessary for that route. My
+preference would be the former for a respiratory medicine emphasis and the
+latter for a population surveillance emphasis.
+
+After these clarifications and verification of the analytical outputs, I
+believe we will have a stronger manuscript ready for journal selection.
+
+Best regards,
+Amaury
+
+Em sáb., 10 de out. de 2026 às 16:16, Francisco Federico Garcia Crespi <
+fedeg@umh.es> escreveu:
+
+> Hi Amaury,
+>
+> I've finished the revised manuscript on asthma mortality in Brazil
+> (2014–2021), and I'm attaching the PDF for your scientific review.
+>
+> We have reproduced the reported increase in crude mortality, but the
+> national age-standardised trend does not show a comparable increase. The
+> Kitagawa decomposition indicates that changes in population age composition
+> account for much of the crude increase. In contrast, mortality among people
+> aged 5–34 years increased over the study period.
+>
+> I would particularly appreciate your assessment of the epidemiological
+> interpretation, the age standardisation, the decomposition and the results
+> for the younger age group.
+>
+> I've also included the declarations of no funding and no conflicts of
+> interest. Please confirm that these are correct. The ethics exemption
+> should be checked with the journal before submission.
+>
+> Once you have reviewed the manuscript, we can discuss any necessary
+> corrections and agree on the target journal.
+>
+>
+>
+

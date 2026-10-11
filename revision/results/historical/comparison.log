@@ -1,0 +1,231 @@
+[
+  {
+    "file": "data/fase1_legacy_reconciliation.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "slope": {
+        "max_abs_error": 2.3869795029440866e-15,
+        "max_relative_error": 2.1186073148355206e-13
+      },
+      "p_value": {
+        "max_abs_error": 1.8096635301390052e-14,
+        "max_relative_error": 4.4409526728205996e-14
+      }
+    }
+  },
+  {
+    "file": "data/kitagawa_age_contributions.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "rate_contribution": {
+        "max_abs_error": 9.974659986866641e-17,
+        "max_relative_error": 1.7705250459669156e-14
+      }
+    }
+  },
+  {
+    "file": "data/kitagawa_endpoint_sensitivity.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "crude_rate_change": {
+        "max_abs_error": 9.992007221626409e-16,
+        "max_relative_error": 6.499527761087908e-15
+      },
+      "age_specific_rate_effect": {
+        "max_abs_error": 1.0061396160665481e-16,
+        "max_relative_error": 6.448937220392915e-15
+      },
+      "composition_share_percent": {
+        "max_abs_error": 9.947598300641403e-13,
+        "max_relative_error": 5.163134613251768e-15
+      },
+      "age60plus_share_of_composition_percent": {
+        "max_abs_error": 9.947598300641403e-14,
+        "max_relative_error": 1.0601565687125063e-15
+      }
+    }
+  },
+  {
+    "file": "data/robustness_count_models.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "annual_pct_change": {
+        "max_abs_error": 1.7335022306497194e-10,
+        "max_relative_error": 4.290839644336759e-11
+      },
+      "ci_low": {
+        "max_abs_error": 6.841129884804786e-09,
+        "max_relative_error": 3.411820127238984e-09
+      },
+      "ci_high": {
+        "max_abs_error": 6.7917200752276585e-09,
+        "max_relative_error": 1.372701419297603e-09
+      },
+      "p_value": {
+        "max_abs_error": 1.1531300003406186e-11,
+        "max_relative_error": 4.880310258226615e-08
+      },
+      "pearson_dispersion_poisson": {
+        "max_abs_error": 6.59916565837193e-13,
+        "max_relative_error": 1.148587932427827e-13
+      },
+      "nb_theta": {
+        "max_abs_error": 363.08437508996576,
+        "max_relative_error": 0.00010537836409341577
+      }
+    }
+  },
+  {
+    "file": "data/robustness_who_standard_by_year.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "rate": {
+        "max_abs_error": 9.992007221626409e-15,
+        "max_relative_error": 8.373140190276546e-15
+      }
+    }
+  },
+  {
+    "file": "data/robustness_who_standard_summary.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "pct_change": {
+        "max_abs_error": 9.947598300641403e-14,
+        "max_relative_error": 6.962639408519067e-15
+      },
+      "slope": {
+        "max_abs_error": 1.9949319973733282e-16,
+        "max_relative_error": 8.681353586432407e-13
+      },
+      "ci_low": {
+        "max_abs_error": 4.996003610813204e-16,
+        "max_relative_error": 6.523495875777195e-14
+      },
+      "ci_high": {
+        "max_abs_error": 4.996003610813204e-16,
+        "max_relative_error": 2.3139182711484488e-14
+      },
+      "p_value": {
+        "max_abs_error": 6.994405055138486e-15,
+        "max_relative_error": 5.3676164380178836e-14
+      }
+    }
+  },
+  {
+    "file": "data/sensitivity_brum_style_change_metrics.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "end_to_end_pct": {
+        "max_abs_error": 1.9984014443252818e-14,
+        "max_relative_error": 1.354206917238663e-14
+      },
+      "brum_style_mean_rel_variation_pct": {
+        "max_abs_error": 1.9984014443252818e-14,
+        "max_relative_error": 6.119293246336945e-15
+      },
+      "mean_yoy_pct": {
+        "max_abs_error": 1.9984014443252818e-15,
+        "max_relative_error": 2.7787994308916506e-14
+      }
+    }
+  },
+  {
+    "file": "data/sensitivity_denominators_by_year.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "pct_change": {
+        "max_abs_error": 4.085620730620576e-14,
+        "max_relative_error": 2.2554907003804716e-14
+      },
+      "slope": {
+        "max_abs_error": 2.3869795029440866e-15,
+        "max_relative_error": 5.044583448999303e-13
+      },
+      "ci_low": {
+        "max_abs_error": 3.9968028886505635e-15,
+        "max_relative_error": 1.4760247747598378e-13
+      },
+      "ci_high": {
+        "max_abs_error": 1.700029006457271e-15,
+        "max_relative_error": 3.521882952829922e-14
+      },
+      "p_value": {
+        "max_abs_error": 1.8096635301390052e-14,
+        "max_relative_error": 1.2765657281304644e-13
+      }
+    }
+  },
+  {
+    "file": "data/sensitivity_denominators_summary.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "pct_change": {
+        "max_abs_error": 1.9984014443252818e-14,
+        "max_relative_error": 1.354206917238663e-14
+      },
+      "slope": {
+        "max_abs_error": 2.3869795029440866e-15,
+        "max_relative_error": 5.044583448999303e-13
+      },
+      "ci_low": {
+        "max_abs_error": 3.9968028886505635e-15,
+        "max_relative_error": 1.4760247747598378e-13
+      },
+      "ci_high": {
+        "max_abs_error": 1.700029006457271e-15,
+        "max_relative_error": 3.521882952829922e-14
+      },
+      "p_value": {
+        "max_abs_error": 1.8096635301390052e-14,
+        "max_relative_error": 1.2765657281304644e-13
+      }
+    }
+  },
+  {
+    "file": "primary_results.csv",
+    "shape_equal": true,
+    "columns_equal": true,
+    "exact_equal": false,
+    "differences": {
+      "pct_change": {
+        "max_abs_error": 4.085620730620576e-14,
+        "max_relative_error": 2.2554907003804716e-14
+      },
+      "slope": {
+        "max_abs_error": 4.996003610813204e-16,
+        "max_relative_error": 5.044583448999303e-13
+      },
+      "ci_low": {
+        "max_abs_error": 4.996003610813204e-16,
+        "max_relative_error": 8.826277547431375e-14
+      },
+      "ci_high": {
+        "max_abs_error": 9.992007221626409e-16,
+        "max_relative_error": 2.1740099379154744e-14
+      },
+      "p_value": {
+        "max_abs_error": 1.099120794378905e-14,
+        "max_relative_error": 7.572958157818852e-14
+      }
+    }
+  }
+]
+Compared 25 tables

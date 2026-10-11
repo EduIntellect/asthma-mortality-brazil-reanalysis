@@ -1,0 +1,7 @@
+# Preserve machine-emitted provenance and email evidence without whitespace rewrites.
+revision/locked_inputs.csv whitespace=cr-at-eol
+revision/results/**/verified_inputs.csv whitespace=cr-at-eol
+revision/results/**/configuration.R -whitespace
+revision/results/**/session_info.txt -whitespace
+revision/evidence/amaury_comments.txt -whitespace
+revision/results/**/execution.log -whitespace

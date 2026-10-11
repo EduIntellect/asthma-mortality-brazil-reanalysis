@@ -6,7 +6,13 @@ suppressMessages({
   library(dplyr)
 })
 
-here <- function(...) file.path("/home/user/asthma-mortality-brazil-reanalysis/reanalysis", ...)
+# Portable runtime root; the revision runner sets an isolated output tree.
+.runtime_root <- Sys.getenv("ASTHMA_REANALYSIS_ROOT")
+if (!nzchar(.runtime_root)) {
+  .file <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+  .runtime_root <- if (length(.file)) dirname(dirname(normalizePath(sub("^--file=", "", .file[1])))) else normalizePath("reanalysis")
+}
+here <- function(...) file.path(.runtime_root, ...)
 source(here("R", "00_provenance.R"))
 source(here("R", "01_load_year.R"))
 source(here("R", "02_aggregate_annual.R"))

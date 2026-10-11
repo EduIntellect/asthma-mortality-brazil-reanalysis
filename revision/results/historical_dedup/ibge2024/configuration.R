@@ -1,0 +1,3 @@
+list(scenario = "historical_dedup", age = "calendar", covid = "U071", 
+    dedup = "historical_key", years = 2014:2021, ibge_revision = "2024", 
+    data_dir = "/Users/fede/.codex/visualizations/2026/10/11/01a129b2-a305-7931-bd9d-3252bf1f7bcc/B0")

@@ -13,3 +13,19 @@ Thumbs.db
 *.out
 *.toc
 *.synctex.gz
+
+# Reproducible revision: local libraries, public raw microdata and render intermediates
+revision/.Rlib/
+revision/inputs/
+revision/results/**/data_raw/
+revision/results/**/R/
+revision/qa/render*/
+revision/.cache/
+revision/.vendor/
+revision/qa/contact*/
+revision/qa/cli_reproduction/
+revision/qa/historical_cli/
+!revision/qa/*.log
+!revision/results/**/execution.log
+!revision/results/historical/comparison.log
+revision/scripts/__pycache__/

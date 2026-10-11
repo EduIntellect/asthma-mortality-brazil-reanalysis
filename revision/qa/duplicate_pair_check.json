@@ -1,0 +1,19 @@
+{
+  "year": 2018,
+  "source_rows": [
+    971828,
+    971831
+  ],
+  "differing_fields": [
+    "OCUP",
+    "NUMEROLOTE",
+    "TPPOS",
+    "DTCADASTRO",
+    "DTRECEBIM",
+    "DTRECORIGA",
+    "DIFDATA",
+    "CONTADOR"
+  ],
+  "NUMERODO_available": false,
+  "decision": "retain both, identity unresolved"
+}

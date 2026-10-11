@@ -3,7 +3,13 @@
 #' revision used for the primary results. Numerators (annual_aggregates.csv,
 #' fase2_year_counts.csv) are untouched; only the denominators change.
 #' Primary results are NOT overwritten; outputs go to data/sensitivity_*.csv.
-here <- function(...) file.path("/home/user/asthma-mortality-brazil-reanalysis/reanalysis", ...)
+# Portable runtime root; the revision runner sets an isolated output tree.
+.runtime_root <- Sys.getenv("ASTHMA_REANALYSIS_ROOT")
+if (!nzchar(.runtime_root)) {
+  .file <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+  .runtime_root <- if (length(.file)) dirname(dirname(normalizePath(sub("^--file=", "", .file[1])))) else normalizePath("reanalysis")
+}
+here <- function(...) file.path(.runtime_root, ...)
 source(here("R", "04_standardization.R"))
 source(here("R", "05_age_groups.R"))
 source(here("R", "06_trend_models.R"))
