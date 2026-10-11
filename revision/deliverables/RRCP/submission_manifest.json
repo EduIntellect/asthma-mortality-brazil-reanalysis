@@ -1,0 +1,104 @@
+{
+  "journal": "Respiratory Research & Clinical Practice",
+  "date": "2026-10-11",
+  "files": [
+    {
+      "path": "Cover_letter.docx",
+      "sha256": "6adaa707a78b4855483fe88f00762c0b10217a78254534b7ffd153610c19b2b1",
+      "bytes": 38380
+    },
+    {
+      "path": "Cover_letter.pdf",
+      "sha256": "9e1584a57326206390c9642e3e2aec8c8fc9b09cf8606004f77ea6479c5a1684",
+      "bytes": 32268
+    },
+    {
+      "path": "Figure1.jpg",
+      "sha256": "69fb0195242490ed9b236e8f932faf29184c63c35f180d8f062ecff3b6c602c0",
+      "bytes": 236236
+    },
+    {
+      "path": "Figure1.svg",
+      "sha256": "25f7b4363e3e350eb1da89d19088b8f6292832d935f6404e0d032915f7007d26",
+      "bytes": 37729
+    },
+    {
+      "path": "Figure2.jpg",
+      "sha256": "b609f1b82bc7ebda1184f4a84db4251a7ad9001d72afd26418e1901fcbc1f4e2",
+      "bytes": 280344
+    },
+    {
+      "path": "Figure2.svg",
+      "sha256": "7b69ff79dcbd31f4190be586829bab05d1e249475db9ad3c8c78b1af2fd41149",
+      "bytes": 52298
+    },
+    {
+      "path": "FigureS1.jpg",
+      "sha256": "634ab07dcb5bd32bfda2afb8e139b02d4bf285a85e7cd6285e715ca62744dbe8",
+      "bytes": 262166
+    },
+    {
+      "path": "FigureS1.svg",
+      "sha256": "44b9fbe9e47c0c57544bfb32eb67c3d5416b0ec7c31b5c447b51f467bae91556",
+      "bytes": 44416
+    },
+    {
+      "path": "Manuscript_BLINDED.docx",
+      "sha256": "2940d901cc970e16f1754a41b1dec2ad6a06187e32c42bfbfabfd1adf31c1077",
+      "bytes": 355838
+    },
+    {
+      "path": "Manuscript_BLINDED.pdf",
+      "sha256": "551d995e31e1da1393b58ed709c14165c2c54489b3dc59465707c9fe6ab34ee9",
+      "bytes": 461782
+    },
+    {
+      "path": "README.md",
+      "sha256": "5e17891be8d4586595b36e575a26dc5dff42282944a69a67cecec5d80a08e6a5",
+      "bytes": 1254
+    },
+    {
+      "path": "STROBE_checklist.docx",
+      "sha256": "09df93be00a37d4873fdb6ddee0c3438336a90d37d4d1b07f22c31a36ea7fa3f",
+      "bytes": 40068
+    },
+    {
+      "path": "STROBE_checklist.pdf",
+      "sha256": "95b24fed6012375ad81d029804efdc764a93d370c0728f2065eaf34b4ee69946",
+      "bytes": 84894
+    },
+    {
+      "path": "Supplement.docx",
+      "sha256": "583e0eebd257a2fcbf4bd2c360afc83e9724bd14ec3c9fea81aec39eaca2c58c",
+      "bytes": 217418
+    },
+    {
+      "path": "Supplement.pdf",
+      "sha256": "7b6eca243a709c5b272f86ad7855f4f9439ba6c99ffdc95b99f045459b6a4259",
+      "bytes": 940028
+    },
+    {
+      "path": "Table1.docx",
+      "sha256": "97f8cf0bc328d98f77846e4707923b69821ac094cb90ce217a96b41b87f748fe",
+      "bytes": 38789
+    },
+    {
+      "path": "Table1.pdf",
+      "sha256": "0fbc38d94e38007586298e9bc5d3941b711c04d6f8386cbfb3c1e0925f97604a",
+      "bytes": 65748
+    },
+    {
+      "path": "Title_page.docx",
+      "sha256": "a7bbe2f41182e3916938359e28bc0b314bf7c126cd1d4d9082f74e24e83b831b",
+      "bytes": 38613
+    },
+    {
+      "path": "Title_page.pdf",
+      "sha256": "65eae4a1da5ad892ea45e880949cd5bdafc88300375c696838c276311a99dd88",
+      "bytes": 43772
+    }
+  ],
+  "author_approval": "confirmed",
+  "ethics_document": "not located; no granted exemption asserted",
+  "sent": false
+}

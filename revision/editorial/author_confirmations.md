@@ -1,19 +1,19 @@
-# Confirmaciones concretas antes de enviar a una revista
+# Registro de aprobación y datos de autoría para RRCP
 
-La entrega científica y editorial está preparada para revisión de ambos autores. La rama revision/amaury-review está publicada en GitHub. No se ha enviado correo ni presentado el artículo.
+El 11 de octubre de 2026, el autor de correspondencia confirmó en esta conversación que los datos ya estaban disponibles y que todo estaba aprobado. Se incorporan la aprobación de ambos autores, las contribuciones existentes, la ausencia de financiación y la ausencia de conflictos declaradas en el PDF de referencia. No se ha enviado correo ni presentado el artículo.
 
-- **Financiación:** ambos autores deben confirmar la declaración del PDF: “No funding was received for this study”, incluyendo recursos o apoyo institucional que deban declararse.
-- **Conflictos:** cada autor debe confirmar la declaración de ausencia de conflictos y completar el formulario requerido por la revista finalmente elegida.
-- **Ética:** acreditar con orientación institucional/journal la aplicabilidad de la vía correspondiente a esta reutilización de SIM público. No existe en el paquete una exención formal concedida. Si hay documento, incorporar entidad, número y fecha; si no, acordar una formulación exacta aceptada por institución y revista.
-- **Autoría:** confirmar orden, afiliaciones, dirección postal del autor de correspondencia, ORCID y contribuciones CRediT reales. Los datos actuales se conservan del PDF enviado; no acreditan nuevas verificaciones.
-- **Revisión humana y herramientas:** ambos autores deben revisar métodos, salidas, interpretaciones y el texto preparado con Codex; confirmar la descripción de otras herramientas usadas y la responsabilidad autoral. No se ha afirmado que esa revisión conjunta ya esté completada.
+Francisco Federico García Crespi, PhD, Department of Computer Engineering, Universidad Miguel Hernández, Elche, Alicante, Spain. ORCID 0000-0002-7129-7791; fedeg@umh.es. Correspondencia en edificio Alcudia, despacho E14P1017, Avenida de la Universidad, s/n, 03202 Elche, Alicante, Spain. Teléfono institucional de centralita +34 96 665 8500, no presentado como teléfono directo.
 
-## Consulta ética documental realizada el 11 de octubre de 2026
+Amaury de Souza, PhD in Environmental Technologies, Institute of Physics, Federal University of Mato Grosso do Sul, Campo Grande, MS, Brazil. ORCID 0000-0001-8168-1482; amaury.souza@ufms.br.
 
-Las instrucciones oficiales de JBP exigen declaración de aprobación ética en Methods para estudios humanos/animales y formulario de conflictos de todos los autores: https://www.jornaldepneumologia.com.br/journal/9 y https://www.jornaldepneumologia.com.br/journal/8. Esas instrucciones generales no acreditan una exención para este trabajo concreto.
+## Procedencia de los datos recuperados
 
-La guía primaria CNS/Conep sobre uso de datos distingue acceso público, anonimización y dominio público; no equipara automáticamente disponibilidad en Internet con ausencia de obligaciones: https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/camaras-tecnicas-e-comissoes-backup/conep/cep/educa-ceps/modulo-uso-de-dados-em-pesquisas-cientificas-acesso-compartilhamento-e-protecao . No se utiliza la Resolución 510/2016 como exención universal para una reanálisis epidemiológico.
+El ORCID, correo y departamento de García Crespi aparecen en su artículo publicado https://onlinelibrary.wiley.com/doi/full/10.1002/cae.70196 . El despacho figura en https://fedeg.umh.es/bio/localizacion/ . Dirección postal y centralita constan en la web oficial UMH https://www.umh.es/contenido/Universidad/:persona_112561/datos_es.html . El doctorado consta en https://dspace.umh.es/bitstream/11000/2644/1/TD%20Garc%C3%ADa%20Cresp%C3%AD%2C%20Federico.pdf .
 
-La orientación institucional UFMS prevé evaluar la necesidad de remisión a comités de ética: https://inisa.ufms.br/comissao-setorial-de-pesquisa/ . La determinación aplicable a los autores y a la revista sigue requiriendo acreditación específica. No se ha contactado con ninguna institución ni editor.
+Los datos de Amaury constan en el PDF enviado, su perfil https://orcid.org/0000-0001-8168-1482 y el artículo https://www.periodicos.ufsm.br/cienciaenatura/article/download/87369/65163 . Las contribuciones se recuperan del manuscrito previo y quedan confirmadas con la respuesta del autor de correspondencia.
 
-No se ha verificado aquí el supuesto cambio de nombre de la revista a Respiratory Research & Clinical Practice ni sus tasas; no se presenta esa sugerencia del correo como decisión editorial o comprobación vigente. La selección de revista está pendiente de los autores.
+## Único pendiente documental identificado
+
+No se ha localizado un documento de aprobación o exención ética formal con entidad, número y fecha. La aprobación autoral no se convierte en una aprobación institucional. El manuscrito y la carta describen el uso de SIM público, denominadores agregados y ausencia de contacto con participantes, sin afirmar una exención concedida. Si el portal exige un identificador o documento institucional, deberá acreditarse esa determinación antes de completar el envío. Las preguntas de exclusividad y difusión previa se contestarán por el autor que efectúe el envío.
+
+Instrucciones de la revista https://rrcpjournal.org/instructions-for-authors/ .

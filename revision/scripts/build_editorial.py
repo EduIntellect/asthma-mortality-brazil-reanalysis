@@ -72,6 +72,19 @@ if not template.exists():raise RuntimeError('Write the editorial template first'
 text=template.read_text()
 for key,value in values.items():text=text.replace('{{'+key+'}}',value)
 assert not re.search(r'\{\{.*?\}\}',text)
+# Vancouver order is determined by first appearance, preserving reference text.
+body, tail = text.split('## References\n', 1)
+reference_text, rest = tail.split('## Table 1.', 1)
+reference_rows = {int(m.group(1)):m.group(2) for m in re.finditer(r'^(\d+)\. (.+)$', reference_text, re.M)}
+order = []
+for match in re.finditer(r'\[([0-9,]+)\]', body):
+ for n in map(int, match.group(1).split(',')):
+  if n not in order: order.append(n)
+assert set(order)==set(reference_rows)
+renumber={n:i+1 for i,n in enumerate(order)}
+body=re.sub(r'\[([0-9,]+)\]', lambda m:'['+','.join(str(renumber[int(n)])for n in m.group(1).split(','))+']', body)
+text=body+'## References\n\n'+'\n\n'.join(f'{i+1}. {reference_rows[n]}'for i,n in enumerate(order))+'\n\n## Table 1.'+rest
+(ed/'reference_renumbering.json').write_text(json.dumps(renumber,indent=2))
 (ed/'manuscript.md').write_text(text);(ed/'claim_trace.json').write_text(json.dumps(claims,indent=2))
 # A prose-only edit must preserve the existing result-derived figure bytes.
 if "--text-only" not in sys.argv:
@@ -124,5 +137,6 @@ for rev in [2018,2024]:
    for _,x in t[t.series=='brazil2014_'+domain].iterrows():rows.append([scen,int(x.total_deaths),f(x.first_rate,5),f(x.last_rate,5),signed(x.relative_change,2),f'{f(x.slope,5)} ({f(x.ci_low,5)}, {f(x.ci_high,5)})',pval(x.p_value)])
   add(f'Table S8. One-condition sensitivities, {domain}, IBGE {rev}',['Scenario','Deaths','2014','2021','Δ %','Slope (95% CI)','p'],rows,'Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.')
 supp+=['## Supplementary Figure S1','![Figure S1. Annual crude rates for ages 5–34 and 7–34, within-5–34 Brazil-2014-standardised rates, and 5–34 death counts; corrected selection and IBGE 2018.](figures/FigureS1.png)']
+supp.append(re.sub(r'\[([0-9,]+)\]', lambda m:'['+','.join(str(renumber[int(n)])for n in m.group(1).split(','))+']', (ed/'supplementary_provenance.md').read_text()).replace('# Supplementary methods', '## Supplementary methods'))
 (ed/'supplement.md').write_text('\n\n'.join(supp))
 print('Editorial sources and figures built; claims:',len(claims))

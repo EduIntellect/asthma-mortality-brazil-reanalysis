@@ -445,3 +445,16 @@ Each scenario changes only the indicated condition from corrected selection. Cal
 ## Supplementary Figure S1
 
 ![Figure S1. Annual crude rates for ages 5–34 and 7–34, within-5–34 Brazil-2014-standardised rates, and 5–34 death counts; corrected selection and IBGE 2018.](figures/FigureS1.png)
+
+## Supplementary methods and provenance
+
+The historical deduplication key combined parsed death date, elapsed-days age, underlying cause and the five cause lines. It collapsed 2018 source rows 971828 and 971831. Inspection of all public fields found differences in occupation and seven administrative fields (NUMEROLOTE, TPPOS, DTCADASTRO, DTRECEBIM, DTRECORIGA, DIFDATA and CONTADOR). The SIM dictionary identifies NUMERODO as the death-declaration number and describes registration and receipt dates as administrative information [6]. NUMERODO is absent from these CSVs. The available fields therefore do not establish whether the rows refer to the same death. We retained both in the primary analysis and assessed their collapse under the historical key as a sensitivity.
+
+Completed age was the difference between death and birth years, reduced by one if death preceded that year's birthday. For births on 29 February, the anniversary in a non-leap year was 1 March. We added a leading zero to seven-digit day-month-year strings and required an eight-digit valid calendar date. Missing or uninterpretable dates and birth after death were excluded and logged separately. We applied no upper-age exclusion and grouped ages ≥90 into the IBGE 90+ interval.
+
+We reconciled the archived 12-page manuscript of 10 October 2026 with a Word copy of concordant content and repository commit 3884c868a07164710a2e358180b3034f9cdcf642. Official SIM archives recovered on 11 October 2026 reproduced the versioned selection counts and year-age aggregates exactly. Historical execution hashes were available for SIM 2020–2021 only, so byte identity with the historical 2014–2019 files could not be established. The accompanying provenance manifest records the reference PDF hash and all verified input hashes.
+
+
+National single-year populations for both sexes came from the Brazilian Institute of Geography and Statistics (IBGE) 2018 revision [7]; the 2024 revision following the 2022 Census provided a sensitivity [8]. We used the total-population block on sheet BR in the 2018 workbook and SIGLA = BR with SEXO = Ambos in the 2024 workbook. Both provide ages 0–89 and an open 90+ interval. Corrected crude rates matched each numerator to the same population age range. To reproduce the historical construction, we divided continuous-age >6 deaths by the entire population and separately by population ≥7. The latter comparator retains the small mismatch between its historical numerator and denominator.
+
+We used R 4.6.1 [12] for reproduction and revision; the reference reported R 4.3.3. The code records package versions, configurations, input hashes, warnings and independent checks, including numerical differences under the current environment. Public inputs, verified extraction code and separate scenario outputs support reproduction. Code and revision outputs are available at https://github.com/EduIntellect/asthma-mortality-brazil-reanalysis/tree/revision/amaury-review .

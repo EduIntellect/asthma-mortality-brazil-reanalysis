@@ -4,7 +4,7 @@ Reference comments emailed 10 October 2026, 17:49:08 UTC. This document is a pre
 
 Dear Amaury,
 
-Thank you for reviewing the manuscript. We have addressed the six comments through a corrected primary analysis and an independently checked reproduction of the historical pipeline. The revised package includes the clean manuscript, a marked comparison, supplementary material, figures, all scenario results and provenance records. Below, we explain each change and identify its supporting evidence. Both authors still need to confirm their declarations and approve the final interpretation.
+Thank you for reviewing the manuscript. We have addressed the six comments through a corrected primary analysis and an independently checked reproduction of the historical pipeline. The revised package includes the clean manuscript, a marked comparison, supplementary material, figures, all scenario results and provenance records. Below, we explain each change and identify its supporting evidence. Both authors have approved the manuscript and confirmed the author declarations.
 
 ## 1. Epidemiological interpretation
 
@@ -44,7 +44,7 @@ Location and evidence. Methods: Selection and models; S1, S4, S8; duplicate_pair
 
 ## Declarations and journal selection
 
-The no-funding and no-conflicts wording is carried forward from the sent PDF, explicitly requiring confirmation from both authors. No formally granted ethics approval or exemption is asserted. A separate checklist identifies the institutional/journal determination still needed, along with final contributions, affiliations and review of AI-assisted work. Journal selection and submission remain outside this execution.
+The no-funding and no-conflicts wording is carried forward from the sent PDF and confirmed by the authors. No formally granted ethics approval or exemption is asserted. The author record documents confirmed contributions, affiliations and approval of AI-assisted work, while identifying the absence of a formal institutional ethics determination. Submission materials have been prepared for Respiratory Research & Clinical Practice; actual journal submission remains outside this execution.
 
 The reference PDF was fixed by SHA-256. The historical pipeline reproduced all selection counts, age aggregates and primary denominator cells exactly with the recovered official files. SIM 2020–2021 hashes match the available historical audit; absence of historical execution hashes for SIM 2014–2019 remains a documentary limitation. R 4.6.1 and current package versions are recorded; very small numerical environment differences, including unstable large-theta estimates near the Poisson limit, are documented.
 

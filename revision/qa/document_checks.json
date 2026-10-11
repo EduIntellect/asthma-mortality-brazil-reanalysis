@@ -2,7 +2,7 @@
   "documents": [
     {
       "document": "Manuscript_CLEAN",
-      "pages": 8,
+      "pages": 10,
       "markdown_to_docx_exact": true,
       "pdf_text_order": true,
       "figures": 2,
@@ -10,7 +10,7 @@
     },
     {
       "document": "Supplement",
-      "pages": 10,
+      "pages": 12,
       "markdown_to_docx_exact": true,
       "pdf_text_order": true,
       "figures": 1,

@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "counts": {
+    "abstract_words_including_labels": 247,
+    "body_words_including_acknowledgements": 2895,
+    "body_words_including_headings": 2957,
+    "references": 12,
+    "main_tables": 1,
+    "main_figures": 2,
+    "blinded_metadata_cleared": true,
+    "jpeg_dpi": 300
+  },
+  "vancouver_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "documents": [
+    {
+      "document": "Manuscript_BLINDED",
+      "pages": 9,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": true,
+      "blank_pages": false
+    },
+    {
+      "document": "Title_page",
+      "pages": 1,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": false,
+      "blank_pages": false
+    },
+    {
+      "document": "Cover_letter",
+      "pages": 1,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": false,
+      "blank_pages": false
+    },
+    {
+      "document": "STROBE_checklist",
+      "pages": 2,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": true,
+      "blank_pages": false
+    },
+    {
+      "document": "Table1",
+      "pages": 1,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": true,
+      "blank_pages": false
+    },
+    {
+      "document": "Supplement",
+      "pages": 12,
+      "source_docx_exact": true,
+      "pdf_all_text_verified": true,
+      "anonymous": true,
+      "blank_pages": false
+    }
+  ],
+  "science_preservation_report": "revision/qa/copyedit_checks.json",
+  "mesh_terms_verified": 6,
+  "author_approval": "Confirmed by the corresponding author on 11 October 2026",
+  "ethics_document": "No formal institutional approval/exemption located; none asserted",
+  "results_numerical_tokens_unchanged_from": "8b9f8fd",
+  "analysis_rerun": false
+}

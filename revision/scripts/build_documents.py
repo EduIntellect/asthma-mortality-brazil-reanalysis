@@ -77,7 +77,9 @@ def read_md(path):
    p=d.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.add_run().add_picture(str(out/image[2]),width=Inches(6.7));text_par(d,image[1],'Caption');i+=1;continue
   if line.startswith('# '):text_par(d,line[2:],'Title')
   elif line.startswith('### '):text_par(d,line[4:],'Heading 2')
-  elif line.startswith('## '):text_par(d,line[3:],'Heading 1')
+  elif line.startswith('## '):
+   p=text_par(d,line[3:],'Heading 1')
+   if re.match(r'## (Table 1\.|Figure [12]\.|Supplementary Figure|Supplementary methods)',line):p.paragraph_format.page_break_before=True
   elif line.startswith('- '):text_par(d,line[2:],'List Bullet')
   else:text_par(d,line)
   i+=1

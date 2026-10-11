@@ -1,5 +1,5 @@
 {
-  "status": "complete_for_author_review",
+  "status": "RRCP_package_prepared",
   "base_commit": "3884c868a07164710a2e358180b3034f9cdcf642",
   "corrected_and_sensitivity_runs": 14,
   "historical_pipeline": "full execution and portable CLI rerun; 25 tables identical between both executions",
@@ -11,18 +11,24 @@
     "warning": 28
   },
   "document_pages": {
-    "Author_confirmations": 1,
-    "Manuscript_CLEAN": 8,
-    "Manuscript_MARKED_COMPARISON": 24,
     "Response_to_Amaury": 2,
-    "Supplement": 10
+    "Supplement": 12,
+    "Manuscript_MARKED_COMPARISON": 25,
+    "Manuscript_CLEAN": 10,
+    "Author_confirmations": 1,
+    "RRCP/Manuscript_BLINDED": 9,
+    "RRCP/Supplement": 12,
+    "RRCP/Cover_letter": 1,
+    "RRCP/STROBE_checklist": 2,
+    "RRCP/Table1": 1,
+    "RRCP/Title_page": 1
   },
   "pages_visually_inspected": 45,
   "reference_word_pdf_blocks_verified": 486,
   "traced_text_values_verified": 74,
   "all_date_domain_COVID_duplicate_weight_rate_Kitagawa_checks": "passed",
   "external_actions": "Git branch publication explicitly authorised by user; no email or journal submission",
-  "author_confirmations": "funding, conflicts, ethics determination, affiliations/contributions and human scientific review; see Author_confirmations.docx",
+  "author_confirmations": "Author approval, metadata, CRediT contributions, funding and conflicts confirmed by corresponding author on 11 October 2026; no formal institutional ethics document located or asserted.",
   "limitations": [
     "Historical SIM 2014\u20132019 execution hashes unavailable.",
     "Concordant Word text does not establish historical binary provenance.",
@@ -84,5 +90,25 @@
     "to": "habitants",
     "checks": "revision/qa/habitants_checks.json",
     "changed_pages_visually_inspected": true
+  },
+  "rrcp_preparation": {
+    "status": "passed",
+    "checks": "revision/qa/rrcp_checks.json",
+    "counts": {
+      "abstract_words_including_labels": 247,
+      "body_words_including_acknowledgements": 2895,
+      "body_words_including_headings": 2957,
+      "references": 12,
+      "main_tables": 1,
+      "main_figures": 2,
+      "blinded_metadata_cleared": true,
+      "jpeg_dpi": 300
+    },
+    "all_changed_pages_visually_inspected": true,
+    "supplement_table_pages": "Previously inspected, unchanged layout; last figure/provenance pages reinspected",
+    "scientific_files_unchanged": 322,
+    "traced_values_unchanged": 74,
+    "analysis_rerun": false,
+    "dispatch": "No email or journal submission"
   }
 }

@@ -23,3 +23,9 @@ Se aplicaron edición académica, diagnóstico estructural C-C-C/PIER y los skil
 ## Implementación del plan estructural
 
 Las cinco acciones solicitadas están implementadas y descritas en `editorial/structural_actions_review.md`. Las comprobaciones en `qa/structural_checks.json` preservan las cifras y el párrafo completo de procedencia. Se regeneraron y revisaron visualmente las 32 páginas del manuscrito y la comparación; las otras 13 páginas permanecen sin cambios.
+
+## Paquete RRCP final, 11 de octubre de 2026
+
+Portada independiente con datos recuperados y aprobación autoral incorporada; manuscrito anónimo, carta, STROBE, tabla editable, figuras JPEG 300 dpi y SVG, suplemento y vistas PDF. Resumen de 247 palabras; cuerpo de 2.957 incluyendo encabezados y agradecimientos. Verificaciones de fuentes Word/PDF, anonimato, referencias Vancouver y preservación científica superadas. Todas las páginas modificadas se inspeccionaron visualmente; las primeras diez páginas de tablas del suplemento mantienen la disposición previamente inspeccionada.
+
+El autor de correspondencia confirmó autoría, contribuciones, financiación, conflictos y aprobación de ambos autores. No se ha localizado ni se afirma un documento de aprobación/exención ética formal. No se ha enviado el artículo.

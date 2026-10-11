@@ -51,7 +51,7 @@
     ],
     "revised_blocks": [
       48,
-      61
+      63
     ]
   },
   {
@@ -61,30 +61,19 @@
       66
     ],
     "revised_blocks": [
-      62,
-      70
+      64,
+      74
     ]
   },
   {
-    "operation": "replace",
+    "operation": "insert",
     "reference_blocks": [
-      67,
-      68
-    ],
-    "revised_blocks": [
-      71,
-      72
-    ]
-  },
-  {
-    "operation": "replace",
-    "reference_blocks": [
-      69,
+      70,
       70
     ],
     "revised_blocks": [
-      73,
-      76
+      78,
+      80
     ]
   },
   {
@@ -94,8 +83,8 @@
       95
     ],
     "revised_blocks": [
-      77,
-      104
+      81,
+      108
     ]
   },
   {
@@ -105,8 +94,8 @@
       156
     ],
     "revised_blocks": [
-      105,
-      419
+      109,
+      429
     ]
   }
 ]

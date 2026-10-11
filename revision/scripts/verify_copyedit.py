@@ -10,7 +10,8 @@ assert claims==freeze['claim_trace']
 new=(root/'revision/editorial/manuscript.md').read_text()
 old=freeze['manuscript_before']
 assert hashlib.sha256(old.encode()).hexdigest()==freeze['manuscript_before_sha256']
-assert new.split('## References\n')[1].split('## Table 1.')[0]==old.split('## References\n')[1].split('## Table 1.')[0]
+def refs(s):return sorted(re.sub(r'^\d+\. ', '',line)for line in s.split('## References\n')[1].split('## Table 1.')[0].splitlines()if line.strip())
+assert refs(new)==refs(old), 'Reference content changed'
 assert new.split('## Table 1.')[1]==old.split('## Table 1.')[1], 'Tables and captions changed'
 equations=[s for s in old.splitlines()if s.startswith(('ASR(t,D)','w(a,D)','C = Σ','R = Σ','Crude(1)'))]
 assert all(s in new for s in equations)
