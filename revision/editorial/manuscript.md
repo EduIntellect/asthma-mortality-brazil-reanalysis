@@ -20,7 +20,7 @@ Keywords. Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibil
 
 ## Introduction
 
-Brum et al. concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Cardoso et al., studying 2013–2023, also concluded that asthma-related deaths had increased [2]. They based this conclusion on annual death counts and reported a stable overall mortality rate per 100,000 inhabitants. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
+Brum et al. concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Cardoso et al., studying 2013–2023, also concluded that asthma-related deaths had increased [2]. They based this conclusion on annual death counts and reported a stable overall mortality rate per 100,000 habitants. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
 
 Earlier Brazilian surveillance offers a longer perspective. Graudenz et al. reported a linear decline in age-standardised asthma mortality among people aged 5–34 during 1980–2014 and a non-linear trend in the general population [3]. Differences in periods, age ranges and rate definitions limit direct comparison with recent estimates and prevent identification of a historical trend reversal.
 

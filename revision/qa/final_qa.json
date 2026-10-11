@@ -78,5 +78,11 @@
       "Manuscript_MARKED_COMPARISON": 24
     },
     "analysis_rerun": false
+  },
+  "requested_word_replacement": {
+    "from": "inhabitants",
+    "to": "habitants",
+    "checks": "revision/qa/habitants_checks.json",
+    "changed_pages_visually_inspected": true
   }
 }

@@ -1,0 +1,11 @@
+{
+  "source_change": "inhabitants to habitants",
+  "source_is_exact_single_replacement": true,
+  "changed_rendered_pages": [
+    "revision/qa/render_habitants_Manuscript_CLEAN/page-1.png",
+    "revision/qa/render_habitants_Manuscript_MARKED_COMPARISON/page-2.png"
+  ],
+  "scientific_files_unchanged": 322,
+  "identical_traced_values": 74,
+  "changed_pages_visually_inspected": true
+}
