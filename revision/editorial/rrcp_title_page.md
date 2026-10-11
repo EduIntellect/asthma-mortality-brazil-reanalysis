@@ -16,7 +16,7 @@ Corresponding author. Francisco Federico García Crespi. Email fedeg@umh.es. Pos
 
 ## Counts
 
-Abstract 247 words including labels. Main body 2895 words including Acknowledgements, excluding headings, references and legends (2957 including body headings). Twelve references, one main table, two main figures. Supplement supplied separately.
+Abstract 249 words including labels. Main body 2896 words including Acknowledgements, excluding headings, references and legends (2956 including body headings). Twelve references, one main table, two main figures. Supplement supplied separately.
 
 ## Author declarations
 

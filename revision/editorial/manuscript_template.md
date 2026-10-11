@@ -14,13 +14,13 @@ Methods. This ecological study reproduced the analysis and revised selection usi
 
 Results. {{ABSTRACT_RESULTS}}
 
-Conclusions. Changes in population age composition accounted for much of the crude increase at ages ≥7 in a descriptive decomposition. The primary national age-standardised estimate was compatible with trends in either direction. Standardisation within 5–34 supported an increase over 2014–2021 and after excluding 2020; the shorter prepandemic series remained inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates together.
+Conclusions. Changes in population age composition accounted for much of the crude increase at ages ≥7 in a descriptive decomposition. The primary national age-standardised estimate was compatible with trends in either direction. Within 5–34, primary Brazil-2014 standardisation supported an increase over 2014–2021 and after excluding 2020; the shorter prepandemic series remained inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates together.
 
 Keywords. Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.
 
 ## Introduction
 
-One nationwide study concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Another study of 2013–2023 concluded that asthma-related deaths had increased [2]. They based this conclusion on annual death counts and reported a stable overall mortality rate per 100,000 habitants. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
+One nationwide study concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. That analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Another study of 2013–2023 concluded that asthma-related deaths had increased [2]. The latter conclusion relied on annual death counts, although the overall mortality rate per 100,000 inhabitants was reported as stable. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
 
 Earlier Brazilian surveillance offers a longer perspective. An earlier study reported a linear decline in age-standardised asthma mortality among people aged 5–34 during 1980–2014 and a non-linear trend in the general population [3]. Differences in periods, age ranges and rate definitions limit direct comparison with recent estimates and prevent identification of a historical trend reversal.
 
@@ -114,7 +114,7 @@ Table 1 summarises the rate estimates. Figure 1 compares changes from 2014.
 
 Figure 2 compares the decomposition under both population revisions.
 
-### Mortality within ages 5–34 and sensitivity analyses
+### Age-domain mortality and sensitivity analyses
 
 {{YOUNG_RESULTS}}
 
@@ -124,9 +124,9 @@ Figure 2 compares the decomposition under both population revisions.
 
 ## Discussion
 
-The corrected analysis found an increase in aligned crude asthma mortality among people aged ≥7 between 2014 and 2021. With Brazil 2014 age weights held fixed, the endpoint change was negative and the slope across all eight years was close to zero. The interval was compatible with trends in either direction and does not demonstrate stability. The positive age-adjusted negative binomial estimate with IBGE 2024 shows that national trend inference also depends on the model and population revision.
+The corrected analysis found an increase in aligned crude asthma mortality among people aged ≥7 between 2014 and 2021. With Brazil 2014 age weights held fixed, the endpoint change was negative and the slope across all eight years was close to zero. Endpoint comparisons and slopes across all annual observations describe different aspects of the series. The interval was compatible with trends in either direction and does not demonstrate stability. The positive age-adjusted negative binomial estimate with IBGE 2024 shows that national trend inference also depends on the model and population revision.
 
-Age composition contributed positively to the crude change for every endpoint pair under both population revisions. In some pairs, the composition term exceeded the net increase because the age-specific-rate term was negative. The decomposition combines composition and rates arithmetically; it cannot identify effects of certification, treatment access or the pandemic. Endpoint comparisons and slopes across all annual observations describe different aspects of the series.
+Age composition contributed positively to the crude change for every endpoint pair under both population revisions. In some pairs, the composition term exceeded the net increase because the age-specific-rate term was negative. The decomposition combines composition and rates arithmetically; it cannot identify effects of certification, treatment access or the pandemic.
 
 Both crude and standardised mortality within ages 5–34 increased over 2014–2021. Standardising within this range accounts for changes in its internal age distribution. The nested 7–34 analysis assesses how including ages five and six affects the estimate and does not provide independent replication.
 
@@ -136,7 +136,7 @@ Interpretation also depends on which records enter each analysis. The selection 
 
 The ecological design, short annual series, post hoc sensitivity analyses, unadjusted multiple comparisons and possible changes in death certification limit interpretation. Public fields cannot establish whether the 2018 pair represents one death. Historical execution hashes for SIM 2014–2019 and the population workbook used in the original study remain unavailable. Exact reproduction of recorded counts and aggregates therefore cannot establish historical file identity.
 
-Negative binomial θ iteration warnings near the Poisson limit limit confidence in dispersion estimation. We retained every model and its warnings to make these limitations visible. Statistical intervals quantify model uncertainty; they do not capture uncertainty in record selection, certification or population reconstruction.
+Negative binomial θ iteration warnings near the Poisson limit constrain confidence in dispersion estimation. We retained every model and its warnings to make these limitations visible. Statistical intervals quantify model uncertainty; they do not capture uncertainty in record selection, certification or population reconstruction.
 
 These findings support reporting aligned crude, age-standardised and age-specific mortality together. Age composition accounted for much of the crude increase among people aged ≥7. The increase within 5–34 over 2014–2021 merits attention, with interpretation bounded by prepandemic uncertainty and sensitivity to model assumptions.
 

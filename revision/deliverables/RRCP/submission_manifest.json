@@ -44,13 +44,13 @@
     },
     {
       "path": "Manuscript_BLINDED.docx",
-      "sha256": "2940d901cc970e16f1754a41b1dec2ad6a06187e32c42bfbfabfd1adf31c1077",
-      "bytes": 355838
+      "sha256": "0c065ae1220867f41e312f4c738be140930e3c3bcde80215276af5b9a5ee7a7a",
+      "bytes": 355857
     },
     {
       "path": "Manuscript_BLINDED.pdf",
-      "sha256": "551d995e31e1da1393b58ed709c14165c2c54489b3dc59465707c9fe6ab34ee9",
-      "bytes": 461782
+      "sha256": "9a3ea6ddbe21e56435c7c7e6527294cfd48836d25e7229d95364074da0230db1",
+      "bytes": 461367
     },
     {
       "path": "README.md",
@@ -89,16 +89,16 @@
     },
     {
       "path": "Title_page.docx",
-      "sha256": "a7bbe2f41182e3916938359e28bc0b314bf7c126cd1d4d9082f74e24e83b831b",
-      "bytes": 38613
+      "sha256": "bb1dc3ec81dffd711787cf8a01aaae0b46c27b9dee222b89d826afe17112a25a",
+      "bytes": 38612
     },
     {
       "path": "Title_page.pdf",
-      "sha256": "65eae4a1da5ad892ea45e880949cd5bdafc88300375c696838c276311a99dd88",
-      "bytes": 43772
+      "sha256": "0cc91fd2cd75f91e113a55c571b3bcf726673643e249bb797ca76ed261bbb5d5",
+      "bytes": 43770
     }
   ],
-  "author_approval": "confirmed",
-  "ethics_document": "not located; no granted exemption asserted",
+  "author_approval": "confirmed by corresponding author for the 11 October 2026 approved PDF; minor editorial corrections await final proof review",
+  "ethics_document": "authors will provide approval or exemption document; not yet received or checked",
   "sent": false
 }

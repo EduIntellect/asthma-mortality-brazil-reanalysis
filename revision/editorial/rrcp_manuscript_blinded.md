@@ -8,13 +8,13 @@ Methods. This ecological study reproduced the analysis and revised selection usi
 
 Results. Historical selection reproduced 18,583 deaths with continuous age >6; the published count was 18,584. The corrected national analysis of completed ages ≥7 included 18,544 deaths. Aligned crude mortality increased 12.0%; Brazil-2014-standardised mortality changed -4.1% between endpoints (eight-year slope 0.0002; 95% CI -0.0214 to 0.0217; p = 0.986). Within ages 5–34, Brazil-2014-standardised mortality increased 18.0% (0.0328 per 100,000; p = 0.018). Its slope remained positive excluding 2020 (p = 0.040); the 2014–2019 interval included zero (p = 0.107).
 
-Conclusions. Changes in population age composition accounted for much of the crude increase at ages ≥7 in a descriptive decomposition. The primary national age-standardised estimate was compatible with trends in either direction. Standardisation within 5–34 supported an increase over 2014–2021 and after excluding 2020; the shorter prepandemic series remained inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates together.
+Conclusions. Changes in population age composition accounted for much of the crude increase at ages ≥7 in a descriptive decomposition. The primary national age-standardised estimate was compatible with trends in either direction. Within 5–34, primary Brazil-2014 standardisation supported an increase over 2014–2021 and after excluding 2020; the shorter prepandemic series remained inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates together.
 
 Keywords. Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.
 
 ## Introduction
 
-One nationwide study concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Another study of 2013–2023 concluded that asthma-related deaths had increased [2]. They based this conclusion on annual death counts and reported a stable overall mortality rate per 100,000 habitants. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
+One nationwide study concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. That analysis for 2014–2021 identified 18,584 asthma deaths and reported an annual increase of approximately 2.5%. Another study of 2013–2023 concluded that asthma-related deaths had increased [2]. The latter conclusion relied on annual death counts, although the overall mortality rate per 100,000 inhabitants was reported as stable. These measures describe different aspects of mortality. Neither establishes an increase in the national age-standardised rate.
 
 Earlier Brazilian surveillance offers a longer perspective. An earlier study reported a linear decline in age-standardised asthma mortality among people aged 5–34 during 1980–2014 and a non-linear trend in the general population [3]. Differences in periods, age ranges and rate definitions limit direct comparison with recent estimates and prevent identification of a historical trend reversal.
 
@@ -108,7 +108,7 @@ Across six pairs, the composition component was positive under both revisions. W
 
 Figure 2 compares the decomposition under both population revisions.
 
-### Mortality within ages 5–34 and sensitivity analyses
+### Age-domain mortality and sensitivity analyses
 
 Ages 5–34 contributed 1,590 corrected deaths (172–236 annually). Their crude rate rose from 0.182 to 0.218 per 100,000 (+19.7%; absolute change +0.0358), with slope 0.0079 per year (95% CI 0.0021 to 0.0138; p = 0.016). Standardising within 5–34 to Brazil 2014 yielded 0.182 to 0.215 per 100,000 (+18.0%; absolute change +0.0328), with slope 0.0075 per year (95% CI 0.0018 to 0.0132; p = 0.018); WHO standardisation yielded 0.178 to 0.207 per 100,000 (+16.4%; absolute change +0.0291), with slope 0.0068 per year (95% CI 0.0014 to 0.0122; p = 0.022). Thus the crude absolute increase was 0.0358, and the within-group-standardised absolute increase was 0.0328 per 100,000. The nested 7–34 comparison gave 0.181 to 0.220 per 100,000 (+21.0%; absolute change +0.0381), with slope 0.0088 per year (95% CI 0.0026 to 0.0149; p = 0.013); it tests sensitivity to including ages five and six. The crude 5–34 quasi-Poisson estimate was +4.00% per year (95% CI 1.13 to 6.95; p = 0.014).
 
@@ -116,13 +116,15 @@ Excluding 2020 while retaining calendar-year values, the within-5–34 Brazil-20
 
 With WHO standardisation and IBGE 2018, excluding 2020 gives p = 0.055, with an interval including zero. In 2014–2019, count-model inference also differs. The crude 5–34 Poisson and negative binomial Wald intervals exclude zero; the quasi-Poisson t interval includes it; negative-binomial theta has an iteration warning. Supplementary Table S7 reports results for both revisions, both standards and all three count families. These comparisons show that inference depends on the standard and variance assumptions.
 
-The original COVID rule removes 56 records; adding U071 removes one further record in 2021, within both young domains. Of 18 U071 mentions in 2020, all were already excluded; of 19 in 2021, 18 overlapped the original rule. Retaining all COVID mentions raises the primary ≥7 numerator from 18,544 to 18,601. Calendar-age, original-COVID, all-COVID-retained and historical-key sensitivities change one condition at a time (Supplementary Table S8). At 35–59 the crude slope remained imprecise (p = 0.132); uncertainty is not evidence of stability.
+The original COVID rule removes 56 records; adding U071 removes one further record in 2021, within both young domains. Of 18 U071 mentions in 2020, all were already excluded; of 19 in 2021, 18 overlapped the original rule. Retaining all COVID mentions raises the primary ≥7 numerator from 18,544 to 18,601. Calendar-age, original-COVID, all-COVID-retained and historical-key sensitivities change one condition at a time (Supplementary Table S8).
+
+At 35–59 the crude slope remained imprecise (p = 0.132); uncertainty is not evidence of stability.
 
 ## Discussion
 
-The corrected analysis found an increase in aligned crude asthma mortality among people aged ≥7 between 2014 and 2021. With Brazil 2014 age weights held fixed, the endpoint change was negative and the slope across all eight years was close to zero. The interval was compatible with trends in either direction and does not demonstrate stability. The positive age-adjusted negative binomial estimate with IBGE 2024 shows that national trend inference also depends on the model and population revision.
+The corrected analysis found an increase in aligned crude asthma mortality among people aged ≥7 between 2014 and 2021. With Brazil 2014 age weights held fixed, the endpoint change was negative and the slope across all eight years was close to zero. Endpoint comparisons and slopes across all annual observations describe different aspects of the series. The interval was compatible with trends in either direction and does not demonstrate stability. The positive age-adjusted negative binomial estimate with IBGE 2024 shows that national trend inference also depends on the model and population revision.
 
-Age composition contributed positively to the crude change for every endpoint pair under both population revisions. In some pairs, the composition term exceeded the net increase because the age-specific-rate term was negative. The decomposition combines composition and rates arithmetically; it cannot identify effects of certification, treatment access or the pandemic. Endpoint comparisons and slopes across all annual observations describe different aspects of the series.
+Age composition contributed positively to the crude change for every endpoint pair under both population revisions. In some pairs, the composition term exceeded the net increase because the age-specific-rate term was negative. The decomposition combines composition and rates arithmetically; it cannot identify effects of certification, treatment access or the pandemic.
 
 Both crude and standardised mortality within ages 5–34 increased over 2014–2021. Standardising within this range accounts for changes in its internal age distribution. The nested 7–34 analysis assesses how including ages five and six affects the estimate and does not provide independent replication.
 
@@ -132,7 +134,7 @@ Interpretation also depends on which records enter each analysis. The selection 
 
 The ecological design, short annual series, post hoc sensitivity analyses, unadjusted multiple comparisons and possible changes in death certification limit interpretation. Public fields cannot establish whether the 2018 pair represents one death. Historical execution hashes for SIM 2014–2019 and the population workbook used in the original study remain unavailable. Exact reproduction of recorded counts and aggregates therefore cannot establish historical file identity.
 
-Negative binomial θ iteration warnings near the Poisson limit limit confidence in dispersion estimation. We retained every model and its warnings to make these limitations visible. Statistical intervals quantify model uncertainty; they do not capture uncertainty in record selection, certification or population reconstruction.
+Negative binomial θ iteration warnings near the Poisson limit constrain confidence in dispersion estimation. We retained every model and its warnings to make these limitations visible. Statistical intervals quantify model uncertainty; they do not capture uncertainty in record selection, certification or population reconstruction.
 
 These findings support reporting aligned crude, age-standardised and age-specific mortality together. Age composition accounted for much of the crude increase among people aged ≥7. The increase within 5–34 over 2014–2021 merits attention, with interpretation bounded by prepandemic uncertainty and sensitivity to model assumptions.
 

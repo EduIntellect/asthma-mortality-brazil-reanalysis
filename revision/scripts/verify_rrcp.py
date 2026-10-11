@@ -60,7 +60,7 @@ counts=json.loads((root/'revision/qa/rrcp_counts.json').read_text());assert coun
 freeze=json.loads((root/'revision/qa/editorial_freeze.json').read_text())
 def result_numbers(text):
  text=text.split('## Results')[1].split('## Discussion')[0]
- text='\n'.join(line for line in text.splitlines()if not line.startswith(('Table 1 summarises','Figure 2 compares')))
+ text='\n'.join(line for line in text.splitlines()if not line.startswith(('### ','Table 1 summarises','Figure 2 compares')))
  text=re.sub(r'\[[0-9,]+\]','',text)
  return re.findall(r'(?<![A-Za-z])[-+]?\d+(?:[.,]\d+)*',text)
 before=subprocess.check_output(['git','show','8b9f8fd:revision/editorial/manuscript.md'],cwd=root,text=True)
