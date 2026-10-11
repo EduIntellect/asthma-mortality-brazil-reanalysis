@@ -1,0 +1,2454 @@
+{
+  "base_commit": "3884c868a07164710a2e358180b3034f9cdcf642",
+  "branch": "revision/amaury-review",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 484,
+      "sha256": "c8de92ecf672b93075ad8e4b7a96cd4c4f0f7b15556a6ea9cab9c7baa9302d2e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 597,
+      "sha256": "4c06911034d1d14ae3315ed0d3f028ee2f16c7eb11affc444357f705314d6678"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1090,
+      "sha256": "b7dec493d9f5bb6a024f8ff52bc2e5748eb98aec231d10a6d7dd97fb49ef0236"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9388,
+      "sha256": "c5d03439ed6158d5bd6356907956696fca2e1c339f870deb45ce8718e99edaca"
+    },
+    {
+      "path": "reanalysis/.gitignore",
+      "bytes": 10,
+      "sha256": "8587f29a29a283af6896a6539fb504551b7f1d7207d44ded8bae1001b683ab41"
+    },
+    {
+      "path": "reanalysis/R/00_provenance.R",
+      "bytes": 1213,
+      "sha256": "5dfca859578c60e22c8a206c9b96bdbbdb88ea2edb46b14a95eb1c4cc560ceee"
+    },
+    {
+      "path": "reanalysis/R/01_load_year.R",
+      "bytes": 4294,
+      "sha256": "a62d061ef82b45f562bf4d002b03a7396fb2efaa83c5d6f48a327f655c978cb5"
+    },
+    {
+      "path": "reanalysis/R/02_aggregate_annual.R",
+      "bytes": 689,
+      "sha256": "f476deff27436de4f5af5baa4d0b2f5be2a2543a3c38bf6559dcdfef67b8285e"
+    },
+    {
+      "path": "reanalysis/R/03_denominators.R",
+      "bytes": 3306,
+      "sha256": "7062495de2405f025e6f5ef0e0e9e1ff3608f69e0a000633b81968ade2a56b1b"
+    },
+    {
+      "path": "reanalysis/R/04_standardization.R",
+      "bytes": 1611,
+      "sha256": "e3561384a4b101a087c0ad5890322d58f05ac9d55521735a1961c98585d96d08"
+    },
+    {
+      "path": "reanalysis/R/05_age_groups.R",
+      "bytes": 1366,
+      "sha256": "5d19d357e99faa492bb74283e5cb3c4d86ea7c039a3a82d2b849305a482a0ded"
+    },
+    {
+      "path": "reanalysis/R/06_trend_models.R",
+      "bytes": 2034,
+      "sha256": "bb852ee0a6de17cecb46deb87e4ec6ade87d8066f52b23074488cfb128fdb3ef"
+    },
+    {
+      "path": "reanalysis/R/07_denominator_sensitivity.R",
+      "bytes": 5782,
+      "sha256": "e8f076a1a5f47f4e744bccafe6dccf156acfc2c33baa831c1b4271eb59731d30"
+    },
+    {
+      "path": "reanalysis/R/08_count_models_and_who_standard.R",
+      "bytes": 8473,
+      "sha256": "1028d34875b5c89d1343adf71d978f4da56a670815b0bcdda7d543092b48d2b8"
+    },
+    {
+      "path": "reanalysis/R/09_manuscript_assets.R",
+      "bytes": 13408,
+      "sha256": "4191773f4094b936426bd5fcab4ae7eab49df30e6b3d22667f55102f2caf300d"
+    },
+    {
+      "path": "reanalysis/R/10_kitagawa_endpoints.R",
+      "bytes": 6647,
+      "sha256": "e9ac7b96bc4d370552b458635cb2f5085ad6e35ce01f0f441074e75c9ceaca7c"
+    },
+    {
+      "path": "reanalysis/R/check_fase1_reconciliation.R",
+      "bytes": 2984,
+      "sha256": "65afbea408439214f37c54e9a3a2f2bb00c5cb71775e6758e3922b55fcb267d8"
+    },
+    {
+      "path": "reanalysis/R/run_pipeline.R",
+      "bytes": 12015,
+      "sha256": "575a1bf0debd3d9b7d35c268a2d6936fd474a0c9440a58aaf5af6eb6c3d7e430"
+    },
+    {
+      "path": "reanalysis/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "15fc40258c0d0185cfcab5c810905a73f265fb9281c3fcae125271155eb1ddee"
+    },
+    {
+      "path": "reanalysis/audit_reproduction.md",
+      "bytes": 21408,
+      "sha256": "c1498727aa16f0ad95cb3cd0855cf17c738094de298abbfcd59c6f2342492918"
+    },
+    {
+      "path": "reanalysis/data/age_group_series.csv",
+      "bytes": 1246,
+      "sha256": "7dee135d3fbcf60604ee491d9b028063b821fa64abdc5d58ccb6e496ec5f06b6"
+    },
+    {
+      "path": "reanalysis/data/age_standardized_series.csv",
+      "bytes": 240,
+      "sha256": "1a661a4bbd76050e786b992fb1a8c7ea30c7b67e2ccdbb45c3e7b49ef33e6c7d"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2014.csv",
+      "bytes": 991,
+      "sha256": "3af37af7f230cce95b192f8439ffd6f52f14e02450b2c4b0bc9bb5c49bca9b1c"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2015.csv",
+      "bytes": 973,
+      "sha256": "7edb382417175bd0cabe57650ff5efeda29ebbe9ef38836fc6a8bb654211e58e"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2016.csv",
+      "bytes": 992,
+      "sha256": "5c15235da5bd3c3ad5f9878de1406bff508337d6b979a06209756a2c0c5a3953"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2017.csv",
+      "bytes": 993,
+      "sha256": "b6ad23fc3b318afec342cc9f83defac6deb0ae84d1255cccdd361d53934c7da4"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2018.csv",
+      "bytes": 994,
+      "sha256": "179465cdc3cb1da2039f06d8037680ca11a3697c6e5986ba4b535f7848a72602"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2019.csv",
+      "bytes": 995,
+      "sha256": "30efb134d12398140dd24e8db09aba9c2891abb49812a1ba7ad5c0f95cf95c09"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2020.csv",
+      "bytes": 989,
+      "sha256": "b3584ca97449b250438edd572cdb976b3ad572853133ecad9a2cdc1191a7687c"
+    },
+    {
+      "path": "reanalysis/data/annual/annual_2021.csv",
+      "bytes": 995,
+      "sha256": "707ad0700149392ad87d03bb2807a4fdbb2098acbc79b265ecc23a91ec04b49b"
+    },
+    {
+      "path": "reanalysis/data/crude_rate_ge7_series.csv",
+      "bytes": 467,
+      "sha256": "30802b69924c1f52e13f6cd90c0dfbbc3cf2215b40e06643f495ca7991d111f6"
+    },
+    {
+      "path": "reanalysis/data/denominator_comparison.csv",
+      "bytes": 937,
+      "sha256": "d3a14b5c1c7c8413772c142b0701063e725f9780c6d34b8b2b8ce7018d81d7ae"
+    },
+    {
+      "path": "reanalysis/data/denominators.rds",
+      "bytes": 3688,
+      "sha256": "38791877c464bf657ab590bee48d7b23c12698862fc2a55b947761920dba8551"
+    },
+    {
+      "path": "reanalysis/data/fase1_legacy_reconciliation.csv",
+      "bytes": 435,
+      "sha256": "e7a4c89bce046565626d5a4d294b51052b0ca96970205fab448d40adaeef06c4"
+    },
+    {
+      "path": "reanalysis/data/fase2_year_counts.csv",
+      "bytes": 392,
+      "sha256": "e166f89d447ab242293fd9688b3646e0e3c7c8208ebd76dd3ce0f8a5f973009f"
+    },
+    {
+      "path": "reanalysis/data/ibge_denominators_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "reanalysis/data/kitagawa_age_contributions.csv",
+      "bytes": 27458,
+      "sha256": "ad24fb90a3820560242fca5099d0878c5ad3057b25d8e2a44efc2b1505affce0"
+    },
+    {
+      "path": "reanalysis/data/kitagawa_endpoint_sensitivity.csv",
+      "bytes": 1510,
+      "sha256": "fde9c73c530248c2090f7da327bd02ad7041b4ce173e12b6b752b6f4b4659fa0"
+    },
+    {
+      "path": "reanalysis/data/robustness_count_models.csv",
+      "bytes": 6647,
+      "sha256": "3ac2c17abaed22298b7d3d511fe9173bc8c3e3f7c6f5e0cc300276b59d53ab7c"
+    },
+    {
+      "path": "reanalysis/data/robustness_who_standard_by_year.csv",
+      "bytes": 1986,
+      "sha256": "8ad9aec2aa305f1265abbc0789bc9d7658a087184c0e72e71bac18d9c4bb7886"
+    },
+    {
+      "path": "reanalysis/data/robustness_who_standard_summary.csv",
+      "bytes": 758,
+      "sha256": "1e5a5ea5f3fdee9a846b30f872b20e2b58e279297998218e7f8db130da77780e"
+    },
+    {
+      "path": "reanalysis/data/sensitivity_brum_style_change_metrics.csv",
+      "bytes": 1558,
+      "sha256": "b396fb813eb22fb78a35bfd6ec8033b63777644a44a0f2c010f8e93701c9a8b9"
+    },
+    {
+      "path": "reanalysis/data/sensitivity_denominators_by_year.csv",
+      "bytes": 21503,
+      "sha256": "fe31dfb1f8266a08b045920b8939d81317a7c56acb378b2213d2993e24510a00"
+    },
+    {
+      "path": "reanalysis/data/sensitivity_denominators_summary.csv",
+      "bytes": 2968,
+      "sha256": "544a61c01e18bda8ac66d5e21dafda3a9fd410f1af41021b84b789061ae8fd84"
+    },
+    {
+      "path": "reanalysis/docs/data_sources.md",
+      "bytes": 3752,
+      "sha256": "135776567cba7f29bdf31bfa5100cc3ce7b253bc42d1a9a18b80ca0e40b36630"
+    },
+    {
+      "path": "reanalysis/figures_comparative.png",
+      "bytes": 125463,
+      "sha256": "c6348b6238c453ec69b81d783765eb979ad9b33c88398289b514318ebd2bcf64"
+    },
+    {
+      "path": "reanalysis/manuscript/article/AUTHOR_REVIEW_CHECKLIST.md",
+      "bytes": 2654,
+      "sha256": "754e855345d9ce25ed59de0b39ed423575aa168a32d9514ac6ba3d5eca8cbc7c"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/Asthma_Mortality_Brazil_COMPLETE_AUTHOR_REVIEW.docx",
+      "bytes": 757841,
+      "sha256": "b5cedd19ec3b8dac0a166093a7c1d80c402c5742f71adc76daa748ea516a0b47"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/BUILD_REPORT.txt",
+      "bytes": 293,
+      "sha256": "218d501fa4efafe3e397af987c2b4be0e7d2bb40a6710c5a3079d70f81d69d10"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/manuscript.docx",
+      "bytes": 20607,
+      "sha256": "3588a2aef6ff98ccaea6ef3e8d8d88093d8f6b0f91fb10a888478acd522ab74e"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/manuscript_with_3_figures_REVIEW.docx",
+      "bytes": 667962,
+      "sha256": "b136e6ebf23b2d64474945093584522b7e3ddb2ae95715a69f8b3f9fb0791b0d"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/supplementary_tables.docx",
+      "bytes": 214718,
+      "sha256": "65de8affcbc8a6ed3b61b70e3c18eb436919c9c112b18f55a8cebc79ae6e0934"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build/title_page.docx",
+      "bytes": 10253,
+      "sha256": "2b61f9f947b7cc46b44582dfb830a695b936abe4e342259fdd0f2f9c077415b1"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build_docx.sh",
+      "bytes": 4359,
+      "sha256": "4ad7fae69e140ebb88e57658f52ff211d92489a6147a30f37e3f44df48a17184"
+    },
+    {
+      "path": "reanalysis/manuscript/article/build_review_figures.py",
+      "bytes": 5973,
+      "sha256": "9cbee31e7a01f3419b4a661320d8ae825573d1bd24c6fee769be7332a76dcf67"
+    },
+    {
+      "path": "reanalysis/manuscript/article/manuscript.md",
+      "bytes": 26371,
+      "sha256": "c752539cd75c16893924ccb86ce8b7a02afd73b397fd9ef092d534e1843671e1"
+    },
+    {
+      "path": "reanalysis/manuscript/article/supplement.md",
+      "bytes": 3438,
+      "sha256": "dbe69e1eff40086f4f1567678aa0c0bbd7794051b3f08658ef8dda4a2506c4d6"
+    },
+    {
+      "path": "reanalysis/manuscript/article/table_widths.lua",
+      "bytes": 2164,
+      "sha256": "a2d424e59fb6aede56409db291ea666f1e2aad6490c5dd8a4d1e377cc3cb1682"
+    },
+    {
+      "path": "reanalysis/manuscript/article/title_page.md",
+      "bytes": 783,
+      "sha256": "e53533e6e32c304ccd5cebf68e9a82b0032eb88bb120f4ee9ad5fd54b1cd0661"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/fig1_relative_change.pdf",
+      "bytes": 12613,
+      "sha256": "57daa6f301a92270f13371f149f36341f4982481db55520ecf753253d714d6c5"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/fig1_relative_change.png",
+      "bytes": 179787,
+      "sha256": "f7a22114c0f7ea14be180b50940329bb604a164e85d56701db318f6b8fb5f540"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/fig1_relative_change_ge7.jpg",
+      "bytes": 356781,
+      "sha256": "ae8a3f1b34c9ba55e18e1baab717f9ed0e9174bcd25a3bef845901e756197f2f"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/fig1_relative_change_ge7.pdf",
+      "bytes": 15094,
+      "sha256": "644b7a9b8f0e7c51af0ffa807a4b2eee09830c4f597c68ad6de9a7dcb26995a0"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/fig2_kitagawa_sensitivity.jpg",
+      "bytes": 280077,
+      "sha256": "bc44b756eac3597b310e0a5d167e5cf4d20b479b2f39df5cd08b36d2663a5d87"
+    },
+    {
+      "path": "reanalysis/manuscript/figures/figS1_age_5_34_mortality.jpg",
+      "bytes": 340165,
+      "sha256": "77cc2dda734b689bc6983f01462b0653b291af9ece2a2251fd0f66c4cf826180"
+    },
+    {
+      "path": "reanalysis/manuscript/letter_to_editor.pdf",
+      "bytes": 184230,
+      "sha256": "91f2ff4828a664475d4bb52a73fd50e4d086a0bb6df642b128ae821fdf669dfc"
+    },
+    {
+      "path": "reanalysis/manuscript/letter_to_editor.tex",
+      "bytes": 6275,
+      "sha256": "81114a75d402486757087904e01bdb437796dc15bcf8454e97c6553ce7a15fcb"
+    },
+    {
+      "path": "reanalysis/manuscript/methods_results.pdf",
+      "bytes": 173277,
+      "sha256": "6a98a2e8211752b2e7f2d7f7da8f55d53e6c4f35ec183ee145b96682bedea160"
+    },
+    {
+      "path": "reanalysis/manuscript/methods_results.tex",
+      "bytes": 24694,
+      "sha256": "86d6b6435e263231bc1883efb4c013869a2a82bde35186a3ebc4de9cf399a1b9"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_count_models.tex",
+      "bytes": 608,
+      "sha256": "7e19a140dc773ad45d77e7bcc0f99702f6db74438390b52e37a2ed9218f75c67"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_flow.tex",
+      "bytes": 654,
+      "sha256": "f9d65201cd2773c711c031c1e69c51566937c5cf306429f69c03cfa1dd39f5fe"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_groups_original.tex",
+      "bytes": 441,
+      "sha256": "43efed17abddddff741bd685c108fc2a8a40e182ec94498b5bf7ea363e68e27b"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_kitagawa.tex",
+      "bytes": 642,
+      "sha256": "8c70d0559434002a99d6c5d3c9ee6a23f6015bbbfdcf56d5f9f690d41cbe461c"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_sensitivity.tex",
+      "bytes": 1082,
+      "sha256": "8b421570c8cd588b5188bf4c6ed9a2b9b4494eb8a292f60f9e3d940137e5ebeb"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_series.tex",
+      "bytes": 1022,
+      "sha256": "dd6a301829cd3356de6517e97e1694f6aaeb815d44f8b16fa0993e8cb1fc0b05"
+    },
+    {
+      "path": "reanalysis/manuscript/tables/tab_trends.tex",
+      "bytes": 672,
+      "sha256": "ce3e6d2c7b55c80f0de927879cab531de9a95ee4017a8e243a22a3591f1359b6"
+    },
+    {
+      "path": "reanalysis/primary_results.csv",
+      "bytes": 7120,
+      "sha256": "1468e66e576a9d4aa0a968761a9556bae8bf78a8b95adafa03f547dd4bbbfcc6"
+    },
+    {
+      "path": "reanalysis/session_info.txt",
+      "bytes": 3197,
+      "sha256": "8c23264ad105b328bab00a207fc7011a9e65bcc2cad85a9090448ec6d08bf026"
+    },
+    {
+      "path": "revision/README.md",
+      "bytes": 10468,
+      "sha256": "189221b9ef856d4ea39e5d1ffefd1ea9466513ec2cf6fd31f14c3b1001fd7a02"
+    },
+    {
+      "path": "revision/deliverables/Author_confirmations.docx",
+      "bytes": 38806,
+      "sha256": "eda23a4ba51cd34b79769069759a0a3f9ddc59265e67b9681ca275788712342d"
+    },
+    {
+      "path": "revision/deliverables/Author_confirmations.pdf",
+      "bytes": 45343,
+      "sha256": "d8135527501c0b73ced8340c7dfb7a7d36e60d2a2780c4c9b7446ef79e99fde7"
+    },
+    {
+      "path": "revision/deliverables/Manuscript_CLEAN.docx",
+      "bytes": 356940,
+      "sha256": "f141ff75bfb3bcf344e6f517d1e4b50027df90638ed109eb19c26eb41795269d"
+    },
+    {
+      "path": "revision/deliverables/Manuscript_CLEAN.pdf",
+      "bytes": 465332,
+      "sha256": "d4bd1b535a3198fdcd14c4dfe8a3b06c47a768c0d6f2779caed3b186c2678cf0"
+    },
+    {
+      "path": "revision/deliverables/Manuscript_MARKED_COMPARISON.docx",
+      "bytes": 63043,
+      "sha256": "f6f117527c3924e7bb794ae16e1460518beafe034677724208889a5484df4e76"
+    },
+    {
+      "path": "revision/deliverables/Manuscript_MARKED_COMPARISON.pdf",
+      "bytes": 246319,
+      "sha256": "41a3c36c25890f98b0533d874e000ce7039337c3974e5a4d89fd7d825005c801"
+    },
+    {
+      "path": "revision/deliverables/Response_to_Amaury.docx",
+      "bytes": 40514,
+      "sha256": "8725f96e447a52b0919d2df8e49b5715549a7c03a3a6d821ab5c3d28fcccdde8"
+    },
+    {
+      "path": "revision/deliverables/Response_to_Amaury.pdf",
+      "bytes": 54546,
+      "sha256": "13136adc85bc2ca77505a5679aa1d022d90701255e2d8fb397dd6adc5f689291"
+    },
+    {
+      "path": "revision/deliverables/Supplement.docx",
+      "bytes": 215852,
+      "sha256": "4559c0c1f6fac5889925b3ec7944a2fdcb1417126c1ebc46a820ded14d9873d0"
+    },
+    {
+      "path": "revision/deliverables/Supplement.pdf",
+      "bytes": 933520,
+      "sha256": "cd1a8c75609748c22601a71eeb250b8d8500379033ad4b450fd549d3d78e7292"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.pdf",
+      "bytes": 17524,
+      "sha256": "53f6a8f59e335a1242f2d4d1a74a9a12eb70c39ac5a01af107e50165c7ca7ffd"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.png",
+      "bytes": 177192,
+      "sha256": "9192765708faeea106e2210b9ae3b62d067de91c2250c1afe0de65d32369450a"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure1.svg",
+      "bytes": 37729,
+      "sha256": "25f7b4363e3e350eb1da89d19088b8f6292832d935f6404e0d032915f7007d26"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.pdf",
+      "bytes": 19283,
+      "sha256": "c41030af7a60db550b78d95897b6e0fd2ecd173c0c55762d5c7c77fb69a37a36"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.png",
+      "bytes": 159374,
+      "sha256": "4a8f60e0414fbc2614b6f5a8c91fa371363abb2e57d6511742bc921db32a6adc"
+    },
+    {
+      "path": "revision/deliverables/figures/Figure2.svg",
+      "bytes": 52298,
+      "sha256": "7b69ff79dcbd31f4190be586829bab05d1e249475db9ad3c8c78b1af2fd41149"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.pdf",
+      "bytes": 17113,
+      "sha256": "b743951bb6ae4ca3a4ad1c22947ab5cc081ea529c2a1b4e8799500a1502d9924"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.png",
+      "bytes": 175091,
+      "sha256": "04ee7851d141ddc2593c447fac796775c1c6a19d81688435f8d8e851b59d4d4f"
+    },
+    {
+      "path": "revision/deliverables/figures/FigureS1.svg",
+      "bytes": 44416,
+      "sha256": "44b9fbe9e47c0c57544bfb32eb67c3d5416b0ec7c31b5c447b51f467bae91556"
+    },
+    {
+      "path": "revision/editorial/author_confirmations.md",
+      "bytes": 2909,
+      "sha256": "667ad0d30bcae0b2262009660a4e9bc8c98b7bc845c8a3eb0eec3313120a3042"
+    },
+    {
+      "path": "revision/editorial/claim_trace.json",
+      "bytes": 12537,
+      "sha256": "aac1b48b44c86fa53f4b6da5a49e8fc3d33b08e553ecee1e732578a148b7d557"
+    },
+    {
+      "path": "revision/editorial/comparison.patch",
+      "bytes": 85579,
+      "sha256": "2a13e6c205fac0cdb574c67ca833ac9fd9a00d6723564576d587f0dbbe7504bc"
+    },
+    {
+      "path": "revision/editorial/comparison_blocks.json",
+      "bytes": 1373,
+      "sha256": "5d77b33a5e606b4424b880b8d9504e901a19c935f7e5cb038964f7c45b293dcc"
+    },
+    {
+      "path": "revision/editorial/duplicate_pair_audit.md",
+      "bytes": 2285,
+      "sha256": "098e0d86d5c8d861029c517632ab56f879b22f2487fdc85134747a3164e3f78d"
+    },
+    {
+      "path": "revision/editorial/historical_reproduction.md",
+      "bytes": 2642,
+      "sha256": "cf95279bd819a2259fc27c2fea8eba5cf10db0d96f2bccd26fa4aece5678ec4b"
+    },
+    {
+      "path": "revision/editorial/manuscript.md",
+      "bytes": 29047,
+      "sha256": "9a7bf7bca589a0965ed27c8fbeef4caeb402d20bf98ae2090865c935068348ef"
+    },
+    {
+      "path": "revision/editorial/manuscript_template.md",
+      "bytes": 17550,
+      "sha256": "1e9e54ba494f6a4a63e0aaab211ecb466c1edd83ea2f342db083b429411c7402"
+    },
+    {
+      "path": "revision/editorial/pdf_reference_text.md",
+      "bytes": 32459,
+      "sha256": "7bef9a4418152ef72e100caca6a2ff68e43b03670b48216048c9e6219832d967"
+    },
+    {
+      "path": "revision/editorial/reference_manifest.json",
+      "bytes": 379,
+      "sha256": "e954c7abfe76e8fae4ca1ef3bf582fa561ba97d13182e72fbfe39964c816adc2"
+    },
+    {
+      "path": "revision/editorial/reference_reconciliation.md",
+      "bytes": 2812,
+      "sha256": "a26f73d40cb41697f77749fd700ee948956bb85d5b642ba078d2477c573c6474"
+    },
+    {
+      "path": "revision/editorial/request_resolution_matrix.csv",
+      "bytes": 25721,
+      "sha256": "eab1d390232fd9fa81dfd4460a16430ff188d70a6b5bc184ddb2291db7c1e25f"
+    },
+    {
+      "path": "revision/editorial/request_resolution_matrix.md",
+      "bytes": 4365,
+      "sha256": "b099b7edb3726fae213d0d27d4690651ce31c3c4ea936217a83e7782fb8e5f4f"
+    },
+    {
+      "path": "revision/editorial/response_to_amaury.md",
+      "bytes": 6938,
+      "sha256": "3b969b93eb77ced966e42744488535076b5cf653c452df67fad86ff48aa7d7bf"
+    },
+    {
+      "path": "revision/editorial/supplement.md",
+      "bytes": 26231,
+      "sha256": "3c52493d256bb869bf3db783e89c43af858c8e89b74db77dc6c57420d3cbfec5"
+    },
+    {
+      "path": "revision/environment_python.json",
+      "bytes": 1448,
+      "sha256": "99559ee60a97cf1fe53f0a836abfbfa0f33ec4d8863a757d74414c5d3a54c9dc"
+    },
+    {
+      "path": "revision/evidence/amaury_comments.txt",
+      "bytes": 6090,
+      "sha256": "143efd6fde42b1ebbe34c12601a5df9f40ba058b5aef39c512da571a44350a98"
+    },
+    {
+      "path": "revision/evidence/csv_manifest.json",
+      "bytes": 1994,
+      "sha256": "467499b6d4183f6b108f7a31e2f5bd971f38e8cf1df9d866eb3e6c85c09c3069"
+    },
+    {
+      "path": "revision/evidence/download_manifest.json",
+      "bytes": 5925,
+      "sha256": "b713a42cd3247d6d36c52de2c797c7d19903698edc93b8b73f59b4e5552031ca"
+    },
+    {
+      "path": "revision/evidence/reference_concordant.docx",
+      "bytes": 1030240,
+      "sha256": "eeace6687d6c63cdff21b957bdf48fd3f1790c3530e61461a5e226676de999a1"
+    },
+    {
+      "path": "revision/evidence/reference_sent.pdf",
+      "bytes": 1362913,
+      "sha256": "fc552ab83d5254549fa4f1dfe880ab631a26c50bc8d861bfdc433331544e71fe"
+    },
+    {
+      "path": "revision/evidence/word_pdf_comparison.json",
+      "bytes": 1035,
+      "sha256": "d1fad615b0bbee786fd4be9987f3c24aaf8b7b51f15c8a1b6e26e33c2b25682c"
+    },
+    {
+      "path": "revision/evidence/word_pdf_image_comparison.json",
+      "bytes": 461,
+      "sha256": "50192902aa7e65d1e73fd87783a60f5a223b4037ce31c95391a0c05ee65444e0"
+    },
+    {
+      "path": "revision/inputs/SIM_dictionary.pdf",
+      "bytes": 57846,
+      "sha256": "a2e5c28a1fb71a873a0f8db2e594468de4ce4431afd9d06f98e4d56c92311ebb"
+    },
+    {
+      "path": "revision/inputs/SIM_dictionary.txt",
+      "bytes": 28294,
+      "sha256": "bc778c0d282f63e02f1fc79cb895d15728e08f9e4073d3659b6ac2922ceee881"
+    },
+    {
+      "path": "revision/inputs/projecoes_2018_populacao_idade_simples_2010_2060_20201209.xls",
+      "bytes": 3368960,
+      "sha256": "69e4e6a7171bf1bbf02e5ee413f7d6a31114344711ef123277cad6de1595fc28"
+    },
+    {
+      "path": "revision/inputs/projecoes_2024_tab1_idade_simples.xlsx",
+      "bytes": 4606144,
+      "sha256": "6e5c3d21a2e8ff50badd7be2785e1664b41a43277543be541641b0cd802c3205"
+    },
+    {
+      "path": "revision/inputs_manifest.json",
+      "bytes": 7327,
+      "sha256": "c8f005d84a2f55872419cf84d6d078b9f144d9785974b82aaeab635f0c0a255c"
+    },
+    {
+      "path": "revision/locked_inputs.csv",
+      "bytes": 2895,
+      "sha256": "43f2ee84c470d1886adc649e592ebe9a66d350434d16fbda30956d377993719f"
+    },
+    {
+      "path": "revision/qa/build_documents.log",
+      "bytes": 67,
+      "sha256": "86dc97c254136cd29d1dece18ae0133c934c5925b31906cd9ae8fec5eaff0c7f"
+    },
+    {
+      "path": "revision/qa/build_editorial.log",
+      "bytes": 48,
+      "sha256": "8150fe48d354baad18ebad41df75cb6e24384fa6e3289f02e3e34d0b894e0223"
+    },
+    {
+      "path": "revision/qa/build_response.log",
+      "bytes": 55,
+      "sha256": "696d32d94181c756a1b4d7380eac00d5558244484aea09eb72b9f896543647dc"
+    },
+    {
+      "path": "revision/qa/calendar_bin_changes.csv",
+      "bytes": 3010,
+      "sha256": "10f14d6dc385720ec320bac4e7e03399574e9b7aa68acbb12ec7a4103bec9fb7"
+    },
+    {
+      "path": "revision/qa/calendar_unit_checks.log",
+      "bytes": 58,
+      "sha256": "e04e7d92a01abfd4cd88be20f91c7ae4c25297287e9964dfcd87ad2719ebbbc3"
+    },
+    {
+      "path": "revision/qa/cli_test.log",
+      "bytes": 30,
+      "sha256": "319a86b876b36c0d8e4320b7a48eb96db0ebec64ece40ba77369c435694f2b3a"
+    },
+    {
+      "path": "revision/qa/document_checks.json",
+      "bytes": 831,
+      "sha256": "6e15bf1d955cb631ae90caec8f7fb8b80711b30715716e4d2580ce8e9c29d1a7"
+    },
+    {
+      "path": "revision/qa/duplicate_pair_check.json",
+      "bytes": 301,
+      "sha256": "14c2d0d9f9b2a56ef0d432fb7d03c651992e2bca1abb3ef2f236116bad0ad994"
+    },
+    {
+      "path": "revision/qa/fetch_inputs_check.json",
+      "bytes": 243,
+      "sha256": "4054406f837fae2d2450854edee0410662d36a64bf9174e9e1766a9551f3d3a7"
+    },
+    {
+      "path": "revision/qa/final_qa.json",
+      "bytes": 1539,
+      "sha256": "45354e16728affd218a640d1f2a1a611f3ee2fe0063d6ef012a016e2b67c8a7f"
+    },
+    {
+      "path": "revision/qa/final_qa.md",
+      "bytes": 1986,
+      "sha256": "b29772c8505c6e56410c0acc2e63dfe6c174226f6ca32e0befd517d187d4bb6d"
+    },
+    {
+      "path": "revision/qa/historical_cli_reproduction.json",
+      "bytes": 1114,
+      "sha256": "eda6cfb2f295c83315796255e71e889f46d869793a04f98a88bf5986f92fbb1a"
+    },
+    {
+      "path": "revision/qa/historical_cli_test.log",
+      "bytes": 134,
+      "sha256": "89982e04bc169f915df3a0b99c515f7e946ffecb9a568682def1cc7cffc67d62"
+    },
+    {
+      "path": "revision/qa/independent_historical_model_checks.csv",
+      "bytes": 5066,
+      "sha256": "7ee5a0a8ad84a2844c59ccdd7cd62ff4e9c749f12fb819afb05495dd947ddc49"
+    },
+    {
+      "path": "revision/qa/independent_historical_models.log",
+      "bytes": 84,
+      "sha256": "2f91c8a4ae7c881c445431003c601d9e882fe5f99641ea6d9b436f317bd18dfa"
+    },
+    {
+      "path": "revision/qa/independent_model_checks.csv",
+      "bytes": 35210,
+      "sha256": "22b4c6280f587d37a5873c013080dde8a8f07e1dfbe2427f11ffe8c2c737e863"
+    },
+    {
+      "path": "revision/qa/independent_models.log",
+      "bytes": 65,
+      "sha256": "1e17966bacb4928f1976af44c12d7f1cfc6ab62133dca3adec113940bcd1481f"
+    },
+    {
+      "path": "revision/qa/independent_output_checks.json",
+      "bytes": 3442,
+      "sha256": "fcefbcbd140e9419ab50bbb82629adf1e086a1c8af7069183eb00da0295fd074"
+    },
+    {
+      "path": "revision/qa/python_dependencies.log",
+      "bytes": 2542,
+      "sha256": "e17789bbc6ec2c0e008e4d50d6ca833cd6417e9f0e230956971dd6d25debda4c"
+    },
+    {
+      "path": "revision/qa/render_Author_confirmations.log",
+      "bytes": 116,
+      "sha256": "0880700f041137f7e3dee06e0ffb0bb3806d098d7bceff1f51e32c74ac7b4d42"
+    },
+    {
+      "path": "revision/qa/render_Manuscript_CLEAN.log",
+      "bytes": 112,
+      "sha256": "2b1013fa0d40ecdcfe10a41b67c8a05293fd86067f06e53c6f3a22a8322f6e79"
+    },
+    {
+      "path": "revision/qa/render_Manuscript_MARKED_COMPARISON.log",
+      "bytes": 124,
+      "sha256": "2b10fd9717366b7413c24ace2e1d77bac54a3fa3c91b4e3f443544b916420d9c"
+    },
+    {
+      "path": "revision/qa/render_Response_to_Amaury.log",
+      "bytes": 114,
+      "sha256": "bab7a8f27e9da4d7b26ba4a5a178ec713a33a7a5b9fb01b9da67b8c03155a820"
+    },
+    {
+      "path": "revision/qa/render_Supplement.log",
+      "bytes": 106,
+      "sha256": "4fd2ae20252bfa8f48d1b430d74acf8cacbe6878244aebc9fa29d4839445b117"
+    },
+    {
+      "path": "revision/qa/render_final_Author_confirmations.log",
+      "bytes": 122,
+      "sha256": "f88adf9a3fd828a669fbe6c800f4cfc464f20b110e6626c0ba8f624f9d095a86"
+    },
+    {
+      "path": "revision/qa/render_final_Manuscript_CLEAN.log",
+      "bytes": 118,
+      "sha256": "5ed9e015fd08a18f3cb06a434ca568eeade7444afd5a3f1f105d1f19ef2c7a28"
+    },
+    {
+      "path": "revision/qa/render_final_Manuscript_MARKED_COMPARISON.log",
+      "bytes": 130,
+      "sha256": "721597ba6b01d3ecff74701427ccff9f8ca49f38345de38d09dfb51a721ae20c"
+    },
+    {
+      "path": "revision/qa/render_final_Response_to_Amaury.log",
+      "bytes": 120,
+      "sha256": "81edda2242fe3670bbed1bfc4ed8297e1eb663beb941029d78308d52952d6558"
+    },
+    {
+      "path": "revision/qa/render_final_Supplement.log",
+      "bytes": 112,
+      "sha256": "3b43478411586e8a192e87c5166228014ac005d112046770299a654dbac58cdc"
+    },
+    {
+      "path": "revision/qa/render_final_page_counts.json",
+      "bytes": 141,
+      "sha256": "1e30f69207a6c00b3bed073012e49cfd48eef13e9d00207a29b48c0d6d61f756"
+    },
+    {
+      "path": "revision/qa/render_page_counts.json",
+      "bytes": 368,
+      "sha256": "6931e9cd0818568ec8036a44a71bed5eaa73d7e69bdaaab73042604142353deb"
+    },
+    {
+      "path": "revision/qa/selection_unit_checks.log",
+      "bytes": 75,
+      "sha256": "83a9be521a31cccc7f3a097c9983167531e1a8d2a91eced94afce40f25582aa6"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "31e8249d92f0a794925ad9ee1a3c1a89bebb1a83e3c2f71b6c0094db461fd509"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "1a99d8914e8a7f7af61fa7d18c5ee85ae96baaa772095f0351a6c3360744ed7d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/configuration.R",
+      "bytes": 244,
+      "sha256": "fc330b9ff382341d30439c71cb3e789c140ecdc867e9d0b1683850423e010975"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_coefficients.csv",
+      "bytes": 3509,
+      "sha256": "ab72253b4327d1b7ce025887e622423b148ceec04ac72e1a68bfcc197c2a6041"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_fits.rds",
+      "bytes": 108919,
+      "sha256": "1d68dfcdcae83feba1feb2db3f5de0ff478646b64eb8eda9edc99e8d4972dafd"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_inputs.rds",
+      "bytes": 1700,
+      "sha256": "a8a407c9eb1af77f2c5cd607355d966da1c9da233380cfa149385ad067103f9d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/count_models.csv",
+      "bytes": 3533,
+      "sha256": "bcb095b49ef3b4183d36d33a707e2d50b4d00c1e269b92293f03debf51ca415b"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 27425,
+      "sha256": "c9d55370ac07f599a790ede50237ed2f10679b335b680ca50020f4e575dffdb9"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 1075,
+      "sha256": "40f238b82d34ec91377f977faab1e8121d41528f5232e5b1a4f368d765d6f8c2"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/rate_trends.csv",
+      "bytes": 3240,
+      "sha256": "ca99bcbda494f0e197cc6e74c9d1072accdad64b0cfe7715bd3da448b3c47cc3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/rates_by_year.csv",
+      "bytes": 6444,
+      "sha256": "a571f2973539d90403d1ee84a428e342d7889523163026d113f9c8e3d056047e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/age_days/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "82e6c58bb6ee869edb02e673628577fcb39a6fc1a224eef3034f991077fc8796"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "1a99d8914e8a7f7af61fa7d18c5ee85ae96baaa772095f0351a6c3360744ed7d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/configuration.R",
+      "bytes": 244,
+      "sha256": "eb1d718b00a9191de085563afd0b0ee59516383999cb3aabedcd4614ce0ef128"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_coefficients.csv",
+      "bytes": 3511,
+      "sha256": "43391a6eb5b308f91db540ec668ca4dae7b2923425886bc8713e14fcaf640ff7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_fits.rds",
+      "bytes": 108731,
+      "sha256": "0094c8704034da1738dbf0909273152fed62c4cfb4c4297952cc4ab4d6de7076"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_inputs.rds",
+      "bytes": 1700,
+      "sha256": "226f7b859dd1473bb2e754d36c0808683220e4ce34e9755a76a954945d83cef8"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/count_models.csv",
+      "bytes": 3532,
+      "sha256": "a7cb9f44b60be537aa6165af87628ee6939c15cb3a5aed0f62af1f8475d45a95"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 27411,
+      "sha256": "eeb42ade9875b0cda9cdad244534f19d1692f5dd3064aaba770acf2d27da7300"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 1083,
+      "sha256": "c18d95323aabd126c080d03390c9f9f51ec9da8733725aa5d85c91ae7d85d64f"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/rate_trends.csv",
+      "bytes": 3236,
+      "sha256": "9e66c5d55b816d2af201e5a56e1fd16caaf7abdc96798f1f8edd270de7359c0d"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/rates_by_year.csv",
+      "bytes": 6438,
+      "sha256": "61868a4e846b4502fbca7aa4ef3eb3baf3724484a546e17c5cc57f8b46ac85e0"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/age_days/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "182df5d53fce72707f8c2e7962408971a31480a34a5b5d8217e32470a8a25436"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/configuration.R",
+      "bytes": 243,
+      "sha256": "fcb441361402647319477506457a79029f01c676a24ebde8fbf82b84ef675bc9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_coefficients.csv",
+      "bytes": 3504,
+      "sha256": "a4bd08a078ddb31cf6405ce6acfcac7d03ee8de45db7197b5ab889e9bf72c2d9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_fits.rds",
+      "bytes": 108820,
+      "sha256": "60e3f8b402bd8ca912845734eeb6b8bd4e526a7050e993eb0cbafac71b25e820"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_inputs.rds",
+      "bytes": 1697,
+      "sha256": "67dbcb1401d8c97a2735324976edadc541335158136e29ee15e9907a60d2a706"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/count_models.csv",
+      "bytes": 3534,
+      "sha256": "9bbea118cb3e154f5f74440d93d532dfe5f229c4541062bec89a4940e48e2803"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 27422,
+      "sha256": "1364ae7a94c2ede6aa30ddbca58701d5b6ea21e63567c8720dea948f070d9af3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 1078,
+      "sha256": "dc636b8335070c2cd70bf3c4aa9b94602b161056609e9501492ecb18c9377440"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/rate_trends.csv",
+      "bytes": 3241,
+      "sha256": "d18c0e625be05eef28e223e196aa88ce84b9496ac43cc41db7de5f5e07bd1ae8"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/rates_by_year.csv",
+      "bytes": 6444,
+      "sha256": "bcbc39d588161fce2eb7eb102eba434e280f0aa9afea1c6c8aa2eeee6706547f"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/corrected/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "a8dc90366735ee6f1aefbe584c85a582016d75536c129f9d635d7cede33044e6"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/configuration.R",
+      "bytes": 243,
+      "sha256": "5ccbf950174cc17167aaeae26f3c8e6cb48018b9d66eb09ae0ae9d11fa798679"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_coefficients.csv",
+      "bytes": 3510,
+      "sha256": "160a3d43a335e7478bdc39ec6c980c2eb50c0c5df0439786d91105ba4f3e9d27"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_fits.rds",
+      "bytes": 108761,
+      "sha256": "d2e70606f9fa53ca4fef16262d74dd26e85ab6409c91b271d447c2de228919d3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_inputs.rds",
+      "bytes": 1697,
+      "sha256": "58beb3bfd8af5934667eb437bccdc091f839ca9f9ed6289e8505980d5338d95a"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/count_models.csv",
+      "bytes": 3531,
+      "sha256": "f4fed1da6b172a48ca3becd90056bd144ae19479e18b0dc07eda59cc66972501"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 27417,
+      "sha256": "022a411ba97826ac3ae192aad43c243f4b7b67c58475e9d37a5039e881def8e0"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 1083,
+      "sha256": "38fa2aa0599424372fdbd1d1f1e291122267876a9f9a1440ef82a695fa48a3d5"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/rate_trends.csv",
+      "bytes": 3235,
+      "sha256": "ef80b7303a9a66c0c4040599c51da4a1cd8a5c19f3be56463e7d19df3202ece0"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/rates_by_year.csv",
+      "bytes": 6441,
+      "sha256": "405e19f1cf85c13dde9e0b12b8d32dae2c1d7f6639ac19eeeee9e029a0033e55"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/corrected/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "6668c6c610f266451277d9edd450dba6f94baf9dfcfa7c6ec962bb62faf67121"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "416023cf6b3dee23d0e2c59a4071ebb63175ea29a1039f833fe965213576f8d6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/configuration.R",
+      "bytes": 252,
+      "sha256": "e86ce19489c1cf952923df9c6ab662d2838ca68dd747cf547c15de35f5f1d680"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_coefficients.csv",
+      "bytes": 3511,
+      "sha256": "6bf7fe3c46292a04712253c1ee2528f7c47a10048880d30cd223afcdc982b8ea"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_fits.rds",
+      "bytes": 108907,
+      "sha256": "c340436db4234acc918367f24a3b0e532bca9e7f13715eb1c30c23effa83a68a"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_inputs.rds",
+      "bytes": 1696,
+      "sha256": "19b0232d3f2990f64f306b8197c93ea43537a0b45712b2ec68c963f5cfc2b984"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/count_models.csv",
+      "bytes": 3534,
+      "sha256": "312c7c4b586b1c01d3b3f6819c08e6ff49a97d2beabd61323234d585ac5feb28"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 27423,
+      "sha256": "a0bbbc06c945f7ad091eefcf37ff3635edb0124b50c8507ad4066be59c40c018"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 1079,
+      "sha256": "549fc88e74f5a43b6a6ccd6697380e8c99e164ea6ab5c3110397129b186823d3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/rate_trends.csv",
+      "bytes": 3240,
+      "sha256": "dc35b3ebd521083fc900b9340add2b57efad369cfc77357441801c25a7c42023"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/rates_by_year.csv",
+      "bytes": 6444,
+      "sha256": "46ecbe5eb4648df767619eccba7a791765ef7df952bc5fbc2e80a5c5216e10e6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7839289f94b936702b5780a310e179c548c538327887b1973e5c3892900cc60c"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "5c1104bec0e979278d9b79de6f1e5cd72c358e3f2c4272a10123102f70b5eea5"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "6683c3b19a71f187fc1c4fdb2420211ad551f42b67f9860e9c6686e7225dd637"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "416023cf6b3dee23d0e2c59a4071ebb63175ea29a1039f833fe965213576f8d6"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/configuration.R",
+      "bytes": 252,
+      "sha256": "fd2f3556d40db18a56fc06c8640a25a4f58e5aba9f6a1ef2fe7b3a1948ca9a51"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_coefficients.csv",
+      "bytes": 3507,
+      "sha256": "0f9ad20747f12ffb794ca79c4080814abf2594eb63f0a8ca8b2cc028d2a113fe"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_fits.rds",
+      "bytes": 108782,
+      "sha256": "e80ca765b27308f24664052c44c173e306c32581b69ebd63d7a50a29fb0f90e2"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_inputs.rds",
+      "bytes": 1696,
+      "sha256": "06a93bf8ac1c9379305bd73db4a5eb5326fb637d418c51b8f11c9d6402fab2af"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/count_models.csv",
+      "bytes": 3531,
+      "sha256": "36c584b250078b1f2496d3ad2f79c21bffbeb8e239d0f0fd1eb86e7122085c0a"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 27417,
+      "sha256": "e83698e39d0c28700e80ba06e1809a0db855b60b023e2d4c3607e72506945e74"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 1083,
+      "sha256": "9711c9b8db15d14cea214c5f76ca274fa1031b4244481ff07c2bf313e174a0c7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/rate_trends.csv",
+      "bytes": 3236,
+      "sha256": "100ddb48a34b1019c63395e0646ce9c07a1d23cad5fd5ea86025f5f4fbc63694"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/rates_by_year.csv",
+      "bytes": 6441,
+      "sha256": "1c2878d3d67e24b97aeeb487da134a611bc04e1ac137793a360b280b507dcf6f"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7839289f94b936702b5780a310e179c548c538327887b1973e5c3892900cc60c"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "5c1104bec0e979278d9b79de6f1e5cd72c358e3f2c4272a10123102f70b5eea5"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/covid_original/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "47199a8098f64a959ab2135682ce9e3fe701e492ec79a39d253504e5cade0ed7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ab55b5f1abdd68d0d30b3ef33aabaa0703d87317ea1ab2a6d3eeefce0c6c7e79"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/configuration.R",
+      "bytes": 250,
+      "sha256": "28907e14201acd7257f4eb43a6f3d1d8f5868cdc8917a15bd31df1e49432fff3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_coefficients.csv",
+      "bytes": 3513,
+      "sha256": "d038bd3f00f367394b6676dbff75351b4ce8ea0eed085fbcb504691d5b55d713"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_fits.rds",
+      "bytes": 108890,
+      "sha256": "8dbe6344bf2a579fb59f8ca4361618c5bf36e3914fa8f818c705a90720758f59"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_inputs.rds",
+      "bytes": 1700,
+      "sha256": "659aeb3be20bab9a1feadc3494e212d37ba992c5b5379898a60a4f5bd52f7539"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/count_models.csv",
+      "bytes": 3523,
+      "sha256": "12062ae81855b8d3add4d8e8613a604ff8798e9389ac2c4fe042ef66a0812a8d"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 27418,
+      "sha256": "9a3f8d4d86b80d074690b5377cd4bbb7535e8d612261c121fe2cf38a72fd0976"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 1074,
+      "sha256": "d8ec024a2a313c73d162ec1bc31160f1f7ad1c4780abc63bec8fb5a9e15d127d"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/rate_trends.csv",
+      "bytes": 3240,
+      "sha256": "242180ef4072ab5c1bddf693c9a6fc9827926b26bcf97b378c4488fad0c2c3f9"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/rates_by_year.csv",
+      "bytes": 6439,
+      "sha256": "ae3f94edd21d22b7c13950fd2245a30244fc1ea95314284a9d231ba6ed42e946"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "64c7d84889898adfed4536095a9dc9d92626bfc2aa2d73e83cdbd3cbeda5a375"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/selection_counts.csv",
+      "bytes": 705,
+      "sha256": "e65fb5fb1772b42226a4a2136fa259ce30783ae5808df17114dc014bc67f392b"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "01c4fa5d015d04d011cc27c0bff14ae0e8d94eb19190b5ce43049e60be6e875a"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ab55b5f1abdd68d0d30b3ef33aabaa0703d87317ea1ab2a6d3eeefce0c6c7e79"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/configuration.R",
+      "bytes": 250,
+      "sha256": "9ae18c204c17608c74f787e8a9e260d5b93fe7d0777470cb153338e2b5dce354"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_coefficients.csv",
+      "bytes": 3507,
+      "sha256": "421ac17b2f2f26378457c5adbcc4471490eddc787fa97c16609b1cb9835b8713"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_fits.rds",
+      "bytes": 108720,
+      "sha256": "d2bc3ec602f7d3c8b26cc3ce66b1339702197e58c98aa83d5bd7e049a48ab6ab"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_inputs.rds",
+      "bytes": 1698,
+      "sha256": "99a9db679e18bb24935ff801c9491c57cf2ecd8d60fd8bf75b72d9dd7d61e75a"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/count_models.csv",
+      "bytes": 3518,
+      "sha256": "f64a00db407d121202d85c8fb691bbee279356689cff84ee02a372d66473e3a5"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 27422,
+      "sha256": "170c1a078a5ca8041286d82e954ef398c4ed9a65d6a7daf1d7126a989b217f54"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 1081,
+      "sha256": "9b353c0dd02bff109bfb4526580a4e8b8ddd9a336b43bdc52c0d4952966117e9"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/rate_trends.csv",
+      "bytes": 3241,
+      "sha256": "e3f139fe73ecd5fdcc9916077533f31f9a9a06f52517754e2cccdf8004ab5c11"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/rates_by_year.csv",
+      "bytes": 6442,
+      "sha256": "4388d1d36db08987a32ced2ccc25283ff02b630c698b3ecf6535702014c0c743"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "64c7d84889898adfed4536095a9dc9d92626bfc2aa2d73e83cdbd3cbeda5a375"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/selection_counts.csv",
+      "bytes": 705,
+      "sha256": "e65fb5fb1772b42226a4a2136fa259ce30783ae5808df17114dc014bc67f392b"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/covid_retained/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/historical/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "15fc40258c0d0185cfcab5c810905a73f265fb9281c3fcae125271155eb1ddee"
+    },
+    {
+      "path": "revision/results/historical/comparison.log",
+      "bytes": 6592,
+      "sha256": "166b381bb94193e1de08886cb488305e0af971371c90bd4640a4f46294bd774c"
+    },
+    {
+      "path": "revision/results/historical/data/age_group_series.csv",
+      "bytes": 1246,
+      "sha256": "7dee135d3fbcf60604ee491d9b028063b821fa64abdc5d58ccb6e496ec5f06b6"
+    },
+    {
+      "path": "revision/results/historical/data/age_standardized_series.csv",
+      "bytes": 240,
+      "sha256": "1a661a4bbd76050e786b992fb1a8c7ea30c7b67e2ccdbb45c3e7b49ef33e6c7d"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2014.csv",
+      "bytes": 991,
+      "sha256": "3af37af7f230cce95b192f8439ffd6f52f14e02450b2c4b0bc9bb5c49bca9b1c"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2015.csv",
+      "bytes": 973,
+      "sha256": "7edb382417175bd0cabe57650ff5efeda29ebbe9ef38836fc6a8bb654211e58e"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2016.csv",
+      "bytes": 992,
+      "sha256": "5c15235da5bd3c3ad5f9878de1406bff508337d6b979a06209756a2c0c5a3953"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2017.csv",
+      "bytes": 993,
+      "sha256": "b6ad23fc3b318afec342cc9f83defac6deb0ae84d1255cccdd361d53934c7da4"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2018.csv",
+      "bytes": 994,
+      "sha256": "179465cdc3cb1da2039f06d8037680ca11a3697c6e5986ba4b535f7848a72602"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2019.csv",
+      "bytes": 995,
+      "sha256": "30efb134d12398140dd24e8db09aba9c2891abb49812a1ba7ad5c0f95cf95c09"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2020.csv",
+      "bytes": 989,
+      "sha256": "b3584ca97449b250438edd572cdb976b3ad572853133ecad9a2cdc1191a7687c"
+    },
+    {
+      "path": "revision/results/historical/data/annual/annual_2021.csv",
+      "bytes": 995,
+      "sha256": "707ad0700149392ad87d03bb2807a4fdbb2098acbc79b265ecc23a91ec04b49b"
+    },
+    {
+      "path": "revision/results/historical/data/crude_rate_ge7_series.csv",
+      "bytes": 467,
+      "sha256": "30802b69924c1f52e13f6cd90c0dfbbc3cf2215b40e06643f495ca7991d111f6"
+    },
+    {
+      "path": "revision/results/historical/data/denominator_comparison.csv",
+      "bytes": 937,
+      "sha256": "d3a14b5c1c7c8413772c142b0701063e725f9780c6d34b8b2b8ce7018d81d7ae"
+    },
+    {
+      "path": "revision/results/historical/data/denominators.rds",
+      "bytes": 3669,
+      "sha256": "d394ca4a61480c7e66e66c5393250ee55365e03e560c024975ef075b42a09b36"
+    },
+    {
+      "path": "revision/results/historical/data/fase1_legacy_reconciliation.csv",
+      "bytes": 435,
+      "sha256": "2329f33b7bb8ffcd129683073bb0cd32b599b17b619b4a597759c0594717cc83"
+    },
+    {
+      "path": "revision/results/historical/data/fase2_year_counts.csv",
+      "bytes": 392,
+      "sha256": "e166f89d447ab242293fd9688b3646e0e3c7c8208ebd76dd3ce0f8a5f973009f"
+    },
+    {
+      "path": "revision/results/historical/data/ibge_denominators_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/historical/data/kitagawa_age_contributions.csv",
+      "bytes": 27454,
+      "sha256": "b8c3959f5b291350d8f2775b7be72313700cc8c6118aa2280da237df9c9561a1"
+    },
+    {
+      "path": "revision/results/historical/data/kitagawa_endpoint_sensitivity.csv",
+      "bytes": 1511,
+      "sha256": "b1eac0ae6173282386c1e4ac0718ea40bcd7fe1550aec60b444857725e06a669"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_count_models.csv",
+      "bytes": 6651,
+      "sha256": "d23fb4f85c603d382d9bf8aff95f9994fc504a3285fc73301de5333e736e9014"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_who_standard_by_year.csv",
+      "bytes": 1986,
+      "sha256": "52e19966c075a0f8ef3edafeb6e410b5543fa89b0e4042bb583981042b56cf7b"
+    },
+    {
+      "path": "revision/results/historical/data/robustness_who_standard_summary.csv",
+      "bytes": 762,
+      "sha256": "f70e75d7acb840b080a109fa08f81b93b57d4824e4bc558b1a9289cae9dc742b"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_brum_style_change_metrics.csv",
+      "bytes": 1558,
+      "sha256": "c1be0be0c9f44964158cd263f824918e3c6bd647c50f7d9b89aa9e29ccc60356"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_denominators_by_year.csv",
+      "bytes": 21490,
+      "sha256": "f0ec38a22e85a3f623d97c8401ea0a50ab9b4520b6f2e94c553094481c130cdc"
+    },
+    {
+      "path": "revision/results/historical/data/sensitivity_denominators_summary.csv",
+      "bytes": 2966,
+      "sha256": "6d6572d4d4049a6849dfd99eec51524591f0ec033ca4adbdc6141ef29b9bb36c"
+    },
+    {
+      "path": "revision/results/historical/execution.log",
+      "bytes": 20775,
+      "sha256": "ea0e2f9028704815f2b07a8077b90e6ac1f9ea60bd09a2c0b91837005c351755"
+    },
+    {
+      "path": "revision/results/historical/figures_comparative.png",
+      "bytes": 117440,
+      "sha256": "816a51773889db0cbd00228aae0767da0d27d754e14b34e1de7b8d7e9068a0d6"
+    },
+    {
+      "path": "revision/results/historical/historical_comparison.json",
+      "bytes": 8846,
+      "sha256": "ebd1dcdcb3b221c51ce1d6eeda10b03374e9b1b36a7810bddd372b59e5d5c5e5"
+    },
+    {
+      "path": "revision/results/historical/input_manifest.json",
+      "bytes": 6147,
+      "sha256": "52dd746cd9d8de206e3105d7483175c8dc5839d6d02b7c6241cdebaebe8e8629"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change.pdf",
+      "bytes": 14196,
+      "sha256": "c45c0e678b6687162839ef887bdb1e0fe8840b15be783d281aba4fc7cae19488"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change.png",
+      "bytes": 166929,
+      "sha256": "32c379d5ac7ec872bc929ba0fb1e160ca2e906e957e559aaea25388eb1ec35a2"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change_ge7.jpg",
+      "bytes": 357933,
+      "sha256": "3c4ad5017363649d247cafa27cc5df372aa162a3a06f709924823b21d4c66959"
+    },
+    {
+      "path": "revision/results/historical/manuscript/figures/fig1_relative_change_ge7.pdf",
+      "bytes": 14394,
+      "sha256": "6c476189e8dfcadcf7a31c56978ea1b6e9609fbb3dad131bddad42801ad5ef1d"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_count_models.tex",
+      "bytes": 608,
+      "sha256": "7e19a140dc773ad45d77e7bcc0f99702f6db74438390b52e37a2ed9218f75c67"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_flow.tex",
+      "bytes": 654,
+      "sha256": "f9d65201cd2773c711c031c1e69c51566937c5cf306429f69c03cfa1dd39f5fe"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_groups_original.tex",
+      "bytes": 441,
+      "sha256": "43efed17abddddff741bd685c108fc2a8a40e182ec94498b5bf7ea363e68e27b"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_kitagawa.tex",
+      "bytes": 642,
+      "sha256": "8c70d0559434002a99d6c5d3c9ee6a23f6015bbbfdcf56d5f9f690d41cbe461c"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_sensitivity.tex",
+      "bytes": 1082,
+      "sha256": "8b421570c8cd588b5188bf4c6ed9a2b9b4494eb8a292f60f9e3d940137e5ebeb"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_series.tex",
+      "bytes": 1022,
+      "sha256": "dd6a301829cd3356de6517e97e1694f6aaeb815d44f8b16fa0993e8cb1fc0b05"
+    },
+    {
+      "path": "revision/results/historical/manuscript/tables/tab_trends.tex",
+      "bytes": 672,
+      "sha256": "ce3e6d2c7b55c80f0de927879cab531de9a95ee4017a8e243a22a3591f1359b6"
+    },
+    {
+      "path": "revision/results/historical/primary_results.csv",
+      "bytes": 7146,
+      "sha256": "cae862bff77558b82e7eb56c889381edbfcbf3981b4c193ab99afffae22cfc90"
+    },
+    {
+      "path": "revision/results/historical/session_info.txt",
+      "bytes": 3518,
+      "sha256": "310f3f045537ce827378c476575e9886c065dafda57329511cbc79568a24ff1c"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "44de52d277908689c19d35cafc82836a008cb988b738fe442c7df8e88dbeb095"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "c33551be46eb80b8c40a6879280098b746ac640d1992dac40c2c177987d5c720"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/configuration.R",
+      "bytes": 248,
+      "sha256": "d003232be3b32209bde0391b8891a63279cf37c40e3550d73670cd9208e32635"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_coefficients.csv",
+      "bytes": 3509,
+      "sha256": "8df526328e381255af9acca607583d58cb1eef8970168d515e245ddec2ef10a3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_fits.rds",
+      "bytes": 108908,
+      "sha256": "b40834eeafea14da0f5e6bf267b88ba82d0d985dc5565dbefe9800b6b2b1facb"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_inputs.rds",
+      "bytes": 1696,
+      "sha256": "3fb622d4ae071ed82105a0d3ba516b05979e29933e5af81f2ca9478c7b2766de"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/count_models.csv",
+      "bytes": 3529,
+      "sha256": "bb6327561ea2903ee214997e6db4d25c98dc812d7054fd75d1573126fd323b5d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 27422,
+      "sha256": "68151349189a0f25736bfa85a4d4c5e6922698f8d4dacd3db84552bd75e211db"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 1079,
+      "sha256": "c05dfa3ed0641534b682368b48aaca2da355ca84ea85b09d56d21345d386ffca"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/rate_trends.csv",
+      "bytes": 3241,
+      "sha256": "f49a3128576de636cf092a4d6ad6ab14893fc3635f020b912f6e7b5484799ae5"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/rates_by_year.csv",
+      "bytes": 6443,
+      "sha256": "56c7e7d915eaad89ea1901ad36888e2147c280ac4bb9f0cc90f5bfca515e2b84"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272357,
+      "sha256": "869e882640329b29eb6d17f1c8b84851e113886107958789da2dd816ca53d51d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "c5c383c2c45a64a3462a81f5786b11f6d9ea67ed4e8049dbf3affaeacee2a097"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "bc5a1f8f42cfb85945a27d5de048caa8826ac8da63031d90d3f2899569ba675a"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "c33551be46eb80b8c40a6879280098b746ac640d1992dac40c2c177987d5c720"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/configuration.R",
+      "bytes": 248,
+      "sha256": "2b5e03b5511aa8f3f64ece340f7e90fd652b43d746a47ee7075db0484c9e780c"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_coefficients.csv",
+      "bytes": 3513,
+      "sha256": "2d068e16bb02d30e115968a3392ab3305790111fbd6eb541996e7f8a9fbc3ccc"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_fits.rds",
+      "bytes": 108696,
+      "sha256": "fcc5c851b75ce2810e3671ff266a600fb4561a4c86d3b3c1cc13278784165d02"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_inputs.rds",
+      "bytes": 1695,
+      "sha256": "9c5a53b51220869d1c57db93742be97d6aa635567547a28fd2e42cb35ac0036e"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/count_models.csv",
+      "bytes": 3532,
+      "sha256": "867d781578e6f21680ec6ac77301ed92ffc8139f68a81f99787d7790f2b7c35c"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 27420,
+      "sha256": "ce194cfdc5600e715b6344841e26ae477bdfbf98824a1ecf3471d0c71ce7ab52"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 1083,
+      "sha256": "69b456645cf1ea2bc3c4b47b376cf1a032a66db32df1aac38fe101f430393968"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/rate_trends.csv",
+      "bytes": 3234,
+      "sha256": "f86a99546d1ac49cc09df45074537ed7b4b68d670ae9520f5f19821fb97a45b0"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/rates_by_year.csv",
+      "bytes": 6442,
+      "sha256": "a6276a7e3634305f39a02b99eec3554034669f99565ae04eb7ac25dee24f3c9d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272357,
+      "sha256": "869e882640329b29eb6d17f1c8b84851e113886107958789da2dd816ca53d51d"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "c5c383c2c45a64a3462a81f5786b11f6d9ea67ed4e8049dbf3affaeacee2a097"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/historical_dedup/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "f5da50562ba702ec68b7481b1ff8788672c6a9b2703a25823263885625cde9e8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/configuration.R",
+      "bytes": 245,
+      "sha256": "812e31e8f8c7b78aa5f8d0a906514d31a53d70ea2a80d840076b0181a7a745a8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_coefficients.csv",
+      "bytes": 3521,
+      "sha256": "995dc5400b66327facbfce3169c8a0dc6084e958c5e331d754c1ae03d4b8bfe8"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_fits.rds",
+      "bytes": 85173,
+      "sha256": "300f4a35e762e2fb998f366508a55c3943674cac80928ca7a0f29e87ec8ebc9c"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_inputs.rds",
+      "bytes": 1405,
+      "sha256": "6e341a571b31fe879c1b54f1b5cf0cae20797cdae3010020a2649a7c2c0ef251"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/count_models.csv",
+      "bytes": 3593,
+      "sha256": "528e707330ee1a4b0bcc63872888e160e3c3f28887f44292654a8347feddfe00"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 9190,
+      "sha256": "aeafc41bf08f37a1fad40c9de56323b8fbf60c089d3facbdc51d9369587061b7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 459,
+      "sha256": "6be936a748d2bbb75e96024ea499481a24a1d9f5806f8c94d26480682f081b2b"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+      "bytes": 3238,
+      "sha256": "7dfd1b6b28433131bcc89c71895cdcb656f779c2da9529907fe00aea70855f3c"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/rates_by_year.csv",
+      "bytes": 4845,
+      "sha256": "30f8a77e4216a8ddf1c732a9908bfe372bf357edd955b584e64cc3aaa54151f7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "b671078d8d64edb8d0c8798b4aec952db0ce1ed2bba0ed8ccf8006997052127f"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/configuration.R",
+      "bytes": 245,
+      "sha256": "bb69cb4009200ecd533828002bb2206e6f29e48eff395092d00323451a6b7d06"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_coefficients.csv",
+      "bytes": 3522,
+      "sha256": "450a0fbaa82c22132a749e9f21d59764bb3cfb41f102aa186c4b80f7f87c03c0"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_fits.rds",
+      "bytes": 84956,
+      "sha256": "d89f6cbe44e60a3fa087e5b7c1e6bf7f56afef5cf82d4613fef3bb49765a1b3b"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_inputs.rds",
+      "bytes": 1404,
+      "sha256": "f9c5cb529c4a66ca2b9a741fe4cd6fe0284507a6618c0057f6234016a9cb9568"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/count_models.csv",
+      "bytes": 3562,
+      "sha256": "c82b33b2c4f4bd664491a631c80de51bf9cd0ab5abbbd8c7f6249ca86061edea"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 9175,
+      "sha256": "48b1c965b7b46a873bd1fa14f1e511e5844848d4e22c3135272dfb71b93c3c95"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 462,
+      "sha256": "e2f664d5348b03d841621c50cf52444b256a81ea7ff5d206b40a1b20132021e3"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/rate_trends.csv",
+      "bytes": 3232,
+      "sha256": "68d6f9ffbb9e2ba1ae6ae2a40dffcde69e67e0d2a2a8da54fd9381e652d636d0"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/rates_by_year.csv",
+      "bytes": 4846,
+      "sha256": "8c8cc5acd31a17860c815bcc4ee7a0c7016563593c3dd93c51b5681b21a62f09"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/prepandemic/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/COMPLETE",
+      "bytes": 20,
+      "sha256": "f41c361e0475bf4d8cc88abb9f740d71a98edc78dc1b49edaddcaeb43476930c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/configuration.R",
+      "bytes": 280,
+      "sha256": "0da87dce3a72b27d80845b72aa4f9557b59e92ceb5c085db61c5ad7102944c62"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_coefficients.csv",
+      "bytes": 3516,
+      "sha256": "cf8db7b92efc33131e7d4ca80d87418156e914ec95f1023f6a1705cd8fbb2bae"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_fits.rds",
+      "bytes": 100017,
+      "sha256": "24f558f74768474b302f17c53d7fe56d7485a4daae93bb02b560f05e1586f6c0"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_inputs.rds",
+      "bytes": 1558,
+      "sha256": "2ad06699b080e3b40dac4600ab2a252793ba2820cd092fe3ca7b9bf0ec9a994c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/count_models.csv",
+      "bytes": 3568,
+      "sha256": "6287c96e494f2f671354f06a91912621f581935786ee2e1b4f006260a6616fde"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/kitagawa_age_contributions.csv",
+      "bytes": 22877,
+      "sha256": "1b0baa5f25ed656c747cd85f7d7767edcb9e81ae267b5e48a1bb6a9dff10912e"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/kitagawa_endpoints.csv",
+      "bytes": 925,
+      "sha256": "7f0ffb9c20df8b170f75cd19acedb1e75f3df42ffb4659576d58f744b58e2d86"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/population_by_age.csv",
+      "bytes": 26747,
+      "sha256": "291a743668be2970df4506ad15abd9e815a4d3712ebac1d4a04b4958773ed51f"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/rate_trends.csv",
+      "bytes": 3246,
+      "sha256": "1fb0e23b1b9116920c6df31c688191a3fa81647840e9a10b4076f6df8740dc95"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/rates_by_year.csv",
+      "bytes": 5646,
+      "sha256": "cfff2ebe572c38f2aa50ec09dcd4d19243a92f0ce1e315f41063d4a23b9927ec"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/standard_weights.csv",
+      "bytes": 10877,
+      "sha256": "847c7b910262d3b5fa97986872497e8c95b7d4da655ecc6f89dcedaef4699675"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2018/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/COMPLETE",
+      "bytes": 20,
+      "sha256": "9c86c11c5c644d6f88628cb765d068834e499d13b6a1118a040971ff48cb6667"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/annual_aggregates.csv",
+      "bytes": 7712,
+      "sha256": "ca30199db0fe6edc7cf9b0a776f05b94b5ecb1ca78a3f596708c8ae92aa387f9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/configuration.R",
+      "bytes": 280,
+      "sha256": "9d5cf8f42eb5ae255e9cf94cc274c5b97e642a2a43b03a252ca2624fa87302ac"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_coefficients.csv",
+      "bytes": 3512,
+      "sha256": "7d436ee26177f44c566ee9281eb50d2c945b21349e217683ee8f84c9a72cf395"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_fits.rds",
+      "bytes": 99672,
+      "sha256": "9791520633fa466f6cfdec66aefa75fb43b22c0c800cd1442dc674ed717d1dbb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_inputs.rds",
+      "bytes": 1552,
+      "sha256": "48fa856544797a8e57c0d6407828cc7a25c972ca908cbfc28d6b8cfc1b250602"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/count_models.csv",
+      "bytes": 3548,
+      "sha256": "eb4b5adf6d35edbf067dfe60e33355ccfe84f832b1b518d51b299dd0db4ec0a3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/covid_overlap_patterns.csv",
+      "bytes": 251,
+      "sha256": "723f5a0d180e4a85990a253b4caef01e5c7b98f2a6e47d59999d6323506029b3"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/kitagawa_age_contributions.csv",
+      "bytes": 22865,
+      "sha256": "b731025786270e7a1e9d45692b5fbe85ec6af9ba7c3202a2e278d6ee51d9dd8c"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/kitagawa_endpoints.csv",
+      "bytes": 930,
+      "sha256": "38b5687ce4817b9aee745ef6891e5f176c92282c8fbd1cc8bdbcfc089d36bea5"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/package_versions.csv",
+      "bytes": 1014,
+      "sha256": "af2c79d4f6dab44a297d8fcb147419e1c3fe595466d92a6fe5f047cca264aef7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/population_by_age.csv",
+      "bytes": 11441,
+      "sha256": "5c034e4cb6050684f41b0e491c6890ff119e676d976f50040c5cef8b57996df7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/rate_trends.csv",
+      "bytes": 3246,
+      "sha256": "1b552ccc512816a5cb5d4cf66e64766e3cd204f8d2bb0e15235bf30fd86ffad9"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/rates_by_year.csv",
+      "bytes": 5645,
+      "sha256": "20d2cf37a134e48e7f10885f7f198c88df57e1f15b7bf5eec489e1a1b66c54c7"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/record_selection_and_age_transitions.csv",
+      "bytes": 2272356,
+      "sha256": "7eded8e99b875baeac2f4ca6fda3521cf8f929259967a1c597bb53d2a6867e8e"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/selection_counts.csv",
+      "bytes": 707,
+      "sha256": "32950960be5effefc30a55ff71b99ce35840e625002aaab998d6e23ee69d55bb"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/session_info.txt",
+      "bytes": 564,
+      "sha256": "9745caad697c888595a708b5cffbe3057d47d837ec697da70a363b9468bec8ba"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/standard_weights.csv",
+      "bytes": 10873,
+      "sha256": "d04267782d43e09b23b34a4ad5c0e539285295a8cdb36bb64c506164b29f00ec"
+    },
+    {
+      "path": "revision/results/without_2020/ibge2024/verified_inputs.csv",
+      "bytes": 2872,
+      "sha256": "6ab4f63276ae846838f2b5b6b428c80cc272277d106408adc24e3e0639cee5f4"
+    },
+    {
+      "path": "revision/scripts/analysis.R",
+      "bytes": 10126,
+      "sha256": "2602d3404ce0898f8001a5ef9c5ffefb3fd41c8475919a2eeebe33ef0c4170b2"
+    },
+    {
+      "path": "revision/scripts/audit_duplicate.py",
+      "bytes": 3074,
+      "sha256": "ee7ac9b94e72c003769a86e722d0ad5231daa5455506ecbd093034e5c9ecbcd2"
+    },
+    {
+      "path": "revision/scripts/build_documents.py",
+      "bytes": 7604,
+      "sha256": "c824ac66adf6682b301e8d660361310377b20ceb45801fc4297e69a484dd5bd1"
+    },
+    {
+      "path": "revision/scripts/build_editorial.py",
+      "bytes": 21963,
+      "sha256": "239d03e8dc439719275de72250147ece1d56459069b4db9ec1e1a58aaa50e729"
+    },
+    {
+      "path": "revision/scripts/build_response.py",
+      "bytes": 13191,
+      "sha256": "b459a872c5e57253062cc69ca82c0ece8d0d21bfff27ba95760494029b6a27b8"
+    },
+    {
+      "path": "revision/scripts/compare_historical.py",
+      "bytes": 2097,
+      "sha256": "7c183db227bb8f822a5ea9557c250ea73f9c9fe26ecc96bcb15a721aee5a7477"
+    },
+    {
+      "path": "revision/scripts/contact_sheets.py",
+      "bytes": 821,
+      "sha256": "6da8c4391c4d42a80606f86f8858222ab7da0ecd0e326db73d012e15cdc4e762"
+    },
+    {
+      "path": "revision/scripts/execute.py",
+      "bytes": 1561,
+      "sha256": "e026ecc772034cb64badd73f56aaaf208df87cf1f9cf7192af7dfdf4ac79ce99"
+    },
+    {
+      "path": "revision/scripts/extract_verified_candidates.py",
+      "bytes": 1533,
+      "sha256": "74c66f9977e373c96b9514453e27a7a9e3a3b7497b57bd8d0b3d518a8235293e"
+    },
+    {
+      "path": "revision/scripts/fetch_inputs.py",
+      "bytes": 2220,
+      "sha256": "84be0f1a7e39f876217dc435b8e6c574eb8664b14d5b90860c05ff9e8173d3be"
+    },
+    {
+      "path": "revision/scripts/install.R",
+      "bytes": 248,
+      "sha256": "a35187e6721643cec108c037daa034f4ca243a1cb2970936f92a2b66648d0918"
+    },
+    {
+      "path": "revision/scripts/lock_inputs.py",
+      "bytes": 1764,
+      "sha256": "72735b50f2965cb83af1728383da6dbb51c59c69e7c2a732ad0c4ac70a1a0fd5"
+    },
+    {
+      "path": "revision/scripts/package_revision.py",
+      "bytes": 2409,
+      "sha256": "5549d9bbf04968c7e814d0620f94717bd87467fbf3d1f6e3c7adc80a1bc24e6e"
+    },
+    {
+      "path": "revision/scripts/prepare_inputs.py",
+      "bytes": 2315,
+      "sha256": "eda4ee7e531d82d98afe19fdd7c8ea9354c2a20efe151e033b33c03cb3605829"
+    },
+    {
+      "path": "revision/scripts/run.R",
+      "bytes": 3702,
+      "sha256": "b57d7eeabdb8120f68c7f5989845931a172cdf57b88ee670c501396388badafd"
+    },
+    {
+      "path": "revision/scripts/test_analysis.R",
+      "bytes": 905,
+      "sha256": "3a107edd79baaf811644f0742aa5731df0ceb77c0050fad9c50ac430ccf8b28a"
+    },
+    {
+      "path": "revision/scripts/test_selection.R",
+      "bytes": 1238,
+      "sha256": "631a37f6688764d6cc829f8e239b9f7b53fd0f155866c18014647a430543833d"
+    },
+    {
+      "path": "revision/scripts/verify_documents.py",
+      "bytes": 3950,
+      "sha256": "12ac14ec5fae532e87d09a4572e6f9ada187614a634e233b2e8a9afe21818af6"
+    },
+    {
+      "path": "revision/scripts/verify_historical_models.R",
+      "bytes": 2726,
+      "sha256": "c041db60b4f6dc057d6ecfcd9debf466867aabe4464c02151b8ee2c50ed07aac"
+    },
+    {
+      "path": "revision/scripts/verify_models.R",
+      "bytes": 2350,
+      "sha256": "f5f52c215bddb9a53f51b1ee6bc256b32cdf5346bae8ddaabef543dbf14a2230"
+    },
+    {
+      "path": "revision/scripts/verify_outputs.py",
+      "bytes": 4209,
+      "sha256": "4997e0f37cef972b5a8ed01a142f60ed8a427aed81723487610b4e97ec101c7d"
+    }
+  ],
+  "raw_SIM": "Not embedded: public download URLs and immutable ZIP/CSV hashes are provided; fetch_inputs.py and extract_verified_candidates.py reconstruct the inputs.",
+  "historical_limitation": "No historical execution hashes for SIM 2014\u20132019. Verified available files were used.",
+  "scope": "Local review package; no email, push or journal submission."
+}

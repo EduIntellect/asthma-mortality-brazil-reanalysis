@@ -1,0 +1,562 @@
+--- PDF-concordant Word reference
++++ corrected manuscript and supplement
+@@ -1,156 +1,414 @@
+-ASTHMA MORTALITY IN BRAZIL
+ Reassessing the reported increase in asthma mortality in Brazil: reproduction and age-specific reanalysis, 2014–2021
+-Authors: Francisco Federico García Crespi¹ · Amaury de Souza²
+-¹ Universidad Miguel Hernández, Elche, Alicante, Spain
+-² Institute of Physics, Federal University of Mato Grosso do Sul (UFMS), Campo Grande, MS, Brazil
+-Corresponding author: Francisco Federico García Crespi · fedeg@umh.es
+-Amaury de Souza · amaury.souza@ufms.br · ORCID: 0000-0001-8168-1482
+-Reassessing the reported increase in asthma mortality in Brazil: reproduction and age-specific reanalysis, 2014–2021
++Francisco Federico García Crespi¹ · Amaury de Souza²
++¹ Universidad Miguel Hernández, Elche, Alicante, Spain. ² Institute of Physics, Federal University of Mato Grosso do Sul, Campo Grande, MS, Brazil.
++Correspondence: Francisco Federico García Crespi, fedeg@umh.es. Author details and declarations are carried forward from the reviewed PDF for confirmation in the accompanying author checklist.
+ Abstract
+-Objective: To assess whether rising crude asthma mortality in Brazil (2014–2021) persists after age standardisation and to examine trends at ages 5–34.
+-Methods: Using published code, national mortality records (ICD-10 J45–J46) and Brazilian Institute of Geography and Statistics (IBGE) projections, we reproduced the original analysis, calculated age-standardised rates (Brazil 2014) and assessed eight-year trends. Count models, an alternative IBGE population projection (2024 revision), World Health Organization (WHO) standardisation and Kitagawa decomposition were post hoc.
+-Results: We reproduced 18,583 deaths versus 18,584 reported. The crude national rate rose by 12.5% (slope 0.025 per 100,000/year; p = 0.029). Among completed ages ≥7 (18,544 deaths), the aligned crude rate rose by 12.0%, versus a 4.0% fall in the standardised rate (eight-year slope 0.0002 per 100,000/year; 95% CI −0.021 to 0.022; p = 0.983). Age composition accounted for 62–193% of crude-rate increases across six endpoint comparisons. Only one of six age-adjusted count-model specifications, negative binomial regression with 2024 denominators, yielded a positive estimate whose interval excluded zero (+1.14% annually; 95% CI 0.04 to 2.26). Rates at ages 5–34 increased by 20.3% (p = 0.014), consistently across sensitivity analyses.
+-Conclusion: Changes in population age composition accounted for most of the crude increase, without establishing a causal explanation. The primary age-standardised analysis did not support a comparable national increase, whereas mortality at ages 5–34 rose. Surveillance should report crude, age-standardised and age-specific rates jointly.
++Objective: To assess whether the reported crude increase in Brazilian asthma mortality during 2014–2021 persists after age standardisation in the national domain of completed ages ≥7, and to examine mortality within ages 5–34.
++Methods: We reproduced the historical pipeline, then corrected age to completed calendar years, included U071 in COVID exclusions, and retained an ambiguous pair of 2018 records. Primary denominators were IBGE 2018 and the fixed standard was Brazil 2014, normalised within each domain. IBGE 2024, WHO standardisation, count models, alternative selection rules and pandemic-period restrictions were sensitivity analyses.
++Results: Historical selection reproduced 18,583 deaths with continuous age >6, versus 18,584 published. The corrected national analysis of completed ages ≥7 included 18,544 deaths: aligned crude mortality increased 12.0%, whereas Brazil-2014-standardised mortality changed -4.1% between endpoints (eight-year slope 0.0002; 95% CI -0.0214 to 0.0217; p = 0.986). Within ages 5–34, Brazil-2014-standardised mortality increased 18.0% (0.0328 per 100,000; p = 0.018). Its slope remained positive excluding 2020 (p = 0.040); the 2014–2019 interval included zero (p = 0.107).
++Conclusion: Changes in population age composition accounted for much of the crude increase at ages ≥7, without a causal attribution. The primary national age-standardised estimate did not establish an increasing trend or demonstrate stability. Within-5–34 standardisation supported an increase across 2014–2021, including after excluding 2020; the shorter prepandemic series was inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates jointly.
+ Keywords: Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.
+ Introduction
+-Brum et al. concluded that “asthma mortality remains high and shows an increasing trend for the first time in the past decades” [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an approximately 2.5% annual increase in asthma mortality. A subsequent study by Cardoso et al., covering 2013–2023, also concluded that asthma-related deaths had increased [2]. However, this conclusion was based on annual death counts, while the same study reported that the overall mortality rate per 100,000 inhabitants remained stable. Thus, the two studies described increasing asthma mortality using different measures, neither of which established an increase in the national age-standardised rate.
+-Earlier Brazilian surveillance provides a longer perspective. Graudenz et al. reported a linear decline in age-standardised asthma mortality among Brazilians aged 5–34 years during 1980–2014, whereas the trend in the general population was non-linear [3]. Differences in study periods, age ranges and rate definitions prevent direct comparison with more recent estimates or the identification of a historical trend reversal.
+-Neither Brum et al. nor Cardoso et al. directly age-standardised the national mortality series. This omission matters because approximately two thirds of asthma deaths occurred among individuals aged 60 years or older [1,2], and changes in population age structure can affect crude mortality rates independently of changes in age-specific mortality. Consequently, an increase in deaths or crude mortality cannot, by itself, establish a comparable increase in age-adjusted mortality. The public availability of Brum et al.’s analytical code [4] also makes it possible to examine the reproducibility of their case selection, population denominators and trend estimates before reassessing the interpretation.
+-We therefore asked to what extent the reported increase in asthma mortality in Brazil during 2014–2021 remains supported when the original analysis is reproduced and population age structure is held fixed. We first reproduced Brum et al.’s analysis and documented agreements and discrepancies with the published results. We then estimated national age-standardised mortality trends and examined mortality among individuals aged 5–34 years. In post hoc robustness analyses, we assessed an alternative population projection, the WHO standard population and count regression models. Our objective was not to dispute the observed increase in crude mortality, but to establish which epidemiological interpretations are supported after accounting for population age structure and examining age-specific trends.
++Brum et al. concluded that "asthma mortality remains high and shows an increasing trend for the first time in the past decades" [1]. Their nationwide analysis for 2014–2021 identified 18,584 asthma deaths and reported an approximately 2.5% annual increase in asthma mortality. A subsequent study by Cardoso et al., covering 2013–2023, also concluded that asthma-related deaths had increased [2]. However, this conclusion was based on annual death counts, while the same study reported that the overall mortality rate per 100,000 inhabitants remained stable. Thus, the two studies described increasing asthma mortality using different measures, neither of which established an increase in the national age-standardised rate.
++Earlier Brazilian surveillance provides a longer perspective. Graudenz et al. reported a linear decline in age-standardised asthma mortality among Brazilians aged 5–34 years during 1980–2014, whereas the trend in the general population was non-linear [3]. Differences in study periods, age ranges and rate definitions prevent direct comparison with more recent estimates or the identification of a historical trend reversal.
++Neither Brum et al. nor Cardoso et al. directly age-standardised the national mortality series. This omission matters because approximately two thirds of asthma deaths occurred among individuals aged 60 years or older [1,2], and changes in population age structure can affect crude mortality rates independently of changes in age-specific mortality. Consequently, an increase in deaths or crude mortality cannot, by itself, establish a comparable increase in age-adjusted mortality. The public availability of Brum et al.'s analytical code [4] also makes it possible to examine the reproducibility of their case selection, population denominators and trend estimates before reassessing the interpretation.
++We therefore asked to what extent the reported increase in asthma mortality in Brazil during 2014–2021 remains supported when the original analysis is reproduced and population age structure is held fixed. We first reproduced Brum et al.'s analysis and documented agreements and discrepancies with the published results. We then estimated national age-standardised mortality trends and examined mortality among individuals aged 5–34 years. In post hoc robustness analyses, we assessed an alternative population projection, the WHO standard population and count regression models. Our objective was not to dispute the observed increase in crude mortality, but to establish which epidemiological interpretations are supported after accounting for population age structure and examining age-specific trends.
+ Methods
+-Study design
+-We conducted a secondary analysis of publicly available mortality data, reproducing the national asthma mortality analysis by Brum et al. for 2014–2021 [1] and examining two extensions: direct age standardisation of national mortality rates and mortality trends among individuals aged 5–34 years. The project documentation identifies these as the primary questions, with ages 7–34 years as a technical control and ages 35–59 years as an additional comparison. The Brazil 2014 population was selected as the primary standard. Reproduction was assessed against a tolerance of 2% for the total number of deaths and agreement in the direction and approximate magnitude of the original age-group trends. Count regression models, the WHO standard population and an alternative population projection were subsequently introduced as post hoc robustness analyses.
+-Mortality data and case selection
+-Mortality records for 2014–2021 were obtained from the Brazilian Mortality Information System (SIM) [5] on 1 October 2026. The original source URLs were no longer fully accessible, so all years were retrieved from the current official archives. Possible retrospective revisions of these data may affect exact reproduction.
+-Deaths were selected when the underlying cause contained ICD-10 J45 or J46. Records containing the COVID-related codes B342 or U072, or the text “COVID-19”, in the cause-of-death lines were excluded. Age was calculated from birth and death dates as the elapsed number of days divided by 365.25. Records with invalid or missing birth dates were excluded from age-specific analyses.
+-Duplicate records were identified using the birth and death dates, underlying cause and five available cause-of-death fields. This procedure uses the variables loaded by our pipeline but does not exactly reproduce the original full-record deduplication.
+-To reproduce Brum et al., we retained deaths with calculated age greater than six years. The 5–34-year analysis instead used all age-valid records, including deaths at ages five and six.
+-Population denominators
+-The original population workbook was unavailable. We reconstructed denominators using IBGE national population projections by single year of age and both sexes combined. The 2018 revision was used in the primary analysis [6], and the 2024 revision, incorporating the 2022 Census, in sensitivity analyses [7]. The exact population series used by Brum et al. could not be recovered.
+-Mortality rates and age standardisation
+-For the reproduction of the national crude series, deaths above six years of age were divided by the total population, following the construction inferred from the published code [4]. We also calculated a version restricted to the population above six years. Original age groups were reproduced using their apparent numerator and denominator definitions, with unresolved denominator differences documented in the reproducibility audit.
+-Direct age standardisation used single-year age-specific mortality rates and the corresponding population weights from Brazil in 2014. Ages were represented as completed years from 7 to 89, with ages 90 and above grouped together. Consequently, this analysis used completed ages of at least seven years, whereas the reproduction retained the original continuous-age threshold greater than six years. These definitions were kept distinct rather than treated as identical samples.
+-Rates for ages 5–34, 7–34 and 35–59 years used deaths and population denominators restricted to the corresponding ages. Post hoc analyses also used the WHO World Standard Population [8].
+-Statistical analysis
+-The primary trend models followed those of the published analysis: Gaussian generalised linear regression for national annual rates and ordinary least squares for age-group rates. Eight annual observations were available for each series. Slopes were expressed as deaths per 100,000 population per year, with 95% confidence intervals calculated using the t distribution with six degrees of freedom. We also reported changes between 2014 and 2021. For comparison with Brum et al., we calculated the mean of annual relative differences from the 2014 rate, their reported change metric.
+-Post hoc analyses used Poisson, quasi-Poisson and negative binomial regression [9], with population offsets. A national age-adjusted count model included calendar year and nine age bands. Overdispersion was assessed to guide interpretation of count-model uncertainty. In a further post hoc analysis, the change in the crude rate for completed ages of 7 years and older was split into an age-composition component and an age-specific-rate component with the symmetric Kitagawa decomposition, using single years of age and the 2018 projection. Because a comparison between two years depends on its endpoints, the decomposition was repeated for six pairs of years. No correction for multiple comparisons was applied; secondary estimates were interpreted descriptively.
+-Software, data and code availability
+-Analyses were performed in R 4.3.3 [10]. The analysis code, intermediate aggregate tables, generated results and reproduction audit are available at https://github.com/EduIntellect/asthma-mortality-brazil-reanalysis. Mortality and population data were obtained from public Brazilian sources.
+-Use of artificial intelligence
+-Generative AI tools, including Claude Code (Anthropic) and GitHub Copilot (GitHub), were used to generate and review analysis scripts and to examine analytical results. The authors wrote and finalised the manuscript.
+-The figures were rendered programmatically from analytical outputs rather than generated as images by an AI image-generation tool.
+-Ethics
+-The study used publicly accessible SIM mortality data and aggregated population projections without direct contact with participants. No identifying personal information was included in the reported results.
++Study design and reference reproduction
++This secondary, ecological analysis reassessed national underlying-cause asthma mortality in Brazil, 2014–2021. The national corrected primary domain was completed ages ≥7; ages 5–34 were analysed separately, with the nested 7–34 group as a technical control and 35–59 and ≥60 as additional comparisons. We maintained a distinct reproduction of the historical continuous-age >6 construction. Brazil 2014 and IBGE 2018 remained the primary standard and denominator revision. WHO, IBGE 2024, count models, Kitagawa decomposition and the selection and pandemic sensitivities were robustness or descriptive analyses; no multiple-testing correction was applied.
++The reference was the 12-page PDF emailed to Amaury on 10 October 2026, SHA-256 fc552ab83d5254549fa4f1dfe880ab631a26c50bc8d861bfdc433331544e71fe, reconciled with a Word copy of concordant content and repository commit 3884c868a07164710a2e358180b3034f9cdcf642. Current official SIM archives were recovered and verified on 11 October 2026. Their historical selection and year-age aggregates exactly reproduced the versioned pipeline. Historical SIM hashes were available for 2020–2021, but not for the execution of 1 October in 2014–2019; numerical reproduction does not establish byte identity for the latter files.
++Selection, COVID mentions and record identity
++Records were selected when CAUSABAS contained ICD-10 J45 or J46 [5]. The corrected COVID rule excluded the union of B342, U072, U071 or literal COVID-19 in LINHAA, LINHAB, LINHAC, LINHAD or LINHAII, retaining the historical five-field scope. Frequencies and overlapping code combinations were logged separately; overlapping mentions were counted once. The original rule without U071 and a rule retaining every COVID mention were separate sensitivities.
++The historical reduced key comprised parsed death date, elapsed-days age, underlying cause and the five cause lines. It collapsed source rows 971828 and 971831 in 2018. Inspection of all available fields found differences in occupation and seven administrative fields (NUMEROLOTE, TPPOS, DTCADASTRO, DTRECEBIM, DTRECORIGA, DIFDATA and CONTADOR). The SIM dictionary describes NUMERODO as the death-declaration number, registration date as administrative, and receipt date as the latest central update [12]. NUMERODO is absent from these public CSVs. Matching dates, causes or administrative fields therefore could not establish that both rows describe one death. We retained both in the corrected principal and evaluated the historical-key collapse as a sensitivity, without asserting that the events are distinct or identical. No additional deduplication rule or linkage was invented.
++Calendar ages and analytical domains
++Completed age equalled death year minus birth year, minus one if the death preceded that year's anniversary. For a birth on 29 February, the anniversary in a non-leap year was 1 March. Seven-digit day-month-year strings received one leading zero; dates otherwise had to be eight digits and exactly valid in the calendar. Missing or non-interpretable dates and birth after death were excluded and logged separately. No upper-age exclusion was introduced. Ages 90 and above were grouped as 90+ to match IBGE.
++Calendar ages defined ≥7, 5–34, 7–34, 35–59 and ≥60. A sensitivity substituted days/365.25 and its floor for single-year bins. The historical reproduction retained its continuous >6 threshold; it was not re-labelled ≥7 or merged with the corrected sample.
++Denominators and direct standardisation
++Both-sex national single-year populations came from the 2018 IBGE revision [6], with the post-2022-Census 2024 revision as a sensitivity [7]. The 2018 workbook used the total-population block on sheet BR; the 2024 workbook used SIGLA = BR and SEXO = Ambos. Both provide ages 0–89 and the open 90+ interval. Each corrected crude numerator and denominator covered exactly the same domain. The historical crude reproduction instead divided continuous-age >6 deaths by the entire population; a historical comparator used population ≥7, preserving its small age-domain mismatch for transparency.
++For domain D and year t, direct standardisation was:
++ASR(t,D) = Σ[a∈D] w(a,D) × 100,000 × deaths(a,t) / population(a,t).
++w(a,D) = population(a,2014) / Σ[j∈D] population(j,2014), so Σ[a∈D] w(a,D) = 1.
++Weights were fixed across years and normalised separately within each domain, including 5–34 and 7–34. For each denominator revision, the Brazil-2014 standard was that revision's 2014 population. The 90+ deaths and population used a single matching open interval. WHO standardisation used five-year bands [8], adding the 90–94, 95–99 and ≥100 weights for 90+. For 7–9, three fifths of the WHO 5–9 weight was allocated before domain normalisation. This is a uniform-within-band approximation, not an observed age distribution. Missing death-count cells were filled with zero; population cells had to be complete and positive. Brazil-2014-standardised and aligned crude rates were checked for equality in 2014.
++Trends, count models and sensitivity scenarios
++National crude and Brazil-standardised annual rates used Gaussian-family GLMs; age-group and WHO-standardised rates used ordinary least squares. These identity-link Gaussian trends are numerically equivalent to OLS. Slopes were in deaths per 100,000 per year, with t intervals using n−2 residual degrees of freedom. Endpoint absolute and relative changes were reported separately from fitted annual slopes.
++Count models used log-link Poisson, quasi-Poisson and negative binomial families [9]. For unadjusted domains, log E[Y(t)] = α + β × year(t) + log population(t). The national age-adjusted model was log E[Y(b,t)] = α + γ(b) + β × year(t) + log population(b,t), with nine categorical bands: 7–14 (reference), 15–24, 25–34, 35–44, 45–54, 55–64, 65–74, 75–84 and 85+. APC = 100 × (exp β − 1); intervals transformed β ± critical value × SE. Quasi-Poisson used the t distribution with model residual degrees of freedom; Poisson and negative binomial used normal Wald intervals. Quasi-Poisson scales the Poisson coefficient variance by estimated dispersion; negative binomial instead estimates a quadratic variance function μ + μ²/θ, which can also change coefficients. Pearson dispersion, θ, mean-model convergence, iterations, errors and warnings were recorded for every specification. A large θ with an iteration warning was reported as an approximation toward the Poisson limit, not exact equivalence or successful θ convergence.
++Alongside the historical reference and corrected principal, one condition at a time was changed: elapsed-days age, original COVID rule, retention of all COVID mentions, historical deduplication key, exclusion of 2020, or restriction to 2014–2019. The latter two focused on 5–34 and 7–34. Actual calendar years were retained as covariates: exclusion of 2020 left seven observations and 5 trend residual degrees of freedom; 2014–2019 left six and 4. Both denominator revisions and both standards were evaluated, and no model was selected for statistical significance.
++Kitagawa accounting decomposition
++For the same corrected ≥7 population, the symmetric Kitagawa decomposition [11] partitioned crude differences into composition C and age-specific-rate R terms:
++C = Σ[a] (w(a,1) − w(a,0)) × (r(a,0) + r(a,1)) / 2.
++R = Σ[a] (r(a,1) − r(a,0)) × (w(a,0) + w(a,1)) / 2.
++Crude(1) − crude(0) = C + R, with r in deaths per 100,000 and each year's w normalised within ≥7.
++The same six endpoint pairs were used with IBGE 2018 and 2024: 2014–2021, 2014–2019, 2014–2020, 2015–2021, 2016–2021 and 2014–2018. Full-precision identities were checked before rounding. Each displayed component was rounded independently, so the final displayed digit need not add exactly. Shares greater than 100% indicate an opposing negative rate term. This descriptive accounting does not identify causal mechanisms.
++Software, reproducibility and ethics
++Reproduction and revision used R 4.6.1 [10]; package versions, configurations, input hashes, warnings and independent checks accompany the code. R 4.3.3 was reported in the reference. Historical numerical differences under the current environment are documented without claiming an identical software stack. Public inputs, verified extraction code and isolated scenario outputs support reruns. The original repository is https://github.com/EduIntellect/asthma-mortality-brazil-reanalysis; this revision is prepared locally for author review and has not been published there.
++Generative AI tools were used in the historical workflow (Claude Code and GitHub Copilot) and in this revision (Codex) for code, analysis checking and editorial drafting. Figures were plotted from results, not generated as AI images. This statement does not assert that both authors have completed their review or approved the revision.
++The study used public SIM mortality records and aggregate IBGE projections, with no participant contact. Only aggregate results are reported. No formally granted ethics approval or exemption is claimed; applicable institutional and journal wording requires author confirmation, as listed in the accompanying checklist.
+ Results
+-Reproduction of the original analysis
+-The SIM files for 2014–2021 contained 19,105 deaths with asthma as the underlying cause. After the COVID-19-related exclusion and removal of duplicates (57 records, 56 of them in 2020–2021) and exclusion of 15 deaths without a valid date of birth, the reproduction included 18,583 deaths above 6 years of age, against 18,584 reported by Brum et al. [1] (Supplementary Table S1). Of these, 68.2% occurred at 60 years or older, as in the original study.
+-The crude national rate rose from 1.01 to 1.14 per 100,000 between 2014 and 2021 (+12.5%), with a maximum of 1.26 in 2020 (Supplementary Table S2). The linear trend was 0.025 per 100,000 per year (95% CI 0.004 to 0.046; p = 0.029; Table 1), against 0.03 (95% CI 0.01 to 0.04; p = 0.01) in the original paper. A negative binomial model gave an annual increase of 2.3% (95% CI 1.0 to 3.6), close to the 2.5% reported originally. The published annual rates were 1.8% to 5.4% higher than ours, with a gap that widened over the period, which points to a different population series; we could not identify it.
+-For the age groups of the original analysis, our slopes agreed in sign and significance class with the published ones: no trend below 18 years (p = 0.85), an increase at 18–59 years (slope 0.021; p = 0.044) and a non-significant decrease at 60 years or older (slope −0.071; p = 0.14). The magnitude of the changes did not match exactly, and the largest difference, at 60 years or older, could not be reconciled (Supplementary Table S3). The reproduction thus met the criteria defined in the project documentation: total deaths within 2% and agreement in the sign of the age-group trends.
+-National trend after age standardisation
+-Using the same completed-age population of 7 years and older for both calculations, the crude rate increased from 1.123 to 1.258 per 100,000 between 2014 and 2021 (+12.0%), whereas the directly age-standardised rate decreased from 1.123 to 1.078 (−4.0%; Table 1; Figure 1). The estimated slope of the age-standardised series over all eight years was 0.0002 per 100,000 per year (95% CI −0.0213 to 0.0217; p = 0.983). Thus, the analysis did not support an increasing national age-standardised trend, although the confidence interval did not establish equivalence to a zero trend.
+-In post hoc count models (Supplementary Table S4), the age-adjusted national trend was +0.00% per year with quasi-Poisson intervals (95% CI −1.12 to 1.14) and +0.9% (−0.2 to 2.1; p = 0.10) with a negative binomial model. With the 2024 population projection, the negative binomial estimate was +1.1% per year (95% CI 0.04 to 2.3; p = 0.043), the only one of six age-adjusted specifications whose interval excluded zero. The crude series was overdispersed (dispersion 5.9); its annual increase of 2.3% had p = 0.029 with quasi-Poisson and p < 0.001 with negative binomial intervals. Using the WHO standard population, the standardised rate changed by −4.2% (p = 0.99) with the 2018 projection and by −2.0% (p = 0.73) with the 2024 projection (Supplementary Table S5).
+-Decomposition of the change in the crude rate
+-The age-composition component accounted for 62% to 193% of the observed crude-rate increase across the six endpoint comparisons, while the component associated with age-specific mortality rates changed sign (Figure 2; exact values in Supplementary Table S6). For 2014–2021, the positive composition effect (+0.191 per 100,000) exceeded the net increase (+0.135) and was partly offset by changes in age-specific rates (−0.057). Approximately 95% of the composition component arose among individuals aged 60 years or older.
+-Ages 5–34 years
+-The rate at ages 5–34 years rose from 0.182 to 0.219 per 100,000 between 2014 and 2021 (+20.3%; slope 0.0080 per year, 95% CI 0.0023 to 0.0138; p = 0.014; Table 1). The group had 1,591 deaths over the period, between 172 and 236 per year, with the lowest rate in 2017 (0.175) and the highest in 2020 (0.244) (Supplementary Figure S1). The control group aged 7–34 years gave a similar result (+23.5%; p = 0.011; Supplementary Figure S1); it contains nearly all the deaths of the 5–34 group, so it shows that the estimate does not depend on ages 5 and 6 rather than replicating it independently.
+-The increase persisted in post hoc analyses. Overdispersion was negligible (1.07), and the quasi-Poisson model gave an annual increase of 4.0% (95% CI 1.2 to 7.0; p = 0.013); with the 2024 projection it was 4.2% (p = 0.011). Standardised to the WHO population within the group, the rate rose by 16.9% (p = 0.020) with the 2018 projection and by 19.1% (p = 0.015) with the 2024 projection.
+-At 35–59 years the evidence was inconclusive: the rate rose from 0.719 to 0.830 (+15.5%; p = 0.13), and the count models disagreed (p = 0.13 with quasi-Poisson and p = 0.036 with negative binomial).
++Historical reproduction and corrected selection
++The complete historical pipeline reproduced 19,105 underlying-cause candidates, 56 COVID exclusions, one reduced-key removal, 15 non-interpretable ages and 18,583 deaths at continuous age >6, versus 18,584 in Brum et al. [1]. All versioned selection counts, annual age aggregates and IBGE-2018 denominators matched exactly. Rate and trend differences were at floating-point scale; negative-binomial theta differed slightly under the current environment in models approaching the Poisson limit, without changing the reported significance classes. The unresolved original population series and age-group discrepancies remain in the historical audit (Supplementary Table S3).
++The eight official files contained 11,169,644 records, including 19,105 underlying-cause asthma records. Corrected COVID exclusions removed 57 records: 27 in 2020 and 30 in 2021. No record was removed as a proven duplicate; 15 had non-interpretable dates and none had birth after death, leaving 19,033 age-valid records. The ≥7 domain contained 18,544 deaths, including 12,678 (68.4%) at ≥60. Calendar age changed the single-year bin of 23 candidates (23 retained), but none crossed the ≥7, 5–34, 7–34, 35–59 or ≥60 domain boundaries relative to floor(days/365.25). Ages above 90 were retained in the 90+ interval. The corrected total ≥7 equals the historical total by coincidence: retaining one 2018 record adds a death and excluding the additional 2021 U071 record removes one.
++National domain of completed ages ≥7
++For completed ages ≥7, the aligned crude series rose from 1.123 to 1.257 per 100,000 (+12.0%; absolute change +0.1343), with slope 0.0270 per year (95% CI 0.0030 to 0.0509; p = 0.033). Brazil-2014-standardised mortality changed from 1.123 to 1.077 per 100,000 (-4.1%; absolute change -0.0456), with slope 0.0002 per year (95% CI -0.0214 to 0.0217; p = 0.986). The endpoint decrease and the slope across eight annual observations answer different questions. The interval does not demonstrate equivalence to zero or stability.
++With 2018 denominators, the age-adjusted national estimate was +0.00% per year (95% CI -1.13 to 1.14; p = 0.999) under quasi-Poisson and +0.93% per year (95% CI -0.20 to 2.06; p = 0.106) under negative binomial regression. With 2024 denominators, the negative binomial estimate was +1.14% per year (95% CI 0.03 to 2.26; p = 0.044), the only one of the six corrected national age-adjusted specifications with an interval excluding zero. The national Poisson Pearson dispersion was 3.11; different uncertainty and variance assumptions contribute to differences between families. All mean-model iterations converged. Negative binomial fits for some unadjusted age-group series issued theta iteration-limit warnings; these rows are reported explicitly in Supplementary Table S4, not treated as successful dispersion convergence or exact identity with Poisson.
++Composition of the crude-rate change at ≥7
++Across six pairs, the composition component was positive under both revisions. With IBGE 2018 it accounted for 61.5–193.8% of the net increase, compared with 55.0–153.5% under IBGE 2024. For 2014–2021, the 2018 net change of +0.134 per 100,000 comprised composition +0.191 and age-specific rates -0.057; 94.8% of composition arose at ≥60. The corresponding 2024 terms were +0.146, +0.170 and -0.025. Contributions above 100% mean that a negative rate component partly offset the positive composition component; they are accounting quantities, not causal fractions.
++Mortality within ages 5–34 and sensitivity analyses
++Ages 5–34 contributed 1,590 corrected deaths (172–236 annually). Their crude rate rose from 0.182 to 0.218 per 100,000 (+19.7%; absolute change +0.0358), with slope 0.0079 per year (95% CI 0.0021 to 0.0138; p = 0.016). Standardising within 5–34 to Brazil 2014 yielded 0.182 to 0.215 per 100,000 (+18.0%; absolute change +0.0328), with slope 0.0075 per year (95% CI 0.0018 to 0.0132; p = 0.018); WHO standardisation yielded 0.178 to 0.207 per 100,000 (+16.4%; absolute change +0.0291), with slope 0.0068 per year (95% CI 0.0014 to 0.0122; p = 0.022). Thus the crude absolute increase was 0.0358, and the within-group-standardised absolute increase was 0.0328 per 100,000. The nested 7–34 control gave 0.181 to 0.220 per 100,000 (+21.0%; absolute change +0.0381), with slope 0.0088 per year (95% CI 0.0026 to 0.0149; p = 0.013); it is a technical control, not independent replication. The crude 5–34 quasi-Poisson estimate was +4.00% per year (95% CI 1.13 to 6.95; p = 0.014).
++Excluding 2020 while retaining calendar-year values, the within-5–34 Brazil-2014-standardised slope was 0.0058 (95% CI 0.0004 to 0.0112; p = 0.040). In 2014–2019 it was 0.0068 (95% CI -0.0023 to 0.0158; p = 0.107); the endpoint increase was 22.4%. For the 7–34 control, the respective standardised trend p values were 0.021 and 0.067. The primary standardised prepandemic interval therefore does not establish a positive annual trend. With WHO standardisation and IBGE 2018, excluding 2020 gives p = 0.055, with an interval including zero. In 2014–2019, count-model inference also differs: the crude 5–34 Poisson and negative-binomial Wald intervals exclude zero, whereas the quasi-Poisson t interval includes it; negative-binomial theta has an iteration warning. Results for both revisions, both standards and count models are supplied rather than selected by significance.
++The original COVID rule removes 56 records; adding U071 removes one further record in 2021, within both young domains. Of 18 U071 mentions in 2020, all were already excluded; of 19 in 2021, 18 overlapped the original rule. Retaining all COVID mentions raises the primary ≥7 numerator from 18,544 to 18,601. Calendar-age, original-COVID, all-COVID-retained and historical-key sensitivities change one condition at a time (Supplementary Table S8). At 35–59 the crude slope remained imprecise (p = 0.132); uncertainty is not evidence of stability.
+ Discussion
+-We reproduced the crude increase in asthma mortality reported by Brum et al. for 2014–2021, with one death of difference in the total count and the same direction of the national and age-group trends. After direct age standardisation, however, the national age-standardised trend was not statistically distinguishable from zero: the standardised rate fell by 4.0% and its slope over the eight years was close to zero, with a confidence interval that admits small changes in either direction. In a decomposition of the crude change, shifts in the age composition of the population accounted for most of the increase, and in the 2014–2021 comparison for more than all of it. The rise in mortality at 5–34 years, by contrast, persisted across every specification we examined.
+-These results do not contradict the crude series of Brum et al.; they qualify its interpretation. A rising crude rate measures a rising burden of deaths in the population, which is relevant for health services. It does not by itself show that the risk of dying from asthma at a given age has increased. Cardoso et al. reported an increase in the number of asthma deaths over 2013–2023 while noting that the overall rate per 100,000 inhabitants remained stable [2]. Together, these studies illustrate why trends in death counts and crude rates should be distinguished from age-adjusted trends. In our reanalysis, changes in population age composition accounted for much of the crude increase. The statement that asthma mortality “shows an increasing trend for the first time in the past decades” [1] is consistent with the crude-rate increase reported by Brum et al., but our analysis does not establish a comparable increase in national age-standardised mortality during 2014–2021.
+-The Kitagawa decomposition gives this reading a quantitative form, but it is an accounting decomposition, not a causal one. It splits a difference between two years into a component due to the age distribution and a component due to age-specific rates; it does not identify why either changed. Because two-year comparisons depend on their endpoints, we repeated it for six pairs of years. The composition component was positive in all of them, and about 95% of it arose at 60 years or older, the age range whose share of the population grew from 13.3% to 16.3%. The age-specific component changed sign with the endpoints, and was largest in the comparison ending in 2020, the year with the highest rates. We therefore treat the eight-year standardised trend as the main evidence, with the decomposition describing contributions to the crude increase.
+-The national age-adjusted result was not uniform across specifications. One of six count-model specifications, the negative binomial model with the 2024 population projection, estimated an increase of 1.1% per year whose interval excluded zero. The remaining specifications gave estimates between 0% and 0.9% per year with intervals that included zero. With eight annual observations, these data cannot establish that age-adjusted mortality was constant; the age-adjusted point estimates were generally smaller than the crude estimate, although the confidence intervals did not rule out increases of comparable magnitude under some specifications.
+-The increase at ages 5–34 requires separate interpretation. The rate rose by about 20% between 2014 and 2021, and the estimate held with count models, with the WHO standard population and with the alternative projection. This age range was used in earlier Brazilian surveillance, in which Graudenz et al. reported a decline in age-standardised mortality from 1980 to 2014 [3]. Our primary estimate for this group is not standardised within the group, and the two studies differ in period and methods, so the comparison does not establish a change point in 2014. The finding rests on 172 to 236 deaths per year, and the highest rate occurred in 2020. It warrants monitoring with longer series rather than a firm conclusion about a reversal.
+-The reproduction also revealed limits to exact comparison with published estimates. Our population denominators differed from those of the original study, so our annual national crude rates were 1.8% to 5.4% lower, and the magnitude of the change at 60 years or older could not be reconciled. The original code made it possible to identify these differences, but the exact population series could not be recovered. Reporting the denominators used, together with age-standardised rates alongside crude rates, would make national asthma surveillance comparable across studies and years.
+-Several limitations remain. The design is ecological and descriptive. The count models, the WHO standard population, the alternative projection and the decomposition were added after the main analyses and should be read as robustness or descriptive analyses, and we made no adjustment for multiple comparisons. The SIM files may have been revised since the original analysis, our deduplication did not reproduce the original procedure exactly, and changes in death certification or coding during the period, including during the COVID-19 pandemic, cannot be excluded. The questions were defined in the project documentation, but we could not document their timing relative to the analyses independently.
+-Overall, the increase in crude asthma mortality in Brazil between 2014 and 2021 is reproducible, but it was not accompanied by a comparable increase in age-standardised mortality, and changes in population age structure accounted for most of it. Mortality at 5–34 years did increase over the period. National surveillance should report age-standardised and age-specific trends together with crude rates, because in this case they lead to different conclusions about the direction of asthma mortality.
++The corrected analysis reproduced the historical crude finding while separating it from the national domain of completed ages ≥7. Aligned crude mortality increased between 2014 and 2021, but the Brazil-2014-standardised endpoint change was negative and the slope across all eight years was close to zero. Its uncertainty admits trends in either direction and cannot demonstrate stability. The positive negative-binomial estimate using IBGE 2024 also prevents a claim that all national age-adjusted specifications exclude an increase.
++The decomposition showed positive age-composition contributions across every endpoint pair with both denominator revisions. For some pairs the composition term exceeded the net crude increase because the age-specific-rate term was negative. These quantities describe changes in rates and population composition rather than identify causes of death, certification changes, treatment access or pandemic effects. Endpoint contrasts should not substitute for the trend across all annual observations.
++Within ages 5–34, both crude and standardised mortality increased across 2014–2021. Standardising inside the range matters because even a comparatively young domain can change its internal age distribution. The primary Brazil-standardised slope retained a positive interval after removal of 2020, while the WHO sensitivity with IBGE 2018 included zero. The shorter prepandemic primary estimate was imprecise and its interval included zero. Neither that imprecision nor the positive endpoint contrast establishes a prepandemic annual trend. The nested 7–34 analysis supports sensitivity to the inclusion of ages five and six, rather than independent confirmation. These findings warrant continued surveillance but do not establish a change point or a reversal of the earlier decline reported by Graudenz et al. [3].
++The U071 correction, explicit calendar ages and conservative treatment of the ambiguous pair improve the transparency of selection. Equality of the revised and historical ≥7 totals masks different individual records and distributions. Calendar age shifted single-year bins even without changing the five named domain memberships, which can affect direct standardisation and band-based models. Alternative COVID rules, retention of mentions and key-based deduplication are reported as sensitivity scenarios rather than silently blended corrections.
++Limitations include the ecological design, short annual series, post hoc robustness analyses, unadjusted multiple comparisons and possible changes in death certification. Public-field linkage cannot determine the true identity of the 2018 pair. For SIM 2014–2019, absent historical execution hashes prevent verification of byte identity, despite exact reproduction of recorded counts and aggregates. The population workbook used by Brum et al. remains unavailable. Negative-binomial theta iteration warnings near the Poisson limit also limit claims about dispersion convergence; they do not justify hiding models or selecting a family by its p value. Statistical intervals quantify model uncertainty rather than uncertainty from record selection, certification or population reconstruction.
++The study supports joint reporting of aligned crude, age-standardised and age-specific mortality. Population composition accounted for much of the corrected crude increase at ≥7. Evidence of an increase within 5–34 over 2014–2021 merits attention, with the prepandemic uncertainty and sensitivity to modelling clearly stated.
+ Funding
+-No funding was received for this study.
++No funding was received for this study. This declaration is retained from the reviewed PDF and awaits confirmation of both authors' circumstances in the accompanying checklist.
+ Conflicts of interest
+-The authors declare no conflicts of interest.
++The authors declare no conflicts of interest. This declaration is retained from the reviewed PDF and awaits confirmation by both authors.
++Author contributions
++Author order and affiliations are carried forward from the reviewed PDF. Final CRediT contributions and completion of each author's scientific review require confirmation before submission; no completed validation is asserted here.
+ References
+-Brum M, Henz J, Boeira M, Soares S, Friedrich F, Pitrez PM. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;50(5):e20240138. doi:10.36416/1806-3756/e20240138
+-Cardoso ADRO, Ferreira ACG, Rabahi MF. Asthma-related deaths in Brazil: data from an ecological study. J Bras Pneumol. 2024;50(6):e20240296. doi:10.36416/1806-3756/e20240296
+-Graudenz GS, Carneiro DP, Vieira RP. Trends in asthma mortality in the 0- to 4-year and 5- to 34-year age groups in Brazil. J Bras Pneumol. 2017;43(1):24-31. doi:10.1590/S1806-37562015000000253
+-Brum M, et al. Analysis code accompanying reference 1. GitHub repository, commit 8d527a5 (15 May 2024). Available from: https://github.com/mobrant94/asthma_mortality
+-Ministério da Saúde (Brasil). Sistema de Informação sobre Mortalidade (SIM). Portal de Dados Abertos do SUS. Available from: https://dadosabertos.saude.gov.br/dataset/sim
+-Instituto Brasileiro de Geografia e Estatística. Projeção da População do Brasil e das Unidades da Federação, revisão 2018: população por idade simples, 2010–2060. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/ (accessed 1 October 2026)
+-Instituto Brasileiro de Geografia e Estatística. Projeções da População, revisão 2024: população por idade simples. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/ (accessed 1 October 2026)
+-Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJL, Lozano R, Inoue M. Age standardization of rates: a new WHO standard. GPE Discussion Paper Series No. 31. Geneva: World Health Organization; 2001.
+-Venables WN, Ripley BD. Modern applied statistics with S. 4th ed. New York: Springer; 2002.
+-R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing; 2024. Available from: https://www.R-project.org/
+-Tables
+-Table 1. Trend estimates, Brazil, 2014–2021. aChange in the rate, per 100,000 per year, from a Gaussian-family generalised linear model (crude and age-standardised national series) or ordinary least squares (age groups), eight annual observations, 95% confidence intervals from the t distribution with 6 degrees of freedom. Change (%) is the relative change between 2014 and 2021. The two crude rows reproduce the original analysis (deaths above 6 years of continuous age) and differ only in the population base; the age-standardised row uses completed ages of 7 years or more. Population: IBGE 2018 projection.
+-Series | Rate 2014 | Rate 2021 | Change (%) | Slopea | 95% CI | p
+-Crude national rate | 1.012 | 1.138 | +12.5 | 0.0250 | (0.0036 to 0.0463) | 0.029
+-Crude national rate, population >6 years | 1.126 | 1.260 | +11.9 | 0.0268 | (0.0031 to 0.0505) | 0.032
+-Age-standardised (Brazil 2014) | 1.123 | 1.078 | −4.0 | 0.0002 | (−0.0213 to 0.0217) | 0.983
+-Ages 5–34 | 0.182 | 0.219 | +20.3 | 0.0080 | (0.0023 to 0.0138) | 0.014
+-Ages 7–34 | 0.181 | 0.224 | +23.5 | 0.0094 | (0.0031 to 0.0156) | 0.011
+-Ages 35–59 | 0.719 | 0.830 | +15.5 | 0.0221 | (−0.0089 to 0.0532) | 0.132
+-Figures
+-Figure 1. Relative changes in asthma mortality rates
+-Relative change in each rate from its 2014 value, Brazil, 2014–2021: crude rate (dashed line, open circles) and age-standardised rate (Brazil 2014 standard; solid line, filled circles), both for completed ages of 7 years and older and the same deaths and population, and rate at ages 5–34 years (dash-dot line, triangles). Annual data; population from the IBGE 2018 projection.
+-Figure 2. Kitagawa decomposition of crude-rate change
+-Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older, for six pairs of years (post hoc analysis), Brazil. Black bars: age-composition component; hatched bars: age-specific-rate component. The two components sum to the change in the crude rate. Deaths per 100,000; population from the IBGE 2018 projection. The components are accounting terms, not causal effects. Exact values in Supplementary Table S6.
++1. Brum M, Henz J, Boeira M, Soares S, Friedrich F, Pitrez PM. Recent increase in asthma mortality in Brazil: a warning sign for the public health system. J Bras Pneumol. 2024;50(5):e20240138. doi:10.36416/1806-3756/e20240138
++2. Cardoso ADRO, Ferreira ACG, Rabahi MF. Asthma-related deaths in Brazil: data from an ecological study. J Bras Pneumol. 2024;50(6):e20240296. doi:10.36416/1806-3756/e20240296
++3. Graudenz GS, Carneiro DP, Vieira RP. Trends in asthma mortality in the 0- to 4-year and 5- to 34-year age groups in Brazil. J Bras Pneumol. 2017;43(1):24-31. doi:10.1590/S1806-37562015000000253
++4. Brum M, et al. Analysis code accompanying reference 1. GitHub repository, commit 8d527a5 (15 May 2024). Available from: https://github.com/mobrant94/asthma_mortality
++5. Ministério da Saúde (Brasil). Sistema de Informação sobre Mortalidade (SIM). Portal de Dados Abertos do SUS. Available from: https://dadosabertos.saude.gov.br/dataset/sim
++6. Instituto Brasileiro de Geografia e Estatística. Projeção da População do Brasil e das Unidades da Federação, revisão 2018: população por idade simples, 2010–2060. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2018/ (accessed 1 October 2026)
++7. Instituto Brasileiro de Geografia e Estatística. Projeções da População, revisão 2024: população por idade simples. Available from: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/ (accessed 1 October 2026)
++8. Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJL, Lozano R, Inoue M. Age standardization of rates: a new WHO standard. GPE Discussion Paper Series No. 31. Geneva: World Health Organization; 2001.
++9. Venables WN, Ripley BD. Modern applied statistics with S. 4th ed. New York: Springer; 2002.
++10. R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing; 2026. Available from: https://www.R-project.org/
++11. Kitagawa EM. Components of a difference between two rates. J Am Stat Assoc. 1955;50(272):1168–1194. doi:10.1080/01621459.1955.10501299
++12. Ministério da Saúde. Estrutura de Dados SIM. Secretaria de Vigilância em Saúde. Official data dictionary, archived by UFBA. https://ccvisat.ufba.br/wp-content/uploads/2019/10/Estrutura-do-SIM-para-o-CD-ROM.pdf (accessed 11 October 2026).
++Table 1. Historical comparators and corrected primary rates, Brazil, 2014–2021
++Series | 2014 | 2021 | Δ rate | Δ % | Slope (95% CI) | p
++Corrected crude ≥7 | 1.123 | 1.257 | +0.134 | +12.0 | 0.0270 (0.0030, 0.0509) | 0.033
++Brazil 2014 ASR ≥7 | 1.123 | 1.077 | -0.046 | -4.1 | 0.0002 (-0.0214, 0.0217) | 0.986
++Crude 5–34 | 0.182 | 0.218 | +0.036 | +19.7 | 0.0079 (0.0021, 0.0138) | 0.016
++Brazil 2014 ASR 5–34 | 0.182 | 0.215 | +0.033 | +18.0 | 0.0075 (0.0018, 0.0132) | 0.018
++Crude 7–34 | 0.181 | 0.223 | +0.042 | +22.9 | 0.0093 (0.0029, 0.0156) | 0.012
++Crude 35–59 | 0.719 | 0.830 | +0.111 | +15.5 | 0.0221 (-0.0089, 0.0532) | 0.132
++Historical >6 / all population | 1.012 | 1.138 | +0.126 | +12.5 | 0.0250 (0.0036, 0.0463) | 0.029
++Historical >6 / ≥7 population | 1.126 | 1.260 | +0.134 | +11.9 | 0.0268 (0.0031, 0.0505) | 0.032
++Rates and absolute changes are per 100,000. Slopes are per 100,000 per year with t-based 95% intervals, six residual degrees of freedom. Δ is the endpoint difference; Δ % is the relative endpoint change. Corrected rows use calendar age, U071-inclusive COVID exclusions and retention of both ambiguous 2018 records. Historical rows retain continuous >6 and their original denominators. IBGE 2018 is used throughout this table; primary ASR uses Brazil 2014 weights normalised inside the specified domain.
++Figure 1. Relative changes from 2014
++Figure 1. Corrected aligned crude and Brazil-2014-standardised national rates for completed ages ≥7, plus rates standardised within 5–34. IBGE 2018 denominators; changes relative to each series' own 2014 rate.
++Figure 2. Kitagawa sensitivity to population revision
++Figure 2. Corrected ≥7 crude-rate changes partitioned into age-composition and age-specific-rate components for six pairs, with IBGE 2018 and 2024. Components sum to net change before rounding and are not causal effects.
+ Supplementary material
+-Reassessing the reported increase in asthma mortality in Brazil: reproduction and age-specific reanalysis, 2014–2021
+-Supplementary Table S1. Death records by year and stage of case selection. aAfter the COVID-19-related exclusion (B34.2, U07.2 or “COVID-19” in the cause-of-death lines) and removal of duplicate records. The last column is the sample of the reproduction: asthma deaths above 6 years of age with a valid date of birth.
+-Year | All records | Asthma (J45–J46) | After exclusionsa | Valid birth date | Age >6 years
+-2014 | 1,227,039 | 2,129 | 2,129 | 2,127 | 2,041
+-2015 | 1,264,175 | 2,232 | 2,232 | 2,231 | 2,148
+-2016 | 1,309,774 | 2,249 | 2,249 | 2,247 | 2,190
+-2017 | 1,312,663 | 2,477 | 2,477 | 2,476 | 2,423
+-2018 | 1,316,719 | 2,307 | 2,306 | 2,302 | 2,249
+-2019 | 1,349,801 | 2,488 | 2,488 | 2,486 | 2,426
+-2020 | 1,556,824 | 2,735 | 2,708 | 2,705 | 2,678
+-2021 | 1,832,649 | 2,488 | 2,459 | 2,459 | 2,428
+-Total | 11,169,644 | 19,105 | 19,048 | 19,033 | 18,583
+-Supplementary Table S2. Deaths (upper panel) and rates per 100,000 (lower panel) by year. The crude national rate uses deaths above 6 years of age and the total population; the age-standardised rate uses the 2014 Brazilian age distribution within completed ages of 7 or more. Rates for the age groups are per 100,000 persons of that age. Population: IBGE 2018 projection.
+-Series | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021
+-Deaths |  |  |  |  |  |  |  | 
+-Crude national rate | 2,041 | 2,148 | 2,190 | 2,423 | 2,249 | 2,426 | 2,678 | 2,428
+-Age-standardised (Brazil 2014) | 2,035 | 2,142 | 2,187 | 2,418 | 2,243 | 2,419 | 2,677 | 2,423
+-Ages 5–34 | 182 | 189 | 184 | 172 | 200 | 218 | 236 | 210
+-Ages 7–34 | 171 | 174 | 179 | 164 | 190 | 208 | 232 | 202
+-Ages 35–59 | 452 | 485 | 515 | 567 | 504 | 524 | 709 | 591
+-Rate per 100,000 |  |  |  |  |  |  |  | 
+-Crude national rate | 1.012 | 1.056 | 1.067 | 1.172 | 1.079 | 1.154 | 1.265 | 1.138
+-Age-standardised (Brazil 2014) | 1.123 | 1.144 | 1.132 | 1.209 | 1.089 | 1.140 | 1.230 | 1.078
+-Ages 5–34 | 0.182 | 0.190 | 0.186 | 0.175 | 0.204 | 0.224 | 0.244 | 0.219
+-Ages 7–34 | 0.181 | 0.186 | 0.192 | 0.177 | 0.207 | 0.228 | 0.256 | 0.224
+-Ages 35–59 | 0.719 | 0.756 | 0.787 | 0.851 | 0.743 | 0.759 | 1.011 | 0.830
+-Supplementary Table S3. Age groups as constructed in the original analysis, reproduced with the 2018 projection. aLabelled “below 18” in the original analysis; the numerator contains deaths at 7–17 years and the denominator the population aged 0–17. bMean over 2015–2021 of the relative difference from the 2014 rate, which is the quantity reported by the original analysis. Rates per 100,000 in the stated age group.
+-Group | Deaths 2014 / 2021 | Rate 2014 / 2021 | Change 2014–2021 (%) | Mean relative variationb (%) | Slope | p
+-Ages 7–17a | 43 / 37 | 0.076 / 0.069 | −9.2 | +12.1 | −0.0005 | 0.852
+-Ages 18–59 | 580 / 756 | 0.478 / 0.587 | +22.9 | +16.5 | 0.0212 | 0.044
+-Ages ≥60 | 1,412 / 1,630 | 5.853 / 5.203 | −11.1 | −1.9 | −0.0712 | 0.135
+-Supplementary Table S4. Count models with population offset (post hoc analysis), 2018 projection unless stated. aPearson chi-square divided by degrees of freedom in the Poisson model; values well above 1 indicate overdispersion. The age-adjusted model uses nine age bands as a factor. For ages 5–34 and 7–34 the negative binomial model is equivalent to the Poisson model. bAnnual change (%) from quasi-Poisson models with the 2024 projection, with the p value in parentheses.
+-Series | Dispersiona | Quasi-Poisson, annual change (%) | p | p, neg. binomial | 2024 denominatorsb
+-Crude national rate | 5.91 | +2.25 (0.32 to 4.22) | 0.029 | <0.001 | +2.40 (0.022)
+-Age-adjusted, ages ≥7 | 3.11 | +0.00 (−1.12 to 1.14) | 0.994 | 0.104 | +0.29 (0.602)
+-Ages 5–34 | 1.07 | +4.04 (1.20 to 6.96) | 0.013 | <0.001 | +4.22 (0.011)
+-Ages 7–34 | 1.13 | +4.65 (1.64 to 7.75) | 0.009 | <0.001 | +4.83 (0.007)
+-Ages 35–59 | 5.54 | +2.78 (−1.08 to 6.79) | 0.130 | 0.036 | +2.84 (0.123)
+-Supplementary Table S5. Sensitivity to the standard population and to the population projection (post hoc analysis). For each row the slope is in rate units per year, from ordinary least squares on eight annual values. The WHO standard population is applied in five-year bands, and the age-standardised rows for ages 7 or more use the 5–9 band at three fifths of its weight.
+-Specification | Rate 2014 | Rate 2021 | Change (%) | Slope | 95% CI | p
+-Ages ≥7, age-standardised |  |  |  |  |  | 
+-Brazil 2014 standard, 2018 projection (primary) | 1.123 | 1.078 | −4.0 | 0.0002 | (−0.0213 to 0.0217) | 0.983
+-Brazil 2014 standard, 2024 projection | 1.128 | 1.112 | −1.5 | 0.0040 | (−0.0176 to 0.0255) | 0.668
+-WHO standard, 2018 projection | 1.095 | 1.049 | −4.2 | −0.0001 | (−0.0207 to 0.0205) | 0.990
+-WHO standard, 2024 projection | 1.102 | 1.080 | −2.0 | 0.0031 | (−0.0176 to 0.0237) | 0.727
+-Ages 5–34 |  |  |  |  |  | 
+-Crude group rate, 2018 projection (primary) | 0.182 | 0.219 | +20.3 | 0.0080 | (0.0023 to 0.0138) | 0.014
+-Crude group rate, 2024 projection | 0.183 | 0.222 | +21.7 | 0.0085 | (0.0026 to 0.0144) | 0.012
+-WHO standard, 2018 projection | 0.178 | 0.208 | +16.9 | 0.0069 | (0.0015 to 0.0122) | 0.020
+-WHO standard, 2024 projection | 0.179 | 0.213 | +19.1 | 0.0075 | (0.0021 to 0.0130) | 0.015
+-Supplementary Table S6. Kitagawa decomposition of the change in the crude rate, completed ages 7 years and older (post hoc analysis). Rates and components per 100,000; population from the IBGE 2018 projection. The two components sum to the change in the crude rate. aAge-composition component as a percentage of the change in the crude rate; it exceeds 100% when the age-specific-rate component is negative, that is, when changes in age-specific rates partly offset the effect of the changing age composition.
+-Years compared | Crude rate, start / end | Change | Age composition | Age-specific rates | Composition share (%)a | Ages ≥60 in composition (%)
+-2014–2021 | 1.123 / 1.258 | +0.135 | +0.191 | −0.057 | 142 | 95
+-2014–2019 | 1.123 / 1.276 | +0.154 | +0.138 | +0.016 | 90 | 95
+-2014–2020 | 1.123 / 1.401 | +0.278 | +0.171 | +0.107 | 62 | 94
+-2015–2021 | 1.171 / 1.258 | +0.087 | +0.167 | −0.081 | 193 | 95
+-2016–2021 | 1.184 / 1.258 | +0.073 | +0.140 | −0.067 | 191 | 95
+-2014–2018 | 1.123 / 1.194 | +0.071 | +0.107 | −0.036 | 151 | 94
+-Supplementary Figure S1. Mortality at ages 5–34 years
+-Asthma mortality at ages 5–34 years, Brazil, 2014–2021. Upper panel: rate per 100,000 at ages 5–34 (solid line, filled circles) and at ages 7–34, the control group matching the age filter of the original analysis (dashed line, open squares). Lower panel: annual asthma deaths at ages 5–34. Population from the IBGE 2018 projection.
++All analyses use corrected selection unless labelled historical. Rates and slope units are deaths per 100,000; APC is percent per year. Full-precision CSV results and model warnings are delivered with the code.
++Table S1. Corrected selection by year
++Year | All SIM | J45/J46 | COVID | Duplicates | Invalid dates | Negative age | Valid | ≥7 | 5–34
++2014 | 1227039 | 2129 | 0 | 0 | 2 | 0 | 2127 | 2035 | 182
++2015 | 1264175 | 2232 | 0 | 0 | 1 | 0 | 2231 | 2142 | 189
++2016 | 1309774 | 2249 | 0 | 0 | 2 | 0 | 2247 | 2187 | 184
++2017 | 1312663 | 2477 | 0 | 0 | 1 | 0 | 2476 | 2418 | 172
++2018 | 1316719 | 2307 | 0 | 0 | 4 | 0 | 2303 | 2244 | 200
++2019 | 1349801 | 2488 | 0 | 0 | 2 | 0 | 2486 | 2419 | 218
++2020 | 1556824 | 2735 | 27 | 0 | 3 | 0 | 2705 | 2677 | 236
++2021 | 1832649 | 2488 | 30 | 0 | 0 | 0 | 2458 | 2422 | 209
++COVID = union across five cause lines. Invalid-date and negative-age counts follow COVID and deduplication. Both ambiguous 2018 records are retained. The historical selection is delivered separately: 56 COVID removals, one key-based removal, 15 invalid dates and 18,583 deaths at continuous age >6.
++Table S2. Annual Aligned crude ≥7
++Year | Deaths | Population | Rate
++2014 | 2035 | 181,252,457 | 1.122743
++2015 | 2142 | 182,968,415 | 1.170694
++2016 | 2187 | 184,647,932 | 1.184416
++2017 | 2418 | 186,273,291 | 1.298093
++2018 | 2244 | 187,895,171 | 1.194283
++2019 | 2419 | 189,505,848 | 1.276478
++2020 | 2677 | 191,083,309 | 1.400960
++2021 | 2422 | 192,673,672 | 1.257048
++Table S2. Annual Brazil 2014 ASR ≥7
++Year | Deaths | Population | Rate
++2014 | 2035 | 181,252,457 | 1.122743
++2015 | 2142 | 182,968,415 | 1.144431
++2016 | 2187 | 184,647,932 | 1.132194
++2017 | 2418 | 186,273,291 | 1.208506
++2018 | 2244 | 187,895,171 | 1.089633
++2019 | 2419 | 189,505,848 | 1.140337
++2020 | 2677 | 191,083,309 | 1.229760
++2021 | 2422 | 192,673,672 | 1.077177
++Table S2. Annual Crude 5–34
++Year | Deaths | Population | Rate
++2014 | 182 | 100,130,699 | 0.181762
++2015 | 189 | 99,610,503 | 0.189739
++2016 | 184 | 99,048,598 | 0.185767
++2017 | 172 | 98,452,312 | 0.174704
++2018 | 200 | 97,819,731 | 0.204458
++2019 | 218 | 97,214,347 | 0.224247
++2020 | 236 | 96,671,200 | 0.244126
++2021 | 209 | 96,070,603 | 0.217548
++Table S2. Annual Brazil 2014 ASR 5–34
++Year | Deaths | Population | Rate
++2014 | 182 | 100,130,699 | 0.181762
++2015 | 189 | 99,610,503 | 0.189060
++2016 | 184 | 99,048,598 | 0.184945
++2017 | 172 | 98,452,312 | 0.174255
++2018 | 200 | 97,819,731 | 0.203444
++2019 | 218 | 97,214,347 | 0.222528
++2020 | 236 | 96,671,200 | 0.241039
++2021 | 209 | 96,070,603 | 0.214535
++Table S2. Annual Crude 7–34
++Year | Deaths | Population | Rate
++2014 | 171 | 94,235,685 | 0.181460
++2015 | 174 | 93,780,394 | 0.185540
++2016 | 179 | 93,255,055 | 0.191947
++2017 | 164 | 92,641,638 | 0.177026
++2018 | 190 | 92,007,559 | 0.206505
++2019 | 208 | 91,371,402 | 0.227642
++2020 | 232 | 90,729,128 | 0.255706
++2021 | 201 | 90,129,917 | 0.223011
++Table S2. Annual Crude 35–59
++Year | Deaths | Population | Rate
++2014 | 452 | 62,893,940 | 0.718670
++2015 | 485 | 64,149,669 | 0.756044
++2016 | 515 | 65,398,428 | 0.787481
++2017 | 567 | 66,640,781 | 0.850830
++2018 | 504 | 67,862,310 | 0.742680
++2019 | 524 | 69,039,371 | 0.758987
++2020 | 709 | 70,157,104 | 1.010589
++2021 | 591 | 71,213,520 | 0.829899
++Table S2. Annual Crude ≥60
++Year | Deaths | Population | Rate
++2014 | 1412 | 24,122,832 | 5.853376
++2015 | 1483 | 25,038,352 | 5.922914
++2016 | 1493 | 25,994,449 | 5.743534
++2017 | 1687 | 26,990,872 | 6.250261
++2018 | 1550 | 28,025,302 | 5.530716
++2019 | 1687 | 29,095,075 | 5.798232
++2020 | 1736 | 30,197,077 | 5.748901
++2021 | 1630 | 31,330,235 | 5.202642
++Table S3. Historical age-group reproduction
++series | n_2014 | n_2021 | rate_2014 | rate_2021 | pct_change_2014_2021 | slope | p_value
++legacy_lt18 | 43 | 37 | 0.07649 | 0.06945 | -9.19335 | -0.00047 | 0.85236
++legacy_18_59 | 580 | 756 | 0.47786 | 0.58735 | 22.91210 | 0.02125 | 0.04388
++legacy_gte60 | 1412 | 1630 | 5.85338 | 5.20264 | -11.11724 | -0.07124 | 0.13500
++Historical <18 numerator is floor ages 7–17 and denominator ages 0–17. These rows reproduce the historical construction and are not corrected primary domains.
++Table S4. Count models, IBGE 2018
++Series | Family | APC | 95% CI | p | Dispersion | Theta | Status
++Crude ≥7 | Poisson | 2.190 | 1.549, 2.835 | <0.001 | 6.04 |  | ok
++Crude ≥7 | Quasi-Poisson | 2.190 | 0.236, 4.183 | 0.033 | 6.04 |  | ok
++Crude ≥7 | Negative binomial | 2.221 | 0.886, 3.574 | 0.001 | 1.33 | 686.8 | ok
++Crude 5–34 | Poisson | 3.998 | 1.787, 6.258 | <0.001 | 1.09 |  | ok
++Crude 5–34 | Quasi-Poisson | 3.998 | 1.130, 6.949 | 0.014 | 1.09 |  | ok
++Crude 5–34 | Negative binomial | 3.998 | 1.787, 6.258 | <0.001 | 1.09 | 3280138.3 | warning
++Crude 7–34 | Poisson | 4.604 | 2.327, 6.931 | <0.001 | 1.15 |  | ok
++Crude 7–34 | Quasi-Poisson | 4.604 | 1.561, 7.738 | 0.010 | 1.15 |  | ok
++Crude 7–34 | Negative binomial | 4.604 | 2.327, 6.931 | <0.001 | 1.15 | 2427388.1 | warning
++Crude 35–59 | Poisson | 2.779 | 1.448, 4.126 | <0.001 | 5.54 |  | ok
++Crude 35–59 | Quasi-Poisson | 2.779 | -1.082, 6.789 | 0.130 | 5.54 |  | ok
++Crude 35–59 | Negative binomial | 2.783 | 0.181, 5.453 | 0.036 | 1.34 | 187.9 | ok
++Crude ≥60 | Poisson | -1.300 | -2.047, -0.546 | <0.001 | 3.55 |  | ok
++Crude ≥60 | Quasi-Poisson | -1.300 | -3.049, 0.482 | 0.124 | 3.55 |  | ok
++Crude ≥60 | Negative binomial | -1.271 | -2.480, -0.046 | 0.042 | 1.34 | 972.6 | ok
++Age-adjusted ≥7 | Poisson | 0.001 | -0.626, 0.632 | 0.998 | 3.11 |  | ok
++Age-adjusted ≥7 | Quasi-Poisson | 0.001 | -1.125, 1.140 | 0.999 | 3.11 |  | ok
++Age-adjusted ≥7 | Negative binomial | 0.926 | -0.197, 2.061 | 0.106 | 1.30 | 147.8 | ok
++Warning rows: theta estimation reached its iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. Recorded warning: iteration limit reached. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
++Table S4. Count models, IBGE 2024
++Series | Family | APC | 95% CI | p | Dispersion | Theta | Status
++Crude ≥7 | Poisson | 2.312 | 1.670, 2.958 | <0.001 | 5.98 |  | ok
++Crude ≥7 | Quasi-Poisson | 2.312 | 0.366, 4.297 | 0.027 | 5.98 |  | ok
++Crude ≥7 | Negative binomial | 2.342 | 1.012, 3.690 | <0.001 | 1.33 | 695.6 | ok
++Crude 5–34 | Poisson | 4.178 | 1.964, 6.441 | <0.001 | 1.09 |  | ok
++Crude 5–34 | Quasi-Poisson | 4.178 | 1.303, 7.135 | 0.012 | 1.09 |  | ok
++Crude 5–34 | Negative binomial | 4.178 | 1.964, 6.441 | <0.001 | 1.09 | 3258238.9 | warning
++Crude 7–34 | Poisson | 4.791 | 2.511, 7.122 | <0.001 | 1.16 |  | ok
++Crude 7–34 | Quasi-Poisson | 4.791 | 1.742, 7.931 | 0.008 | 1.16 |  | ok
++Crude 7–34 | Negative binomial | 4.791 | 2.511, 7.122 | <0.001 | 1.16 | 2402052.5 | warning
++Crude 35–59 | Poisson | 2.843 | 1.511, 4.192 | <0.001 | 5.52 |  | ok
++Crude 35–59 | Quasi-Poisson | 2.843 | -1.013, 6.849 | 0.123 | 5.52 |  | ok
++Crude 35–59 | Negative binomial | 2.844 | 0.246, 5.510 | 0.032 | 1.34 | 189.0 | ok
++Crude ≥60 | Poisson | -1.210 | -1.959, -0.455 | 0.002 | 3.33 |  | ok
++Crude ≥60 | Quasi-Poisson | -1.210 | -2.907, 0.517 | 0.136 | 3.33 |  | ok
++Crude ≥60 | Negative binomial | -1.186 | -2.359, 0.001 | 0.050 | 1.34 | 1080.7 | ok
++Age-adjusted ≥7 | Poisson | 0.290 | -0.340, 0.924 | 0.368 | 3.02 |  | ok
++Age-adjusted ≥7 | Quasi-Poisson | 0.290 | -0.823, 1.415 | 0.606 | 3.02 |  | ok
++Age-adjusted ≥7 | Negative binomial | 1.137 | 0.031, 2.256 | 0.044 | 1.31 | 156.0 | ok
++Warning rows: theta estimation reached its iteration limit; convergence of mean-model IRLS does not prove convergence of theta. Retain these estimates with caution. Recorded warning: iteration limit reached. All errors, warnings, iterations, coefficients and fitted objects are retained in CSV/RDS. Quasi-Poisson uses t intervals with residual degrees of freedom; Poisson and negative binomial use normal Wald intervals.
++Table S5. Standards and domains, IBGE 2018
++Series | 2014 | 2021 | Δ rate | Δ % | Slope (95% CI) | p
++Brazil ASR 35–59 | 0.71867 | 0.82485 | +0.10618 | +14.77 | 0.02134 (-0.00957, 0.05225) | 0.142
++Brazil ASR 5–34 | 0.18176 | 0.21453 | +0.03277 | +18.03 | 0.00751 (0.00181, 0.01322) | 0.018
++Brazil ASR 7–34 | 0.18146 | 0.21955 | +0.03809 | +20.99 | 0.00875 (0.00260, 0.01490) | 0.013
++Brazil ASR ≥60 | 5.85338 | 5.08539 | -0.76799 | -13.12 | -0.08864 (-0.18714, 0.00986) | 0.070
++Brazil ASR ≥7 | 1.12274 | 1.07718 | -0.04557 | -4.06 | 0.00016 (-0.02139, 0.02170) | 0.986
++WHO ASR 35–59 | 0.71921 | 0.82668 | +0.10747 | +14.94 | 0.02162 (-0.00936, 0.05260) | 0.139
++WHO ASR 5–34 | 0.17788 | 0.20702 | +0.02914 | +16.38 | 0.00678 (0.00140, 0.01216) | 0.022
++WHO ASR 7–34 | 0.17730 | 0.21246 | +0.03516 | +19.83 | 0.00819 (0.00235, 0.01403) | 0.014
++WHO ASR ≥60 | 5.55943 | 4.81550 | -0.74393 | -13.38 | -0.08637 (-0.17725, 0.00451) | 0.059
++WHO ASR ≥7 | 1.09451 | 1.04795 | -0.04656 | -4.25 | -0.00015 (-0.02077, 0.02047) | 0.986
++Table S5. Standards and domains, IBGE 2024
++Series | 2014 | 2021 | Δ rate | Δ % | Slope (95% CI) | p
++Brazil ASR 35–59 | 0.72112 | 0.83140 | +0.11028 | +15.29 | 0.02192 (-0.00907, 0.05291) | 0.134
++Brazil ASR 5–34 | 0.18281 | 0.21972 | +0.03691 | +20.19 | 0.00819 (0.00232, 0.01406) | 0.014
++Brazil ASR 7–34 | 0.18258 | 0.22505 | +0.04247 | +23.26 | 0.00947 (0.00313, 0.01581) | 0.011
++Brazil ASR ≥60 | 5.88365 | 5.30051 | -0.58314 | -9.91 | -0.06471 (-0.16221, 0.03278) | 0.155
++Brazil ASR ≥7 | 1.12844 | 1.11123 | -0.01722 | -1.53 | 0.00393 (-0.01762, 0.02547) | 0.671
++WHO ASR 35–59 | 0.72095 | 0.83282 | +0.11187 | +15.52 | 0.02223 (-0.00879, 0.05326) | 0.130
++WHO ASR 5–34 | 0.17884 | 0.21201 | +0.03317 | +18.55 | 0.00744 (0.00193, 0.01294) | 0.016
++WHO ASR 7–34 | 0.17835 | 0.21778 | +0.03943 | +22.11 | 0.00889 (0.00290, 0.01487) | 0.011
++WHO ASR ≥60 | 5.60811 | 5.01048 | -0.59763 | -10.66 | -0.06712 (-0.15761, 0.02337) | 0.119
++WHO ASR ≥7 | 1.10228 | 1.07940 | -0.02288 | -2.08 | 0.00305 (-0.01761, 0.02370) | 0.731
++Table S6. Kitagawa, IBGE 2018
++Endpoints | Crude start | Crude end | Net Δ | Composition | Rate term | Composition %
++2014–2021 | 1.122743 | 1.257048 | +0.134304 | +0.191434 | -0.057129 | 142.54
++2014–2019 | 1.122743 | 1.276478 | +0.153734 | +0.138122 | +0.015612 | 89.84
++2014–2020 | 1.122743 | 1.400960 | +0.278216 | +0.171157 | +0.107059 | 61.52
++2015–2021 | 1.170694 | 1.257048 | +0.086354 | +0.167391 | -0.081037 | 193.84
++2016–2021 | 1.184416 | 1.257048 | +0.072632 | +0.139935 | -0.067304 | 192.66
++2014–2018 | 1.122743 | 1.194283 | +0.071540 | +0.107366 | -0.035827 | 150.08
++Each term is independently rounded. The unrounded identity is tested to 1e−12; rounded terms may differ in their last displayed digit. A share over 100% reflects a negative rate term, not a probability.
++Table S6. Kitagawa, IBGE 2024
++Endpoints | Crude start | Crude end | Net Δ | Composition | Rate term | Composition %
++2014–2021 | 1.128443 | 1.274118 | +0.145675 | +0.170443 | -0.024768 | 117.00
++2014–2019 | 1.128443 | 1.290082 | +0.161639 | +0.130868 | +0.030771 | 80.96
++2014–2020 | 1.128443 | 1.417122 | +0.288679 | +0.158796 | +0.129883 | 55.01
++2015–2021 | 1.177572 | 1.274118 | +0.096546 | +0.148180 | -0.051634 | 153.48
++2016–2021 | 1.192574 | 1.274118 | +0.081544 | +0.121796 | -0.040252 | 149.36
++2014–2018 | 1.128443 | 1.205894 | +0.077451 | +0.101345 | -0.023893 | 130.85
++Each term is independently rounded. The unrounded identity is tested to 1e−12; rounded terms may differ in their last displayed digit. A share over 100% reflects a negative rate term, not a probability.
++Table S7. Pandemic-period influence, age_5_34, IBGE 2018
++Scenario | Series | Years | Δ % | Slope (95% CI) | p
++Principal | Brazil ASR 5–34 | 8 | +18.03 | 0.00751 (0.00181, 0.01322) | 0.018
++Principal | Crude 5–34 | 8 | +19.69 | 0.00795 (0.00212, 0.01377) | 0.016
++Principal | WHO ASR 5–34 | 8 | +16.38 | 0.00678 (0.00140, 0.01216) | 0.022
++Without 2020 | Brazil ASR 5–34 | 7 | +18.03 | 0.00581 (0.00040, 0.01122) | 0.040
++Without 2020 | Crude 5–34 | 7 | +19.69 | 0.00619 (0.00070, 0.01167) | 0.034
++Without 2020 | WHO ASR 5–34 | 7 | +16.38 | 0.00536 (-0.00017, 0.01089) | 0.055
++2014–2019 | Brazil ASR 5–34 | 6 | +22.43 | 0.00675 (-0.00228, 0.01578) | 0.107
++2014–2019 | Crude 5–34 | 6 | +23.37 | 0.00701 (-0.00219, 0.01622) | 0.102
++2014–2019 | WHO ASR 5–34 | 6 | +22.80 | 0.00660 (-0.00250, 0.01570) | 0.114
++Without 2020 uses 2014–2019 and 2021 as calendar years (seven observations, 5 residual df); prepandemic uses 2014–2019 (six observations, 4 residual df). Endpoint contrasts are distinct from annual slopes. Count-model sensitivities for the same domains are supplied below.
++Table S7 continued. Count models, age_5_34, IBGE 2018
++Scenario | Family | APC | 95% CI | p | df | Status
++Principal | Poisson | 3.998 | 1.787, 6.258 | <0.001 | 6 | ok
++Principal | Quasi-Poisson | 3.998 | 1.130, 6.949 | 0.014 | 6 | ok
++Principal | Negative binomial | 3.998 | 1.787, 6.258 | <0.001 | 6 | warning
++Without 2020 | Poisson | 3.159 | 0.743, 5.633 | 0.010 | 5 | ok
++Without 2020 | Quasi-Poisson | 3.159 | 0.382, 6.012 | 0.033 | 5 | ok
++Without 2020 | Negative binomial | 3.159 | 0.743, 5.633 | 0.010 | 5 | warning
++2014–2019 | Poisson | 3.673 | 0.212, 7.253 | 0.037 | 4 | ok
++2014–2019 | Quasi-Poisson | 3.673 | -0.992, 8.558 | 0.095 | 4 | ok
++2014–2019 | Negative binomial | 3.673 | 0.212, 7.253 | 0.037 | 4 | warning
++Table S7. Pandemic-period influence, age_7_34, IBGE 2018
++Scenario | Series | Years | Δ % | Slope (95% CI) | p
++Principal | Brazil ASR 7–34 | 8 | +20.99 | 0.00875 (0.00260, 0.01490) | 0.013
++Principal | Crude 7–34 | 8 | +22.90 | 0.00926 (0.00294, 0.01559) | 0.012
++Principal | WHO ASR 7–34 | 8 | +19.83 | 0.00819 (0.00235, 0.01403) | 0.014
++Without 2020 | Brazil ASR 7–34 | 7 | +20.99 | 0.00666 (0.00152, 0.01180) | 0.021
++Without 2020 | Crude 7–34 | 7 | +22.90 | 0.00710 (0.00188, 0.01232) | 0.017
++Without 2020 | WHO ASR 7–34 | 7 | +19.83 | 0.00633 (0.00108, 0.01158) | 0.027
++2014–2019 | Brazil ASR 7–34 | 6 | +24.38 | 0.00767 (-0.00086, 0.01620) | 0.067
++2014–2019 | Crude 7–34 | 6 | +25.45 | 0.00797 (-0.00076, 0.01670) | 0.064
++2014–2019 | WHO ASR 7–34 | 6 | +25.20 | 0.00768 (-0.00087, 0.01622) | 0.067
++Without 2020 uses 2014–2019 and 2021 as calendar years (seven observations, 5 residual df); prepandemic uses 2014–2019 (six observations, 4 residual df). Endpoint contrasts are distinct from annual slopes. Count-model sensitivities for the same domains are supplied below.
++Table S7 continued. Count models, age_7_34, IBGE 2018
++Scenario | Family | APC | 95% CI | p | df | Status
++Principal | Poisson | 4.604 | 2.327, 6.931 | <0.001 | 6 | ok
++Principal | Quasi-Poisson | 4.604 | 1.561, 7.738 | 0.010 | 6 | ok
++Principal | Negative binomial | 4.604 | 2.327, 6.931 | <0.001 | 6 | warning
++Without 2020 | Poisson | 3.590 | 1.104, 6.138 | 0.004 | 5 | ok
++Without 2020 | Quasi-Poisson | 3.590 | 0.975, 6.274 | 0.016 | 5 | ok
++Without 2020 | Negative binomial | 3.590 | 1.104, 6.138 | 0.004 | 5 | warning
++2014–2019 | Poisson | 4.153 | 0.584, 7.849 | 0.022 | 4 | ok
++2014–2019 | Quasi-Poisson | 4.153 | -0.220, 8.718 | 0.058 | 4 | ok
++2014–2019 | Negative binomial | 4.153 | 0.583, 7.849 | 0.022 | 4 | warning
++Table S7. Pandemic-period influence, age_5_34, IBGE 2024
++Scenario | Series | Years | Δ % | Slope (95% CI) | p
++Principal | Brazil ASR 5–34 | 8 | +20.19 | 0.00819 (0.00232, 0.01406) | 0.014
++Principal | Crude 5–34 | 8 | +21.07 | 0.00841 (0.00249, 0.01433) | 0.013
++Principal | WHO ASR 5–34 | 8 | +18.55 | 0.00744 (0.00193, 0.01294) | 0.016
++Without 2020 | Brazil ASR 5–34 | 7 | +20.19 | 0.00643 (0.00087, 0.01199) | 0.031
++Without 2020 | Crude 5–34 | 7 | +21.07 | 0.00662 (0.00105, 0.01220) | 0.028
++Without 2020 | WHO ASR 5–34 | 7 | +18.55 | 0.00596 (0.00036, 0.01155) | 0.041
++2014–2019 | Brazil ASR 5–34 | 6 | +24.27 | 0.00740 (-0.00188, 0.01669) | 0.091
++2014–2019 | Crude 5–34 | 6 | +24.69 | 0.00754 (-0.00180, 0.01687) | 0.088
++2014–2019 | WHO ASR 5–34 | 6 | +24.37 | 0.00720 (-0.00201, 0.01642) | 0.096
++Without 2020 uses 2014–2019 and 2021 as calendar years (seven observations, 5 residual df); prepandemic uses 2014–2019 (six observations, 4 residual df). Endpoint contrasts are distinct from annual slopes. Count-model sensitivities for the same domains are supplied below.
++Table S7 continued. Count models, age_5_34, IBGE 2024
++Scenario | Family | APC | 95% CI | p | df | Status
++Principal | Poisson | 4.178 | 1.964, 6.441 | <0.001 | 6 | ok
++Principal | Quasi-Poisson | 4.178 | 1.303, 7.135 | 0.012 | 6 | ok
++Principal | Negative binomial | 4.178 | 1.964, 6.441 | <0.001 | 6 | warning
++Without 2020 | Poisson | 3.339 | 0.919, 5.816 | 0.007 | 5 | ok
++Without 2020 | Quasi-Poisson | 3.339 | 0.551, 6.203 | 0.027 | 5 | ok
++Without 2020 | Negative binomial | 3.339 | 0.919, 5.816 | 0.007 | 5 | warning
++2014–2019 | Poisson | 3.899 | 0.431, 7.487 | 0.027 | 4 | ok
++2014–2019 | Quasi-Poisson | 3.899 | -0.768, 8.786 | 0.082 | 4 | ok
++2014–2019 | Negative binomial | 3.899 | 0.431, 7.487 | 0.027 | 4 | warning
++Table S7. Pandemic-period influence, age_7_34, IBGE 2024
++Scenario | Series | Years | Δ % | Slope (95% CI) | p
++Principal | Brazil ASR 7–34 | 8 | +23.26 | 0.00947 (0.00313, 0.01581) | 0.011
++Principal | Crude 7–34 | 8 | +24.37 | 0.00977 (0.00334, 0.01620) | 0.010
++Principal | WHO ASR 7–34 | 8 | +22.11 | 0.00889 (0.00290, 0.01487) | 0.011
++Without 2020 | Brazil ASR 7–34 | 7 | +23.26 | 0.00732 (0.00202, 0.01262) | 0.016
++Without 2020 | Crude 7–34 | 7 | +24.37 | 0.00757 (0.00225, 0.01288) | 0.015
++Without 2020 | WHO ASR 7–34 | 7 | +22.11 | 0.00696 (0.00164, 0.01227) | 0.020
++2014–2019 | Brazil ASR 7–34 | 6 | +26.32 | 0.00837 (-0.00043, 0.01716) | 0.057
++2014–2019 | Crude 7–34 | 6 | +26.85 | 0.00853 (-0.00033, 0.01739) | 0.056
++2014–2019 | WHO ASR 7–34 | 6 | +26.85 | 0.00831 (-0.00035, 0.01697) | 0.056
++Without 2020 uses 2014–2019 and 2021 as calendar years (seven observations, 5 residual df); prepandemic uses 2014–2019 (six observations, 4 residual df). Endpoint contrasts are distinct from annual slopes. Count-model sensitivities for the same domains are supplied below.
++Table S7 continued. Count models, age_7_34, IBGE 2024
++Scenario | Family | APC | 95% CI | p | df | Status
++Principal | Poisson | 4.791 | 2.511, 7.122 | <0.001 | 6 | ok
++Principal | Quasi-Poisson | 4.791 | 1.742, 7.931 | 0.008 | 6 | ok
++Principal | Negative binomial | 4.791 | 2.511, 7.122 | <0.001 | 6 | warning
++Without 2020 | Poisson | 3.778 | 1.288, 6.329 | 0.003 | 5 | ok
++Without 2020 | Quasi-Poisson | 3.778 | 1.150, 6.474 | 0.014 | 5 | ok
++Without 2020 | Negative binomial | 3.778 | 1.288, 6.329 | 0.003 | 5 | warning
++2014–2019 | Poisson | 4.391 | 0.814, 8.096 | 0.016 | 4 | ok
++2014–2019 | Quasi-Poisson | 4.391 | 0.018, 8.956 | 0.049 | 4 | ok
++2014–2019 | Negative binomial | 4.391 | 0.814, 8.096 | 0.016 | 4 | warning
++Table S8. One-condition sensitivities, ge7, IBGE 2018
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 18544 | 1.12274 | 1.07718 | -4.06 | 0.00016 (-0.02139, 0.02170) | 0.986
++Days/365.25 | 18544 | 1.12274 | 1.07719 | -4.06 | 0.00016 (-0.02139, 0.02170) | 0.986
++Original COVID | 18545 | 1.12274 | 1.07772 | -4.01 | 0.00020 (-0.02130, 0.02171) | 0.982
++Retain COVID | 18601 | 1.12274 | 1.09149 | -2.78 | 0.00210 (-0.01965, 0.02385) | 0.821
++Historical key | 18543 | 1.12274 | 1.07718 | -4.06 | 0.00015 (-0.02142, 0.02172) | 0.987
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Table S8. One-condition sensitivities, age_5_34, IBGE 2018
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 1590 | 0.18176 | 0.21453 | +18.03 | 0.00751 (0.00181, 0.01322) | 0.018
++Days/365.25 | 1590 | 0.18176 | 0.21453 | +18.03 | 0.00751 (0.00181, 0.01322) | 0.018
++Original COVID | 1591 | 0.18176 | 0.21553 | +18.58 | 0.00760 (0.00195, 0.01324) | 0.017
++Retain COVID | 1596 | 0.18176 | 0.21960 | +20.82 | 0.00800 (0.00246, 0.01353) | 0.012
++Historical key | 1590 | 0.18176 | 0.21453 | +18.03 | 0.00751 (0.00181, 0.01322) | 0.018
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Table S8. One-condition sensitivities, age_7_34, IBGE 2018
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 1519 | 0.18146 | 0.21955 | +20.99 | 0.00875 (0.00260, 0.01490) | 0.013
++Days/365.25 | 1519 | 0.18146 | 0.21955 | +20.99 | 0.00875 (0.00260, 0.01490) | 0.013
++Original COVID | 1520 | 0.18146 | 0.22060 | +21.57 | 0.00884 (0.00275, 0.01493) | 0.012
++Retain COVID | 1525 | 0.18146 | 0.22493 | +23.96 | 0.00926 (0.00331, 0.01522) | 0.009
++Historical key | 1519 | 0.18146 | 0.21955 | +20.99 | 0.00875 (0.00260, 0.01490) | 0.013
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Table S8. One-condition sensitivities, ge7, IBGE 2024
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 18544 | 1.12844 | 1.11123 | -1.53 | 0.00393 (-0.01762, 0.02547) | 0.671
++Days/365.25 | 18544 | 1.12844 | 1.11123 | -1.53 | 0.00393 (-0.01762, 0.02547) | 0.671
++Original COVID | 18545 | 1.12844 | 1.11178 | -1.48 | 0.00397 (-0.01753, 0.02547) | 0.667
++Retain COVID | 18601 | 1.12844 | 1.12583 | -0.23 | 0.00590 (-0.01590, 0.02769) | 0.532
++Historical key | 18543 | 1.12844 | 1.11123 | -1.53 | 0.00392 (-0.01765, 0.02549) | 0.672
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Table S8. One-condition sensitivities, age_5_34, IBGE 2024
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 1590 | 0.18281 | 0.21972 | +20.19 | 0.00819 (0.00232, 0.01406) | 0.014
++Days/365.25 | 1590 | 0.18281 | 0.21972 | +20.19 | 0.00819 (0.00232, 0.01406) | 0.014
++Original COVID | 1591 | 0.18281 | 0.22073 | +20.74 | 0.00827 (0.00246, 0.01409) | 0.013
++Retain COVID | 1596 | 0.18281 | 0.22498 | +23.06 | 0.00869 (0.00299, 0.01439) | 0.010
++Historical key | 1590 | 0.18281 | 0.21972 | +20.19 | 0.00819 (0.00232, 0.01406) | 0.014
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Table S8. One-condition sensitivities, age_7_34, IBGE 2024
++Scenario | Deaths | 2014 | 2021 | Δ % | Slope (95% CI) | p
++Principal | 1519 | 0.18258 | 0.22505 | +23.26 | 0.00947 (0.00313, 0.01581) | 0.011
++Days/365.25 | 1519 | 0.18258 | 0.22505 | +23.26 | 0.00947 (0.00313, 0.01581) | 0.011
++Original COVID | 1520 | 0.18258 | 0.22612 | +23.85 | 0.00956 (0.00329, 0.01583) | 0.010
++Retain COVID | 1525 | 0.18258 | 0.23063 | +26.32 | 0.01000 (0.00387, 0.01614) | 0.007
++Historical key | 1519 | 0.18258 | 0.22505 | +23.26 | 0.00947 (0.00313, 0.01581) | 0.011
++Each scenario changes only the indicated condition from corrected selection. Calendar-boundary changes are recorded individually in record_selection_and_age_transitions.csv; COVID overlaps in covid_overlap_patterns.csv.
++Supplementary Figure S1
++Figure S1. Annual crude rates for ages 5–34 and 7–34, within-5–34 Brazil-2014-standardised rates, and 5–34 death counts; corrected selection and IBGE 2018.

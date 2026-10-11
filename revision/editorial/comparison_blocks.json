@@ -1,0 +1,112 @@
+[
+  {
+    "operation": "delete",
+    "reference_blocks": [
+      0,
+      1
+    ],
+    "revised_blocks": [
+      0,
+      0
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      2,
+      8
+    ],
+    "revised_blocks": [
+      1,
+      4
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      9,
+      13
+    ],
+    "revised_blocks": [
+      5,
+      9
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      20,
+      43
+    ],
+    "revised_blocks": [
+      16,
+      45
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      44,
+      57
+    ],
+    "revised_blocks": [
+      46,
+      58
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      58,
+      66
+    ],
+    "revised_blocks": [
+      59,
+      65
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      67,
+      68
+    ],
+    "revised_blocks": [
+      66,
+      67
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      69,
+      70
+    ],
+    "revised_blocks": [
+      68,
+      71
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      71,
+      95
+    ],
+    "revised_blocks": [
+      72,
+      99
+    ]
+  },
+  {
+    "operation": "replace",
+    "reference_blocks": [
+      96,
+      156
+    ],
+    "revised_blocks": [
+      100,
+      414
+    ]
+  }
+]

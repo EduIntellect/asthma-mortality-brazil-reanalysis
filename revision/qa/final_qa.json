@@ -1,0 +1,32 @@
+{
+  "status": "complete_for_author_review",
+  "base_commit": "3884c868a07164710a2e358180b3034f9cdcf642",
+  "corrected_and_sensitivity_runs": 14,
+  "historical_pipeline": "full execution and portable CLI rerun; 25 tables identical between both executions",
+  "historical_comparison": "exact counts, aggregates and primary denominators; differences in numerical precision and four large-theta fits documented",
+  "independent_count_models": 300,
+  "negative_binomial_verification": "IRLS coefficients/intervals conditional on fitted theta; theta warnings remain unresolved and explicitly reported",
+  "model_status_counts": {
+    "ok": 224,
+    "warning": 28
+  },
+  "document_pages": {
+    "Author_confirmations": 1,
+    "Manuscript_CLEAN": 8,
+    "Manuscript_MARKED_COMPARISON": 24,
+    "Response_to_Amaury": 2,
+    "Supplement": 10
+  },
+  "pages_visually_inspected": 45,
+  "reference_word_pdf_blocks_verified": 486,
+  "traced_text_values_verified": 74,
+  "all_date_domain_COVID_duplicate_weight_rate_Kitagawa_checks": "passed",
+  "external_actions": "none",
+  "author_confirmations": "funding, conflicts, ethics determination, affiliations/contributions and human scientific review; see Author_confirmations.docx",
+  "limitations": [
+    "Historical SIM 2014\u20132019 execution hashes unavailable.",
+    "Concordant Word text does not establish historical binary provenance.",
+    "Negative-binomial theta iteration-limit warnings retained.",
+    "Marked comparison identifies changes visually; it is not native Word Track Changes."
+  ]
+}

@@ -5,3 +5,5 @@ revision/results/**/configuration.R -whitespace
 revision/results/**/session_info.txt -whitespace
 revision/evidence/amaury_comments.txt -whitespace
 revision/results/**/execution.log -whitespace
+revision/deliverables/figures/*.svg -whitespace
+revision/editorial/comparison.patch -whitespace

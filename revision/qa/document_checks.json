@@ -1,0 +1,38 @@
+{
+  "documents": [
+    {
+      "document": "Manuscript_CLEAN",
+      "pages": 8,
+      "markdown_to_docx_exact": true,
+      "pdf_text_order": true,
+      "figures": 2,
+      "placeholders": false
+    },
+    {
+      "document": "Supplement",
+      "pages": 10,
+      "markdown_to_docx_exact": true,
+      "pdf_text_order": true,
+      "figures": 1,
+      "placeholders": false
+    },
+    {
+      "document": "Response_to_Amaury",
+      "pages": 2,
+      "markdown_to_docx_exact": true,
+      "pdf_text_order": true,
+      "figures": 0,
+      "placeholders": false
+    },
+    {
+      "document": "Author_confirmations",
+      "pages": 1,
+      "markdown_to_docx_exact": true,
+      "pdf_text_order": true,
+      "figures": 0,
+      "placeholders": false
+    }
+  ],
+  "traced_values_checked": 74,
+  "reference_blocks_verified": 486
+}

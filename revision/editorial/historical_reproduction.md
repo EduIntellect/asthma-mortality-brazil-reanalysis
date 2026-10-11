@@ -1,0 +1,13 @@
+# Full historical reproduction
+
+The complete historical pipeline was executed with the full official SIM CSVs through vroom, not by substituting aggregated inputs for the loader. The fixed base was 3884c868a07164710a2e358180b3034f9cdcf642. Source/output roots were made portable; unused optional packages were reported as absent rather than causing provenance capture to fail. All downstream historical sensitivities and the assets/decomposition scripts ran.
+
+Twenty-five CSV outputs were compared, before rounding, to the preserved base outputs. Selection counts, all annual single-age death aggregates and primary population cells matched exactly. The crude/standardised rate series matched either exactly or within 1e−14; slope/interval differences were at most 4e−15 and p differences at most 2e−14 outside count regression. Kitagawa residual differences were at floating-point scale and both component identities held.
+
+For count regression, APC changed at most 1.74e−10 percentage points, interval bounds at most 6.85e−9 and p at most 1.16e−11. Negative-binomial theta differed in four models: ages 5–34 and 7–34, each revision. Theta was about 2.65–3.46 million, with an iteration-limit warning; the largest difference was 363.1 (relative 0.000106). Large theta near the Poisson boundary is numerically ill-determined. Differences of this size do not establish meaningful changes in variance; coefficient/interval outputs agree to the tolerances above. Mean-model convergence is distinct from theta convergence.
+
+The current environment is R 4.6.1 with recorded versions; R 4.3.3 was reported in the sent reference. No identical historical stack is claimed. Locale/font-cache warnings during historical plotting are retained in execution.log. These affect figure rendering, not selection or numerical models. New figures use a documented Python plotting environment and identified corrected results.
+
+All 48 historical count-model rows were independently checked by matrix IRLS and interval reconstruction, conditional on the reported theta. All 252 corrected/sensitivity rows were similarly checked. No model row was silently omitted from the revised runs, and all warnings are explicit. The numerical comparison and independent check CSV/JSON files form the evidence; displayed rounding is not the reproduction criterion.
+
+Historical SIM hashes for 2014–2019 remain unavailable. Recovered files reproduce all versioned aggregates, but this cannot prove that every historical raw field was byte-identical. The reference audit's SIM 2020 and 2021 inner CSV hashes and the IBGE 2018 hash match the recovered inputs.

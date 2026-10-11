@@ -1,0 +1,446 @@
+[
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "relative_change",
+    "value": 11.9621561327035
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "relative_change",
+    "value": -4.05852036267154
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "slope",
+    "value": 0.0001575715141693
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "ci_low",
+    "value": -0.0213858608804941
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "ci_high",
+    "value": 0.0217010039088329
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "p_value",
+    "value": 0.986301288035657
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "relative_change",
+    "value": 18.0304085795443
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0327725102715707
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.0180170720053874
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.0398158809978143
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.106581976280569
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "first_rate",
+    "value": 1.12274340093497
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "last_rate",
+    "value": 1.25704771952444
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "relative_change",
+    "value": 11.9621561327035
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "absolute_change",
+    "value": 0.134304318589467
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "slope",
+    "value": 0.0269504046216059
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "ci_low",
+    "value": 0.0030206751610105
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "ci_high",
+    "value": 0.0508801340822012
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_ge7",
+    "field": "p_value",
+    "value": 0.0330376218829783
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "first_rate",
+    "value": 1.12274340093497
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "last_rate",
+    "value": 1.07717663138748
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "relative_change",
+    "value": -4.05852036267154
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "absolute_change",
+    "value": -0.0455667695474968
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "slope",
+    "value": 0.0001575715141693
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "ci_low",
+    "value": -0.0213858608804941
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "ci_high",
+    "value": 0.0217010039088329
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_ge7",
+    "field": "p_value",
+    "value": 0.986301288035657
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "first_rate",
+    "value": 0.181762438310752
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "last_rate",
+    "value": 0.217548337861479
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "relative_change",
+    "value": 19.6882809690002
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0357858995507266
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "slope",
+    "value": 0.0079479815565736
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "ci_low",
+    "value": 0.0021239520860639
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "ci_high",
+    "value": 0.0137720110270834
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "p_value",
+    "value": 0.0156258498359121
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "first_rate",
+    "value": 0.181762438310752
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "last_rate",
+    "value": 0.214534948582323
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "relative_change",
+    "value": 18.0304085795443
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0327725102715707
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "slope",
+    "value": 0.007514774899238
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_low",
+    "value": 0.001813569361509
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_high",
+    "value": 0.013215980436967
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.0180170720053874
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "first_rate",
+    "value": 0.177879315506096
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "last_rate",
+    "value": 0.207019409048877
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "relative_change",
+    "value": 16.3819460738723
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0291400935427818
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "slope",
+    "value": 0.0067771212872535
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "ci_low",
+    "value": 0.001397313096113
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "ci_high",
+    "value": 0.012156929478394
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "p_value",
+    "value": 0.0215951030704879
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0357858995507266
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "absolute_change",
+    "value": 0.0327725102715707
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "first_rate",
+    "value": 0.181459921472423
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "last_rate",
+    "value": 0.219545147104424
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "relative_change",
+    "value": 20.9882299755041
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "absolute_change",
+    "value": 0.0380852256320013
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "slope",
+    "value": 0.008750061499523
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "ci_low",
+    "value": 0.0025996481159888
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "ci_high",
+    "value": 0.0149004748830572
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "p_value",
+    "value": 0.0131237855132165
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "slope",
+    "value": 0.0058093679457123
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_low",
+    "value": 0.0003994753809191
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_high",
+    "value": 0.0112192605105057
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.0398158809978143
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "slope",
+    "value": 0.0067511844258065
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_low",
+    "value": -0.0022806702622996
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "ci_high",
+    "value": 0.0157830391139126
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "p_value",
+    "value": 0.106581976280569
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_5_34",
+    "field": "relative_change",
+    "value": 22.4279972182218
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "p_value",
+    "value": 0.0207487921195567
+  },
+  {
+    "source": "revision/results/prepandemic/ibge2018/rate_trends.csv",
+    "series": "brazil2014_age_7_34",
+    "field": "p_value",
+    "value": 0.0669854460808071
+  },
+  {
+    "source": "revision/results/without_2020/ibge2018/rate_trends.csv",
+    "series": "who_age_5_34",
+    "field": "p_value",
+    "value": 0.0550330911308038
+  },
+  {
+    "source": "revision/results/corrected/ibge2018/rate_trends.csv",
+    "series": "crude_age_35_59",
+    "field": "p_value",
+    "value": 0.131981351893348
+  }
+]
