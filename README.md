@@ -1,5 +1,9 @@
 # Reanálisis: mortalidad por asma en Brasil (2014-2021)
 
+> **Estado editorial, 14/10/2026:** JPH-26-1528 fue rechazado por Journal of Public Health el 14/10. Federico decidió **Journal of Asthma** como siguiente destino. No consta todavía un envío a esa revista. Véase [el registro editorial vigente](docs/editorial/SUBMISSION_RECORD.md). Las instrucciones RRCP de esta página son históricas y no acreditan adaptación a Journal of Asthma.
+>
+> **Revisión posterior:** la rama `revision/amaury-review`, commit `040073b87c64ffae2412cb51a17ae30369d12156`, contiene el expediente de revisión de Amaury y un registro de recepción JPH del 13/10. Se mantiene separada de los resultados históricos de `main`; esta actualización documental no fusiona sus análisis ni prueba qué PDF exacto se depositó. Comprobar la versión fuente antes de preparar el nuevo paquete.
+
 Reanálisis reproducible de Brum et al. (mortalidad por asma en Brasil, microdatos SIM/DATASUS,
 2014-2021). Repositorio de referencia: `mobrant94/asthma_mortality`, commit `8d527a5`.
 
@@ -69,7 +73,7 @@ ages ≥7; black and white, JPEG at 300 dpi). It also writes
 `reanalysis/data/crude_rate_ge7_series.csv` and stops if that series does not
 match the standardised rate in 2014 or the Kitagawa 2014–2021 endpoint.
 
-## Full article for submission (RRCP, Word)
+## Historical full-article build (RRCP, Word)
 
 The full article is maintained as versioned Markdown in
 `reanalysis/manuscript/article/` (`manuscript.md`, `supplement.md`,
