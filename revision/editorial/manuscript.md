@@ -14,7 +14,7 @@ Methods. This ecological study reproduced the analysis and revised selection usi
 
 Results. Historical selection reproduced 18,583 deaths with continuous age >6; the published count was 18,584. The corrected national analysis of completed ages ≥7 included 18,544 deaths. Aligned crude mortality increased 12.0%; Brazil-2014-standardised mortality changed -4.1% between endpoints (eight-year slope 0.0002; 95% CI -0.0214 to 0.0217; p = 0.986). Within ages 5–34, Brazil-2014-standardised mortality increased 18.0% (0.0328 per 100,000; p = 0.018). Its slope remained positive excluding 2020 (p = 0.040); the 2014–2019 interval included zero (p = 0.107).
 
-Conclusions. Changes in population age composition accounted for much of the crude increase at ages ≥7 in a descriptive decomposition. The primary national age-standardised estimate was compatible with trends in either direction. Within 5–34, primary Brazil-2014 standardisation supported an increase over 2014–2021 and after excluding 2020; the shorter prepandemic series remained inconclusive about the annual trend. Surveillance should report crude, age-standardised and age-specific rates together.
+Conclusions. Changes in population age composition exceeded the net increase in crude asthma mortality between 2014 and 2021, partly offset by declining age-specific rates. The direction of the national age-standardized trend across the eight years remained uncertain. The increase observed among people aged 5–34 years warrants continued surveillance, and evidence of a sustained increase remains uncertain.
 
 Keywords. Asthma; Mortality; Age Distribution; Population Dynamics; Reproducibility of Results; Brazil.
 

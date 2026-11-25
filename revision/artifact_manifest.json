@@ -409,23 +409,23 @@
     },
     {
       "path": "revision/deliverables/Manuscript_CLEAN.docx",
-      "bytes": 356349,
-      "sha256": "0af64e16c91f2179f1f57172cc0ca93824c201970f37a838f693aa19a0ec0d54"
+      "bytes": 356344,
+      "sha256": "00ef9d7f15b535366b3e5dba561598cc0de96cc432f00fec28c271c351d73ed0"
     },
     {
       "path": "revision/deliverables/Manuscript_CLEAN.pdf",
-      "bytes": 466652,
-      "sha256": "8ac60642cb0fc455f413498f4181a5d06a6c84bd15a0e8098337564197fefda1"
+      "bytes": 466715,
+      "sha256": "9c3e66b3514ccadd22366c587dcaf383436c39b5ea0359d512c7f002672807c9"
     },
     {
       "path": "revision/deliverables/Manuscript_MARKED_COMPARISON.docx",
-      "bytes": 64592,
-      "sha256": "8765af6d9b6b60699e2800a309511333f86044f7aef17170de78066a60eee893"
+      "bytes": 64569,
+      "sha256": "3a11b5b13cff0b28f7683a14774226b7e4245f35d564da478a2571719d6c1707"
     },
     {
       "path": "revision/deliverables/Manuscript_MARKED_COMPARISON.pdf",
-      "bytes": 256001,
-      "sha256": "51ee328e676afa08bc87bb52be5598dee0ad03cc1f19c1bca73f61182c4f4edf"
+      "bytes": 255844,
+      "sha256": "d32a539709a0a35d19268a21ed668cb450102aee5127196b5928c72c7af107c9"
     },
     {
       "path": "revision/deliverables/RRCP/Cover_letter.docx",
@@ -609,8 +609,8 @@
     },
     {
       "path": "revision/editorial/comparison.patch",
-      "bytes": 87759,
-      "sha256": "37a009f2ef65a232ab37155cc957a5458569ecc99703b9d7fb374c722a2ee116"
+      "bytes": 87661,
+      "sha256": "56d60a4fb292f72bc3455c6b28360d2c9e7d2ca0be56dcf0ac5b0f630caa413d"
     },
     {
       "path": "revision/editorial/comparison_blocks.json",
@@ -629,13 +629,13 @@
     },
     {
       "path": "revision/editorial/manuscript.md",
-      "bytes": 28276,
-      "sha256": "0bd3af7e85d9e83f8a2e1de20707251a199d858b5cc83c01188718af4ee203f0"
+      "bytes": 28178,
+      "sha256": "f0b7e50c519b7ec4bc790bc1f48c70e02e7dfb8a770b6284ee6bde4f17a0e41f"
     },
     {
       "path": "revision/editorial/manuscript_template.md",
-      "bytes": 19367,
-      "sha256": "64c4007096c66cc2d77a3ddee68ee944213d39692814d555c4396ec49c8f1034"
+      "bytes": 19269,
+      "sha256": "7a5f2e35adb7f3c4d4cf7722f6ef649613a0043d71bba87e227635c3c412c26f"
     },
     {
       "path": "revision/editorial/pdf_reference_text.md",
